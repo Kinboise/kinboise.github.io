@@ -1,0 +1,1629 @@
+<!doctype html>
+<html style='font-size:24px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title></title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+
+
+:root {
+  --bg-color: hsl(0, 0%, 100%);
+  --write-bg: hsl(0, 0%, 100%);
+  --link-bg: none;
+  --mark-bg: #bf2c24;
+  --code-bg: hsl(0, 100%, 90%);
+  --quota-bg: hsl(0, 0%, 97%);
+  --codeb-bg: hsl(0, 0%, 95%);
+  --thead-bg: hsl(0, 0%, 91%);
+  --tbody-bg: hsl(0, 0%, 93%);
+  --title-color: hsl(0, 0%, 5%);
+  --text-color: hsl(0, 0%, 20%);
+  --mark-color: hsl(0, 0%, 20%);
+  --quota-color: hsl(0, 0%, 30%);
+  --code-color: hsl(0, 0%, 30%);
+  --codeb-color: hsl(0, 0%, 30%);
+  --footer-color: hsl(0, 0%, 50%);
+  --link-color: #bf2c24;
+  --md-char-color: hsl(0, 100%, 85%);
+  --meta-content-color: hsl(0, 100%, 85%);
+  --link-hover: hsl(0, 100%, 85%);
+  --thead-hover: hsl(0, 0%, 99%);
+  --tbody-hover: hsl(0, 0%, 99%);
+  --window-border: 1px solid hsl(0, 0%, 95%);
+  --base-border: 1px solid hsl(0, 100%, 85%);
+  --base-borderl: 4px solid hsl(0, 100%, 85%);
+  --base-borderb: 1px dashed hsl(0, 100%, 85%);
+  --opt-borderb: 1px dashed hsl(215, 100%, 65%);
+  --base-shadow: 0px 8px 16px hsla(0, 0%, 0%, 0.2);
+  --opt-shadow: 0px 8px 16px 1px hsla(0, 0%, 0%, 0.3);
+  --img-shadow: var(--opt-shadow);
+  --code-shadow: none;
+  --quota-shadow: none;
+  --base-margin: 1rem auto;
+  --base-padding: 1px 4px;
+  --opt-padding: 1rem;
+  --lineheight: 1.75rem;
+  --base-font: -apple-system, "Poppins", "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  --title-font: var(--em-font);
+  --em-font: "EB Garamond", Georgia, "Nimbus Roman No9 L", "Noto Serif CJK SC", "Songti SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+  --quota-font: "EB Garamond", Baskerville, Georgia, "Liberation Serif", "TW-Kai", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", curve, serif;
+  --monospace: "Cascadia code", "Sarasa Term SC", Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono", Courier;
+  --mermaid-alt-font-family: var(--base-font) !important;
+  --mermaid-font-family: var(--base-font) !important;
+}
+
+.quota {
+  background: var(--quota-bg);
+  color: var(--quota-color);
+  font-family: var(--quota-font);
+  font-size: 1.2rem;
+  box-shadow: var(--quota-shadow);
+}
+
+.quota-quota {
+  box-shadow: none;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* HTML5 媒体文件跟 img 保持一致 */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,
+button,
+input,
+select,
+textarea {
+  font: 400 1em/1.75 var(--base-font);
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* 去掉各Table cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 去除默认边框 */
+fieldset,
+img {
+  border: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: initial;
+}
+
+html,
+body,
+#write {
+  font-family: var(--base-font);
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: var(--lineheight);
+  color: var(--text-color);
+  text-align: justify;
+}
+
+content {
+  min-width: 400px;
+}
+
+.typora-node #write {
+  min-height: calc(100vh - 6em);
+}
+
+#write {
+  max-width: 914px;
+  min-width: 400px;
+  min-height: calc(100vh - 6em);
+  -webkit-font-smoothing: antialiased;
+  margin: 2rem auto;
+  padding: 4rem;
+}
+
+#write h1,
+#write h2 {
+  font-family: var(--title-font);
+  font-weight: 800;
+  line-height: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#write h1 {
+  font-size: 3rem;
+  margin: 3rem auto 4rem;
+}
+
+#write h1:before,
+#write h1:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+#write h1:before {
+  top: -1.5rem;
+  border-top: var(--opt-borderb);
+}
+
+#write h1:after {
+  top: 1.5rem;
+  border-top: var(--base-borderb);
+}
+
+#write h2 {
+  font-size: 2rem;
+  margin: 2rem auto 1rem;
+}
+
+#write h3,
+#write h4,
+#write h5,
+#write h6 {
+  font-family: var(--base-font);
+  font-weight: 600;
+  margin: 2rem auto 1rem;
+}
+
+#write h3:before,
+#write h4:before,
+#write h5:before,
+#write h6:before {
+  font-size: 0.9rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  padding: var(--base-padding);
+  border-radius: 5px;
+  background: #bf2c24;
+  color: var(--write-bg);
+}
+
+#write h3 {
+  font-size: 1.75rem;
+}
+
+#write h3::before {
+  content: "H3";
+}
+
+#write h4 {
+  font-size: 1.5rem;
+}
+
+#write h4::before {
+  content: "H4";
+}
+
+#write h5,
+#write h6 {
+  font-size: 1.25rem;
+}
+
+#write h5::before {
+  content: "H5";
+}
+
+#write h6::before {
+  content: "H6";
+}
+
+#write h1 *,
+#write h2 *,
+#write h3 *,
+#write h4 *,
+#write h5 *,
+#write h6 * {
+  background: none;
+  color: var(--title-color);
+  border: none;
+}
+
+#write blockquote,
+#write pre.md-fences,
+#write pre.md-meta-block,
+#write figure>table,
+#write img {
+  margin: var(--base-margin);
+  border-radius: 5px;
+  padding: var(--opt-padding);
+}
+
+#write ul,
+#write ol {
+  margin: var(--base-margin);
+}
+
+#write p+p {
+  margin: 1rem auto;
+}
+
+#write code,
+#write mark,
+#write kbd,
+#write samp,
+#write tt,
+#write var,
+#write ins {
+  margin: 0 4px;
+  padding: var(--base-padding);
+  border-radius: 5px;
+  font-family: var(--monospace);
+}
+
+#write pre.md-meta-block {
+  min-height: 30px;
+  position: sticky;
+  margin-top: -1.5rem;
+  margin-bottom: 2rem;
+}
+
+#write pre.md-fences {
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: var(--code-shadow);
+  white-space: pre;
+  border: 1px solid;
+}
+
+#write pre.md-meta-block,
+#write pre.md-fences,
+#write code {
+  line-height: 1.5rem;
+  font-family: var(--monospace);
+  font-size: smaller;
+  background-color: var(--codeb-bg);
+  color: var(--codeb-color);
+}
+
+.cm-s-inner .CodeMirror-cursor {
+  border-left: solid var(--link-color) !important;
+}
+
+#write code {
+  background-color: var(--code-bg);
+  color: var(--code-color);
+}
+
+#write a,
+#write ins {
+  background: var(--link-bg);
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: var(--base-borderb);
+}
+
+#write a:hover,
+#write ins:hover {
+  border-bottom-color: var(--link-color);
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+#write strong,
+#write em {
+  font-family: var(--em-font);
+  font-weight: 800;
+  color: var(--title-color);
+}
+
+#write em {
+  border-bottom: var(--opt-borderb);
+}
+
+#write mark {
+  background: var(--mark-bg);
+  color: var(--mark-color);
+}
+
+#write ul,
+#write ol {
+  margin-left: 1.5rem;
+}
+
+#write ul li::marker,
+#write ol li::marker {
+  color: #bf2c24;
+}
+
+#write ul {
+  list-style: disc;
+}
+
+#write ul ul {
+  list-style: circle;
+  margin-left: 1rem;
+}
+
+#write ol {
+  list-style: decimal-leading-zero;
+}
+
+#write ol ol {
+  list-style: lower-roman;
+  margin-left: 1rem;
+}
+
+#write ol ol,
+#write ul ul,
+#write ol ul,
+#write ul ol {
+  margin-top: 0.5rem;
+}
+
+#write ul li,
+#write ol li,
+#write li ul,
+#write li ol {
+  margin-left: 1rem;
+}
+
+#write blockquote {
+  background: var(--quota-bg);
+  color: var(--quota-color);
+  font-family: var(--quota-font);
+  font-size: 1.2rem;
+  box-shadow: var(--quota-shadow);
+}
+
+#write blockquote blockquote {
+  padding: 0;
+  padding-left: 1rem;
+  border-left: var(--base-borderl);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#write blockquote pre.md-fences {
+  box-shadow: none;
+}
+
+#write blockquote p {
+  color: var(--quota-color);
+  font-family: var(--quota-font);
+  line-height: var(--lineheight);
+}
+
+#write blockquote em,
+#write blockquote strong,
+#write blockquote mark {
+  font-size: 1rem;
+}
+
+#write img {
+  box-shadow: var(--img-shadow);
+  padding: 0;
+}
+
+#write img[alt|="no-shadow"] {
+  box-shadow: none !important;
+}
+
+#write img[alt|="normal"] {
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+#write hr {
+  border: none;
+  border-bottom: var(--base-border);
+  margin: 3rem auto;
+  height: 1px;
+  width: 50%;
+}
+
+#write hr .pb {
+  page-break-after: always;
+  border-bottom: none;
+}
+
+#write figure>table {
+  width: 98%;
+}
+
+#write table th,
+#write table thead th,
+#write table td {
+  padding: 0.5rem 1rem;
+}
+
+#write table th,
+#write table thead th {
+  background: var(--thead-bg);
+}
+
+#write table th:hover,
+#write table thead th:hover {
+  background: var(--thead-hover);
+  color: var(--link-hover);
+}
+
+#write table caption {
+  border-bottom: none;
+}
+
+#write table td {
+  background: var(--tbody-bg);
+  color: var(--text-color);
+  border: 1px solid var(--thead-bg);
+}
+
+#write table td:hover {
+  background: var(--tbody-hover);
+  color: var(--link-hover);
+}
+
+/*表格顶行*/
+#write table tr th{
+  border: 1px solid var(--thead-bg);
+}
+
+/*表格大小设置输入框(数字居中)*/
+#write .md-grid-board-wrap input{
+  text-align: center !important;
+}
+
+/*表格大小设置面板(防边界超出)*/
+#write .popover.bottom.md-table-resize-popover{
+  width: auto;
+  max-width: none;
+}
+
+/*表格大小设置面板中的方框*/
+#write .md-grid-board.md-reset>tbody>tr>td>a{
+  border-bottom: 1px solid var(--table-border-color) !important;
+}
+
+.ty-table-edit{
+	margin-top: -12px!important;
+}
+
+/*搜索*/
+#file-library-search-input{
+  padding-left: 0.4em;
+}
+
+#write sup.md-footnote {
+  padding: var(--base-padding);
+  color: var(--footer-color);
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.md-toc .md-toc-content .md-toc-h1 {
+  counter-increment: counter_md-toc-h1;
+  counter-reset: counter_md-toc-h2;
+}
+
+.md-toc .md-toc-content .md-toc-h1:before {
+  content: "第"counter(counter_md-toc-h1, cjk-ideographic) "章";
+}
+
+.md-toc .md-toc-content .md-toc-h2 {
+  counter-increment: counter_md-toc-h2;
+  counter-reset: counter_md-toc-h3;
+}
+
+.md-toc .md-toc-content .md-toc-h2::before {
+  content: "第"counter(counter_md-toc-h2, cjk-ideographic) "节";
+}
+
+.md-toc .md-toc-content .md-toc-h3 {
+  counter-increment: counter_md-toc-h3;
+  counter-reset: counter_md-toc-h4;
+}
+
+.md-toc .md-toc-content .md-toc-h3::before {
+  content: counter(counter_md-toc-h3);
+}
+
+.md-toc .md-toc-content .md-toc-h4 {
+  counter-increment: counter_md-toc-h4;
+  counter-reset: counter_md-toc-h5;
+}
+
+.md-toc .md-toc-content .md-toc-h4::before {
+  content: counter(counter_md-toc-h3) "."counter(counter_md-toc-h4);
+}
+
+.md-toc .md-toc-content .md-toc-h5 {
+  counter-increment: counter_md-toc-h5;
+  counter-reset: counter_md-toc-h6;
+}
+
+.md-toc .md-toc-content .md-toc-h5::before {
+  content: counter(counter_md-toc-h3) "."counter(counter_md-toc-h4) "."counter(counter_md-toc-h5);
+}
+
+.md-toc .md-toc-content .md-toc-h6 {
+  counter-increment: counter_md-toc-h6;
+  counter-reset: counter_md-toc-h6;
+}
+
+.md-toc .md-toc-content .md-toc-h6::before {
+  content: counter(counter_md-toc-h3) "."counter(counter_md-toc-h4) "."counter(counter_md-toc-h5) "."counter(counter_md-toc-h6);
+}
+
+.md-toc-h1::before,
+.md-toc-h2::before,
+.md-toc-h3::before,
+.md-toc-h4::before,
+.md-toc-h5::before,
+.md-toc-h6::before {
+  display: inline-block;
+  color: var(--text-color);
+  width: 4rem;
+}
+
+a.md-toc-inner {
+  margin-left: 0 !important;
+  border: none !important;
+}
+
+a.md-toc-inner::after {
+  content: "  ...................";
+  position: absolute;
+}
+
+.md-toc {
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.md-toc:before {
+  content: "目录";
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--link-color);
+  margin-bottom: 4rem;
+}
+
+.md-toc::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 80px);
+  top: 4rem;
+  width: 160px;
+  height: 20px;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  background: var(--toc-img);
+}
+
+.task-list-item input:before {
+  content: "";
+  position: relative;
+  top: -2px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border: var(--base-border);
+  background-color: var(--write-bg);
+  margin-left: 0;
+  margin-top: -0.5rem;
+  border-radius: 50%;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.task-list-item input::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: -2px;
+  width: 1rem;
+  height: 0.5rem;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-right: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.task-list-item input:checked::before {
+  background: #bf2c24;
+  border: none;
+}
+
+.task-list-item input:checked::after {
+  opacity: 1;
+}
+
+.task-list-item {
+  list-style: none;
+}
+
+.task-list-item input:checked:before,
+.task-list-item input[checked]:before {
+  content: " ";
+}
+
+blockquote .task-list-item input::before {
+  top: -3px;
+}
+
+.md-task-list-item.task-list-done {
+  text-decoration: line-through;
+  color: var(--footer-color);
+}
+
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header {
+  color: hsl(215, 100%, 75%);
+}
+
+@media screen and (max-width: 600px) {
+  #write {
+    padding: 2rem;
+    line-height: 1.5rem;
+  }
+
+  #write h1,
+  #write h2 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  #write h3,
+  #write h4,
+  #write h5,
+  #write h6 {
+    font-size: 1rem;
+  }
+
+  #write h1,
+  #write h2,
+  #write h3,
+  #write h4,
+  #write h5,
+  #write h6 {
+    margin: 1.5rem 0;
+  }
+
+  #write h1:before,
+  #write h2:before,
+  #write h3:before,
+  #write h4:before,
+  #write h5:before,
+  #write h6:before {
+    display: inline;
+    border: none;
+    top: 0;
+    margin-right: 1rem;
+    background: none;
+    color: hsl(0, 100%, 85%);
+  }
+
+  #write h1::after,
+  #write h2::after,
+  #write h3::after,
+  #write h4::after,
+  #write h5::after,
+  #write h6::after {
+    border: none;
+  }
+
+  #write h1::before {
+    content: "#";
+  }
+
+  #write h2::before {
+    content: "##";
+  }
+
+  #write h3::before {
+    content: "###";
+  }
+
+  #write p+p {
+    margin: 1rem auto;
+  }
+
+  #write pre.md-fences {
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  #write blockquote {
+    background: var(--quota-bg);
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 0;
+    box-shadow: none;
+    border-left: var(--base-borderl);
+  }
+
+  #write blockquote blockquote {
+    padding-left: 1rem;
+  }
+
+  #write blockquote em,
+  #write blockquote strong,
+  #write blockquote mark {
+    font-family: var(--quota-font);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #write {
+    margin: 0;
+    background: transparent !important;
+  }
+
+  footer.ty-footer {
+    background: var(--bg-color);
+    border-top: 1px solid var(--bg-color);
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .typora-node #write {
+    min-height: calc(100% - 6em);
+  }
+
+  #write {
+    box-shadow: var(--base-shadow);
+    border-radius: 5px;
+  }
+
+  .md-toc-content {
+    margin-left: 4rem;
+  }
+}
+
+@media print {
+
+  html,
+  body,
+  #write {
+    border: none;
+    font-family: "noto serif cjk sc";
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: var(--lineheight);
+  }
+
+  .typora-export * {
+    -webkit-print-color-adjust: exact;
+  }
+
+  #write h1,
+  #write h2,
+  #write h3,
+  #write h4,
+  #write h5,
+  #write h6 {
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    color: #111;
+    line-height: 2rem;
+    font-family: "noto serif cjk sc";
+  }
+
+  #write h1 {
+    font-size: 1.75rem;
+  }
+
+  #write h2 {
+    font-size: 1.5rem;
+  }
+
+  #write h3,
+  #write h4,
+  #write h5,
+  #write h6 {
+    font-size: 1.25rem;
+  }
+
+  #write p {
+    line-height: var(--lineheight);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 2rem;
+  }
+
+  #write blockquote {
+    position: relative;
+    margin: 1.75rem 2rem;
+    background: none;
+    color: #555;
+    font-weight: 300;
+  }
+
+  #write blockquote li {
+    font-family: var(--quota-font);
+  }
+
+  #write blockquote .task-list-item input::before {
+    top: -1px;
+  }
+
+  #write pre.md-fences {
+    background: hsl(0, 0%, 95%);
+  }
+
+  #write figure>table {
+    background: none;
+    margin: 1.75rem auto;
+  }
+
+  #write figure>table tr {
+    border-collapse: collapse;
+    border-bottom: 1px solid brown;
+  }
+
+  #write figure>table tr th,
+  #write figure>table tr td {
+    padding: 0.5rem 0;
+  }
+
+  #write code,
+  #write mark {
+    padding: 2px;
+    background: none;
+  }
+
+  #write mark {
+    color: var(--text-color);
+    background-color: hsl(60, 100%, 50%);
+  }
+
+  #write {
+    box-shadow: none;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #write h3:before,
+  #write h4:before,
+  #write h5:before,
+  #write h6:before {
+    content: "" !important;
+    background: none;
+  }
+
+  #write h1:before,
+  #write h1:after,
+  #write blockquote h1:before,
+  #write blockquote h1:after {
+    border: none;
+    height: 0;
+  }
+
+  #write p+p {
+    margin: 0;
+  }
+
+  #write blockquote,
+  #write pre.md-fences,
+  #write img {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  #write blockquote blockquote {
+    border-left: none;
+  }
+
+  #write mark {
+    font-family: "noto serif cjk sc";
+  }
+
+  #write table thead th,
+  #write table th,
+  #write table td {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #555;
+  }
+}
+
+:root {
+  --blur-text-color: #ccc;
+  --active-file-bg-color: hsl(0, 0%, 99%);
+  /* 文件列表 当前文件激活 背景色*/
+  --active-file-text-color: #bf2c24;
+  --active-file-border-color: #bf2c24;
+  /* 树形结构下文件激活边框色 */
+  --side-bar-bg-color: hsl(0, 0%, 95%);
+  /*文件 大纲 侧边栏 背景色*/
+  --item-hover-bg-color: var(--bg-color);
+  /* 打开文文件夹、正文菜单、最近使用 hover 效果 */
+  --item-hover-text-color: #bf2c24;
+  --primary-color: #bf2c24;
+  /* color of primary buttons */
+  --primary-btn-border-color: #bf2c24;
+  --primary-btn-text-color: hsl(0, 0%, 100%);
+  --select-text-bg-color: #e26f69;
+  --select-text-font-color: hsl(0, 0%, 100%);
+  --active-bg: hsl(0, 0%, 95%);
+  --window-border: var(--bg-color);
+  --control-text-color: var(--title-color);
+  --control-text-hover-color: var(--text-color);
+}
+
+.active-tab-files .info-panel-tab,
+.active-tab-outline .info-panel-tab {
+  color: var(--active-file-text-color);
+}
+
+.file-list-item:hover {
+  background: var(--item-hover-bg-color);
+  color: var(--item-hover-text-color);
+}
+
+.file-node-content:hover {
+  background: hsl(0, 0%, 100%, .5);
+  color: var(--control-text-hover-color);
+}
+
+.ty-search-item-line {
+  font-family: var(--base-font);
+}
+
+.ty-file-search-match-text {
+  background: var(--codeb-bg);
+}
+
+#typora-quick-open {
+  border-radius: 5px;
+}
+
+/* 大纲目录自动编号 */
+.sidebar-content {
+  counter-reset: h1;
+}
+
+.outline-h1 {
+  counter-increment: h1;
+  counter-reset: h2;
+}
+
+.outline-h2 {
+  counter-increment: h2;
+  counter-reset: h3;
+}
+
+.outline-h3 {
+  counter-increment: h3;
+  counter-reset: h4;
+}
+
+.outline-h4 {
+  counter-increment: h4;
+  counter-reset: h5;
+}
+
+.outline-h5 {
+  counter-increment: h5;
+  counter-reset: h6;
+}
+
+.outline-h1>.outline-item>.outline-label:before {
+  content: "章"counter(h1) " ";
+}
+
+.outline-h2>.outline-item>.outline-label:before {
+  content: "节"counter(h2) " ";
+}
+
+.outline-h3>.outline-item>.outline-label:before {
+  content: counter(h3) " ";
+}
+
+.outline-h4>.outline-item>.outline-label:before {
+  content: counter(h3) "."counter(h4) " ";
+}
+
+.outline-h5>.outline-item>.outline-label:before {
+  content: counter(h3) "."counter(h4) "."counter(h5) " ";
+}
+
+.outline-h6>.outline-item>.outline-label:before {
+  counter-increment: h6;
+  content: counter(h3) "."counter(h4) "."counter(h5) "."counter(h6) " ";
+}
+
+.md-meta {
+  font-family: var(--monospace);
+  color: var(--md-char-color);
+}
+
+.md-expand .md-meta.md-before,
+.md-expand .md-meta.md-after {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.md-image>.md-meta {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.md-image>img {
+  margin-top: 2px;
+}
+
+.md-image>.md-meta:first-of-type:before {
+  padding-left: 4px;
+}
+
+.dropdown-menu,
+.context-menu.dropdown-menu>li>a:focus {
+  background-color: var(--active-bg);
+}
+
+.context-menu.dropdown-menu>.active>a,
+.context-menu.dropdown-menu>li>a:hover,
+.menu-style-btn.active {
+  color: var(--primary-color);
+}
+
+/* 源代码模式 */
+
+#typora-source {
+  background: var(--bg-color);
+  color: var(--code-color);
+  line-height: 1.5rem;
+}
+
+/* 通知样式 */
+
+#md-notification {
+  border-radius: 5px;
+	background: transparent !important;
+}
+
+#md-notification::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  z-index: -111;
+  backdrop-filter: blur(5px);
+  top: 0;
+  width: 100%;
+  min-height: 5rem;
+  -webkit-font-smoothing: antialiased;
+  transition: opacity 1.2s cubic-bezier(.77, 0, .175, 1);
+}
+
+/* 聚焦模式 */
+.on-focus-mode .md-focus {
+  padding: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .1);
+  background: antiquewhite var(--bg-img);
+  background-blend-mode: overlay;
+  border-radius: 5px;
+}
+
+.context-menu.dropdown-menu>li>a:focus {
+  background-color: var(--active-bg);
+}
+
+.context-menu.dropdown-menu>.active>a,
+.context-menu.dropdown-menu>li>a:hover,
+.menu-style-btn.active {
+  color: var(--primary-color);
+}
+
+.megamenu-menu {
+  box-shadow: 2px 2px 5px 0 #33333380, 2px 0px 10px 0 #33333380;
+}
+
+.megamenu-menu-list li {
+  line-height: 48px;
+}
+
+.megamenu-menu-list li a {
+  line-height: 48px;
+  height: 48px;
+}
+
+/* bugfix */
+.megamenu-opened .megamenu-menu {
+  left: -1px !important;
+}
+
+.megamenu-menu-list .saved #m-saved {
+  display: block;
+}
+
+#megamenu-section-about a{
+  color: var(--link-color);
+}
+
+#megamenu-menu-list {
+  background: #2f353a;
+}
+
+.megamenu-menu-panel h1,
+.megamenu-menu-panel h2 {
+  margin: 2rem auto;
+}
+
+.megamenu-menu-panel table tr {
+  background: transparent;
+}
+
+.megamenu-menu-panel tr:hover {
+  background: hsl(0, 0%, 95%);
+  color: var(--primary-color) !important;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+  background: var(--write-img);
+}
+
+.theme-preview-div:hover {
+  border-color: #80aaff80;
+}
+
+.theme-preview-div {
+  border: 4px solid #99999950;
+}
+
+.theme-preview-div.active,
+.theme-preview-div.active:hover {
+  border-color: var(--primary-color);
+}
+
+.nav-group-item.active {
+  background: var(--side-bar-bg-color) !important;
+  color: #bf2c24;
+}
+
+table#typora-help-md-table tr {
+  background: transparent;
+}
+
+.about-content-meta {
+  font-family: var(--base-font);
+}
+
+#top-titlebar {
+  height: 28px;
+  font-family: var(--base-font);
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.05);
+  background-clip: padding-box;
+}
+
+[draggable] {
+  cursor: pointer;
+}
+
+/* animation */
+.long-btn {
+  text-align: left;
+}
+
+#write td,
+#megamenu-content td,
+.file-list-item,
+.megamenu-menu li,
+.btn,
+.long-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+#write td:after,
+#megamenu-content td:after,
+.file-list-item:after,
+.megamenu-menu li:after,
+.btn:after,
+.long-btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.5s;
+}
+
+#write td:active:after,
+#megamenu-content td:active:after,
+.file-list-item:active:after,
+.megamenu-menu li:active:after,
+.btn:active:after,
+.long-btn:active:after {
+  transform: scale(0, 0);
+  opacity: 0.3;
+  transition: 0s;
+}
+
+.md-image>.md-meta {
+  color: var(--meta-content-color);
+}
+
+#typora-sidebar #outline-content .outline-h1>.outline-item,
+#typora-sidebar .outline-title-wrapper,
+#typora-sidebar .outline-item-wrapper.outline-h1>.outline-item,
+#typora-sidebar .file-library-node,
+#typora-sidebar .file-library-node .file-node-background {
+  transition: background 0.4s;
+}
+
+#typora-sidebar #ty-sidebar-footer .sidebar-footer-item {
+  transition: background 0.3s;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: var(--primary-color);
+}
+
+.typora-sourceview-on #toggle-sourceview-btn:hover {
+  color: #111;
+}
+
+.unibody-window,
+.ty-preferences .windows,
+uni-preference-panel {
+  font-family: var(--base-font);
+}
+
+/* 搜索与替换 */
+#md-searchpanel.searchpanel-replace-mode {
+  max-height: 80px;
+}
+
+.unibody-window #md-searchpanel .btn {
+  line-height: 30px;
+}
+
+#top-titlebar,
+#top-titlebar * {
+  color: var(--text-color);
+}
+
+#typora-sidebar {
+  border: none;
+}
+
+#write {
+  background: var(--write-img);
+}
+
+html,
+content,
+#typora-source,
+.megamenu-content,
+#top-titlebar,
+#typora-sidebar,
+.windows-content,
+header.window-header,
+footer.ty-footer {
+  background: var(--bg-img);
+}
+
+#top-titlebar .toolbar-icon.btn.hover,
+#top-titlebar .toolbar-icon.btn:hover {
+  color: var(--link-color);
+}
+
+#top-titlebar #w-close:hover {
+  background-color: #f70505 !important;
+  color: #bf2c24 !important;
+}
+
+:root {
+  --bg-img: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAgMAAABjUWAiAAAADFBMVEXr5djn4dTp49bt59rT6LKxAAACnElEQVQozw3NUUwScRzA8d8R6MF8YMIx8uk47hDSJbj14IPzOGc7jPLvwTGg5uAYDbe2tt56cLtznvEnS6yDqCcEaWi91DvrbLJZz7b1aFtz1aO+2OZWvn+/+4CHeB6BMYaqBLfjPNRY6RFT2JJYby+uAk4WUTrtlmJ4hgPYb2q1XGDQjaK8pgJHvqNaAX+KyuIkDXpgQinb46nOulnn4b5laUHTxLfseeArAoNOeJlOIjdoal0n1FA7tKFv5roK+YaHOqP3P0XyKHPHY+MhTRe5uCZnKhtJKw2eSrSoBDPLtpZuNcFNJcFyiCMxOaaHIfXz1e8HQbWLySrBQ4x0x1qlhnHlnz2HQEC6TNb0gTHXa7IKhcaHqkE015hk9whA0YeWiLIXf7Fa2CZo3DjqjB4tTuF8jIcbfcEx5z/w4sXpQhXW+ju0cqh7icTFmRMaG+v6CIvTjcSpHcH8JEsF3EPh3fRthYdVLLgI2fWXm85/pGFE4l046s70L+yKCcirGFR+jbpy3kMmiCGHrSezVONsn1RBixncyk2PcVWk7DlgxHo8iZwDyq5uAUD854dZhdIFYzKoQig2haUKi1lVufz2RZUZPZ41n/hrOQB6h0Hhg8I367FNoEHgeM/KY7szSeQwD8q2WE3HM35ZLl0K1MJiOtHIkBclRQUwZnyOWcNsRQQgVLj1PSqkjF9DsoOSaSg3iinKzvfmgsNFFfpP/2T3GLGvL4fHEfwIX1sVvXcPqLztehWGcfn9nI2U9nTfCgJPe/jFPLZwgVEzimBgAm0VIyK2tt1cE/AzQdLK+SxLSQ4aDCZnnId94OG2S1XwvnTbNk/ZnhyRCQT+sZM6z9g6LXL1BOBe+zJySiFkHAINCtnQokbCJ/apCv0foqPiZVfhpywAAAAASUVORK5CYII=");
+  --write-img: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAgMAAABjUWAiAAAACVBMVEX28ef48+n69esoK7jYAAAB4UlEQVQozw2OsW4bQQxEhwLXkDrysGdEqRRgVShfQQq8wOr2jD0jSpXCLvwXbtKfADlFqgSwC/9ljqweZgYzQFnb/QGepYhA9jzmTc1WaSEtQpbFgjWATI00ZZtIckXx8q2Oe5yEByBy+RHOTcM+VVTadULsvxvRC/q8WTwgcWGD+Mnaqa0oy2gw2pKFzK+PzEsus5hP9AHojKslVynLlioVTBEN8cjDNnZoR1uMGTiZAAN47HxMtEkGUE9b8HWzkqNX5Lpk0yVziAJOs46rK1pG/xNuXLjz95fSDoJE5IqG23MAYPtWoeWPvfVtIV/Ng9oH3W0gGMPIOqd4MK4QZ55dV61gOb8Zxp7I9qayaGxp6Q91cmC0ZRdBwEQVHWzSAanlZwVWc9yljeTCeaHjBVvlPSLeyeBUT2rPdJegQI103jVS3uYkyIx1il6mslMDedZuOkwzolsagvPuQAfp7cYg7k9V1NOxfq64PNSvMdwONV4VYEmqlbpZy5OAakRKkjPnL4CBv5/OZRgoWHBmNbxB0LgB1I4vXFj93UoF2/0TPEsWwV9EhbIiTPqYoTHYoMn3enTDjmrFeDTIzaL1bUC/PBIMuF+vSSYSaxoVt90EO3Gu1zrMuMRGUk7Ffv3L+A931Gsb/yBoIgAAAABJRU5ErkJggg==");
+
+  /* 目录下图片，非背景 */
+  --toc-img: url("data:image/png;base64,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");
+}
+
+ :root {--mermaid-font-zoom:1.8em ;} 
+</style>
+</head>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><h1><a name="fu-hu-seon-phourl--走进先拂" class="md-header-anchor"></a><span>fu hu Seon Phourl | 走进先拂</span></h1><p><span>nosike: nes! baten gi sor, jehipar! ku suri &quot;fu hu Seon Phourl&quot;. mi toco-nosike Flivina Karanov. novo-hovike Culano Stelinic vo he tin e safa u Xef tos. novo-hovike.</span>
+<span>主持人 ：观众朋友们好，欢迎收看《走进先拂》，我是本节目的主持人</span><u><span>夫里维那・卡拉诺夫</span></u><span>。本台记者</span><u><span>楚拉诺・斯忒里尼奇</span></u><span>将带大家了解一下</span><u><span>先拂</span></u><span>居民的生活状况。记者。</span></p><p><span>novo-hovike: nes! baten gi sor. syta min hov en gi dum u Jehisade:zeveco Mesirave:domovume Fofumorice:domove. nes!, he e safa ta lase mun haf.</span>
+<span>记者：观众朋友们好！今天我们的受访者是</span><u><span>康今区</span></u><span> </span><u><span>怀圆街道</span></u><span> </span><u><span>湖北社区</span></u><span>的居民。给我们讲讲您的日常吧！</span></p><p><span>V&#39;P&#39;(Verodano Pasanisin): Mesirave zevica padila cura, ja posadu e domovume he di tur, mo behu min de haf ru &quot;zevica u momlova&quot;. u hafirese ki vu ploda devila e boribule zod natuc.</span>
+<span>V&#39;P&#39;（</span><u><span>韦洛达诺・帕萨尼辛</span></u><span>）：我们</span><u><span>怀圆镇</span></u><span>是个古朴祥和的小镇，最近刚刚改成</span><u><span>怀圆街道</span></u><span>，不过我们还是亲切地叫他「沙漠之城」。传说城中那座神圣的花园里藏着宝藏。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXtVSNgJQVlHQ!!/0" referrerpolicy="no-referrer" alt="img" title="dalisuri bu momlizevumo | 沙都远望"></p><p><span>nosike: de zevica zug i Engunm fu pemi Jyenjyen(Ravina) kate gi po humer o la. du kubit i zevizi a Xef.</span>
+<span>主持人：这里是Engunm为了纪念去世的猫</span><u><span>圆圆</span></u><span>而修建的，是</span><u><span>先拂</span></u><span>城镇化的开端。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXrVSNg8x2UHQ!!/0" referrerpolicy="no-referrer" alt="img" title="telitoce a Jyenjyen | 圆圆雕塑"></p><p><span>novo-hovike: co dale gu ti lase red.?</span>
+<span>记者：您上班的地方远不远啊？</span></p><p><span>V&#39;P&#39;: mi u blanone u Bulizevumo a mice-lubo a Seon Phourl red. visu lado ve fupit zupit ru bavgifejo, zo Napasasmrig:puto kanu gob!.</span>
+<span>V&#39;P&#39;：我在</span><u><span>先拂银行贵都总行</span></u><span>工作，每天都坐矿铁上下班，因为早晚高峰的</span><u><span>影瑟路</span></u><span>太堵了！</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUHDSVg8xfbNQ!!/0" referrerpolicy="no-referrer" alt="img" title="Napasasmrig:puto gob (dufe) | 影瑟路摆拍"></p><p><span>18:putihaca veru benle. kif le lente ranu, lilisumu basidajilakoda a porken e vopumi bore po par, jo vog i mekizi a 18:haca, tid e bavgikihan u porken jese!. Ajaq!, lin porke gomoni meke ku kabalen.</span>
+<span>矿铁18号线真心方便。以前总嫌他慢，最近猪的遗传育种有了大突破，18号线提速改造，把矿车改成了特种猪！好家伙，那猪跑得比马还快几倍呢！</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTWWKdpfJ4t5AQ!!/0" referrerpolicy="no-referrer" alt="img" title="focone Bumibise a porkifejo | 土画猪铁站"></p><p><span>calipuna kasu radi a calo, baradike novinuze vol piti fu Positapto:kagone fe Latipopite:spajone. mo mi ju vol lipi u hodidonbe u cafone Venipota, sor ke nito fu fofe lentu guk, hu gikinito zu pife pale a Lutebena:miconume posa kubit; in lubove vike zi derove, more nutuce u pojone lan. nebo tur came, u Bulizevumokoke:putumo putiposon pos, ja mi u focone Venipota pit, fu domo. ranu mi fin fu gora-lubo a Morikoke:zeveco, mo sadu mogired, kare ki nu fu vu pit.</span>
+<span>周五下午下班后，结束了一周的工作，我那些年轻的同事总喜欢去灯塔餐厅或者</span><u><span>翔达竞技场</span></u><span>甚么的。而我最喜欢站在</span><u><span>邯郸路口</span></u><span>的天桥上，看太阳缓缓地向北方落下，</span><u><span>亚羽商场</span></u><span>的玻璃表面在夕阳下熠熠生辉；高楼林立，在高楼的尽头隐约能看到大海。天黑下去，</span><u><span>贵都西大街</span></u><span>上路灯亮起，再像平时一样进入</span><u><span>邯郸站</span></u><span>坐车回家。以前还会去</span><u><span>海西区图书馆</span></u><span>坐坐，现在工作忙，已经很久没去了。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXaCSVgDKiCBQ!!/0" referrerpolicy="no-referrer" alt="img" title="u hodidonbe u Venipota | 邯郸天桥上"></p><p><span>nosike: u sade i Morikoke:zeveco Bulizevumo:domovume vine jun poje a Xef, ge kubit zugi zu 2019:nuzo 11:jono, ge mogu zog ru 2020:nuzo 1 so 2:jono; ja ru selizoda a toce loze a zevo u 10:jono, li ju nove luse lepe. soco jena u zevo sadiveka, veka Bulizevumo e novizi ju moge po sur: puto jena, donbe jena, putivizba jena, pitoviposo jena…… ni kane ki veka Bulizevumo he mise bu zugi Xef po tur.</span>
+<span>主持人：</span><u><span>海西区</span></u><span> </span><u><span>贵都街道</span></u><span>是</span><u><span>先拂</span></u><span>目前最成熟的建成区了，开工于2019年11月，集中建设于2020年1、2月；再经10月的市容综合整治与完善，更是焕然一新。作为首次现代城镇建设，</span><u><span>贵都</span></u><span>时代见证了太多革新：第一条公路、第一座立交桥、第一块路牌、第一个自动红绿灯……不夸张地说，</span><u><span>贵都</span></u><span>时代改变了</span><u><span>先拂</span></u><span>的修建理念。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUs2w5ghlkaJA!!/0" referrerpolicy="no-referrer" alt="img" title="noco u domovume Bulizevumo | 贵都街道夜景">
+<img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUt2w5g6WH8Iw!!/0" referrerpolicy="no-referrer" alt="img" title="donbe kon u Zasesele | 齐心三桥"></p><p><span>Kulina Morinel: nabenle min gi u Nosiriba red.! radone ma u lubovume EBT[Ebete], jun vike hu Xef, flase ge no gic tami vu lubovume. zu Mesirave fu Nosiriba i samo puto jen ru kabale, mo bavgifejo ju tave kare, bija gob, ni fene ru gu.</span>
+<span>K&#39;M&#39;（</span><u><span>库里那・莫利内勒</span></u><span>）：我们在</span><u><span>执鲁</span></u><span>上班的就麻烦了！我单位在</span><u><span>铬黑T大厦</span></u><span>里，那是</span><u><span>先拂</span></u><span>最高的一栋大写字楼，里边装了不知多少家公司。然而从</span><u><span>怀圆</span></u><span>到</span><u><span>执鲁</span></u><span>骑马只有一条路可走，矿铁又非常绕远，虽然堵马也只能堵着了。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTWIGCVgkCSdMg!!/0" referrerpolicy="no-referrer" alt="image-20210211124925983" title="zu Mesirave fu Nosiriba | 怀圆至执鲁"></p><p><span>J&#39;S&#39;(Jukomina Snagorano): sin!, min e foconihila ge fu 5:putihaca huz u focone Bumibise karu giv sor juk, mol ke e 5:haca meku zug f du, jo min vo gic fupiti radone ru bavgifejo.</span>
+<span>J&#39;S&#39;（</span><u><span>尤科米那・斯那戈拉诺</span></u><span>）：是啊！我们看着</span><u><span>土画站</span></u><span>预留的5号线站台望眼欲穿，真希望5号线早点修到这，我们也能坐矿铁上班了。</span></p><p><span>K&#39;M&#39;: co no ti lase hu domove Nosiribakona:balon sumimuc,? fu radone e puto nudipit, Rikiniputo saj giku lubove, veru kanu kajge!.</span>
+<span>K&#39;M&#39;：您不都在</span><u><span>执鲁三条小区</span></u><span>租房了嘛，出门一过马路就到单位，楼下还有</span><u><span>蓖街</span></u><span>小吃街，简直不要太爽。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTVG2w5gXrV*HQ!!/0" referrerpolicy="no-referrer" alt="img" title="fofe Nosiriba | 执鲁北区"></p><p><span>J&#39;S&#39;: saj benle, e sume cas ki ven fariglase kutob. </span>
+<span>J&#39;S&#39;：方便是方便了，那噪音可得适应一段时间。当时还是该租</span><u><span>覆江街小区</span></u><span>的，也就远一站地而已。</span></p><p><span>nosike: e lubove dumone fan u domovume Nosiriba zug ru cilizile, jo i toce i kovizile fesi zul. di e zugi mogu mekiz.</span>
+<span>主持人：</span><u><span>执鲁街道</span></u><span>的四个住宅楼是模板化建设的，结构和外观均相似。这大大缩短了建设周期。</span></p><p><span>J&#39;S&#39;: kasu radi mi fin sumu kag u Kance:gricone, fe pit u Cr3+[Cerkojan]:miconume.</span>
+<span>J&#39;S&#39;：我下班后偶尔也会去</span><u><span>莰莗酒吧</span></u><span>喝一杯，或者逛</span><u><span>三价铬百货</span></u><span>。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTWaKdpfiPt7AQ!!/0" referrerpolicy="no-referrer" alt="img" title="Kance:gricone | 莰莗酒吧"></p><p><span>nosike: u pojone a 2020:nuzo, e sece fofe a Morikoke:zeveco Nosiriba:domovume po zug, ja e sece popu Nosiriba:putumo u 2021:nuzo 1:jono poj.</span>
+<span>主持人：截至2020年底，</span><u><span>海西区</span></u><span> </span><u><span>执鲁街道</span></u><span>的北半边已经建成，而</span><u><span>执鲁大街</span></u><span>以南的部分则于2021年1月完成。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUg5g5grmNRDA!!/0" referrerpolicy="no-referrer" alt="img" title="zu Lopikicegrwm:donbe | 从吏琴桥看去"></p><p><span>novo-hovike: tin ju vol miconume Lutebena co fe Cr3+?</span>
+<span>记者：各位更喜欢</span><u><span>亚羽商场</span></u><span>还是</span><u><span>三价铬百货</span></u><span>呢？</span></p><p><span>V&#39;P&#39;: mi kef ju gice miconume Lutebena. i debeca 12 bibu dive i 2 giku, e Lutebena:donbe bibu dive e Lutebena:focone giku dive ba fuc, ju ˙yvakh! e &quot;jehisluki i kerase u Lutebena&quot; u &quot;jehisora don a Xef&quot; po pec.</span>
+<span>V&#39;P&#39;：我看</span><u><span>亚羽商场</span></u><span>更强。地上十二层地下两层，把地上的</span><u><span>亚羽桥</span></u><span>和地下的</span><u><span>亚羽</span></u><span>矿铁站都包围在其中，多么气派！「亚羽樱香」已入选「先拂八景」了。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXqVSNgsXWkHQ!!/0" referrerpolicy="no-referrer" alt="img" title="jehisluki i kerase u Lutebena | 亚羽樱香"></p><p><span>K&#39;M&#39;: ja Cr3+ ju jehe, su lepi moge haste, su zile novume. jesu ge sur u kaso, lubove loze e ˙jinqgvánq pas, mogu ju jehe ku pale visu lubove.</span>
+<span>K&#39;M&#39;：还是</span><u><span>三价铬百货</span></u><span>好，装饰丰富，造型时尚。尤其晚上看，整个楼体泛着荧光，比全是玻璃强不少。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXVCSVglfCTCQ!!/0" referrerpolicy="no-referrer" alt="img" title="Cr3+:miconume | 三价铬百货"></p><p><span>nosike: visi lin lubove gupe a vine. Lutebena:miconume boru lepe, Cr3+:miconume tenu lepe, e fite nakize mip.</span>
+<span>主持人：作为各自地区的地标性建筑，</span><u><span>亚羽商场</span></u><span>壮观，</span><u><span>三价铬百货</span></u><span>精美，各具特色。</span></p><p><span>J&#39;S&#39;: bu boru tenu lepe, ni ju jehe ku Latisure:lubo, su ba i tenilepoda i borilepoda a lubove Dcunqhva padiveka, ja e natoboda deviloda mip. mi e hafirese moge la po tos.</span>
+<span>J&#39;S&#39;：不过要论壮观和精美啊，那可没有能跟</span><u><span>瞰临亭</span></u><span>比的，兼</span><u><span>中</span></u><span>式传统建筑的精致和大气于一身，还多一分神秘感，我曾听过不少关于他的传说呢。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUB5w5gHB1RGA!!/0" referrerpolicy="no-referrer" alt="img" title="Fipicile rore | 文律东口"></p><p><span>K&#39;M&#39;: Lilivine:padizevica loze zi di, ke vi dive jun tege o kef i lopove. bife de lubo man zumic, ne plodica u Lilivine:padizevica gic fumici.</span>
+<span>K&#39;M&#39;：</span><u><span>近畿古镇</span></u><span>整体都是如此，那可是管理层最重视的一块地，我们就是把房卖了也买不起</span><u><span>近畿古镇</span></u><span>的小院。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUC5w5g5LHkFw!!/0" referrerpolicy="no-referrer" alt="img" title="bibikaho zi more | 瓦浪如海">
+<img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUh5g5gUKknDA!!/0" referrerpolicy="no-referrer" alt="img" title="u Junicile:puto | 精律街头"></p><p><span>V&#39;P&#39;: gadu lubo cice man, ja lubo bore u domove Curitapto fe Gogideva no guc.</span>
+<span>V&#39;P&#39;：别提咱们这小房，就是</span><u><span>贵都街道</span></u><span> </span><u><span>确塔小区</span></u><span>、</span><u><span>石仙小区</span></u><span>的大房也难换一套</span><u><span>近畿</span></u><span>的房吧。</span></p><p><span>nosike: bi Kubitirezova zase a Xef, jo Lilivine blane. u Morirore:zeveco Lilivine:domovume, i hure Lilivine:focone su putihaca fan, i koke radone a sasiblane, i rorifofe padizevica, i roripope gu e lubove vike vo zug. Lilivine:padizevica jena hu lubove a Xef, ja e sece tege la po zug hu 7:jono 20:lado samo. di natobe borume a zugi u Xef.</span>
+<span>主持人：如果说</span><u><span>起点草原</span></u><span>是</span><u><span>先拂</span></u><span>的心脏，</span><u><span>近畿</span></u><span>就是</span><u><span>先拂</span></u><span>的大脑。</span><u><span>海东区</span></u><span> </span><u><span>近畿街道</span></u><span>以四线交汇的</span><u><span>近畿站</span></u><span>为中心，西为中央办公区，东北为古镇，东南将来会建成高楼大厦。</span><u><span>近畿古镇</span></u><span>可谓</span><u><span>先拂</span></u><span>建筑之精华，而其主体于7月20日一天就拔地而起，是</span><u><span>先拂</span></u><span>一大工程奇迹。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXYCSVgkvStBQ!!/0" referrerpolicy="no-referrer" alt="img" title="hure a basone | 宇宙中心">
+<img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXXCSVgmcpaCQ!!/0" referrerpolicy="no-referrer" alt="img" title="koke Lilivine | 近畿西区"></p><p><span>novo-hovike: con tin lase u narado?</span>
+<span>记者：请问各位的假期一般怎么过？</span></p><p><span>K&#39;M&#39;: zusi Bibuvero:naradigusta. lup hu nitiflore nahome, e basone borume he gobu sat; e cele bib ja ve brodo bore pale hun flore ve curone fu vence ge lepiz zi dere Hristikusofi sur, e romanti sofa he tos. u kaso zu cabojidonbe gic suri Esjahonfen:domove nude, u noco u lubico zi fahe vel. jun gloke ki Bibuvero:naradigusta saj lile ku vine ˙sonvh a Morikoke:zeveco, veru &quot;e domo vins u linase, ja s nu glase a kihove&quot;.</span>
+<span>K&#39;M&#39;：当然是去</span><u><span>现实之上度假村</span></u><span>。站在一望无际的向日葵中间，深切感受宇宙之广阔；抬头看那花海中的大玻璃船和妆成圣诞树的结婚登记处，又让人体悟生命的浪漫。晚上还可以登上彩虹桥眺望对面的</span><u><span>鹅鸭鸿鳻城堡</span></u><span>，夜里在云朵小屋入睡。最绝的是，</span><u><span>现实之上度假村</span></u><span>紧挨着</span><u><span>海西区</span></u><span>的繁华区域，真可谓是「结庐在人境，而无车马喧」。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXTCSVgxbPMCQ!!/0" referrerpolicy="no-referrer" alt="img" title="brodo bore so diva a flora | 大船花田">
+<img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTVD2w5gaNTKHQ!!/0" referrerpolicy="no-referrer" alt="img" title="bibu cabojidonbe | 彩虹之上"></p><p><span>nosike: Bibuvero:naradigusta zoge jehe a Arevcal, li vine gi e nature lil, dize u Xef. Esjahonfen:domove soci bu zile Evropa pade a Engusinzim.</span>
+<span>主持人：</span><u><span>现实之上度假村</span></u><span>是</span><u><span>阿留察</span></u><span>的杰作，是</span><u><span>先拂</span></u><span>少有的重生态、亲自然的区域。</span><u><span>鹅鸭鸿鳻城堡</span></u><span>则是</span><u><span>恩古欣金</span></u><span>对欧洲中世纪风格的尝试。</span></p><p><span>V&#39;P&#39;: mi e Dekimomlizalivo vol. e ribe ru hora e grica kag, u dulifoso lus, e fisoda nagahe sat. di vine saj lilu Lopikicegrwm:mekiputo, ja e &quot;obo&quot; mep, ju benle pitove da.</span>
+<span>V&#39;P&#39;：我喜欢</span><u><span>轻沙湾海滩</span></u><span>。在海边吃烤鱼、喝酒、泡温泉，享受简单的快乐。这地方紧邻</span><u><span>吏琴快速路</span></u><span>，还能坐obo共享船来往，交通很方便。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTU12w5gSBNsHw!!/0" referrerpolicy="no-referrer" alt="img" title="Dekimomlizalivo | 轻沙湾">
+<img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUl2w5gBWnZJA!!/0" referrerpolicy="no-referrer" alt="img"></p><p><span>J&#39;S&#39;: mi e OOO:fretone pic. vi fritone e zile natobe mip, vi u bibe e nito e nebo sic zu dive. bija dale, gic piti lamu ru 1:putihaca, vine jehe fu freti.</span>
+<span>J&#39;S&#39;：我选择OOO游乐场。这游乐场造型奇特，遮天蔽日；虽然远了点却能1号线直达，是个不错的游玩去处。</span></p><p><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXBFSVgroglCA!!/0" referrerpolicy="no-referrer" alt="img" title="OOO:fretone | OOO游乐场"></p><p><span>novo-hovike: linam ten zu novo-hovi,! cez fu kas.</span>
+<span>记者：感谢各位参与本次采访，我们下次再见。</span></p><p><span>nosike: linam e novo-hovike. di &quot;fu hu Seon Phourl&quot; poj. u 2020:nuzo 8:jono Kinbvise e Majnkraft fu &quot;Win 10&quot; fumic; u 11:jono i Kinbvise i Engusinzim ba e fahiblanele sumifumic, mer e nabenle zu fili paka, e zugi mogu mekiz, ja benliz ke i line nove i gi sur hupit. linam zu suri, cez fu kas.!</span>
+<span>主持人：谢谢记者。本期《走进先拂》就到这里了。2020年8月，</span><u><span>臤徘斯</span></u><span>购买Win10正版；11月，</span><u><span>臤徘斯</span></u><span>和</span><u><span>恩古欣金</span></u><span>合资租赁云服务器，省去了手动传送本地存档的不便，大大提高了修建效率，也方便了参观者及新人加入。感谢收看，我们下期再见！</span></p></div>
+</body>
+</html>

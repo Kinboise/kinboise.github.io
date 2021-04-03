@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>先拂 Seon Phourl - 首页</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .content{
+            width: 1080px;
+            margin: 100px auto;
+        }
+        .bise{
+            position: relative;
+            overflow: hidden;
+        }
+        .bise>div{
+            width: 790px;
+            position: absolute;
+            transform: translateX(140px) scale(0.8);
+            transform-origin: center bottom;
+            transition: .4s;
+        }
+        .bise .bise1{
+            z-index: 10;
+            transform: translateX(140px) scale(1);
+        }
+        .bise .bise2{
+            z-index: 1;
+            transform: translateX(540px) scale(0.8);
+        }
+        .bise .bise_junkas{
+            z-index: 1;
+            transform: translateX(-250px) scale(0.8);
+        }
+        /* 左右切换按钮 */
+        .btn{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 60%;
+            margin-top: -20px;
+            background-color: rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 40px;
+            font-size: 20px;
+            font-style: normal;
+            cursor: pointer;
+            user-select: none;
+        }
+        .btn_right{
+            right: 0;
+        }
+        .btn:hover{
+            background-color: rgba(0, 0, 0, 0.4);
+            color: rgba(255, 255, 255, 1);
+        }
+        /* bise状态点 */
+        .track{
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .track>span{
+            display: block;
+            width: 25px;
+            height: 4px;
+            background-color: #4ba040;
+            float: left;
+            margin: 10px 6px;
+            transition: .4s;
+        }
+        .track .focus{
+            background-color: #30cc41;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="bise">
+            <div class="bise1">
+                <a href="#"><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXaCSVgDKiCBQ!!/0" alt="img" title="u hodidonbe u Venipota | 邯郸天桥上"></a>
+            </div>
+            <div class="bise2">
+                <a href="#"><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTV8gSpgXRxBGQ!!/0" alt="img" title="gadu focone Lafigicumo | 武威站外景"></a>
+            </div>
+            <div class="">
+                <a href="#"><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUl2w5gBWnZJA!!/0" alt="img"></a>
+            </div>
+            <div class="">
+                <a href="#"><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUB5w5gHB1RGA!!/0" alt="img" title="Fipicile rore | 文律东口"></a>
+            </div>
+            <div class="bise_junkas">
+                <a href="#"><img src="http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTXtVSNgJQVlHQ!!/0" alt="img" title="dalisuri bu momlizevumo | 沙都远望"></a>
+            </div>
+            <!-- 这里切换按钮用大于小于号代替，如果自己有icon图标自行替换 -->
+            <i class="btn_left btn">◀</i>
+            <i class="btn_right btn">▶</i>
+        </div>
+        <div class="track"></div>
+    </div>
+    <script>
+        window.onload = function(){
+            // 获取节点，变量声明
+            var bise      = document.querySelector('.bise'),
+                btn_left    = document.querySelector('.btn_left'),
+                btn_right   = document.querySelector('.btn_right'),
+                track       = document.querySelector('.track'),
+                list_items  = bise.querySelectorAll('div'),
+                listArr     = [],
+                index       = 0,
+                trackHtml   = '',
+                tracks,
+                timer;
+            // 初始化
+            function init(){
+                // 根据图片高度自适应
+                bise.style.height = list_items[0].offsetHeight + 'px';
+                // 生成track坐标点元素
+                for(var i = 0, len = list_items.length; i < len; i ++){
+                    listArr.push(list_items[i].className)
+                    trackHtml += '<span></span>'
+                }
+                track.innerHTML = trackHtml;
+                // 获取坐标点元素
+                tracks = track.querySelectorAll('span');
+                tracks[0].setAttribute('class', 'focus');
+                play();
+            }
+            // 切换动画 target=1 下一张 target=-1 上一张
+            function move(target){
+                list_items.forEach((item, i) => {
+                    item.setAttribute('class', listArr[i])
+                });
+                // 计算index下标值
+                index = (index + listArr.length + target) % listArr.length;
+                tracks.forEach((item, i) => {
+                    item.setAttribute('class', '')
+                });
+                tracks[index].setAttribute('class', 'focus')
+            }
+            // 下一张
+            function next(){
+                listArr.unshift(listArr[listArr.length - 1]);
+			   listArr.pop();
+                move(1)
+            }
+            // 上一张
+            function previous(){
+                listArr.push(listArr[0]);
+			   listArr.shift();
+              	move(-1)
+            }
+            // 自动轮播
+            function play(){
+            	timer = setInterval(next, 4000);
+            }
+            // 下一张绑定点击事件
+            btn_right.onclick = function(){
+                clearInterval(timer);
+                next();
+                play();
+            };
+            // 上一张绑定点击事件
+            btn_left.onclick = function(){
+                clearInterval(timer);
+                previous();
+                play();
+            };
+            // track绑定点击事件
+            track.addEventListener('click', function(e){
+                var e = e || window.e,
+                    //标准浏览器用ev.target，IE浏览器用event.srcElement
+                    target = e.target || e.srcElement,
+                    n = 0;
+                if(target.className !== 'track'){
+                    clearInterval(timer);
+                    for(var i = 0, len = tracks.length; i < len; i ++){
+                        tracks[i].setAttribute('class', '')
+                        if(tracks[i] === target){
+                            n = i;
+                            tracks[i].setAttribute('class', 'focus');
+                        }
+                    }
+                    // 向右滑动
+                    if(n-index >= 0){
+                        for(var i = 0; i < n-index; i ++){
+                            setTimeout(next, 160*i);
+                        }
+                    }
+                    // 向左滑动
+                    else{
+                        for(var i = 0; i < index-n; i ++){
+                            setTimeout(previous, 160*i);
+                        }
+                    }
+                    play();
+                }
+            })
+            init();
+        }
+    </script>
+</body>
+</html>
