@@ -20,9 +20,11 @@ modified: 2021-03-08T18:45:16+08:00
 
 [fu hu Seon Phourl | 走进先拂](/Xef/fhSP2020)
 
-## hafa-zugi fruve | 随手造语
+## fruje | 随手
 
-[hafa-zugi fruve | 随手造语](/hafa-zug)
+[hafa-zugi fruje | 随手造语](/hafa-zug)
+
+[fruje | 随手瞎写](/fruje)
 
 ## fene | 其他
 
@@ -36,4 +38,4 @@ modified: 2021-03-08T18:45:16+08:00
 - Seon  Phourl 先拂
 - hafa-zugi fene 其他造语
 
-*更新于20210308*
+*更新于20210413*
