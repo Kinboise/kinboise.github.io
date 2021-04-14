@@ -14,6 +14,12 @@ modified: 2021-03-08T18:45:16+08:00
 
 ["line gade" u Seniva (ge hafa-tor) | 《局外人》帜和语版（翻译中）](/Seniva/line-gade)
 
+## hafa-zugi fene | 其他造语作品
+
+[hafa Makevis | 马克韦语](/Makevis)
+
+[hafa Zer | 泽尔语](/Zer)
+
 ## Seon  Phourl | 先拂
 
 [vinibise a Seon  Phourl (Xef) | 先拂地图](/Xef/vinibise)
@@ -24,7 +30,7 @@ modified: 2021-03-08T18:45:16+08:00
 
 [hafa-zugi fruje | 随手造语](/hafa-zug)
 
-[fruje | 随手瞎写](/fruje)
+[fruje | 随手瞎写](https://kinboise.github.io/fruje)
 
 ## fene | 其他
 
@@ -36,6 +42,5 @@ modified: 2021-03-08T18:45:16+08:00
 
 - hafa Seniva 帜和语
 - Seon  Phourl 先拂
-- hafa-zugi fene 其他造语
 
-*更新于20210413*
+*更新于20210414*
