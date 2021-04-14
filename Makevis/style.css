@@ -4,49 +4,26 @@
       src: url('../pajne/Harin Nifik.otf');
       font-weight: normal;
       font-style: normal;
-    }.HarinNifik {
-}
+    }
 @font-face {
       font-family: 'HarinVizr';
       src: url('../pajne/Harin Vizr.otf');
       font-weight: normal;
       font-style: normal;
-    }.HarinVizr {
-}
+    }
 @font-face {
       font-family: 'HarinNifikP';
       src: url('../pajne/Harin Nifik Pikar.otf');
       font-weight: bold;
       font-style: normal;
-    }.HarinNifikP {
-}
+    }
 @font-face {
       font-family: 'HarinNifik';
       src: url('../pajne/Harin Nifik Bigitr.otf');
       font-weight: normal;
       font-style: italic;
-    }.HarinNifik {
-}
+    }
 @font-face {
 	font-family: 'IpaP';
 	src: url('../pajne/IpaP.ttf');
-	}.IpaP {
-}
-.HarinNifik {
-	font-family: HarinNifik;
-	font-size: larger;
-}
-.HarinNifikP {
-	font-family: HarinNifikP;
-	font-size: larger;
-}
-.HarinVizr {
-	font-family: HarinVizr;
-	font-size: larger;
-}
-.IpaP {
-	font-family: IpaP;
-}
-.white {
-	color: white;
-}
+	}
