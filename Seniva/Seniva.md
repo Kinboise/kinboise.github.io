@@ -2,7 +2,11 @@
 
 
 
-<u>幟和語</u>（<font face=homnela>hafa·seniva</font>, *hafa Seniva*），是<u>臤徘斯</u>（Kinboise; <font face=homnela>·kinbvise</font>, *Kinbvise*）創造的人造語言。
+<u>幟和語</u>（<font face=homnela>hafa·seniva</font>, *hafa Seniva*），是<u>臤徘斯</u>（Kinboise; <font face=homnela>·kinbvise</font>, *Kinbvise*）創造的人造語言。始創於2018年11月1日，是目前的主力語言。
+
+（本文未完）
+
+<!-- more -->
 
 ## 音系
 
