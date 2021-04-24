@@ -6,7 +6,7 @@
 
 ## Seniva | 帜和语
 
-[hafa Seniva | 帜和语](/fruje/Seniva/Seniva)
+[hafa Seniva | 帜和语](/Seniva/Seniva)
 
 [rantigora a Seniva | 帜和语词典](/Seniva/rantigora)
 
