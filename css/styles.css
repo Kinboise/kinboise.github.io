@@ -213,9 +213,9 @@ a:hover {
 .navbar-inverse .navbar-toggle {
 	background-color: #008d5f;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #008d5f;*/
-}
+/*.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #008d5f;
+}*/
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background: #008d5f;
 }
@@ -228,8 +228,8 @@ a:hover {
 .navbar-inverse .navbar-toggle:hover .icon-bar {
 	background: #fff;
 }
-.navbar-toggle {
-}
+/*.navbar-toggle {
+}*/
 .hero-text h1 {
 	color: #fff !important;
 }
@@ -251,8 +251,8 @@ a:hover {
 	margin-top: 50px;
 	border-bottom: 4px solid #008d5f;
 }
-.carousel-inner > .item {
-}
+/*.carousel-inner > .item {
+}*/
 .carousel-caption {
 	padding: 0px;
 	bottom: 40%;
@@ -1126,7 +1126,7 @@ nav#filter li {
 }
 .contact-parlex {
 	padding-top: 0px;
-	background-image: url('http://qungz.photo.store.qq.com/qun-qungz/mcNDHCiCweQfgaCdBD50MA!!/V5bCQAyMTMxNTQ1MTUs2w5ghlkaJA!!/0');
+	background-image: url('https://i.loli.net/2021/05/19/Q3bomWDZ6U4MOIy.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
