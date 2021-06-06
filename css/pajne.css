@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'homnela';
-	src: url('pajne/homnela.otf');
+	src: url('../pajne/homnela.woff2');
 }
 
 @font-face {
 	font-family: 'Harin Nifik';
     font-style: normal;
-	src: url('pajne/Harin Nifik.otf');
+	src: url('../pajne/Harin Nifik.otf');
 }
