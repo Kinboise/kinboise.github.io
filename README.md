@@ -2,25 +2,25 @@
 
 ## Nivoni | 立准语
 
-[hafa Nivoni | 立准语](/Nivoni)
+[hafa Nivoni | 立准语](https://kinboise.github.io/Nivoni)
 
 ## Seniva | 帜和语
 
-[hafa Seniva | 帜和语](/Seniva/Seniva)
+[hafa Seniva | 帜和语](https://kinboise.github.io/Seniva)
 
-[rantigora a Seniva | 帜和语词典](/Seniva/rantigora)
+[rantigora a Seniva | 帜和语词典](https://kinboise.github.io/Seniva/rantigora)
 
-["line gade" u Seniva (ge hafa-tor) | 《局外人》帜和语版（翻译中）](/Seniva/line-gade)
+["line gade" u Seniva (ge hafa-tor) | 《局外人》帜和语版（翻译中）](https://kinboise.github.io/Seniva/line-gade)
 
 ## hafa-zugi fene | 其他造语作品
 
-[hafa Makevis | 马克韦语](/Makevis)
+[hafa Makevis | 马克韦语](https://kinboise.github.io/Makevis)
 
-[hafa Zer | 泽尔语](/Zer)
+[hafa Zer | 泽尔语](https://kinboise.github.io/Zer)
 
 ## Seon  Phourl | 先拂
 
-[fu hu Seon Phourl | 走进先拂](/Xef/fhSP2020)
+[fu hu Seon Phourl | 走进先拂](https://kinboise.github.io/Xef/fhSP2020)
 
 ## fruje | 随手
 
