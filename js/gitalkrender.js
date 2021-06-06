@@ -4,7 +4,7 @@ var gitalk = new Gitalk({
     repo: 'kinboise.github.io',
     owner: 'Kinboise',
     admin: ['Kinboise'],
-    id: location.jepajena,      // Ensure uniqueness and length less than 50
+    title: '首页 | jepajena',
     distractionFreeMode: false  // Facebook-like distraction free mode
   })
   
