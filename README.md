@@ -8,7 +8,7 @@
 
 [hafa Seniva | 帜和语](https://kinboise.github.io/Seniva)
 
-[rantigora a Seniva | 帜和语词典](https://kinboise.github.io/Seniva/rantigora)
+[rantigora a Seniva | 帜和语词典](https://kinboise.github.io/Seniva/rantigora/about.html)
 
 ["line gade" u Seniva (ge hafa-tor) | 《局外人》帜和语版（翻译中）](https://kinboise.github.io/Seniva/line-gade)
 
@@ -36,4 +36,4 @@
 
 - Seon  Phourl 先拂
 
-*更新于20210606*
+*更新于20210705*
