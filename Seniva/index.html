@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='zh'>
+    <head>
+        <meta charset="utf-8">
+        <title>帜和语</title>
+        <script src='lat_pun.js'></script>
+        <style>
+			h1,p {
+				text-align: center;
+			}
+            textarea {
+                height: 500px;
+                font-family: unifik, sans-serif;
+            }
+            table {
+				margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+		<h1>帜和语词典</h1>
+        <p><a href='rantigora/about.html'>帜和语词典</a></p>
+        <h1>拉丁五元互转工具</h1>
+        <table>
+            <tr>
+                <th>Seniva u Latin:</th>
+                <th>Seniva u Punsita:</th>
+            </tr>
+            <tr>
+                <td>
+                    <textarea placeholder="Seniva:hafa" id="lat" oninput="lat_pun()"></textarea>
+                </td>
+                <td>
+                    <textarea placeholder="" id="pun" oninput="pun_lat()"></textarea>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
