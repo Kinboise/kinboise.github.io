@@ -8,3 +8,8 @@
     font-style: normal;
 	src: url('../pajne/Harin Nifik.otf');
 }
+
+@font-face {
+	font-family: 'unifik';
+	src: url('../pajne/unifik.woff2');
+}
