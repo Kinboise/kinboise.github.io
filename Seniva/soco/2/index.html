@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <script type="text/javascript" src="../quizlib.1.0.1.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="answer.js"></script>
+    <link rel="stylesheet" type="text/css" href="../quizlib.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css" media="screen">
+
+    <title>第二课：这是我的大白狗</title>
+</head>
+
+<body>
+    <h1>第二课：这是我的大白狗</h1>
+    <p>
+    <div class="col1">
+        <div class="label">例</div>
+        <div class="card lab">
+            <ul>
+                <li>di dade.<br>
+                    这是狗。</li><br>
+                <li>vi kate.<br>
+                    那是猫。</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col1">
+        <div class="label">词</div>
+        <div class="card lab">
+            <ul>
+                <li>di - 这</li>
+                <li>vi - 那</li>
+                <li>dade - 狗</li>
+                <li>kate - 猫</li>
+            </ul>
+        </div>
+    </div>
+    </p>
+
+    <p>
+        由例子可见，帜和语的判断句不需要动词「是」，只需简单地将两词连起来。而且，帜和语字母全部小写，不要求也不允许句首字母大写（除非专有名词），句号使用「.」。下面是更多例子：
+    </p>
+
+    <p>
+    <div class="col1">
+        <div class="label">例</div>
+        <div class="card lab">
+            <ul>
+                <li>dade bore.<br>
+                    狗大／狗是大的。
+                </li><br>
+                <li>kate bake.<br>
+                    猫白／猫是白的。
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col1">
+        <div class="label">词</div>
+        <div class="card lab">
+            <ul>
+                <li>bore - 大的东西</li>
+                <li>bake - 白的东西</li>
+            </ul>
+        </div>
+    </div>
+    </p>
+
+    <p>
+        <!--Quiz result-->
+    <div id="quiz-result" class="card">
+        你答对了 <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br />
+    </div>
+    <!-- Quiz 1 -->
+    <div id="quiz-1">
+        <!-- Question 1 -->
+        <div class="label">练</div>
+        <div class="card lab quizlib-question">
+            <div class="quizlib-question-title">
+                1. 翻译成帜和语：这是白的。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q1">
+            </div>
+        </div>
+        <!--Question 2-->
+        <div class="card quizlib-question">
+            <div class="quizlib-question-title">
+                2. 翻译成帜和语：猫是大的。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q2">
+            </div>
+        </div>
+        <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
+    </div>
+
+    <p>更多的词也可以直接相连。以下句子译成中文可能有多种不同断句法，但基本语义一致，具体强调的点可以通过语境和语气判断。</p>
+    <div class="col1">
+        <div class="label">例</div>
+        <div class="card lab">
+            <ul>
+                <li>mi line jehe.<br>
+                    我是好人／我人是好的。</li>
+                <li>di bore ma.<br>
+                    这是我的大东西／这个大东西是我的。</li>
+                <li>di dade bake bore ma.<br>
+                    这是我的大白狗
+                    <span style="color:#aaa">／这只狗是我的大的白的东西<br>
+                        ／这只白狗是我的大东西</span>
+                    ／这只大白狗是我的。
+            </ul>
+        </div>
+    </div>
+    <div style="float:left; width:16em;">
+        <div class="label">词</div>
+        <div class="card lab">
+            <ul>
+                <li>line - 人</li>
+                <li>jehe - 好的东西</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>
+        你也许注意到了，帜和语没有单独的形容词词类。中文中「大的」「白的」等修饰词的含义在帜和语中以「大的东西」「白的东西」这样的名词来表达，以名词修饰名词。
+    </p>
+    <div class="col1">
+        <div class="label">例</div>
+        <div class="card lab">
+            <ul>
+                <li>di bore ma.<br>
+                    这是我的大东西／这个大东西是我的。</li>
+                <li>cice came.<br>
+                    小东西是黑的。</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col1">
+        <div class="label">词</div>
+        <div class="card lab">
+            <ul>
+                <li>cice - 小的东西</li>
+                <li>came - 黑的东西</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Quiz 2 -->
+    <p>
+    <div id="quiz-2">
+        <h2>练习</h2>
+        <!-- Question 1 -->
+        <div class="card lab quizlib-question">
+            <div class="quizlib-question-title">
+                1. 翻译成帜和语：这人是白的。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q1">
+            </div>
+        </div>
+        <!--Question 2-->
+        <div class="card lab quizlib-question">
+            <div class="quizlib-question-title">
+                2. 翻译成帜和语：好东西是我的。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q2">
+            </div>
+        </div>
+        <!--Question 3-->
+        <div class="card quizlib-question">
+            <div class="quizlib-question-title">
+                3. 翻译成帜和语：那是我的小狗。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q3">
+            </div>
+        </div>
+        <!--Question 4-->
+        <div class="card quizlib-question">
+            <div class="quizlib-question-title">
+                4. 翻译成中文：mi kate bore.
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q4">
+            </div>
+        </div>
+        <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
+    </div>
+    </p>
+</body>
+
+</html>

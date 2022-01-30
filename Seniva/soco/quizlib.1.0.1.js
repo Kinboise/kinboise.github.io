@@ -61,7 +61,7 @@ var Quiz = function(quizContainer, answers) {
 	 * @type String
 	 * @default 'Unanswered Question!'
 	 */
-	this.unansweredQuestionText = 'Unanswered Question!';
+	this.unansweredQuestionText = '题目未答！';
 
 	// Quiz container element
 	this.container = document.getElementById(quizContainer);
@@ -89,7 +89,7 @@ var Quiz = function(quizContainer, answers) {
 	}
 
 	if (this.answers.length != this.questions.length) {
-		throw new Error("Number of answers does not match number of questions!");
+		throw new Error("答案数与问题数不匹配！");
 	}
 };
 
