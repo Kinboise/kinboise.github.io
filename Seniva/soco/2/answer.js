@@ -7,8 +7,8 @@ window.onload = function() {
     ]);
 
     quizzes['quiz-2'] = new Quiz('quiz-2', [
-        'di line bake.',
-        'jehe ma.',
+        'di line jehe.',
+        'came ma.',
         'vi dade cice ma.',
         '我是大猫。'
     ]);
