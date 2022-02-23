@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <script type="text/javascript" src="../quizlib.1.0.1.js"></script>
+    <script type="text/javascript" src="../multiquiz.js"></script>
+    <script type="text/javascript" src="answer.js"></script>
+    <link rel="stylesheet" type="text/css" href="../quizlib.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../../stylesheet.css" media="screen">
+
+    <title>第三课：鸡飞狗跳</title>
+</head>
+
+<body>
+    <h1>第三课：鸡飞狗跳</h1>
+    <p>
+        帜和语中，简单的主谓句与汉语一样使用<strong>主-谓</strong>语序。如：
+    </p>
+    <p>
+    <div class="col1">
+        <div class="label">例</div>
+        <div class="card lab">
+            <ul>
+                <li>mi mek.<br>
+                    我跑。</li><br>
+                <li>ti hod.<br>
+                    你走。</li><br>
+                <li>gale flig.<br>
+                    鸡飞。</li><br>
+                <li>lapre git.<br>
+                    兔跳。</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col1">
+        <div class="label">词</div>
+        <div class="card lab">
+            <ul>
+                <li>mi - 我</li>
+                <li>ti - 你</li>
+                <li>gale - 鸡</li>
+                <li>lapre - 兔</li>
+                <li>mek - 跑</li>
+                <li>hod - 走</li>
+                <li>git - 跳</li>
+            </ul>
+        </div>
+    </div>
+    </p>
+    <p>
+        <!--Quiz result-->
+    <div id="quiz-result" class="card">
+        你答对了 <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br />
+    </div>
+    <!-- Quiz 1 -->
+    <div id="quiz-1">
+        <!-- Question 1 -->
+        <div class="label">练</div>
+        <div class="card lab quizlib-question">
+            <div class="quizlib-question-title">
+                1. 翻译成中文：dade git.
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q1">
+            </div>
+        </div>
+        <!--Question 2-->
+        <div class="card quizlib-question">
+            <div class="quizlib-question-title">
+                2. 翻译成帜和语：白色的东西飞。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q2">
+            </div>
+        </div>
+        <!-- Answer Button  -->
+        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
+    </div>
+
+    <p>主谓句的主语也可以是多个词组成的名词短语，如上一课所述。</p>
+    <div class="col1">
+        <div class="label">例</div>
+        <div class="card lab">
+            <ul>
+                <li>line gupte sed.<br>
+                    美丽的人坐。</li><br>
+                <li>vi kate fare lip.<br>
+                    那只坏猫站。</li><br>
+                <li>teke cice pos.<br>
+                    又红又小的东西发光。</li>
+            </ul>
+        </div>
+    </div>
+    <div style="float:left; width:16em;">
+        <div class="label">词</div>
+        <div class="card lab">
+            <ul>
+                <li>gupte - 美丽／帅气的东西</li>
+                <li>fare - 坏的东西</li>
+                <li>teke - 红的东西</li>
+                <li>sed - 坐</li>
+                <li>lip - 站立</li>
+                <li>pos - 发光</li>
+            </ul>
+        </div>
+    </div>
+    <p>
+    <!-- Quiz 2 -->
+    <div id="quiz-2">
+        <!-- Question 1 -->
+        <div class="label">练</div>
+        <div class="card lab quizlib-question">
+            <div class="quizlib-question-title">
+                翻译成帜和语：这只小鸡站立。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q1">
+            </div>
+        </div>
+        <!-- Answer Button  -->
+        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
+    </div>
+    </p>
+    <p>
+        我们已经学习了第三人称代词di「这」和vi「那」，一个指代近的事物，一个指代远的事物。如果指代的事物不知道远近／不远不近／远近不重要，则使用li。
+    </p>
+    <div class="col1">
+        <div class="label">例</div>
+        <div class="card lab">
+            <ul>
+                <li>li lip.<br>
+                    他站立。</li><br>
+                <li>li flige pav.<br>
+                    这／那只鸟歌唱。<br>
+                    （不确定远近的鸟／不远不近的鸟）</li>
+            </ul>
+        </div>
+    </div>
+    <div class="col1">
+        <div class="label">词</div>
+        <div class="card lab">
+            <ul>
+                <li>li - 他</li>
+                <li>flige - 鸟</li>
+                <li>pav - 唱</li>
+            </ul>
+        </div>
+    </div>
+    <p>
+        <strong>li</strong>是第三人称代词，可以指代不确定远近或者不远不近的事物（与近指「这」di、远指「那」vi相对），且不区分是否人类、不区分性别。单独使用时可译为「他」，其后接其他名词时用法类似英语<em>the</em>。<br>*本教程中所有「他」字均表示不分是否人类、不分性别的古代「他」字含义。
+    </p>
+    <!-- Quiz 3 -->
+    <p>
+    <div id="quiz-3">
+        <h2>练习</h2>
+        <!-- Question 1 -->
+        <div class="card lab quizlib-question">
+            <div class="quizlib-question-title">
+                1. 翻译成帜和语：他坐。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q1">
+            </div>
+        </div>
+        <!--Question 2-->
+        <div class="card lab quizlib-question">
+            <div class="quizlib-question-title">
+                2. 翻译成帜和语：这美丽的兔子歌唱。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q2">
+            </div>
+        </div>
+        <!--Question 3-->
+        <div class="card quizlib-question">
+            <div class="quizlib-question-title">
+                3. 翻译成帜和语：我的这／那只鸟飞。
+            </div>
+            <div class="quizlib-question-answers">
+                <input type="text" name="q2">
+            </div>
+        </div>
+        <!--Question 4-->
+        <div class="card quizlib-question">
+            <div class="quizlib-question-title">
+                4. 翻译成中文：vi gale came pos.
+            </div>
+            <div class="quizlib-question-answers">
+                <ul>
+                    <li><label><input type="radio" name="q4" value="a">那只黑鸡发光。</label></li>
+                    <li><label><input type="radio" name="q4" value="b">这／那只黑鸟站立。</label></li>
+                    <li><label><input type="radio" name="q4" value="c">那只坏鸡跳。</label></li>
+                    <li><label><input type="radio" name="q4" value="d">那只黑鸡站立。</label></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
+    </div>
+    </p>
+</body>
+
+</html>

@@ -112,3 +112,7 @@ strong {
 h1,h2 {
   font-family: serif;
 }
+
+.lo {
+  font-size: smaller;
+}
