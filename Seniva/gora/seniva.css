@@ -1,0 +1,100 @@
+:root {
+    --fserif: Besley, unifik, '思源宋体 传统', 一点明体, FreeSerif;
+    --fsans: 'Source Sans 3', 'Sarasa Gothic CL', 'unifik';
+}
+@page {
+    size: B5;
+    margin: 2.5cm;
+}
+@page :left {
+    @bottom-left {
+        font-family: var(--fserif);
+        font-weight: bold;
+        font-size: 10pt;
+        content: counter(page);
+  }
+}
+@page :right {
+    @bottom-right {
+        font-family: var(--fserif);
+        font-weight: bold;
+        font-size: 10pt;
+        content: counter(page);
+  }
+}
+body {
+    text-underline-offset: 1pt;
+    font-family: var(--fserif);
+}
+/* u {
+    text-decoration: none;
+    border: 0;
+    border-bottom: 1.5px solid;
+    border-image: linear-gradient(currentcolor,currentcolor) 1 0 / 1 0.1em;
+} */
+.j {
+    /* height: 25cm; */
+    text-align: center;
+    page-break-before: always;
+}
+h1 {
+    display: block;
+    font-family: var(--fsans);
+    font-size: 40pt;
+    text-align: center;
+    font-weight: 700;
+    line-height: 48pt;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+h2 {
+    font-size: 24pt;
+    text-align: left;
+    font-weight: 700;
+    line-height: 32pt;
+}
+/* .jt::after {
+    text-align: left;
+    content: counter(page);
+} */
+.h2f {
+    display: inline-block;
+    width: 13cm;
+    font-size: 64pt;
+    /* border-bottom: 5px solid black; */
+    line-height: 108pt;
+}
+/* .h2h {
+    font-size: 36pt;
+} */
+table {
+    text-align: left;
+    margin: 0 auto;
+}
+th {
+    font-family: var(--fsans);
+}
+td {
+    width: 6.6cm;
+    font-size: 10.5pt;
+    line-height: 16pt;
+    vertical-align: top;
+}
+p {
+    text-align: left;
+    margin: 4pt 0;
+}
+.pu {
+    font-family: FreeSans, unifik;
+    font-size: 11pt;
+}
+.ho {
+    font-family: 'Harin Nifik';
+    font-size: 14pt;
+}
+.de {
+    font-family: Pelisometra;
+}
+.ki {
+    font-family: 'Source Serif 4';
+}
