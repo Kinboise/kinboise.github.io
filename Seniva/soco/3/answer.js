@@ -7,7 +7,7 @@ window.onload = function() {
     ]);
 
     quizzes['quiz-2'] = new Quiz('quiz-2', [
-        'gale cice lip.'
+        'di gale cice lip.'
     ]);
 
     quizzes['quiz-3'] = new Quiz('quiz-3', [

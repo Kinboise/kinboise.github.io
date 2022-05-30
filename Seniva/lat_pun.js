@@ -36,7 +36,8 @@ var l_p = {
     ',': ' ', '\\.': ' ',
     '\\[': '', '\\]': '',
     '\'': '', ':': '',
-    '“': '', '”': ''
+    '“': '', '”': '',
+    '˙': '', '-': ''
 }
 
 function lat_pun() {
@@ -98,9 +99,10 @@ function lat_pun() {
 function pun_lat() {
     var f = document.getElementById('pun').value
 
-    f = f.replace(//g, '\"')
-    f = f.replace(//g, '\"')
-    f = f.replace(//g, ',')
+    f = f.replace(//g, '“')
+    f = f.replace(//g, '”')
+    f = f.replace(/\s/g, ',')
+    f = f.replace(/\s/g, '.')
 
     f = f.replace(/^([])\s(?)/g, '$1$2 ')
     f = f.replace(/(\s)([])\s(?)/g, '$1$2$3 ')
@@ -139,6 +141,9 @@ function pun_lat() {
 
     for (var i in l_p) {
         var i_reg = RegExp(l_p[i], 'g')
+        if (i.startsWith('\\')) {
+            i = i.replace(/\\/, '')
+        }
         f = f.replace(i_reg, i)
     }
     
