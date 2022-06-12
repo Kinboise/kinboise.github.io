@@ -1,9 +1,9 @@
 :root {
-    --fserif: Besley, unifik, '思源宋体 传统', 一点明体, FreeSerif;
+    --fserif: Besley, unifik, '思源宋体 传统', FreeSerif;
     --fsans: 'Source Sans 3', 'Sarasa Gothic CL', 'unifik';
 }
 @page {
-    size: B5;
+    size: 18.2cm 25.7cm;
     margin: 2.5cm;
 }
 @page :left {
@@ -32,10 +32,40 @@ body {
     border-bottom: 1.5px solid;
     border-image: linear-gradient(currentcolor,currentcolor) 1 0 / 1 0.1em;
 } */
-.j {
-    /* height: 25cm; */
+.pl {
+    text-decoration: underline;
+    -moz-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+}
+/* .j {
+    height: 25cm;
     text-align: center;
     page-break-before: always;
+} */
+@media print {
+    .j {
+        /* height: 20.7cm; */
+        text-align: center;
+        page-break-before: always;
+    }
+}
+@media screen {
+    html {
+        background-color: #bfd3ca;
+        color: #333f50
+    }
+    .j {
+        /* height: 25cm; */
+        text-align: center;
+        padding: 8px;
+        background-color: #dff3ea;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+    }
 }
 h1 {
     display: block;
@@ -85,7 +115,7 @@ p {
     margin: 4pt 0;
 }
 .pu {
-    font-family: FreeSans, unifik;
+    font-family: 'PT Root UI', unifik, FreeSerif;
     font-size: 11pt;
 }
 .ho {

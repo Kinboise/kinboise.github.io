@@ -14,6 +14,20 @@
 
 <body>
     <h1>第三课：鸡飞狗跳</h1>
+    <table>
+        <tr>
+            <td>
+                <button type="button" onclick="window.location.href='../..'">返回目录</button>
+            </td>
+            <td>
+                <button type="button" onclick="window.location.href='../2'">上一课</button>
+            </td>
+            <!-- <td>
+                <button type="button" onclick="window.location.href='../4'">下一课</button>
+            </td> -->
+        </tr>
+    </table>
+    <hr>
     <p>
         帜和语中，简单的主谓句与汉语一样使用<strong>主-谓</strong>语序。如：
     </p>
@@ -57,25 +71,27 @@
     <div id="quiz-1">
         <!-- Question 1 -->
         <div class="label">练</div>
-        <div class="card lab quizlib-question">
-            <div class="quizlib-question-title">
-                1. 翻译成中文：dade git.
+        <div class="card lab">
+            <div class="quizlib-question">
+                <div class="quizlib-question-title">
+                    1. 翻译成中文：dade git.
+                </div>
+                <div class="quizlib-question-answers">
+                    <input type="text" name="q1">
+                </div>
             </div>
-            <div class="quizlib-question-answers">
-                <input type="text" name="q1">
+            <!--Question 2-->
+            <div class="quizlib-question">
+                <div class="quizlib-question-title">
+                    2. 翻译成帜和语：白色的东西飞。
+                </div>
+                <div class="quizlib-question-answers">
+                    <input type="text" name="q2">
+                </div>
             </div>
+            <!-- Answer Button  -->
+            <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
         </div>
-        <!--Question 2-->
-        <div class="card quizlib-question">
-            <div class="quizlib-question-title">
-                2. 翻译成帜和语：白色的东西飞。
-            </div>
-            <div class="quizlib-question-answers">
-                <input type="text" name="q2">
-            </div>
-        </div>
-        <!-- Answer Button  -->
-        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
     </div>
 
     <p>主谓句的主语也可以是多个词组成的名词短语，如上一课所述。</p>
@@ -106,20 +122,22 @@
         </div>
     </div>
     <p>
-    <!-- Quiz 2 -->
+        <!-- Quiz 2 -->
     <div id="quiz-2">
         <!-- Question 1 -->
         <div class="label">练</div>
-        <div class="card lab quizlib-question">
-            <div class="quizlib-question-title">
-                翻译成帜和语：这只小鸡站立。
+        <div class="card lab">
+            <div class="quizlib-question">
+                <div class="quizlib-question-title">
+                    翻译成帜和语：这只小鸡站立。
+                </div>
+                <div class="quizlib-question-answers">
+                    <input type="text" name="q1">
+                </div>
             </div>
-            <div class="quizlib-question-answers">
-                <input type="text" name="q1">
-            </div>
+            <!-- Answer Button  -->
+            <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
         </div>
-        <!-- Answer Button  -->
-        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
     </div>
     </p>
     <p>

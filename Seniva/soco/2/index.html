@@ -14,6 +14,20 @@
 
 <body>
     <h1>第二课：这是我的大白狗</h1>
+    <table>
+        <tr>
+            <td>
+                <button type="button" onclick="window.location.href='../..'">返回目录</button>
+            </td>
+            <td>
+                <button type="button" onclick="window.location.href='../1'">上一课</button>
+            </td>
+            <td>
+                <button type="button" onclick="window.location.href='../3'">下一课</button>
+            </td>
+        </tr>
+    </table>
+    <hr>
     <p>
     <div class="col1">
         <div class="label">例</div>
@@ -77,25 +91,27 @@
     <div id="quiz-1">
         <!-- Question 1 -->
         <div class="label">练</div>
-        <div class="card lab quizlib-question">
-            <div class="quizlib-question-title">
-                1. 翻译成帜和语：这是白的。
+        <div class="card lab">
+            <div class="quizlib-question">
+                <div class="quizlib-question-title">
+                    1. 翻译成帜和语：这是白的。
+                </div>
+                <div class="quizlib-question-answers">
+                    <input type="text" name="q1">
+                </div>
             </div>
-            <div class="quizlib-question-answers">
-                <input type="text" name="q1">
+            <!--Question 2-->
+            <div class="quizlib-question">
+                <div class="quizlib-question-title">
+                    2. 翻译成帜和语：猫是大的。
+                </div>
+                <div class="quizlib-question-answers">
+                    <input type="text" name="q2">
+                </div>
             </div>
+            <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
+            <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
         </div>
-        <!--Question 2-->
-        <div class="card quizlib-question">
-            <div class="quizlib-question-title">
-                2. 翻译成帜和语：猫是大的。
-            </div>
-            <div class="quizlib-question-answers">
-                <input type="text" name="q2">
-            </div>
-        </div>
-        <!-- Answer Button. Here, we pass the ID of the quiz element (the parent of this button) to the showResults function.  -->
-        <button type="button" onclick="showResults(this.parentNode.id);">提交答案</button>
     </div>
 
     <p>更多的词也可以直接相连。以下句子译成中文可能有多种不同断句法，但基本语义一致，具体可以通过语境和语气判断。</p>
@@ -111,7 +127,8 @@
                     这是我的大白狗
                     <span style="color:#aaa">／这只狗是我的大的白的东西<br>
                         ／这只白狗是我的大东西</span>
-                    ／这只大白狗是我的。</li>
+                    ／这只大白狗是我的。
+                </li>
             </ul>
         </div>
     </div>
@@ -131,7 +148,11 @@
     <div class="card lo">
         <b>谈「名词」与「形容词」</b><br>
         「名词」，不仅是人类给所见事物取的名字，更是人类对事物的<strong>分类</strong>，每一个名词表达的事物都是一个<strong>集合</strong>。比如说「人」，表达的就是<strong>所有人类组成的集合</strong>里的任意一个元素。<br>
-        帜和语中多个名词连起来形成的名词短语，实质上表达的是各名词的集合取「交集」：<strong>dade bake</strong>指的是既属于<strong>dade</strong>「狗」又属于<strong>bake</strong>「白的东西」的事物，<strong>bake bore</strong>指的是既属于<strong>bake</strong>「白的东西」又属于<strong>bore</strong>「大的东西」的事物，<strong>mi line</strong>指的是既是<strong>mi</strong>「我」又是<strong>line</strong>「人」的事物；而短语<strong>kate dade</strong>——既是<strong>kate</strong>「猫」又是<strong>dade</strong>「狗」的事物，即使没有实义，也是合语法的。由此可见，帜和语中没有名词与形容词之分，他们都表达事物的集合。
+        帜和语中多个名词连起来形成的名词短语，实质上表达的是各名词的集合取「交集」：<strong>dade
+            bake</strong>指的是既属于<strong>dade</strong>「狗」又属于<strong>bake</strong>「白的东西」的事物，<strong>bake
+            bore</strong>指的是既属于<strong>bake</strong>「白的东西」又属于<strong>bore</strong>「大的东西」的事物，<strong>mi
+            line</strong>指的是既是<strong>mi</strong>「我」又是<strong>line</strong>「人」的事物；而短语<strong>kate
+            dade</strong>——既是<strong>kate</strong>「猫」又是<strong>dade</strong>「狗」的事物，即使没有实义，也是合语法的。由此可见，帜和语中没有名词与形容词之分，他们都表达事物的集合。
     </div>
     </p>
     <div class="col1">
@@ -155,7 +176,9 @@
         </div>
     </div>
     <p>
-        例子中各个名词的顺序往往和中文相反，这只是表象。帜和语名词修饰名词的排列原则是：旧信息在前，新信息在后；主信息在前，附加信息在后。比如一般常说<strong>dade bake</strong>意味着听者事先知道有只<strong>狗</strong>，说者又表达了附加的新信息<strong>白的</strong>。而bake dade则是听者事先知道一个<strong>白的东西</strong>，说者进一步表达新信息<strong>狗</strong>。<br>
+        例子中各个名词的顺序往往和中文相反，这只是表象。帜和语名词修饰名词的排列原则是：旧信息在前，新信息在后；主信息在前，附加信息在后。比如一般常说<strong>dade
+            bake</strong>意味着听者事先知道有只<strong>狗</strong>，说者又表达了附加的新信息<strong>白的</strong>。而bake
+        dade则是听者事先知道一个<strong>白的东西</strong>，说者进一步表达新信息<strong>狗</strong>。<br>
         此外，mi、di、vi必须放在最前，ma必须放在最后，在代词章节会详述。
     </p>
     <!-- Quiz 2 -->

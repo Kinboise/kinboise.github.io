@@ -1,3 +1,4 @@
 {
-    "LXLDevHelper.isrunning": false
+    "LXLDevHelper.isrunning": false,
+    "livePreview.defaultPreviewPath": "/Seniva/gora/index.html"
 }
