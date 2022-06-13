@@ -42,7 +42,18 @@ var l_p = {
 
 function lat_pun() {
     var f = document.getElementById('lat').value
-
+    
+    f = f.replace(/1\./g, 'j\'')
+    f = f.replace(/2\./g, 'b\'')
+    f = f.replace(/3\./g, 'k\'')
+    f = f.replace(/4\./g, 'f\'')
+    f = f.replace(/5\./g, 'p\'')
+    f = f.replace(/6\./g, 'r\'')
+    f = f.replace(/7\./g, 'c\'')
+    f = f.replace(/8\./g, 'd\'')
+    f = f.replace(/9\./g, 'z\'')
+    f = f.replace(/X\./g, '\'')
+    
     f = f.replace(/\"\b/g, '')
     f = f.replace(/\b\"/g, '')
     f = f.replace(/,\b/g, '')
@@ -92,6 +103,9 @@ function lat_pun() {
     f = f.replace(/([])/g, '$1')
     f = f.replace(/([])/g, '$1')
     f = f.replace(/([])/g, '$1')
+
+    f = f.replace(/<>/g, '<br>')
+    f = f.replace(/>/g, 'b>')
 
     document.getElementById('pun').value = f
 }
