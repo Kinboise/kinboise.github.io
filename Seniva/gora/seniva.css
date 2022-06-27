@@ -1,6 +1,6 @@
 :root {
-    --fserif: Besley, unifik, '思源宋体 传统', FreeSerif;
-    --fsans: 'Source Sans 3', 'Sarasa Gothic CL', 'unifik';
+    --fserif: Fitenkajti, Besley, unifik, '思源宋体 传统', FreeSerif;
+    --fsans: 'Inter', 'Sarasa Gothic CL', 'unifik';
 }
 @page {
     size: 18.2cm 25.7cm;
