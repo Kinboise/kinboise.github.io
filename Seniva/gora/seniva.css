@@ -1,6 +1,6 @@
 :root {
     --fserif: Fitenkajti, Besley, unifik, '思源宋体 传统', FreeSerif;
-    --fsans: 'Inter', 'Sarasa Gothic CL', 'unifik';
+    --fsans: Fitenkajti, 'Inter', 'Sarasa Gothic CL', 'unifik';
 }
 @page {
     size: 18.2cm 25.7cm;
@@ -127,4 +127,9 @@ p {
 }
 .ki {
     font-family: 'Source Serif 4';
+}
+.fi {
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-word;
 }
