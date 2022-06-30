@@ -126,7 +126,7 @@ p {
     font-family: Pelisometra;
 }
 .ki {
-    font-family: 'Source Serif 4';
+    font-family: var(--fserif);
 }
 .fi {
     white-space: normal;
