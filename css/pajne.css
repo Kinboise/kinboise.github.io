@@ -1,23 +1,64 @@
+/* 五元文 拉丁码位 */
 @font-face {
 	font-family: 'homnela';
+	src: local('homnela');
 	src: url('../pajne/homnela.woff2');
 }
 
+/* 回萨什奇 拉丁码位 */
 @font-face {
 	font-family: 'Harin Nifik';
     font-style: normal;
+	font-weight: normal;
 	src: local('Harin Nifik');
 	src: url('../pajne/Harin Nifik.otf');
 }
+@font-face {
+	font-family: 'Harin Nifik';
+    font-style: italic;
+	font-weight: normal;
+	src: local('Harin Nifik');
+	src: url('../pajne/Harin Nifik Bigitr.otf');
+}
+@font-face {
+	font-family: 'Harin Nifik';
+    font-style: normal;
+	font-weight: bold;
+	src: local('Harin Nifik');
+	src: url('../pajne/Harin Nifik Pikar.otf');
+}
+@font-face {
+	font-family: 'Harin Nifik';
+    font-style: italic;
+	font-weight: bold;
+	src: local('Harin Nifik');
+	src: url('../pajne/Harin Nifik Pikar Bigitr.otf');
+}
 
+/* 全集 PUA */
 @font-face {
 	font-family: 'unifik';
 	src: local('unifik');
 	src: url('../pajne/unifik.woff2');
 }
 
+/* 特正文手写 SPUA-A */
 @font-face {
 	font-family: 'Fitenkajti';
 	src: local('Fitenkajti');
 	src: url('../pajne/FitenkajtiR_1370.0.woff2')
+}
+
+/* 费利字母 拉丁码位 */
+@font-face {
+	font-family: 'Pelisometra';
+	src: local('Pelisometra');
+	src: url('../pajne/Pelisometra.otf')
+}
+
+/* 国际音标（非自制） */
+@font-face {
+	font-family: 'IpaP';
+	src: local('IpaP');
+	src: url('../pajne/IpaP.ttf');
 }
