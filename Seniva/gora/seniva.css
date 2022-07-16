@@ -126,9 +126,10 @@ p {
     font-family: Pelisometra;
 }
 .ki {
-    font-family: var(--fserif);
+    font-family: 'Source Serif 4';
 }
 .fi {
+    font-family: Fitenkajti, 'PT Root UI', '霞鹜文楷', FreeSerif;
     white-space: normal;
     word-break: break-all;
     word-wrap: break-word;
