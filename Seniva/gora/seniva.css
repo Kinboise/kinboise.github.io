@@ -2,11 +2,14 @@
     --fserif: Fitenkajti, Besley, unifik, '思源宋体 传统', FreeSerif;
     --fsans: Fitenkajti, 'Inter', 'Sarasa Gothic CL', 'unifik';
 }
+.pagedjs_page:has(.nj) .pagedjs_margin-content {
+    display: none;
+}
 @page {
     size: 18.2cm 25.7cm;
     margin: 2.5cm;
 }
-@page :left {
+@page:left {
     @bottom-left {
         font-family: var(--fserif);
         font-weight: bold;
@@ -14,7 +17,7 @@
         content: counter(page);
   }
 }
-@page :right {
+@page:right {
     @bottom-right {
         font-family: var(--fserif);
         font-weight: bold;
@@ -43,28 +46,31 @@ body {
     page-break-before: always;
 } */
 @media print {
-    .j {
+    .j, .nj {
         /* height: 20.7cm; */
         text-align: center;
         page-break-before: always;
+        counter-increment: page;
     }
 }
 @media screen {
-    html {
-        background-color: #bfd3ca;
-        color: #333f50
-    }
-    .j {
+    /* html { */
+        /* background-color: #bfd3ca; */
+        /* color: #333f50 */
+    /* } */
+    .j, .nj {
         /* height: 25cm; */
         text-align: center;
         padding: 8px;
-        background-color: #dff3ea;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-        -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
-        -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
-        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15);
+        /* background-color: #dff3ea; */
+        /* -webkit-border-radius: 4px; */
+        /* -moz-border-radius: 4px; */
+        /* border-radius: 4px; */
+        /* -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15); */
+        /* -moz-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15); */
+        /* box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.15); */
+        page-break-before: always;
+        counter-increment: page;
     }
 }
 h1 {
@@ -114,6 +120,9 @@ p {
     text-align: left;
     margin: 4pt 0;
 }
+/* footer {
+    font-family: var(--fsans);
+} */
 .pu {
     font-family: 'PT Root UI', unifik, FreeSerif;
     font-size: 11pt;
@@ -130,7 +139,4 @@ p {
 }
 .fi {
     font-family: Fitenkajti, 'PT Root UI', '霞鹜文楷', FreeSerif;
-    white-space: normal;
-    word-break: break-all;
-    word-wrap: break-word;
 }

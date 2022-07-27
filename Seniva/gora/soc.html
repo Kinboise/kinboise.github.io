@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        @page {
+            size: A4;
+            margin: 10%;
+
+            @bottom-left {
+                content: "Page " counter(page);
+            }
+        }
+
+        .j {
+            page-break-before: always;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="j">asdkjghewo</div>
+</body>
