@@ -93,7 +93,7 @@ h2 {
     text-align: left;
     content: counter(page);
 } */
-.h2f {
+.fh2f, .ph2f {
     display: inline-block;
     width: 13cm;
     font-size: 64pt;
@@ -123,7 +123,7 @@ p {
 /* footer {
     font-family: var(--fsans);
 } */
-.pu {
+.pu, .mlp {
     font-family: 'PT Root UI', unifik, FreeSerif;
     font-size: 11pt;
 }
@@ -137,6 +137,20 @@ p {
 .ki {
     font-family: 'Source Serif 4';
 }
-.fi {
+.fi, .mlf {
     font-family: Fitenkajti, 'PT Root UI', '霞鹜文楷', FreeSerif;
+}
+.mljp {
+    font-weight: 700;
+    width: 4em;
+}
+.mll,.mlp,.mlh,.mlf {
+    width: 24em
+}
+.fml, .pml {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.pagereset {
+    counter-reset: page;
 }
