@@ -16,8 +16,8 @@ function miuklyuk() {
 
             mlfh.innerHTML += '<tr><td class="mljp"><a href="#page-' + jpid + '">' + jp + '</a></td><td class="mlf">' + fit[i].innerText + '</td><td class="mlh">' + han[i].innerText + '</td></tr>';
         }
-        // console.log(mllp.innerHTML)
-        // console.log(mlfh.innerHTML)
+        console.log(mllp.innerHTML)
+        console.log(mlfh.innerHTML)
     }
 }
 
