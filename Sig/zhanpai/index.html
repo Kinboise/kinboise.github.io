@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>商弦公交站牌生成器</title>
+    <link href="../../Seniva/stylesheet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.7/umd.min.js"></script>
+    <script src="https://sharonchoong.github.io/svg-exportJS/svg-export.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saverjs@1.3.6/FileSaver.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script src="lishizhanpai.js"></script>
+    <style>
+        @font-face {
+            font-family: kGlowSansSCCompressedBold;
+            src: url(pajne/kGlowSansSCCompressedBold.otf);
+        }
+        @font-face {
+            font-family: kGlowSansSCExtendedBook;
+            src: url(pajne/kGlowSansSCExtendedBook.otf);
+        }
+        textarea {
+            resize: none;
+            min-height: 200px;
+            max-height: 200px;
+        }
+        .youduiqi {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>商弦公交立式站牌生成器</h1>
+    <a href="..">◀ 返回上层</a>
+    <p>
+        <details>
+            <summary class="label">查看说明</summary>
+            <div class="card lab">
+                <ul>
+                    <li>本站牌由臤徘斯（Kinboise）为商弦公交设计。</li>
+                    <li><b>本设计使用的字体：</b>思源宋体、Zilla Slab、未来荧黑(修改版)、Bahnschrift、MiSans。<a href="pajne/kGlowSansSCCompressedBold.otf">未来荧黑修改版点此下载</a></li>
+                    <li><b>站名列表：</b>按顺序每行一站，注意汉字和拉丁字母站名一一对应。</li>
+                    <li><b>方向词：</b>指示公交车在此站停靠时的前进方向。写在每个汉字站名之后，用一个字母表示。哪个字母对应哪个方向？默认是<u>帜和</u>语方向词：北F、东R、南P、西K；比如在「铛钱砗战」站车是向北行的，就在汉字站名里写「铛钱砗战F」。也可以在下面把方向词设为<u>英</u>语的NESW或自定义一组。</li>
+                </ul>
+            </div>
+        </details>
+    </p>
+    <div class="label">线路信息</div>
+    <div class="card lab">
+    <form name="xinxi">
+        <figure>
+            <table style="margin:0 auto">
+                <tr>
+                    <th colspan="2">路号</th>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center"><input name="luhao" value="0+" style="max-width:2em"></td>
+                </tr>
+                <tr>
+                    <th>车站列表（汉字）</th>
+                    <th>车站列表（拉丁）</th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="chezhanliebiao">铛钱砗战F
+夏怡占R
+地叁绽P
+钟典栈K</textarea>
+                    </td>
+                    <td>
+                        <textarea name="chezhanliebiaolat">Zangimice-kihilafume
+Johikajgukumipi
+Divikoflori
+Zangumigorumone</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">底部提示</th>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <input name="dibutishi1" value="详情咨询站务员"></textarea><br>
+                        <input name="dibutishi2" value="或执行/gj命令"></textarea><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <input type="radio" name="yuyan" checked value="zhiheyu">
+                        <label>帜和语方向词(FRPK)</label><br>
+                        <input type="radio" name="yuyan" value="yingyu">
+                        <label>英语方向词(NESW)</label><br>
+                        <input type="radio" name="yuyan" value="zidingyi">
+                        <label>自定义</label>
+                        <input name="fangxiangci" maxlength="4" style="width:4em" value="BDNX" onchange="zidingyiyuyan()">
+                    </td>
+                </tr>
+    </table>
+</figure>
+    </form>
+    </div>
+    <p>
+        <div class="label">格式设置</div>
+        <div class="card lab">
+            <form name="geshi">
+                <figure>
+                    <table style="margin:0 auto">
+                        <tr>
+                            <td class="youduiqi">背景色</td>
+                            <td>
+                                <input type="color" name="dise" value="#ffffff">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="youduiqi">顶部底部背景色</td>
+                            <td>
+                                <input type="color" name="biaotise" value="#006837">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="youduiqi">路号背景色</td>
+                            <td>
+                                <input type="color" name="luhaose" value="#c1272d">
+                            </td>
+                        </tr>
+                    </table>
+                </figure>
+            </form>
+        </div>
+    </p>
+    <button onclick="yulan()" id="shengcheng">生成</button>
+<p>
+    <div id="yulanqu" hidden>
+        <div class="label">站牌预览</div>
+        <div class="card lab gridc" style="text-align:center">
+            <div id="zhanpaiyulan"></div>
+        </div>
+        <div>
+            <button onclick="shangyizhang()" id="shangyizhang">上一站</button>
+            <button onclick="xiayizhang()" id="xiayizhang">下一站</button>
+            <button onclick="xiazaidanzhang()">下载单张png</button>
+            <button onclick="xiazaidanzhangsvg()">下载单张svg</button>
+            <button onclick="xiazaiquanbu()">下载全部png</button>
+            <button onclick="xiazaiquanbu()">下载全部svg</button>
+        </div>
+    </div>
+</p>
+</body>
+
+</html>
