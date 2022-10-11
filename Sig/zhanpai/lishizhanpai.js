@@ -1,4 +1,4 @@
-var svgmoban = [
+const svgmoban = [
     [
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 256" width="128" height="256"><defs><style>.bj{fill:`,
     `;}.biaotibj{fill:`,

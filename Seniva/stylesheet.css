@@ -10,9 +10,10 @@ html {
 }
 
 body {
-  width: 50%;
+  /*width: 50%;*/
   /* min-width: 820px; */
   margin: 0 auto;
+  padding: 1em;
 }
 
 p {
@@ -84,6 +85,7 @@ a:hover {
 
 input[type="text"]  {
   margin-left: 20px;
+  width: fit-content;
 }
 
 button {

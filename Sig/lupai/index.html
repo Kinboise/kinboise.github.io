@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>商弦路口指路牌生成器</title>
+    <link href="../../Seniva/stylesheet.css" rel="stylesheet">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.7/umd.min.js"></script>
+    <script src="https://sharonchoong.github.io/svg-exportJS/svg-export.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saverjs@1.3.6/FileSaver.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script src="lupai.js"></script>
+    <style>
+        .右对齐 {
+            text-align: right;
+        }
+        .居中 {
+            text-align: center;
+        }
+        table {
+            margin: 0 auto
+        }
+    </style>
+</head>
+
+<body>
+    <h1>商弦路口指路牌生成器</h1>
+    <a href="..">◀ 返回上层</a>
+    <p>
+    <details>
+        <summary class="label">查看说明</summary>
+        <div class="card lab">
+            <ul>
+                <li>输入路口信息，本生成器即可生成该路口四个方向的路口指路牌及道路名牌，并转换为png以便导入Minecraft。</li>
+                <li>使用方法很直观，不再详述。</li>
+                <li>使用字体：MiSans、IBM Plex Sans</li>
+                <li>本通长线路图由臤徘斯（Kinboise）为商弦公路设计</li>
+            </ul>
+        </div>
+    </details>
+    </p>
+    <form name="格式">
+    <p>
+    <div class="label">格式设置</div>
+    <div class="card lab">
+        <figure>
+            <table>
+                <tr>
+                    <td class="右对齐">背景色</td>
+                    <td>
+                        <input type="color" name="背景" value="#2e3192">
+                    </td>
+                    <!-- <td class="右对齐">景区色</td>
+                    <td>
+                        <input type="color" name="景区" value="#754c24">
+                    </td> -->
+                </tr>
+                <tr>
+                    <td class="右对齐">前景色</td>
+                    <td>
+                        <input type="color" name="前景" value="#ffffff">
+                    </td>
+                    <!-- <td class="右对齐">高速色</td>
+                    <td>
+                        <input type="color" name="高速" value="#2e9231">
+                    </td> -->
+                </tr>
+            </table>
+        </figure>
+        <hr>
+        <div style="text-align:center">
+            <input type="radio" name="方向词" checked value="帜和语">
+            <label>帜和语方向词(FRPK)</label><br>
+            <input type="radio" name="方向词" value="英语">
+            <label>英语方向词(NESW)</label><br>
+            <input type="radio" name="方向词" value="自定义">
+            <label>自定义</label>
+            <input name="自定义词" maxlength="4" style="width:4em" value="BDNX">
+        </div>
+    </div>
+    </p>
+    </form>
+    <form name="信息">
+        <p>
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="右对齐">路口名称</td>
+                    <td><input type="text" name="汉路口" value="先拂右门"></td>
+                </tr>
+                <tr>
+                    <td class="右对齐">pleme a cafone</td>
+                    <td><input type="text" name="拉路口" value="SeonPhourl-fobe:cine"></td>
+                </tr>
+            </table>
+        </div>
+        </p>
+        <p>
+        <div class="label" id="北标签">北</div>
+        <div class="card lab">
+            <figure>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="路北类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="路北类" value="景区"><label>景区</label>
+                            <input type="radio" name="路北类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">道路名称</td>
+                        <td><input type="text" name="汉路北" value="慧月街"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">pleme a puto</td>
+                        <td><input type="text" name="拉路北" value="Mesipasijona:puto"></td>
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="点北类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="点北类" value="景区"><label>景区</label>
+                            <input type="radio" name="点北类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">通往地点</td>
+                        <td><input type="text" name="汉点北" value="太衒"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">vine du viniza</td>
+                        <td><input type="text" name="拉点北" value="Honlinuma"></td>
+                    </tr>
+                </table>
+            </figure>
+        </div>
+        </p>
+        <p>
+        <div class="label" id="东标签">东</div>
+        <div class="card lab">
+            <figure>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="路东类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="路东类" value="景区"><label>景区</label>
+                            <input type="radio" name="路东类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">道路名称</td>
+                        <td><input type="text" name="汉路东" value="中先拂街"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">pleme a puto</td>
+                        <td><input type="text" name="拉路东" value="huriSeonPhourl:puto"></td>
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="点东类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="点东类" value="景区"><label>景区</label>
+                            <input type="radio" name="点东类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">通往地点</td>
+                        <td><input type="text" name="汉点东" value="王爷府"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">vine du viniza</td>
+                        <td><input type="text" name="拉点东" value="Vanqlasoosdomumo"></td>
+                    </tr>
+                </table>
+            </figure>
+        </div>
+        </p>
+        <p>
+        <div class="label" id="南标签">南</div>
+        <div class="card lab">
+            <figure>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="路南类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="路南类" value="景区"><label>景区</label>
+                            <input type="radio" name="路南类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">道路名称</td>
+                        <td><input type="text" name="汉路南" value="慧月街"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">pleme a puto</td>
+                        <td><input type="text" name="拉路南" value="Mesipasijona:puto"></td>
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="点南类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="点南类" value="景区"><label>景区</label>
+                            <input type="radio" name="点南类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">通往地点</td>
+                        <td><input type="text" name="汉点南" value="瞰临门"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">vine du viniza</td>
+                        <td><input type="text" name="拉点南" value="Nebibusure:cine"></td>
+                    </tr>
+                </table>
+            </figure>
+        </div>
+        </p>
+        <p>
+        <div class="label" id="西标签">西</div>
+        <div class="card lab">
+            <figure>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="路西类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="路西类" value="景区"><label>景区</label>
+                            <input type="radio" name="路西类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">道路名称</td>
+                        <td><input type="text" name="汉路西" value="西先拂街"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">pleme a puto</td>
+                        <td><input type="text" name="拉路西" value="kokiSeonPhourl:puto"></td>
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <!-- <tr>
+                        <td colspan="2" class="居中">
+                            <input type="radio" name="点西类" value="常规" checked><label>常规</label>
+                            <input type="radio" name="点西类" value="景区"><label>景区</label>
+                            <input type="radio" name="点西类" value="高速"><label>高速</label>
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td class="右对齐">通往地点</td>
+                        <td><input type="text" name="汉点西" value="张家井"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">vine du viniza</td>
+                        <td><input type="text" name="拉点西" value="Dcanqovilipivebe"></td>
+                    </tr>
+                </table>
+            </figure>
+        </div>
+        </p>
+    </form>
+    <p><button onclick="生成()" id="生成">生成</button></p>
+    <p>
+        <div id="预览区" hidden>
+            <div class="label">路牌预览</div>
+            <div class="card lab" id="预览"></div>
+            <button onclick="xiazaiquanbu()">下载全部png</button>
+            <button onclick="xiazaiquanbusvg()">下载全部svg</button>
+        </div>
+    </p>
+</body>
+
+</html>
