@@ -57,6 +57,14 @@ var dangqianzhan = 0
 var czsl = 0
 var zp = []
 
+function 单修(选择器, 最长) {
+    var 长度 = $(选择器)[0].getBoundingClientRect().width
+    if (长度 > 最长) {
+        var 倍数 = parseInt(100*最长/长度)/100
+        $(选择器).attr('transform', $(选择器).attr('transform')+ 'scale(' + 倍数 + ' 1)')
+    }
+}
+
 function zidingyiyuyan() {
     var fxc = xinxi.fangxiangci.value
     if (fxc.length != 4) {
@@ -142,6 +150,9 @@ function yulan() {
             danzhang = danzhang + tiankong[j]
             danzhang = danzhang + svgmoban[czlb[4][i]][j+1]
         }
+        $('#zhanpaiyulan').html(danzhang)
+        单修('text.biaoti',120)
+        danzhang = $('#zhanpaiyulan').html()
         zp.push(danzhang)
     }
     dangqianzhan = 0
