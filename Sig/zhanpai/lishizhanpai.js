@@ -32,6 +32,65 @@ const svgmoban = [
     ]
 ]
 
+const tiepai = [
+`<svg width="640px" height="128px">
+<defs>
+   <style>
+      text {
+         font-family: Minecraft, Unifont;
+      }
+      .han {
+         text-anchor: end;
+      }
+      #hd {
+         font-size: 60pt;
+         /*hd_display: none;*/
+      }
+      #ld {
+         font-size: 32pt;
+         /*ld_display: none;*/
+      }
+      #hx {
+         font-size: 40pt;
+         /*hx_display: none;*/
+      }
+      #hx text {
+         stroke: #000;
+         stroke-width: 1px;
+         stroke-miterlimit: 4;
+         stroke-dasharray: none;
+      }
+      #lx {
+         font-size: 26pt;
+         /*lx_display: none;*/
+      }
+      #`,` {
+         display: none;
+      }
+   </style>
+</defs>
+<image width="640px" height="128px" xlink:href="bise/feje.png" />
+<g id="hd" class="han">
+   <text xml:space="preserve" x="330.7" y="77">`,`</text>
+</g>
+<g id="ld">
+   <text xml:space="preserve" x="343.303" y="42">`,`
+   </text>
+   <text xml:space="preserve" x="343.303" y="84" class="ld">`,`
+   </text>
+</g>
+<g id="hx" class="han">
+   <text xml:space="preserve" x="330.7" y="64">`,`</text>
+</g>
+<g id="lx">
+   <text xml:space="preserve" x="343.303" y="45">`,`</text>
+   <text xml:space="preserve" x="343.303" y="78">`,`</text>
+</g>
+<image id="f" width="44px" height="32px" x="474" y="96" xlink:href="bise/fobe.png" />
+<image id="t" width="44px" height="32px" x="122" y="96" xlink:href="bise/tile.png" />
+</svg>`
+]
+
 var fxduiying = {
     'zhiheyu': {
         'F': '北',
@@ -56,6 +115,7 @@ var fxduiying = {
 var dangqianzhan = 0
 var czsl = 0
 var zp = []
+var tp = []
 var zm = []
 
 function 单修(选择器, 最长) {
@@ -64,6 +124,23 @@ function 单修(选择器, 最长) {
         var 倍数 = parseInt(100*最长/长度)/100
         $(选择器).attr('transform', $(选择器).attr('transform')+ 'scale(' + 倍数 + ' 1)')
     }
+}
+
+function tiepaiyangshi(tdanzhang) {
+    $('#tiepaiyulan').html(tdanzhang)
+    var hdchangdu = $('#hd').text().trim().length
+    if (hdchangdu > 4) {
+        tdanzhang = tdanzhang.replace('/*hd_display: none;*/','display: none')
+    } else {
+        tdanzhang = tdanzhang.replace('/*hx_display: none;*/','display: none')
+    }
+    var ldchangdu = $('#ld')[0].getBoundingClientRect().width
+    if (ldchangdu > 290) {
+        tdanzhang = tdanzhang.replace('/*ld_display: none;*/','display: none')
+    } else {
+        tdanzhang = tdanzhang.replace('/*lx_display: none;*/','display: none')
+    }
+    return tdanzhang
 }
 
 function zidingyiyuyan() {
@@ -85,15 +162,41 @@ function fanxiang() {
     }
 }
 
+function fxcdl() {
+    if (xinxi.fangxiangdanlie.checked) {
+        $('#czfx1').show()
+        $('#czfx2').show()
+        $('#chezhanliebiao').html(`铛钱砗战
+夏怡做伡占
+地叁绽
+在吓移工胶蘸
+钟典栈`)
+    } else {
+        $('#czfx1').hide()
+        $('#czfx2').hide()
+        $('#chezhanliebiao').html(`铛钱砗战F
+夏怡做伡占R
+地叁绽P
+在吓移工胶蘸K
+钟典栈F`)
+    }
+}
+
 function jiexiliebiao() {
     // 获取车站列表
     var czlbh = xinxi.chezhanliebiao.value
     var czlbl = xinxi.chezhanliebiaolat.value
+    var czfxlb = xinxi.fangxiang.value
+    var czjtlb = xinxi.jiantou.value
     // 按行切分
     czlbh = czlbh.split('\n')
     czlbl = czlbl.split('\n')
+    czfxlb = czfxlb.split('\n')
+    czjtlb = czjtlb.split('\n')
+    if (!xinxi.fangxiangdanlie.checked) {
+        czfxlb = []
+    }
     // 提取方向
-    var czfxlb = []
     var czfxlbh = []
     var yuyan = xinxi.yuyan.value
     if (yuyan == 'zidingyi') {
@@ -102,27 +205,44 @@ function jiexiliebiao() {
     zm = []
     for (var i in czlbh) {
         zm.push(czlbh[i])
-        czfxlb.push(czlbh[i].slice(-1))
+        if (!xinxi.fangxiangdanlie.checked) {
+            czfxlb.push(czlbh[i].slice(-1))
+            czlbh[i] = czlbh[i].slice(0, -1)
+        }
         czfxlbh.push(fxduiying[yuyan][czfxlb[i]])
-        czlbh[i] = czlbh[i].slice(0, -1)
     }
     var shuanghang = []
+    var czlbl2 = []
+    var czlbl3 = []
     for (var i in czlbl) {
+        //处理;
+        var x = czlbl[i].replace(/_/g, '')
         if (czlbl[i].search(';') != -1) {
+            x = x.split(';')
+            czlbl2.push(x[0])
+            czlbl3.push(x[1])
+        } else {
+            czlbl2.push('')
+            czlbl3.push(x)
+        }
+        //处理_
+        czlbl[i] = czlbl[i].replace(/;/g, '')
+        if (czlbl[i].search('_') != -1) {
             shuanghang.push(1)
-            czlbl[i] = czlbl[i].replace(/;(.*?)$/g, '</tspan><tspan x="64" y="51.21">$1')
+            czlbl[i] = czlbl[i].replace(/_(.*?)$/g, '</tspan><tspan x="64" y="51.21">$1')
         } else {
             shuanghang.push(0)
         }
     }
     czlbh.push('——')
     // 返回
-    var czlb = [czlbh, czlbl, czfxlbh, czfxlb, shuanghang]
+    var czlb = [czlbh, czlbl, czfxlbh, czfxlb, shuanghang, czjtlb, czlbl2, czlbl3]
     return czlb
 }
 
 function xianshi() {
-    document.getElementById('zhanpaiyulan').innerHTML = zp[dangqianzhan]
+    $('#zhanpaiyulan').html(zp[dangqianzhan])
+    $('#tiepaiyulan').html(tp[dangqianzhan])
 }
 
 function yulan() {
@@ -139,6 +259,7 @@ function yulan() {
     // 将信息填入svg
     czsl = czlb[0].length
     zp = []
+    tp = []
     var ylq = document.getElementById('yulanqu')
     ylq.removeAttribute('hidden')
     for (var i=0;i<czsl-1;i++) {
@@ -166,6 +287,22 @@ function yulan() {
         单修('text.biaoti',120)
         danzhang = $('#zhanpaiyulan').html()
         zp.push(danzhang)
+        var tdanzhang = tiepai[0]
+        var ttiankong = [
+            czlb[5][i],
+            czlb[0][i],
+            czlb[6][i],
+            czlb[7][i],
+            czlb[0][i],
+            czlb[6][i],
+            czlb[7][i],
+        ]
+        for (var j=0;j<ttiankong.length;j++) {
+            tdanzhang = tdanzhang + ttiankong[j]
+            tdanzhang = tdanzhang + tiepai[j+1]
+        }
+        tdanzhang = tiepaiyangshi(tdanzhang)
+        tp.push(tdanzhang)
     }
     dangqianzhan = 0
     xianshi()
@@ -191,10 +328,18 @@ function shangyizhang()
 function xiazaidanzhang() {
     svgExport.downloadPng(
         zp[dangqianzhan],
-        zm[dangqianzhan],
+        'gj' + zm[dangqianzhan],
         {
             width: 128,
             height: 256
+        }
+    )
+    svgExport.downloadPng(
+        tp[dangqianzhan],
+        'jk' + zm[dangqianzhan].replace(/[A-Z]$/g,''),
+        {
+            width: 640,
+            height: 128
         }
     )
 }
@@ -203,10 +348,18 @@ function xiazaiquanbu() {
     for (i in zp) {
         svgExport.downloadPng(
             zp[i],
-            zm[i],
+            'gj' + zm[i],
             {
                 width: 128,
                 height: 256
+            }
+        )
+        svgExport.downloadPng(
+            tp[i],
+            'jk' + zm[i].replace(/[A-Z]$/g,''),
+            {
+                width: 640,
+                height: 128
             }
         )
     }

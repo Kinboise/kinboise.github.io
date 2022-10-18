@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>商弦公交站牌生成器</title>
+    <title>商弦站牌生成器</title>
     <link href="../../Seniva/stylesheet.css" rel="stylesheet">
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.7/umd.min.js"></script>
@@ -10,10 +10,6 @@
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
     <script src="lishizhanpai.js"></script>
     <style>
-        @font-face {
-            font-family: kGlowSansSCCompressedBold;
-            src: url(GlowSansSC-Compressed-Bold.otf);
-        }
         textarea {
             resize: none;
             min-height: 200px;
@@ -32,10 +28,11 @@
             <summary class="label">查看说明</summary>
             <div class="card lab">
                 <ul>
-                    <li>本站牌由臤徘斯（Kinboise）为商弦公交设计。</li>
-                    <li><b>本设计使用的字体：</b>思源宋体、Zilla Slab、未来荧黑(修改版)、Bahnschrift、MiSans。<a href="pajne/kGlowSansSCCompressedBold.otf">未来荧黑修改版点此下载</a></li>
-                    <li><b>站名列表：</b>按顺序每行一站，注意汉字和拉丁字母站名一一对应。拉丁站名如需换行的，换行处用;表示。</li>
-                    <li><b>方向词：</b>指示公交车在此站停靠时的前进方向。写在每个汉字站名之后，用一个字母表示。哪个字母对应哪个方向？默认是<u>帜和</u>语方向词：北F、东R、南P、西K；比如在「铛钱砗战」站车是向北行的，就在汉字站名里写「铛钱砗战F」。也可以在下面把方向词设为<u>英</u>语的NESW或自定义一组。</li>
+                    <li>本生成器及生成的立式站牌和站名铁牌均由臤徘斯（Kinboise）原创，为<u>商弦</u>公交设计。</li>
+                    <li><b>本设计使用的字体：</b>思源宋体、Zilla Slab、未来荧黑、Bahnschrift、MiSans、Unifont、Minecraft字体。</li>
+                    <li><b>站名列表：</b>按顺序每行一站，注意汉字和拉丁字母站名一一对应。拉丁站名如需换行的，立式站牌换行用_表示，站名铁牌换行用;表示。</li>
+                    <li><b>左/右箭头：</b>站名铁牌上指示行进方向的红箭头。<b>f</b>表示<b>右</b>，<b>t</b>表示<b>左</b>。</li>
+                    <li><b>车头方向：</b>指示公交车在此站停靠时的前进方向。默认是<u>帜和</u>语方向词：北F、东R、南P、西K；也可以在下面把方向词设为<u>英</u>语的NESW或自定义一组。若勾选<b>方向词单列</b>则方向词写在<b>车头方向</b>一列，取消勾选则写在车站中文名之后（如「铛钱砗战F」）。</li>
                 </ul>
             </div>
         </details>
@@ -46,47 +43,72 @@
         <figure>
             <table style="margin:0 auto">
                 <tr>
-                    <th colspan="2">路号</th>
+                    <th colspan="3">路号</th>
                 </tr>
                 <tr>
-                    <td colspan="2" style="text-align:center"><input name="luhao" value="0+" style="max-width:2em"></td>
+                    <td colspan="3" style="text-align:center"><input name="luhao" value="0+" style="max-width:2em"></td>
                 </tr>
                 <tr>
-                    <th>车站列表（汉字）</th>
-                    <th>车站列表（拉丁）</th>
+                    <th colspan="3">方向词</th>
                 </tr>
                 <tr>
-                    <td>
-                        <textarea name="chezhanliebiao">铛钱砗战F
-夏怡占R
-地叁绽P
-钟典栈K</textarea>
-                    </td>
-                    <td>
-                        <textarea name="chezhanliebiaolat">Zangicimice;-gogikihilafume
-Johikajgukumipi
-Divikoflori
-Zangumigorumone</textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="2">底部提示</th>
-                </tr>
-                <tr>
-                    <td colspan="2" style="text-align:center">
-                        <input name="dibutishi1" value="详情咨询站务员"></textarea><br>
-                        <input name="dibutishi2" value="或执行/gj命令"></textarea><br>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2" style="text-align:center">
+                    <td colspan="3" style="text-align:center">
                         <input type="radio" name="yuyan" checked value="zhiheyu">
                         <label>帜和语方向词(FRPK)</label><br>
                         <input type="radio" name="yuyan" value="yingyu">
                         <label>英语方向词(NESW)</label><br>
                         <input type="radio" name="yuyan" value="zidingyi">
                         <label>自定义</label>
-                        <input name="fangxiangci" maxlength="4" style="width:4em" value="BDNX" onchange="zidingyiyuyan()">
+                        <input name="fangxiangci" maxlength="4" style="width:4em" value="BDNX" onchange="zidingyiyuyan()"><br>
+                        <input type="checkbox" name="fangxiangdanlie" checked onchange="fxcdl()" value="1">
+                        <label>方向词单列</label><br>
+                    </td>
+                </tr>
+            </table><table style="margin:0 auto">
+                <tr>
+                    <th>左/右箭头</th>
+                    <th id="czfx1">车头方向</th>
+                    <th>车站列表（汉字）</th>
+                    <th>车站列表（拉丁）</th>
+                </tr>
+                <tr>
+                    <td style="text-align:center">
+                        <textarea name="jiantou" style="width:2em">f
+t
+t
+f
+f</textarea>
+                    </td>
+                    <td id="czfx2" style="text-align:center">
+                        <textarea name="fangxiang" style="width:2em">F
+R
+P
+K
+F</textarea>
+                    </td>
+                    <td>
+                        <textarea id="chezhanliebiao" name="chezhanliebiao">铛钱砗战
+夏怡做伡占
+地叁绽
+在吓移工胶蘸
+钟典栈</textarea>
+                    </td>
+                    <td>
+                        <textarea name="chezhanliebiaolat">Zangicimice;_-gogikihilafume
+Johikajgu;kumipi
+Divikoflori
+Uglokivogi;radinira
+Zangumi;gorumone</textarea>
+                    </td>
+                </tr>
+                </table><table style="margin:0 auto">
+                <tr>
+                    <th>底部提示</th>
+                </tr>
+                <tr>
+                    <td style="text-align:center">
+                        <input name="dibutishi1" value="详情咨询站务员"></textarea><br>
+                        <input name="dibutishi2" value="或执行/gj命令"></textarea><br>
                     </td>
                 </tr>
     </table>
@@ -127,15 +149,16 @@ Zangumigorumone</textarea>
     <div id="yulanqu" hidden>
         <div class="label">站牌预览</div>
         <div class="card lab gridc" style="text-align:center">
-            <div id="zhanpaiyulan"></div>
+            <span id="zhanpaiyulan"></span>
+            <span id="tiepaiyulan"></span>
         </div>
         <div>
             <button onclick="shangyizhang()" id="shangyizhang">上一站</button>
             <button onclick="xiayizhang()" id="xiayizhang">下一站</button>
-            <button onclick="xiazaidanzhang()">下载单张png</button>
-            <button onclick="xiazaidanzhangsvg()">下载单张svg</button>
+            <button onclick="xiazaidanzhang()">下载本站png</button>
+            <button onclick="xiazaidanzhangsvg()">下载本站svg（仅支持立式）</button>
             <button onclick="xiazaiquanbu()">下载全部png</button>
-            <button onclick="xiazaiquanbusvg()">下载全部svg</button>
+            <button onclick="xiazaiquanbusvg()">下载全部svg（仅支持立式）</button>
         </div>
     </div>
 </p>
