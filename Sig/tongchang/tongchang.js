@@ -39,31 +39,31 @@ const svgmoban = [
             }
 
             /* 变化区 */
-            text {
+            .txtTAMO {
                 fill: `,`;
             }
 
-            .bz {
+            .bzTAMO {
                 fill: `,`;
             }
 
-            .zx {
+            .zxTAMO {
                 stroke: `,`;
             }
 
-            .yx {
+            .yxTAMO {
                 stroke: `,`;
             }
 
-            .sk {
+            .skTAMO {
                 fill: `,`;
             }
 
-            .hc1 {
+            .hc1TAMO {
                 fill: `,`;`,`
             }
 
-            .hc2 {
+            .hc2TAMO {
                 fill: `,`;`,`
             }
         </style>
@@ -73,15 +73,15 @@ const svgmoban = [
         <rect class="st" y="116" width="128" height="12" />
     </g>
     <g>
-        <line class="zx" x1="0" y1="64" x2="64" y2="64" />
-        <line class="yx" x1="64" y1="64" x2="128" y2="64" />
-        <rect class="sk" x="40" y="52" width="48" height="24" rx="8.49" /><text class="zh"
+        <line class="zxTAMO" x1="0" y1="64" x2="64" y2="64" />
+        <line class="yxTAMO" x1="64" y1="64" x2="128" y2="64" />
+        <rect class="skTAMO" x="40" y="52" width="48" height="24" rx="8.49" /><text class="txtTAMO zh"
             transform="translate(64 71)">`,`</text>
-        <rect class="bz" x="10" y="77" width="108" height="35" rx="6" /><text class="han"
-            transform="translate(64 95.25)">`,`</text><text class="lat" transform="translate(64 110)">`,`</text>
-        <rect class="hc1" x="40" y="27" width="48" height="24" rx="8.49" /><text class="zh"
+        <rect class="bzTAMO" x="10" y="77" width="108" height="35" rx="6" /><text class="txtTAMO han"
+            transform="translate(64 95.25)">`,`</text><text class="txtTAMO lat" transform="translate(64 110)">`,`</text>
+        <rect class="hc1TAMO" x="40" y="27" width="48" height="24" rx="8.49" /><text class="txtTAMO zh"
         transform="translate(64 46)">`,`</text>
-        <rect class="hc2" x="40" y="2" width="48" height="24" rx="8.49" /><text class="zh"
+        <rect class="hc2TAMO" x="40" y="2" width="48" height="24" rx="8.49" /><text class="txtTAMO zh"
         transform="translate(64 21)">`,`</text>
     </g>
 </svg>`
@@ -142,14 +142,14 @@ function yulan() {
     //拼接字符串得到svg
     zp = []
     for (var j=0;j<12;j++) {
-        zp.push(svgmoban[0])
+        zp.push(svgmoban[0].replace(/TAMO/g,j))
         for (var i=0;i<tiankong.length;i++) {
             if (typeof tiankong[i] == 'string') {
                 zp[j] += tiankong[i]
             } else {
                 zp[j] += tiankong[i][j]
             }
-            zp[j] += svgmoban[i+1]
+            zp[j] += svgmoban[i+1].replace(/TAMO/g,j)
         }
         // if (j<5) {
         //     var tc = document.getElementById('tongchangzuo')

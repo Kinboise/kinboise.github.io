@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <script src="lat_rub.js"></script>
+    <style>
+        textarea {
+            resize: none;
+        }
+        #lip {
+            writing-mode: vertical-rl;
+        }
+        #lip ruby rt {
+            transform: rotate(90deg);
+        }
+    </style>
+    <title>汉帜文转换器</title>
+</head>
+<body>
+    <h1>漢幟文轉換器</h1>
+    <a href="..">◀ 返回上层</a>
+    <p>
+        <div class="label">輸入</div>
+        <div class="card lab">
+            <textarea name="lat" id="lat" cols="54" rows="5" oninput="lat_rub()">而陽熱u光.，快u彼i人E所衣己a非衣。則北i風需定i夫e日甚能於己u。</textarea><br>
+        </div>
+    </p>
+    <p>
+        <div class="label">輸出預覽</div>
+        <div id="sor" class="card lab"></div>
+    </p>
+    <p>
+        <div class="label">html代碼</div>
+        <div class="card lab">
+            <textarea name="rub" id="rub" cols="54" rows="6"></textarea>
+        </div>
+    </p>
+    <!-- <p>
+        <div class="label">豎排預覽</div>
+        <div id="lip" class="card lab"></div>
+    </p> -->
+</body>
+</html>

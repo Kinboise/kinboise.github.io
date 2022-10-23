@@ -41,8 +41,11 @@ const svg模板 =
         .汉 .点 {
             font-size: 30px;
         }
-        .拉 .路 {
+        .拉 .路, .拉 .口 {
             font-size: 22px;
+        }
+        .拉 .点 {
+            font-size: 18px;
         }
     </style>
 </defs>
@@ -102,7 +105,13 @@ const svg模板 =
 </g>
 </svg>`
 
+// const 名牌模板 =
+// `
+// `
+
 var 结果 = []
+var 拉方向 = []
+
 function 单修(选择器, 最长) {
     var 长度 = $(选择器)[0].getBoundingClientRect().width
     if (长度 > 最长) {
@@ -131,16 +140,16 @@ function 全修(单张) {
 
 function 读取() {
     if (格式.方向词.value == '帜和语') {
-        var 拉方向 = ['F', 'R', 'P', 'K']
+        拉方向 = ['F', 'R', 'P', 'K']
     }
     if (格式.方向词.value == '英语') {
-        var 拉方向 = ['N', 'E', 'S', 'W']
+        拉方向 = ['N', 'E', 'S', 'W']
     }
     if (格式.方向词.value == '自定义') {
         if (格式.自定义词.value.length == 4) {
-            var 拉方向 = 格式.自定义词.value.split('')
+            拉方向 = 格式.自定义词.value.split('')
         } else {
-            var 拉方向 = ['B', 'D', 'N', 'X']
+            拉方向 = ['B', 'D', 'N', 'X']
         }
     }
     var 返回 = {
@@ -181,11 +190,11 @@ function 读取() {
 function 生成() {
     var 信息 = 读取()
     结果 = []
-    
     $('#预览区').removeAttr('hidden')
     for (var i=0;i<4;i++) {
-        var 单张 = '<div>' + svg模板 + '</div>'
+        var 单张 = svg模板
 
+        //路口指路牌
         单张 = 单张.replace('#ffffff', 信息.前景)
         单张 = 单张.replace('#2e3192',信息.背景)
         单张 = 单张.replace('方向',信息.方向词[i])
@@ -210,8 +219,40 @@ function 生成() {
         单张 = 单张.replace('左点拉',信息.拉点[(i+3)%4])
         单张 = 单张.replace('右点拉',信息.拉点[(i+1)%4])
 
+        //道路名牌
+        // 单张 = 单张.replace('名牌方向',信息.方向词[i])
+        // 单张 = 单张.replace('名牌方向拉',信息.拉方向词[i])
+        // 单张 = 单张.replace('名牌前路',信息.路[i])
+        // 单张 = 单张.replace('名牌前路拉',信息.拉路[i])
+
         单张 = 全修(单张)
         结果.push(单张)
     }
-    $('#预览').html(结果.join(''))
+    $('#预览').html('<div>' + 结果.join('</div><div>') + '</div>')
+}
+
+function 下载全部() {
+    for (i in 结果) {
+        svgExport.downloadPng(
+            结果[i],
+            'lk' + 信息.汉路口.value + 拉方向[i],
+            {
+                width: 512,
+                height: 256
+            }
+        )
+    }
+}
+
+function 下载全部svg() {
+    // 初始化一个zip打包对象
+    var zip = new JSZip();
+    var svg = zip.folder('svg')
+    for (i in zp) {
+        svg.file(zm[i] + '.svg', zp[i])
+    }
+    // 把打包内容异步转成blob二进制格式
+    zip.generateAsync({type:"blob"}).then(function(content) {
+        saveAs(content, "路牌.zip");
+    });
 }

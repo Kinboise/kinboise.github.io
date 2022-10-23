@@ -390,6 +390,6 @@ function xiazaiquanbusvg() {
     }
     // 把打包内容异步转成blob二进制格式
     zip.generateAsync({type:"blob"}).then(function(content) {
-    saveAs(content, "zhanpai.zip");
-});
+        saveAs(content, "zhanpai.zip");
+    });
 }

@@ -1,0 +1,95 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 407.82 128">
+    <defs>
+        <style>
+            .底板,
+            .cls-4,
+            .cls-5 {
+                fill: #2e3192;
+            }
+
+            .cls-2 {
+                fill: none;
+                stroke: #fff;
+                stroke-miterlimit: 10;
+                stroke-width: 4px;
+            }
+
+            .cls-3,
+            .cls-6,
+            .cls-7 {
+                fill: #fff;
+            }
+
+            .cls-4 {
+                font-size: 48px;
+            }
+
+            .cls-4,
+            .cls-6 {
+                font-family: MiSans-Semibold, MiSans;
+                font-weight: 600;
+            }
+
+            .cls-5 {
+                font-size: 38px;
+                font-family: IBMPlexSans-Bold, IBM Plex Sans;
+                font-weight: 700;
+                letter-spacing: 0.02em;
+            }
+
+            .cls-6 {
+                font-size: 60px;
+            }
+
+            .cls-7 {
+                font-size: 28px;
+                font-family: IBMPlexSansCond-SmBld, IBM Plex Sans Condensed;
+                letter-spacing: 0.02em;
+            }
+
+            .cls-8 {
+                letter-spacing: 0em;
+            }
+
+            .cls-9 {
+                letter-spacing: 0.01em;
+            }
+
+            .cls-10 {
+                letter-spacing: 0.02em;
+            }
+
+            .cls-11 {
+                letter-spacing: 0.01em;
+            }
+
+            .cls-12 {
+                letter-spacing: 0.01em;
+            }
+
+            .cls-13 {
+                letter-spacing: 0.02em;
+            }
+
+            .cls-14 {
+                letter-spacing: 0.01em;
+            }
+
+            .cls-15 {
+                letter-spacing: 0.01em;
+            }
+        </style>
+    </defs>
+    <rect class="底板" width="128" height="128" />
+    <rect class="底板" x="128" width="256" height="128" />
+    <path class="cls-2" d="M127.5,5H374.25c2.35,0,4.25,2.79,4.25,6.24V116.76c0,3.45-1.9,6.24-4.25,6.24H127.5"
+        transform="translate(0.5)" />
+    <path class="cls-2" d="M127.5,123H10.84a6.29,6.29,0,0,1-6.34-6.24V11.24A6.29,6.29,0,0,1,10.84,5H127.5"
+        transform="translate(0.5)" />
+    <rect class="cls-3" x="38" y="48" width="52" height="68" />
+    <polygon class="cls-3" points="64 10 16 53.75 16 94 64 50.25 112 94 112 53.75 64 10" /><text class="cls-4"
+        transform="translate(40 72.15)">南</text><text class="cls-5" transform="translate(51.54 110.26)">P</text><text
+        id="五字" class="cls-6" transform="translate(128.79 68.4) scale(0.82 1)">景公河东街</text><text class="cls-7"
+        transform="translate(131.06 105.77) scale(0.71 1)">Soriduxe:putifosa-rore:puto
+    </text>
+</svg>
