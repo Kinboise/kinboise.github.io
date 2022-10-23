@@ -111,7 +111,8 @@
             </form>
         </div>
     </p>
-    <button onclick="yulan()" id="shengcheng">生成</button>
+    <button onclick="yulan(0)" id="shengcheng">生成(全部预览)</button>
+    <button onclick="yulan(1)" id="shengcheng">生成(逐张预览)</button>
 <p>
     <div id="yulanqu" hidden>
         <div class="label">站牌预览</div>
@@ -149,7 +150,7 @@
         <div>
             <button onclick="shangyizhang()" id="shangyizhang">上一张</button>
             <button onclick="xiayizhang()" id="xiayizhang">下一张</button>
-            <button onclick="xiazaidanzhang()">下载单张</button>
+            <button onclick="xiazaidanzhang()" id="xiazaidanzhang">下载单张</button>
             <button onclick="xiazaiquanbu()">下载全部</button>
         </div>
     </div>

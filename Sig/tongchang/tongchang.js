@@ -39,7 +39,7 @@ const svgmoban = [
             }
 
             /* 变化区 */
-            .txtTAMO {
+            .txtTAMO:not(.zh) {
                 fill: `,`;
             }
 
@@ -92,9 +92,19 @@ var dangqianzhan = 0
 
 function xianshi() {
     document.getElementById('tongchang').innerHTML = zp[dangqianzhan]
+    document.getElementById('xiayizhang').removeAttribute('hidden')
+    document.getElementById('shangyizhang').removeAttribute('hidden')
+    document.getElementById('xiazaidanzhang').removeAttribute('hidden')
 }
 
-function yulan() {
+function xianshiquanbu() {
+    document.getElementById('tongchang').innerHTML = '<span>' + zp.join('</span><span>') + '</span>'
+    document.getElementById('xiayizhang').setAttribute('hidden','')
+    document.getElementById('shangyizhang').setAttribute('hidden','')
+    document.getElementById('xiazaidanzhang').setAttribute('hidden','')
+}
+
+function yulan(moshi) {
     // 获取格式
     bj = geshi.beijing.value
     wz = geshi.wenzi.value
@@ -162,7 +172,11 @@ function yulan() {
         // gezi.appendChild(neirong)
         // tc.appendChild(gezi)
     }
-    xianshi()
+    if (moshi == 1) {
+        xianshi()
+    } else {
+        xianshiquanbu()
+    }
     var ylq = document.getElementById('yulanqu')
     ylq.removeAttribute('hidden')
     ylq.scrollIntoView()
