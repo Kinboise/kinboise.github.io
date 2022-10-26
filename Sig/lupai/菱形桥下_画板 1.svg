@@ -1,0 +1,17 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #fff;
+            }
+        </style>
+    </defs>
+    <rect class="cls-1" x="244" y="96" width="12" height="40" />
+    <polyline class="cls-1" points="244 96 256 96 250 90" />
+    <rect class="cls-1" x="250" y="99" width="12" height="90" transform="translate(400 -112) rotate(90)" />
+    <polyline class="cls-1" points="211 150 211 138 205 144" />
+    <polyline class="cls-1" points="301 138 301 150 307 144" />
+    <polygon class="cls-1" points="256 186 250 186 244 186 244 152 256 152 256 186" />
+    <path class="cls-1"
+        d="M256,186h0l.05-12,0,6,0-6c2.81,0,12-1,12-12V141.71h12V162c0,7-2.17,12.69-6.45,17C266.73,185.77,257.3,186,256,186Z" />
+</svg>
