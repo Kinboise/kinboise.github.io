@@ -173,9 +173,40 @@ const svg模板 =
 </g>
 </svg>`
 
-// const 名牌模板 =
-// `
-// `
+const 名牌模板 =
+`<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128">
+<defs>
+    <style>
+        .名牌底TAMO {
+            fill: #2e3192;
+        }
+        .名牌边 {
+            fill: none;
+            stroke: #fff;
+            stroke-miterlimit: 10;
+            stroke-width: 4px;
+        }
+        .名牌汉TAMO {
+            fill: #fff;
+            font-size: 60px;
+            font-family: MiSans;
+            font-weight: 600;
+        }
+        .名牌拉TAMO {
+            fill: #fff;
+            font-size: 28px;
+            font-family: 'IBM Plex Sans Condensed';
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+    </style>
+</defs>
+<rect class="名牌底TAMO" width="256" height="128" />
+<path class="名牌边" d="M-0.5,5H246.25c2.35,0,4.25,2.79,4.25,6.24V116.76c0,3.45-1.9,6.24-4.25,6.24H-0.5"
+    transform="translate(0.5)" />
+<text class="名牌汉TAMO" transform="translate(0.79,68.4)">前路汉</text>
+<text class="名牌拉TAMO" transform="translate(3.06,105.77)">前路拉</text>
+</svg>`
 
 var 结果 = []
 var 拉方向 = []
@@ -278,9 +309,8 @@ function 生成() {
     结果 = []
     $('#预览区').removeAttr('hidden')
     for (var i=0;i<4;i++) {
-        var 单张 = svg模板
-
         //路口指路牌
+        var 单张 = svg模板
         单张 = 单张.replace('#ffffff', 信息.前景)
         单张 = 单张.replace('#2e3192',信息.背景)
         单张 = 单张.replace('方向',信息.方向词[i])
@@ -334,13 +364,22 @@ function 生成() {
         单张 = 单张.replace('左点拉',信息.拉点[(i+3)%4])
         单张 = 单张.replace('右点拉',信息.拉点[(i+1)%4])
 
-        //道路名牌
-        // 单张 = 单张.replace('名牌方向',信息.方向词[i])
-        // 单张 = 单张.replace('名牌方向拉',信息.拉方向词[i])
-        // 单张 = 单张.replace('名牌前路',信息.路[i])
-        // 单张 = 单张.replace('名牌前路拉',信息.拉路[i])
-
         单张 = 全修(单张)
+        单张 = 单张.replace(/TAMO/g,i)
+        结果.push(单张)
+
+        //道路名牌
+        单张 = 名牌模板
+        单张 = 单张.replace('#fff', 信息.前景)
+        单张 = 单张.replace('#2e3192',信息.背景)
+        单张 = 单张.replace('前路汉',信息.路[i])
+        单张 = 单张.replace('前路拉',信息.拉路[i])
+
+        $('#预览').html(单张)
+        单修('.名牌汉TAMO', 240)
+        单修('.名牌拉TAMO', 240)
+        单张 = $('#预览').html()
+
         单张 = 单张.replace(/TAMO/g,i)
         结果.push(单张)
     }
@@ -349,14 +388,25 @@ function 生成() {
 
 function 下载全部() {
     for (i in 结果) {
-        svgExport.downloadPng(
-            结果[i],
-            'lk' + 信息.汉路口.value + 拉方向[i],
-            {
-                width: 512,
-                height: 256
-            }
-        )
+        if (i % 2 == 0) {
+            svgExport.downloadPng(
+                结果[i],
+                'lk' + 信息.汉路口.value + 拉方向[parseInt(i / 2)],
+                {
+                    width: 512,
+                    height: 256
+                }
+            )
+        } else {
+            svgExport.downloadPng(
+                结果[i],
+                'gl' + 读取().路[parseInt(i / 2)],
+                {
+                    width: 256,
+                    height: 128
+                }
+            )
+        }
     }
 }
 
