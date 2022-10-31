@@ -86,8 +86,8 @@ const tiepai = [
    <text xml:space="preserve" x="343.303" y="45">`,`</text>
    <text xml:space="preserve" x="343.303" y="78">`,`</text>
 </g>
-<image id="f" width="44px" height="32px" x="474" y="96" xlink:href="bise/fobe.png" />
-<image id="t" width="44px" height="32px" x="122" y="96" xlink:href="bise/tile.png" />
+<image id="t" width="44px" height="32px" x="474" y="96" xlink:href="bise/fobe.png" />
+<image id="f" width="44px" height="32px" x="122" y="96" xlink:href="bise/tile.png" />
 </svg>`
 ]
 
