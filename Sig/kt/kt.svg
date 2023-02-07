@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" id="ktd" pajne="1" boje="1">
+    <defs>
+        <style>
+            body::-webkit-scrollbar {
+                display: none;
+            }
+            svg[pajne="0"] {
+                --pajne1: Cabin, MiSans, sans-serif;
+                --pajne2: Cabin, MiSans, sans-serif;
+                --pajne3: Bahnschrift, monospace;
+            }
+            svg[pajne="1"] {
+                --pajne1: "Piazzolla", 獅尾四季春加糖SC, serif;
+                --pajne2: Cabin, MiSans, sans-serif;
+                --pajne3: Bahnschrift, monospace;
+            }
+            svg[pajne="2"] {
+                --pajne1: Barlow, MiSans, sans-serif;
+                --pajne2: "Vollkorn", "思源宋体", serif;
+                --pajne3: Bahnschrift, monospace;
+            }
+            svg[pajne="3"] {
+                --pajne1: "Nunito", 江西拙楷, sans-serif;
+                --pajne2: Saira, 庞门正道细线体, sans-serif;
+                --pajne3: Bahnschrift, monospace;
+            }
+            svg[pajne="4"] {
+                --pajne1: "Linux Biolinum", QIJIFallback, sans-serif;
+                --pajne2: "CMU Serif", QIJIC, serif;
+                --pajne3: Bahnschrift, monospace;
+            }
+            svg[pajne="5"] {
+                --pajne1: "Nunito", 江西拙楷;
+                --pajne2: Nunito, 霞鹜文楷;
+                --pajne3: Bahnschrift, monospace;
+            }
+            svg[pajne="6"] {
+                --pajne1: "Minecraft Ten", Unifont, sans-serif;
+                --pajne2: Minecraft, Unifont, sans-serif;
+                --pajne3: "Minecraft Ten", Unifont, sans-serif;
+            }
+            svg[pajne="7"] {
+                --pajne1: "等距更纱黑体 SC", monospace;
+                --pajne2: "等距更纱黑体 SC", monospace;
+                --pajne3: "等距更纱黑体 SC", monospace;
+            }
+            svg[pajne="8"] {
+                --pajne1: "Barlow", "思源黑体", "思源黑体 CN", sans-serif;
+                --pajne2: "Barlow", "思源黑体", "思源黑体 CN", sans-serif;
+                --pajne3: Bahnschrift, monospace;
+            }
+            svg[boje="0"] {
+                --boje1: #fff;
+                --boje2: #000;
+                --boje3: #000;
+                --boje4: #fff;
+            }
+            svg[boje="1"] {
+                --boje1: #eee;
+                --boje2: #4d4d4d;
+                --boje3: #000;
+                --boje4: #fff;
+            }
+            svg[boje="2"] {
+                --boje1: #222;
+                --boje2: #345;
+                --boje3: #fff;
+                --boje4: #eee;
+            }
+            svg[boje="3"] {
+                --boje1: #bfd3ca;
+                --boje2: #6f837a;
+                --boje3: #333f50;
+                --boje4: #fff;
+            }
+            svg[boje="4"] {
+                --boje1: #fff;
+                --boje2: #01356f;
+                --boje3: #000;
+                --boje4: #fff;
+            }
+            svg[boje="5"] {
+                --boje1: #fec;
+                --boje2: #007;
+                --boje3: #007;
+                --boje4: #fec;
+            }
+            svg[boje="6"] {
+                --boje1: #fde;
+                --boje2: #f9a;
+                --boje3: #000;
+                --boje4: #606;
+            }
+            .背景 {
+                fill: var(--boje1);
+            }
+            .标题底 {
+                fill: var(--boje2);
+            }
+            .标题 {
+                fill: var(--boje4);
+                font-family: var(--pajne1);
+                font-weight: 800;
+                font-size: 56px;
+                /* letter-spacing: 16px; */
+            }
+            .拉丁标题 {
+                fill: var(--boje4);
+                font-family: var(--pajne1);
+                font-weight: 800;
+                font-size: 36px;
+            }
+            .标志 {
+                fill: var(--boje4);
+            }
+            .底 {
+                fill: var(--boje4);
+                font-family: var(--pajne1);
+                font-weight: 800;
+                font-size: 40px;
+            }
+            .拉丁底 {
+                fill: var(--boje4);
+                font-family: var(--pajne1);
+                font-weight: 800;
+                font-size: 20px;
+            }
+            .日期 {
+                fill: var(--boje4);
+                font-family: var(--pajne3);
+                font-weight: 800;
+                font-size: 56px;
+            }
+            .中 {
+                text-anchor: middle;
+            }
+            .右 {
+                text-anchor: end;
+            }
+            .线1 {
+                --boje: #e11;
+            }
+            .线2 {
+                --boje: #039;
+            }
+            .线3 {
+                --boje: #39c;
+            }
+            .线 {
+                fill: none;
+                stroke-width: 6px;
+                stroke: var(--boje);
+            }
+            .站号 {
+                text-anchor: middle;
+                fill: #fff;
+                font-family: var(--pajne3);
+                font-size: 16px
+            }
+            .站 {
+                fill: var(--boje);
+            }
+            .站名 {
+                fill: var(--boje3);
+                font-family: var(--pajne2);
+                font-weight: 500;
+                font-size: 20px;
+            }
+            .站名 .拉 {
+                font-size: 12px;
+            }
+        </style>
+    </defs>
+    <g style="transform:scale(1)">
+        <rect class="背景" width="1024" height="1024" />
+        <g id="标题">
+            <rect class="标题底" width="1024" height="128" />
+            <text class="中 标题" x="512" y="64">
+                商弦矿铁线路图
+            </text>
+            <text class="中 拉丁标题" x="512" y="112">
+                vinibise a bavgifejo a SianhGheln
+            </text>
+            <g class="标志">
+                <rect x="54.264" y="16" width="13.784" height="55.811" />
+                <rect x="54.264" y="58.804" width="41.318" height="13.007" />
+                <rect x="33.926" y="47.622" width="15.135" height="41.622" />
+                <rect x="99.905" y="47.622" width="15.135" height="41.622" />
+                <rect x="33.926" y="76.203" width="81.149" height="13.041" />
+                <rect x="32" y="92.959" width="85" height="13.041" />
+            </g>
+            <rect class="标题底" y="896" width="1024" height="128" />
+            <text class="底" y="964" x="40">
+                商弦市交通委
+            </text>
+            <text class="拉丁底" y="990" x="40">
+                lopove u pitove a SianhGheln
+            </text>
+            <text class="底 右" y="964" x="984">
+                    更新
+            </text>
+            <text class="拉丁底 右" y="990" x="980">
+                gu noviz
+            </text>
+            <text class="日期 右" y="980" x="880">
+                    2022.11.18
+            </text>
+        </g>
+        <g id="图">
+            <path class="线1 线" d="
+            M 512,268
+            L 512,872" />
+            <path class="线2 线" d="
+            M 506,386
+            l 0,-12
+            a 8,8 0,0,0 -8,-8
+            l -92,0" />
+            <path class="线3 线" d="
+            M 506,386
+            l 0,60
+            a 8,8 0,0,1 -8,8
+            l -60,0" />
+            <g class="线1" id="站1-01" transform="translate(512,268)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1-01
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>太衒</tspan>
+                    <tspan class="拉" x="0" dy="12">Honlinuma</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1+00" transform="translate(512,386)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1+00
+                </text>
+                <text class="站名" transform="translate(20,20)">
+                    <tspan>八方阁</tspan>
+                    <tspan class="拉" x="0" dy="12">lubovice Doviniza</tspan>
+                </text>
+            </g>
+            <g class="线2" id="站2+00" transform="translate(512,404)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    2+00
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>八方阁</tspan>
+                    <tspan class="拉" x="0" dy="12">lubovice Doviniza</tspan>
+                </text>
+            </g>
+            <g class="线3" id="站3+00" transform="translate(512,422)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    3+00
+                </text>
+                <text class="站名" transform="translate(20,-16)">
+                    <tspan>八方阁</tspan>
+                    <tspan class="拉" x="0" dy="12">lubovice Doviniza</tspan>
+                </text>
+            </g>
+            <g class="线2" id="站2-01" transform="translate(418,366)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    2-01
+                </text>
+                <text class="站名 中" transform="translate(0,-25)">
+                    <tspan>张家井</tspan>
+                    <tspan class="拉" x="0" dy="12">Dcanqovilipivebe</tspan>
+                </text>
+            </g>
+            <g class="线3" id="站3-01" transform="translate(436,454)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    3-01
+                </text>
+                <text class="站名 中" transform="translate(0,-25)">
+                    <tspan>百胜里</tspan>
+                    <tspan class="拉" x="0" dy="12">Tobelucidumone</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1+01" transform="translate(512,494)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1+01
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>宝音宫</tspan>
+                    <tspan class="拉" x="0" dy="12">kralidomo Bulicuta</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1+02" transform="translate(512,620)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1+02
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>神树园</tspan>
+                    <tspan class="拉" x="0" dy="12">Devideriploda</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1+03" transform="translate(512,746)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1+03
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>贯虹门</tspan>
+                    <tspan class="拉" x="0" dy="12">Cabojerunito:cine</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1+04" transform="translate(512,872)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1+04
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>南新里</tspan>
+                    <tspan class="拉" x="0" dy="12">Popinovidumone</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

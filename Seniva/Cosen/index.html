@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/kroman@1.0.1/kroman.min.js"></script>
+    <script src="cosen.js"></script>
+    <title>朝鲜语谚文拉丁互转工具</title>
+    <style>
+        textarea {
+            height: 500px;
+            font-family: unifik, sans-serif;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+    </style>
+    <link rel="stylesheet" href="../../css/pajne.css">
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body>
+    <h1>朝鲜语谚文转写工具</h1>
+    <a href="..">◀ 返回上层</a>
+    <p>
+    <div class="card">
+        <figure>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <form name="pa">
+                            <input type="radio" name="pa" value="ki" checked>
+                            臤徘斯
+                            <input type="radio" name="pa" value="mg">文观部
+                            <input type="radio" name="pa" value="mr">马赖
+                            <input type="radio" name="pa" value="mr">西里尔
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <table>
+                <tr>
+                    <th>谚文:</th>
+                    <th>转写:</th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea placeholder="천리마 달린다" id="en" oninput="en_lat()"></textarea>
+                    </td>
+                    <td>
+                        <textarea placeholder="chellima tallinda" id="lat"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </figure>
+    </div>
+    </p>
+</body>
+</html>
