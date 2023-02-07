@@ -3,6 +3,7 @@ const svgmoban = [
     <defs>
         <style>
             /* 不变区 */
+            @import url('https://fonts.font.im/css?family=Cabin');
             line {
                 fill: none;
                 stroke-miterlimit: 10;
