@@ -1,0 +1,29 @@
+@import url(../Seniva/stylesheet.css);
+
+html {
+    font-family: 'Gentium Plus';
+    color: #333f50
+}
+
+.ci {
+    font-family: unifik;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px #6f837a solid;
+}
+
+thead {
+    background-color: #6f837a;
+    color: #fff;
+}
+
+th,td {
+    text-align: center;
+    border: 1px #6f837a solid;
+    padding: 0.5em;
+}
