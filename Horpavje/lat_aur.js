@@ -14,7 +14,11 @@ function lat_aur(l) {
     l = sep(l)
     a = ''
     for (var i in l) {
-        a += l2a[l[i]]
+        if (l[i] in l2a) {
+            a += l2a[l[i]]
+        } else {
+            a += l[i]
+        }
     }
     return a
 }
