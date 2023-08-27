@@ -1,6 +1,6 @@
 function sep(w) {
     w = w.replace(/([,\.]) /g, '$1')
-    v = ['i','u','e','o','a', 'nn', ' ', ',', '\\.', '<', '>']
+    v = ['i','u','e','o','a', 'nn', 'q', ' ', ',', '\\.', '<', '>','\\n']
     for (var i in v) {
         var i_reg = RegExp('(' + v[i] + ')', 'g')
         w = w.replace(i_reg, '$1·')
@@ -27,7 +27,11 @@ function aur_lat(a) {
     a = a.split()
     l = ''
     for (var i in a) {
-        l += a2l[a[i]]
+        if (a[i] in a2l) {
+            l += a2l[a[i]]
+        } else {
+            l += a[i]
+        }
     }
     return l
 }
