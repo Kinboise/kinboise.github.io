@@ -1,6 +1,6 @@
 function sep(w) {
     w = w.replace(/([,\.]) /g, '$1')
-    v = ['i','u','e','o','a', 'nn', ' ', ',', '\\.']
+    v = ['i','u','e','o','a', 'nn', ' ', ',', '\\.', '<', '>']
     for (var i in v) {
         var i_reg = RegExp('(' + v[i] + ')', 'g')
         w = w.replace(i_reg, '$1·')
