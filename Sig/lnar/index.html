@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>商弦脚本本地化工具</title>
+    <script src="lnar.js"></script>
+    <link href="../../Seniva/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <h1>商弦Denizen脚本本地化工具</h1>
+    <a href="..">◀ 返回上层</a>
+    <p>
+        <details>
+            <summary class="label">查看说明</summary>
+            <div class="card lab">
+                本工具将<code>.dsc</code>脚本中的<code>narrate</code>消息内容替换为支持多语言的形式。转换完成后，请自行在文件开头新增的<code>lnar_XXXX</code>中添加翻译。
+            </div>
+        </details>
+    </p>
+    <p>
+        <textarea id="inputTextarea" rows="10" cols="50" placeholder="脚本内容粘贴至此……"></textarea>
+        <br>
+        <textarea id="baseTextarea" rows="3" cols="50" placeholder="用过的随机数粘贴至此……">0000</textarea>
+        <br>
+        <label>
+            <input type="checkbox" name="mode" id="mode">definemap模式
+        </label>
+        <br>
+        <button onclick="translateCode()">转换</button>
+    </p>
+    <p>
+        <textarea id="outputTextarea" rows="10" cols="50" placeholder="输出脚本内容……" readonly></textarea>
+        <br>
+        <button onclick="copy()">复制</button>
+    </p>
+</body>
+</html>
