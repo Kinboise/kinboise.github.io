@@ -146,6 +146,9 @@
             .线3 {
                 --boje: #39c;
             }
+            .线7 {
+                --boje: #d62;
+            }
             .线 {
                 fill: none;
                 stroke-width: 6px;
@@ -203,7 +206,7 @@
                 gu noviz
             </text>
             <text class="日期 右" y="980" x="880">
-                    2023.3.7
+                    2023.10.3
             </text>
         </g>
         <g id="图">
@@ -228,6 +231,9 @@
             l 0,80
             a 8,8 0,0,1 -8,8
             l -60,0" />
+            <path class="线7 线" d="
+            M 512,600
+            l -92,0" />
             <g class="线1" id="站1-01" transform="translate(512,268)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
@@ -318,12 +324,12 @@
                     <tspan class="拉" x="0" dy="12">kralidomo Bulicuta</tspan>
                 </text>
             </g>
-            <g class="线1" id="站1+02" transform="translate(512,600)">
+            <g class="线1" id="站1+02" transform="translate(512,584)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+02
                 </text>
-                <text class="站名" transform="translate(20,2)">
+                <text class="站名" transform="translate(20,10)">
                     <tspan>神树园</tspan>
                     <tspan class="拉" x="0" dy="12">Devideriploda</tspan>
                 </text>
@@ -346,6 +352,26 @@
                 <text class="站名" transform="translate(20,2)">
                     <tspan>南新里</tspan>
                     <tspan class="拉" x="0" dy="12">Popinovidumone</tspan>
+                </text>
+            </g>
+            <g class="线7" id="站7+00" transform="translate(512,600)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    7+00
+                </text>
+                <text class="站名" transform="translate(20,-6)">
+                    <tspan>神树园</tspan>
+                    <tspan class="拉" x="0" dy="12">Devideriploda</tspan>
+                </text>
+            </g>
+            <g class="线7" id="站7-01" transform="translate(418,600)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    7-01
+                </text>
+                <text class="站名 中" transform="translate(0,-25)">
+                    <tspan>太平街</tspan>
+                    <tspan class="拉" x="0" dy="12">Curumodicafone</tspan>
                 </text>
             </g>
         </g>
