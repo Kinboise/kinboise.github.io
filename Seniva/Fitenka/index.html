@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>拉丁转特正文工具</title>
+    <link rel="stylesheet" href="../../css/pajne.css">
+    <link rel="stylesheet" href="../stylesheet.css">
+	<script src="https://unpkg.com/@kurgm/kage-engine@0.5.0/dist/kage.min.js"></script>
+	<script src="
+https://cdn.jsdelivr.net/npm/ulid@2.3.0/dist/index.umd.min.js
+"></script>
+	<script src="fitenkage-browser.js"></script>
+	<script>
+		window.onload = function() {
+			conv()
+		}
+		function conv() {
+			document.getElementById('fit').innerHTML = ''
+			const kage = prepare()
+			let lat = document.getElementById('lat').value
+			lat = lat.split(/[_\s]/)
+			for (var l in lat) {
+				let fit = latToFit(kage, lat[l])
+				document.getElementById('fit').innerHTML += fit
+				document.getElementById('svg').innerHTML += fit
+			}
+		}
+		function copy() {
+			document.getElementById('svg').select()
+			document.execCommand('copy')
+		}
+	</script>
+	<style>
+		textarea {
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<h1>拉丁转特正文工具</h1>
+    <a href="..">◀ 返回上层</a>
+	<p>
+		<div class="label">输入拉丁</div>
+		<div class="card lab">
+			<textarea name="lat" id="lat">MI |gc fpi f't'nk</textarea>
+			<br>
+			<button onclick="conv()">转换</button>
+		</div>
+	</p>
+	<p>
+		<div class="label">输出预览</div>
+		<div class="card lab">
+			<div id="fit" style="background-color:#fff"></div>
+		</div>
+	</p>
+	<p>
+		<div class="label">SVG代码</div>
+		<div class="card lab">
+		<textarea id="svg" name="fit"></textarea>
+		<br>
+		<button onclick="copy()">复制</button>
+		</div>
+	</p>
+</body>
+</html>
