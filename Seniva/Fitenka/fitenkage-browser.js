@@ -1,1 +1,298 @@
-const fitenka={i:"2:0:7:17:183:100:100:183:17",e:"2:0:7:17:17:100:100:183:183",a:"1:0:0:17:100:183:100",o:"2:0:7:183:17:100:100:17:183",u:"2:7:8:17:17:85:60:183:183",y:"2:0:7:17:183:100:100:183:17\n    2:7:8:17:17:85:60:183:183",w:"1:0:0:17:100:183:100",q:"6:4032:0:100:25:60:25:25:60:25:100\n    6:4032:0:25:100:25:140:60:175:100:175\n    6:4032:0:100:25:140:25:175:60:175:100\n    6:4032:0:175:100:175:140:140:175:100:175",h:"1:0:0:27:37:173:37\n    1:32:32:100:37:100:170\n    1:0:0:14:170:186:170",p:"1:0:13:27:30:27:170\n    1:2:2:27:170:173:170\n    1:0:23:173:30:173:170",b:"1:0:13:65:23:65:170\n    1:0:23:135:23:135:170\n    1:0:0:19:79:182:79\n    1:2:2:65:170:135:170",t:"2:0:7:100:19:100:148:16:184\n    2:7:0:105:20:104:140:180:178",d:"1:0:0:17:73:183:73\n    7:0:7:100:16:100:49:100:153:14:185\n    2:7:0:105:73:118:147:177:177",k:"1:0:313:113:16:22:183\n    1:2:0:22:183:187:183",g:"1:0:0:17:73:183:73\n    1:0:313:113:16:22:183\n    1:2:0:22:183:187:183",c:"1:0:32:170:13:170:179\n    2:0:7:176:182:99:129:13:94",j:"1:0:2:20:22:170:22\n    1:22:4:170:22:170:181",s:"1:0:2:20:21:176:21\n    2:22:7:176:21:141:126:79:186",z:"1:0:2:20:21:176:21\n    2:22:7:176:21:141:126:79:186\n    1:0:0:29:89:144:89",f:"1:0:413:27:24:27:178\n    2:32:7:27:178:103:121:187:75",v:"1:0:2:16:23:134:23\n    1:22:32:134:23:134:177\n    2:0:7:132:184:149:157:186:95",m:"1:2:2:37:21:159:21\n    2:22:7:159:21:102:154:12:187\n    2:7:0:46:21:88:141:178:181",n:"1:0:0:14:92:186:92\n    1:0:0:100:17:100:185",l:"1:0:313:35:14:22:93\n    1:2:2:22:93:177:93\n    2:22:7:177:93:158:128:100:188",r:"1:0:2:18:20:173:20\n    1:22:313:173:20:40:96\n    1:2:2:40:96:166:96\n    2:22:7:166:96:136:162:33:185",nQ:"1:0:0:14:96:186:96\n    1:0:0:71:14:71:183\n    1:0:0:129:14:129:183",dC:"1:0:32:120:16:120:176\n    2:0:7:123:184:103:161:47:123\n    1:0:0:15:65:185:65",x:"1:0:2:17:60:177:60\n    2:22:7:177:60:155:134:124:187\n    2:0:7:101:15:74:123:35:185",xZ:"1:0:2:17:60:177:60\n    2:22:7:177:60:155:134:124:187\n    2:0:7:101:15:74:123:35:185\n    1:0:0:18:115:154:114"};function genId(n){null==n&&(n="u"+(n=ULID.ulid()));return n}function changeCase(n){var e="";for(var r in n)n[r]==n[r].toLowerCase()?e+=n[r].toUpperCase():e+=n[r].toLowerCase();return e}function splitParts(n){if(n.startsWith("|")){var e=!0;n=n.replace("|","")}else e=!1;if(-1!=n.indexOf("'"))var r=n.split("'");else{n=n.split("").join("~");const e=["nQ","dC","xZ"];for(var i in e){var t=new RegExp(e[i].split("").join("~"),"g");n=n.replace(t,e[i])}r=(n=n.replace(/~([ieaouyw])/g,"$1")).split("~")}return e&&r.push("|"),r}function prepare(){const n=new Kage;for(var e in fitenka)n.kBuhin.push(e,fitenka[e].split("\n").join("$"));return n}function makeC(n,e,r){e=e.split("").join("~").replace(/~([QCZ])/g,"$1").split("~");var i=[];for(var t in e){var a=Math.round(200*parseInt(t)/e.length).toString(),u=Math.round(200*(parseInt(t)+1)/e.length).toString();i.push(`99:0:0:${a}:0:${u}:200:${e[t]}`)}i=i.join("$");return r=genId(r),n.kBuhin.push(r,i),r}function makeAffix(n,e,r){return r=genId(r),1==(e=(e=e.replace(/([ieaouyw])/g,"~$1")).split("~")).length?n.kBuhin.push(r,`99:0:0:0:50:200:150:${e[0]}`):-1!="iuyw".indexOf(e[1])?n.kBuhin.push(r,`99:0:0:0:50:200:150:${e[0]}$99:0:0:0:0:200:50:${e[1]}`):n.kBuhin.push(r,`99:0:0:0:50:200:150:${e[0]}$99:0:0:0:150:200:200:${e[1]}`),r}function addV(n,e,r,i){return i=genId(i),-1!="ie".indexOf(r)?n.kBuhin.push(i,`99:0:0:0:0:60:200:${r}$99:0:0:60:0:200:200:${e}`):-1!="ou".indexOf(r)?n.kBuhin.push(i,`99:0:0:140:0:200:200:${r}$99:0:0:0:0:140:200:${e}`):"a"==r?n.kBuhin.push(i,`99:0:0:0:180:200:200:${r}$99:0:0:0:0:200:180:${e}`):-1!="IUYW".indexOf(r)?n.kBuhin.push(i,`99:0:0:60:0:140:80:${r.toLowerCase()}$99:0:0:0:80:200:200:${e}`):n.kBuhin.push(i,`99:0:0:60:120:140:200:${r.toLowerCase()}$99:0:0:0:0:200:120:${e}`),i}function combine(n,e,r,i){return i=genId(i),n.kBuhin.push(i,`99:0:0:0:0:200:100:${e}$99:0:0:0:100:200:200:${r}`),i}function combine3(n,e,r,i,t){return t=genId(t),n.kBuhin.push(t,`99:0:0:0:0:200:100:${e}$99:0:0:0:100:95:200:${r}$1:0:0:100:100:100:200$99:0:0:105:100:200:200:${i}`),t}function addBar(n,e,r){return r=genId(r),n.kBuhin.push(r,`1:0:0:24:30:24:170$99:0:0:40:0:200:200:${e}`),r}function addAffix(n,e,r,i,t){t=genId(t);var a=[];if(r.length+i.length<=1)var u=200-(s=70)*(r.length+i.length);else if(r.length+i.length==2)u=200-(s=50)*(r.length+i.length);else{u=80;var s=Math.round(120/(r.length+i.length))}var h=0;for(var o in r){var f=makeAffix(n,r[o]);a.push([f,h,h+=s])}for(var o in a.push([e,h,h+=u]),i){if(i[o].startsWith("|")){var $=!0;i[o]=i[o].replace("|","")}else $=!1;f=makeAffix(n,i[o]);$&&(f=addBar(n,f)),a.push([f,h,h+=s])}var l=[];for(var o in a)l.push(`99:0:0:${a[o][1]}:0:${a[o][2]}:200:${a[o][0]}`);return n.kBuhin.push(t,l.join("$")),t}function resize(n,e,r,i,t,a,u){return u=genId(u),n.kBuhin.push(u,`99:0:0:${r}:${i}:${t}:${a}:${e}`),u}function shrink(n,e,r,i,t){return x1=Math.round((200-r)/2),y1=Math.round((200-i)/2),x2=Math.round((200+r)/2),y2=Math.round((200+i)/2),resize(n,e,x1,y1,x2,y2,t)}function exportSVG(n){const e=new Kage.Polygons;return n.makeGlyph(e,"target"),e.generateSVG()}function latToFit(n,e){if(1==e.length)if(e==e.toUpperCase()){shrink(n,r=makeC(n,e.toLowerCase()),160,160,"target")}else{var r=makeC(n,e);-1!="iuyw".indexOf(e)?resize(n,r,40,0,160,120,"target"):-1!="eao".indexOf(e)?resize(n,r,40,80,160,200,"target"):shrink(n,r,120,120,"target")}else if(-1!=["Nq","Dc","Xz"].indexOf(e)){shrink(n,r=makeC(n,changeCase(e)),160,160,"target")}else if(-1!=["nQ","dC","xZ"].indexOf(e)){shrink(n,r=makeC(n,e),120,120,"target")}else if(-1!=e.search(/[IEAOUYW]/g)){for(var i in e=e.replace(/([IEAOUYW])/g,"~$1~").replace(/~$/g,"").split("~")){var t=e[i].match(/[QHPBTDKGCJSZFVMNLRX]/g);null!=t&&t.length>1?e[i]=makeC(n,changeCase(e[i])):e[i]=changeCase(e[i])}2==e.length?-1!="iuyw".indexOf(e[1])?n.kBuhin.push("target",`99:0:0:60:0:140:80:${e[1]}$99:0:0:40:80:160:200:${e[0]}`):n.kBuhin.push("target",`99:0:0:60:120:140:200:${e[1]}$99:0:0:40:0:160:120:${e[0]}`):-1!="iuyw".indexOf(e[1])?n.kBuhin.push("target",`99:0:0:70:0:130:60:${e[1]}$99:0:0:40:60:160:130:${e[0]}$99:0:0:40:130:160:200:${e[2]}`):n.kBuhin.push("target",`99:0:0:70:70:130:130:${e[1]}$99:0:0:40:0:160:70:${e[0]}$99:0:0:40:130:160:200:${e[2]}`)}else{const t=["i","e","a","o","u","y","w"];for(var i in e=e.split("`")){var a=e[i].match(/[qhpbtdkgcjszfvmnlrx]/g);if(null!=a&&a.length>1)var u=e[i=Number(i)],s=e.slice(0,i),h=e.slice(i+1)}if(-1!=(u=splitParts(u)).indexOf("|")){var o=!0;u.pop()}else o=!1;var f=[];for(var i in u){for(var $ in ok=!1,t)if(!ok&&-1!=u[i].indexOf(t[$])){var l=u[i].slice(0,-1),p=t[$],r=makeC(n,l);f.push(addV(n,r,p)),ok=!0}ok||f.push(makeC(n,u[i]))}if(2==u.length)var g=combine(n,f[0],f[1],"base");else g=combine3(n,f[0],f[1],f[2],"base");o&&(g=addBar(n,"base")),shrink(n,r=addAffix(n,g,s,h),160,200,"target")}return exportSVG(n)}
+function genId(id) {
+    if (id == undefined) {
+        // const ULID = require('ulid')
+        var id = ULID.ulid()
+        id = 'u' + id
+    }
+    return id
+}
+
+function changeCase(lat) {
+    var newLat = ''
+    for (var i in lat) {
+        if (lat[i] == lat[i].toLowerCase()) {
+            newLat += lat[i].toUpperCase()
+        } else {
+            newLat += lat[i].toLowerCase()
+        }
+    }
+    return newLat
+}
+
+function splitParts(lat) {
+    if (lat.startsWith('|')) {
+        var bar = true
+        lat = lat.replace('|','')
+    } else {
+        var bar = false
+    }
+    if (lat.indexOf('\'') != -1) {
+        var ret = lat.split('\'')
+    } else {
+        lat = lat.split('').join('~')
+        const reps = ['nQ', 'dC', 'xZ']
+        for (var i in reps) {
+            var reg = new RegExp(reps[i].split('').join('~'), 'g')
+            lat = lat.replace(reg, reps[i])
+        }
+        lat = lat.replace(/~([ieaouyw])/g, '$1')
+        var ret = lat.split('~')
+    }
+    if (bar) {
+        ret.push('|')
+    }
+    return ret
+}
+
+function prepare(style) {
+    // const { Kage } = require('@kurgm/kage-engine')
+    // if (style == 1) {
+    //     const { fitenka } = require('./hejti.js')
+    // } else {
+    //     const { fitenka } = require('./sunti.js')
+    // }
+    // const { fitenka } = require('./sunti.js')
+    const kage = new Kage()
+    for (var i in fitenka) {
+        kage.kBuhin.push(i, fitenka[i].split('\n').join('$'))
+    }
+    return kage
+}
+
+function makeC(kage, C, id) {
+    C = C.split('').join('~').replace(/~([QCZ])/g,'$1').split('~')
+    var c = []
+    for (var i in C) {
+        var l = Math.round(parseInt(i) * 200 / (C.length)).toString()
+        var r = Math.round((parseInt(i) + 1) * 200 / (C.length)).toString()
+        c.push(`99:0:0:${l}:0:${r}:200:${C[i]}`)
+    }
+    var c = c.join('$')
+    id = genId(id)
+    kage.kBuhin.push(id, c)
+    return id
+}
+
+function makeAffix(kage, lat, id) {
+    id = genId(id)
+    lat = lat.replace(/([ieaouyw])/g, '~$1')
+    lat = lat.split('~')
+    if (lat.length == 1) {
+        kage.kBuhin.push(id, `99:0:0:0:50:200:150:${lat[0]}`)
+    } else if ('iuyw'.indexOf(lat[1]) != -1) {
+        kage.kBuhin.push(id, `99:0:0:0:50:200:150:${lat[0]}$99:0:0:0:0:200:50:${lat[1]}`)
+    } else {
+        kage.kBuhin.push(id, `99:0:0:0:50:200:150:${lat[0]}$99:0:0:0:150:200:200:${lat[1]}`)
+    }
+    return id
+}
+
+function addV(kage, base, V, id) {
+    id = genId(id)
+    if ('ie'.indexOf(V) != -1) {
+        kage.kBuhin.push(id, `99:0:0:0:0:60:200:${V}$99:0:0:60:0:200:200:${base}`)
+    } else if ('ou'.indexOf(V) != -1) {
+        kage.kBuhin.push(id, `99:0:0:140:0:200:200:${V}$99:0:0:0:0:140:200:${base}`)
+    } else if (V == 'a') {
+        kage.kBuhin.push(id, `99:0:0:0:180:200:200:${V}$99:0:0:0:0:200:180:${base}`)
+    } else if ('IUYW'.indexOf(V) != -1) {
+        kage.kBuhin.push(id, `99:0:0:60:0:140:80:${V.toLowerCase()}$99:0:0:0:80:200:200:${base}`)
+    } else {
+        kage.kBuhin.push(id, `99:0:0:60:120:140:200:${V.toLowerCase()}$99:0:0:0:0:200:120:${base}`)
+    } 
+    return id
+}
+
+function combine(kage, id1, id2, id) {
+    id = genId(id)
+    kage.kBuhin.push(id, `99:0:0:0:0:200:100:${id1}$99:0:0:0:100:200:200:${id2}`)
+    return id
+}
+
+function combine3(kage, id1, id2, id3, id) {
+    id = genId(id)
+    kage.kBuhin.push(id, `99:0:0:0:0:200:100:${id1}$99:0:0:0:100:95:200:${id2}$1:0:0:100:100:100:200$99:0:0:105:100:200:200:${id3}`)
+    return id
+}
+
+function addBar(kage, base, id) {
+    id = genId(id)
+    kage.kBuhin.push(id, `1:0:0:24:30:24:170$99:0:0:40:0:200:200:${base}`)
+    return id
+}
+
+function addAffix(kage, base, prefix, suffix, id) {
+    id = genId(id)
+    var ls = []
+    if (prefix.length + suffix.length <= 1) {
+        var l = 70
+        var lb = 200 - l * (prefix.length + suffix.length)
+    } else if (prefix.length + suffix.length == 2) {
+        var l = 50
+        var lb = 200 - l * (prefix.length + suffix.length)
+    } else {
+        var lb = 80
+        var l = Math.round(120 / (prefix.length + suffix.length))
+    }
+    var x = 0
+    for (var i in prefix) {
+        var tempId = makeAffix(kage, prefix[i])
+        ls.push([tempId, x, x += l])
+    }
+    ls.push([base, x, x += lb])
+    for (var i in suffix) {
+        if (suffix[i].startsWith('|')) {
+            var bar = true
+            suffix[i] = suffix[i].replace('|','')
+        } else {
+            var bar = false
+        }
+        var tempId = makeAffix(kage, suffix[i])
+        if (bar) {
+            tempId = addBar(kage, tempId)
+        }
+        ls.push([tempId, x, x += l])
+    }
+    var ret = []
+    for (var i in ls) {
+        ret.push(`99:0:0:${ls[i][1]}:0:${ls[i][2]}:200:${ls[i][0]}`)
+    }
+    kage.kBuhin.push(id, ret.join('$'))
+    return id
+}
+
+function resize(kage, base, x1, y1, x2, y2, id) {
+    id = genId(id)
+    kage.kBuhin.push(id, `99:0:0:${x1}:${y1}:${x2}:${y2}:${base}`)
+    return id
+}
+
+function shrink(kage, base, x, y, id) {
+    x1 = Math.round((200 - x)/2)
+    y1 = Math.round((200 - y)/2)
+    x2 = Math.round((200 + x)/2)
+    y2 = Math.round((200 + y)/2)
+    return resize(kage, base, x1, y1, x2, y2, id)
+}
+
+function exportSVG(kage) {
+    // const { Polygons } = require('@kurgm/kage-engine')
+    const polygons = new Kage.Polygons();
+    kage.makeGlyph(polygons, 'target');
+    return polygons.generateSVG()
+}
+
+function latToFit(kage, lat) {
+    if (lat.length == 1) {
+        if (lat == ':') {
+            return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 50 200" width="50" height="200">
+            <g fill="black">
+            <circle cx="25" cy="75" r="6" />
+            <circle cx="25" cy="125" r="6" />
+            </g>
+            </svg>`
+        } else if (lat == '·') {
+            return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 50 200" width="50" height="200">
+            <g fill="black">
+            <circle cx="25" cy="100" r="6" />
+            </g>
+            </svg>`
+        } else if (lat == '-') {
+            return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 100 200" width="100" height="200">
+            <g fill="black">
+            <rect x="15" y="97" height="6" width="70" />
+            </g>
+            </svg>`
+        } else if (lat == lat.toUpperCase()) {
+            var tempId = makeC(kage, lat.toLowerCase())
+            shrink(kage, tempId, 160, 160, 'target')
+        } else {
+            var tempId = makeC(kage, lat)
+            if ('iuyw'.indexOf(lat) != -1) {
+                resize(kage, tempId, 40, 0, 160, 120, 'target')
+            } else if ('eao'.indexOf(lat) != -1) {
+                resize(kage, tempId, 40, 80, 160, 200, 'target')
+            } else {
+                shrink(kage, tempId, 120, 120, 'target')
+            }
+        }
+    } else if (['Nq', 'Dc', 'Xz'].indexOf(lat) != -1) {
+        var tempId = makeC(kage, changeCase(lat))
+        shrink(kage, tempId, 160, 160, 'target')
+    } else if (['nQ', 'dC', 'xZ'].indexOf(lat) != -1) {
+        var tempId = makeC(kage, lat)
+        shrink(kage, tempId, 120, 120, 'target')
+    } else if (lat.search(/[IEAOUYW]/g) != -1) {
+        lat = lat.replace(/([IEAOUYW])/g,'~$1~').replace(/~$/g,'').split('~')
+        for (var i in lat) {
+            var temp = lat[i].match(/[QHPBTDKGCJSZFVMNLRX]/g)
+            if (temp != null && temp.length > 1) {
+                lat[i] = makeC(kage, changeCase(lat[i]))
+            } else {
+                lat[i] = changeCase(lat[i])
+            }
+        }
+        if (lat.length == 2) {
+            if ('iuyw'.indexOf(lat[1]) != -1) {
+                kage.kBuhin.push('target',`99:0:0:60:0:140:80:${lat[1]}$99:0:0:40:80:160:200:${lat[0]}`)
+            } else {
+                kage.kBuhin.push('target',`99:0:0:60:120:140:200:${lat[1]}$99:0:0:40:0:160:120:${lat[0]}`)
+            }
+        } else {
+            if ('iuyw'.indexOf(lat[1]) != -1) {
+                kage.kBuhin.push('target',`99:0:0:70:0:130:60:${lat[1]}$99:0:0:40:60:160:130:${lat[0]}$99:0:0:40:130:160:200:${lat[2]}`)
+            } else {
+                kage.kBuhin.push('target',`99:0:0:70:70:130:130:${lat[1]}$99:0:0:40:0:160:70:${lat[0]}$99:0:0:40:130:160:200:${lat[2]}`)
+            }
+        }
+    } else {
+        // const c = ['q', 'h', 'p', 'b', 't', 'd', 'k', 'g', 'c', 'j', 's', 'z', 'f', 'v', 'm', 'n', 'l', 'r', 'nQ', 'dC', 'x', 'xZ']
+        const v = ['i', 'e', 'a', 'o', 'u', 'y', 'w']
+        lat = lat.split('`')
+        for (var i in lat) {
+            var cons = lat[i].match(/[qhpbtdkgcjszfvmnlrx]/g)
+            if (cons != null && cons.length > 1) {
+                i = Number(i)
+                var base = lat[i]
+                var prefix = lat.slice(0, i)
+                var suffix = lat.slice(i + 1)
+            }
+        }
+        base = splitParts(base)
+        if (base.indexOf('|') != -1) {
+            var bar = true
+            base.pop()
+        } else {
+            var bar = false
+        }
+        var ids = []
+        for (var i in base) {
+            ok = false
+            for (var j in v) {
+                if (!ok && base[i].indexOf(v[j]) != -1) {
+                    var C = base[i].slice(0, -1)
+                    var V = v[j]
+                    var tempId = makeC(kage, C)
+                    ids.push(addV(kage, tempId, V))
+                    ok = true
+                }
+            }
+            if (!ok) {
+                ids.push(makeC(kage, base[i]))
+            }
+        }
+        if (base.length == 2) {
+            var res = combine(kage, ids[0], ids[1], 'base')
+        } else {
+            var res = combine3(kage, ids[0], ids[1], ids[2], 'base')
+        }
+        if (bar) {
+            res = addBar(kage, 'base')
+        }
+        var tempId = addAffix(kage, res, prefix, suffix)
+        shrink(kage, tempId, 160, 200, 'target')
+    }
+    return exportSVG(kage)
+}
+
+// module.exports = { prepare, latToFit, makeC, addV, combine, exportSVG }

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 128">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Vollkorn-Bold, Vollkorn;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 18px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: 寒蝉锦书宋CC Heavy;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3, .cls-8 {
+        stroke-width: 0px;
+      }
+
+      .cls-8 {
+        fill: #083;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-size: 40px;
+      }
+
+      .cls-5 {
+        font-family: Vollkorn-SemiBold, Vollkorn;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1" data-name="图层 1">
+    <rect class="cls-8" width="384" height="128"/>
+    <path class="cls-13" d="m192,3H12.75c-5.38,0-9.75,2.89-9.75,6.45v109.11c0,3.56,4.36,6.45,9.75,6.45h358.5c5.38,0,9.75-2.89,9.75-6.45V9.45c0-3.56-4.36-6.45-9.75-6.45,0,0-179.25,0-179.25,0Z"/>
+  </g>
+  <g id="_图层_2" data-name="图层 2">
+    <text class="cls-4 han" transform="translate(192 76.67)" text-anchor="middle">景公河东街</text>
+    <text class="cls-5 lat" transform="translate(192 112.31)" text-anchor="middle">Soriduxe:putifosa-rore:puto</text>
+  </g>
+  <g class="fit cls-3" transform="scale(0.12)"></g>
+  <g id="-R" data-name="右东">
+    <circle class="cls-3" cx="18" cy="64" r="8"/>
+    <text class="cls-2" transform="translate(9 25.42)"><tspan x="0" y="0">北</tspan></text>
+    <text class="cls-2" transform="translate(357 25.42)"><tspan x="0" y="0">南</tspan></text>
+    <text class="cls-1" transform="translate(11.48 112.25)"><tspan x="0" y="0">F</tspan></text>
+    <text class="cls-1" transform="translate(359.68 112.25)"><tspan x="0" y="0">P</tspan></text>
+    <polygon class="cls-3" points="376 64 360 88 360 40 376 64"/>
+  </g>
+</svg>

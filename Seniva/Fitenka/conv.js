@@ -1,28 +1,28 @@
-window.onload = function() {
-    conv()
-}
-
 function conv() {
     document.getElementById('fit').innerHTML = ''
-    const kage = prepare()
     var lat = document.getElementById('lat').value
+    document.getElementById('fit').appendChild(genSvg(lat))
+}
+
+function genSvg(lat) {
+    lat = lat.replace(/(.)([:·-])/g, '$1_$2')
+    lat = lat.replace(/([:·-])(.)/g, '$1_$2')
     lat = lat.split(/[_\s]/)
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+    var x = 0
+    const kage = prepare()
     for (var l in lat) {
         var fit = parseSVG(latToFit(kage, lat[l]))
         var g = fit.firstChild.getElementsByTagName('g')[0]
-        g.setAttribute('transform', `translate(${l * 200},0)`)
+        g.setAttribute('transform', `translate(${x},0)`)
+        g.setAttribute('fill', '')
+        x += parseInt(fit.firstChild.getAttribute('width'))
         svg.appendChild(g)
     }
     svg.setAttribute('height', '200')
-    svg.setAttribute('width', lat.length * 200)
+    svg.setAttribute('width', x)
     svg.setAttribute('id', 'svg')
-    // const svgImg = document.getElementById('fit');
-    // console.log(svg.outerHTML)
-    // svgImg.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg.outerHTML);
-    // console.log(svgImg.outerHTML)
-
-    document.getElementById('fit').appendChild(svg)
+    return svg
 }
 
 function parseSVG(svgString) {

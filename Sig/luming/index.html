@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>商弦人行道道路名牌生成器</title>
+    <link href="../../Seniva/stylesheet.css" rel="stylesheet">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@kurgm/kage-engine@0.5.0/dist/kage.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ulid@2.3.0/dist/index.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.7/umd.min.js"></script>
+    <script src="https://sharonchoong.github.io/svg-exportJS/svg-export.min.js"></script>
+    <script src="../../Seniva/Fitenka/sunti-browser.js"></script>
+    <script src="../../Seniva/Fitenka/fitenkage-browser.js"></script>
+    <script src="../../Seniva/Fitenka/conv.js"></script>
+    <script src="luming.js"></script>
+    <style>
+        .右对齐 {
+            text-align: right;
+        }
+        .居中 {
+            text-align: center;
+        }
+        .表格 input[type="text"] {
+            margin: 1px;
+            border: 1px solid #6f837a;
+            overflow: hidden;
+            height: inherit;
+            width: inherit;
+        }
+        .表格 {
+            border-collapse: collapse;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+        }
+        .表格 th {
+            border: 1px solid #6f837a;
+            background-color: #6f837a;
+            color: #fff;
+        }
+        .表格 td {
+            border: 1px solid #6f837a;
+            background-color: #dff3ea;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>商弦人行道道路名牌生成器</h1>
+    <a href="..">◀ 返回上层</a>
+    <p>
+    <details>
+        <summary class="label">查看说明</summary>
+        <div class="card lab">
+            <ul>
+                <li>本生成器及生成的路牌由臤徘斯（Kinboise）原创，为商弦公路设计。</li>
+                <li>使用方法很直观，不再详述。</li>
+                <li>使用字体：寒蝉锦书宋CC、Vollkorn。设备上未安装则显示浏览器默认字体。</li>
+            </ul>
+        </div>
+    </details>
+    </p>
+    <p>
+        <div class="label">信息</div>
+        <div class="card lab">
+            <form>
+                <table>
+                    <tr>
+                        <td class="右对齐">特正文拉丁转写</td>
+                        <td><input id="特正" type="text" name="特正" value="·sri_dx:|pti_fs-rr:|pt"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">汉字</td>
+                        <td><input id="汉" type="text" name="中文" value="景公河东街"></td>
+                    </tr>
+                    <tr>
+                        <td class="右对齐">拉丁</td>
+                        <td><input id="拉丁" type="text" name="拉丁" value="Soriduxe:putifosa-rore:puto"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <button onclick="生成()">生成</button>
+    </p>
+    <p id="KR">
+        <div class="label">东西向</div>
+        <div class="card lab">
+            <embed class="KR" src="KR/KR.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="KR" src="KR/K-.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="KR" src="KR/-R.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="KR" src="KR/-K.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="KR" src="KR/R-.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="KR" src="KR/RK.svg" type="image/svg+xml" width="384px" />
+        </div>
+        <!-- <button onclick="rxsvg('KR')">下载全部svg</button> -->
+        <button onclick="rxpng('KR')">下载全部png</button>
+    </p>
+    <p id="FP">
+        <div class="label">南北向</div>
+        <div class="card lab">
+            <embed class="FP" src="FP/FP.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="FP" src="FP/F-.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="FP" src="FP/-P.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="FP" src="FP/-F.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="FP" src="FP/P-.svg" type="image/svg+xml" width="384px" />
+            <br>
+            <embed class="FP" src="FP/PF.svg" type="image/svg+xml" width="384px" />
+        </div>
+        <!-- <button onclick="rxsvg('FP')">下载全部svg</button> -->
+        <button onclick="rxpng('FP')">下载全部png</button>
+    </p>
+</body>
+
+</html>
