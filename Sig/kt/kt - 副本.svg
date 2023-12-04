@@ -172,13 +172,6 @@
             .站名 .拉 {
                 font-size: 12px;
             }
-            .暂缓 .站, .暂缓 .站名{
-                fill: #aaa
-            }
-            #图 {
-                transform:
-                    scale(0.9) translate(51.2px,0px);
-            }
         </style>
     </defs>
     <g style="transform:scale(0.5)">
@@ -213,35 +206,36 @@
                 gu noviz
             </text>
             <text class="日期 右" y="980" x="880">
-                    2023.11.26
+                    2023.10.3
             </text>
         </g>
         <g id="图">
             <path class="线1 线" d="
-            M 512,304
-            L 512,840" />
+            M 512,448
+            L 512,872
+            a 8,8 0,0,0 8,8
+            L 560 880" />
             <path class="线2 线" d="
-            M 658,476
-            l -132,0
-            a 8,8 0,0,1 -8,-8
-            l 0,-82
-            L 506,386
-            l 0,-12
-            a 8,8 0,0,0 -8,-8
-            l -500,0" />
+            M 576,576
+            L 557.66,576
+            a 8,8 0,0,1 -5.66,-2.34
+            L 520.34,547.66
+            a 8,8 0,0,1 -2.34,-5.66
+            L 518,512
+            L 448,512" />
             <path class="线3 线" d="
-            M 598,366
-            l -72,0
+            M 618,366
+            l -92,0
             a 8,8 0,0,0 -8,8
             l 0,12
             L 506,386
-            l 0,82
+            l 0,80
             a 8,8 0,0,1 -8,8
             l -60,0" />
             <path class="线7 线" d="
-            M 512,548
-            l -72,0" />
-            <g class="线1" id="站1-01" transform="translate(512,304)">
+            M 512,600
+            l -92,0" />
+            <g class="线1" id="站1-01" transform="translate(512,448)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1-01
@@ -251,7 +245,7 @@
                     <tspan class="拉" x="0" dy="12">Honlinuma</tspan>
                 </text>
             </g>
-            <g class="线1" id="站1+00" transform="translate(512,386)">
+            <g class="线1" id="站1+00" transform="translate(512,494)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+00
@@ -261,7 +255,7 @@
                     <tspan class="拉" x="0" dy="12">lubovice Doviniza</tspan>
                 </text>
             </g>
-            <g class="线2" id="站2+00" transform="translate(512,404)">
+            <g class="线2" id="站2+00" transform="translate(512,512)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     2+00
@@ -271,7 +265,7 @@
                     <tspan class="拉" x="0" dy="12">lubovice Doviniza</tspan>
                 </text>
             </g>
-            <g class="线3" id="站3+00" transform="translate(512,422)">
+            <g class="线3" id="站3+00" transform="translate(512,530)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     3+00
@@ -281,77 +275,17 @@
                     <tspan class="拉" x="0" dy="12">lubovice Doviniza</tspan>
                 </text>
             </g>
-            <g class="线2" id="站2-01" transform="translate(440,366)">
+            <g class="线2" id="站2-01" transform="translate(448,512)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     2-01
                 </text>
-                <text class="站名 中" transform="translate(2.5,-25)">
+                <text class="站名 中" transform="translate(0,-25)">
                     <tspan>张家井</tspan>
                     <tspan class="拉" x="0" dy="12">Dcanqovilipivebe</tspan>
                 </text>
             </g>
-            <g class="线2 暂缓" id="站2-02" transform="translate(368,366)">
-                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
-                <text class="站号" transform="translate(0,5.4)">
-                    2-02
-                </text>
-                <text class="站名 中" transform="translate(2.5,28)">
-                    <tspan>西麦仓</tspan>
-                    <tspan class="拉" x="0" dy="12">Kokimajgipume</tspan>
-                </text>
-            </g>
-            <g class="线2" id="站2-03" transform="translate(296,366)">
-                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
-                <text class="站号" transform="translate(0,5.4)">
-                    2-03
-                </text>
-                <text class="站名 中" transform="translate(2.5,-25)">
-                    <tspan>翎霖路</tspan>
-                    <tspan class="拉" x="0" dy="12">Fligoriflivume</tspan>
-                </text>
-            </g>
-            <g class="线2 暂缓" id="站2-04" transform="translate(224,366)">
-                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
-                <text class="站号" transform="translate(0,5.4)">
-                    2-04
-                </text>
-                <text class="站名 中" transform="translate(2.5,28)">
-                    <tspan>先复门</tspan>
-                    <tspan class="拉" x="0" dy="12">Seonpul:cine</tspan>
-                </text>
-            </g>
-            <g class="线2 暂缓" id="站2-05" transform="translate(152,366)">
-                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
-                <text class="站号" transform="translate(0,5.4)">
-                    2-05
-                </text>
-                <text class="站名 中" transform="translate(2.5,-25)">
-                    <tspan>土画</tspan>
-                    <tspan class="拉" x="0" dy="12">Bumibise</tspan>
-                </text>
-            </g>
-            <g class="线2" id="站2-06" transform="translate(80,366)">
-                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
-                <text class="站号" transform="translate(0,5.4)">
-                    2-06
-                </text>
-                <text class="站名 中" transform="translate(2.5,28)">
-                    <tspan>圆园</tspan>
-                    <tspan class="拉" x="0" dy="12">Raviploda</tspan>
-                </text>
-            </g>
-            <g class="线2" id="站2-07" transform="translate(8,366)">
-                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
-                <text class="站号" transform="translate(0,5.4)">
-                    2-07
-                </text>
-                <text class="站名 中" transform="translate(2.5,-25)">
-                    <tspan>怀圆响湖</tspan>
-                    <tspan class="拉" x="0" dy="12">Mesiraviglaso:morice</tspan>
-                </text>
-            </g>
-            <g class="线3" id="站3+01" transform="translate(584,366)">
+            <g class="线3" id="站3+01" transform="translate(606,366)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     3+01
@@ -361,7 +295,7 @@
                     <tspan class="拉" x="0" dy="12">Vanqlasoosdomumo</tspan>
                 </text>
             </g>
-            <g class="线2" id="站2+01" transform="translate(584,476)">
+            <g class="线2" id="站2+01" transform="translate(576,576)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     2+01
@@ -371,27 +305,17 @@
                     <tspan class="拉" x="0" dy="12">Xemiduxirojone</tspan>
                 </text>
             </g>
-            <g class="线2" id="站2+02" transform="translate(656,476)">
-                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
-                <text class="站号" transform="translate(0,5.4)">
-                    2+02
-                </text>
-                <text class="站名 中" transform="translate(2.5,28)">
-                    <tspan>代君苑</tspan>
-                    <tspan class="拉" x="0" dy="12">Dajlasiploda</tspan>
-                </text>
-            </g>
-            <g class="线3" id="站3-01" transform="translate(440,476)">
+            <g class="线3" id="站3-01" transform="translate(436,474)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     3-01
                 </text>
-                <text class="站名 中" transform="translate(2.5,-25)">
+                <text class="站名 中" transform="translate(0,-25)">
                     <tspan>百胜里</tspan>
                     <tspan class="拉" x="0" dy="12">Tobelucidumone</tspan>
                 </text>
             </g>
-            <g class="线1" id="站1+01" transform="translate(512,504)">
+            <g class="线1" id="站1+01" transform="translate(512,576)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+01
@@ -401,17 +325,17 @@
                     <tspan class="拉" x="0" dy="12">kralidomo Bulicuta</tspan>
                 </text>
             </g>
-            <g class="线1" id="站1+02" transform="translate(512,539)">
+            <g class="线1" id="站1+02" transform="translate(512,631)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+02
                 </text>
-                <text class="站名" transform="translate(20,11)">
+                <text class="站名" transform="translate(20,10)">
                     <tspan>神树园</tspan>
                     <tspan class="拉" x="0" dy="12">Devideriploda</tspan>
                 </text>
             </g>
-            <g class="线1" id="站1+03" transform="translate(512,620)">
+            <g class="线1" id="站1+03" transform="translate(512,704)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+03
@@ -421,7 +345,7 @@
                     <tspan class="拉" x="0" dy="12">Cabojerunito:cine</tspan>
                 </text>
             </g>
-            <g class="线1" id="站1+04" transform="translate(512,692)">
+            <g class="线1" id="站1+04" transform="translate(512,768)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+04
@@ -431,7 +355,7 @@
                     <tspan class="拉" x="0" dy="12">Popinovidumone</tspan>
                 </text>
             </g>
-            <g class="线1 暂缓" id="站1+05" transform="translate(512,764)">
+            <g class="线1" id="站1+05" transform="translate(512,832)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+05
@@ -441,27 +365,26 @@
                     <tspan class="拉" x="0" dy="12">Horasifretigusta</tspan>
                 </text>
             </g>
-            <g class="线1" id="站1+06" transform="translate(512,836)">
+            <g class="线1" id="站1+06" transform="translate(560,880)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1+06
                 </text>
                 <text class="站名" transform="translate(20,2)">
                     <tspan>双城路</tspan>
-                    <tspan class="拉" x="0" dy="12">Bezevo:puto</tspan>
-                </text>
+                    <tspan class="拉" x="0" dy="12">Bezevo:puto>
             </g>
-            <g class="线7" id="站7+00" transform="translate(512,557)">
+            <g class="线7" id="站7+00" transform="translate(512,649)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     7+00
                 </text>
-                <text class="站名" transform="translate(20,-7)">
+                <text class="站名" transform="translate(20,-6)">
                     <tspan>神树园</tspan>
                     <tspan class="拉" x="0" dy="12">Devideriploda</tspan>
                 </text>
             </g>
-            <g class="线7" id="站7-01" transform="translate(440,548)">
+            <g class="线7" id="站7-01" transform="translate(418,600)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     7-01
