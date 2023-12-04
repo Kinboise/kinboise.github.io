@@ -10,7 +10,7 @@
 
 [rantigora a Seniva | 帜和语词典](https://kinboise.github.io/Seniva/rantigora/about.html)
 
-["line gade" u Seniva (ge hafa-tor) | 《局外人》帜和语版（翻译中）](https://kinboise.github.io/Seniva/line-gade)
+[gora Seniva | 《帜和集》](https://kinboise.github.io/Seniva/gora)
 
 ## hafa-zugi fene | 其他造语作品
 
@@ -18,7 +18,15 @@
 
 [hafa Zer | 泽尔语](https://kinboise.github.io/Zer)
 
-## Seon  Phourl | 先拂
+[hafa Horpavje | 霍洛巴语](https://kinboise.github.io/Horpavje)
+
+## SianhGheln | 商弦
+
+[jepa | 主页](https://guc1010.top)
+
+[rote | 工具集](https://kinboise.github.io/Sig)
+
+## SeonPhourl | 先拂
 
 [fu hu Seon Phourl | 走进先拂](https://kinboise.github.io/Xef/fhSP2020)
 
@@ -32,8 +40,4 @@
 
 [jepa u Bilibili | B站空间](https://space.bilibili.com/8048294)
 
-以后会添加的内容：
-
-- Seon  Phourl 先拂
-
-*更新于20210705*
+*更新于20231204*
