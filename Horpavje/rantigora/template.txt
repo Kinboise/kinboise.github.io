@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>霍洛巴语词典</title>
+    <link rel="stylesheet" href="../../Seniva/stylesheet.css">
+    <style>
+        .box {
+            margin-top: 8px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .flexcard {
+            margin: auto;
+            width: fit-content;
+            margin-left: 4px;
+            margin-right: 4px;
+            margin-bottom: 8px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .label {
+            padding-bottom: 6px;
+        }
+        .half {
+            -webkit-border-top-left-radius: 0px;
+            -moz-border-top-left-radius: 0px;
+            border-top-left-radius: 0px;
+            -webkit-border-top-right-radius: 0px;
+            -moz-border-top-right-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+        .aur {
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .lat {
+            font-style: italic;
+            font-family: var(--fserif);
+        }
+    </style>
+</head>
+<body>
+    <h1>霍洛巴语词典</h1>
+    <a href="..">◀ 返回上层</a>
+    <div class="box">
+        {}
+    </div>
+</body>
+</html>
