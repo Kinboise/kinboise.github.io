@@ -1,4 +1,4 @@
-import pandas as pd
+# import pandas as pd
 import yaml, re
 
 path = 'Horpavje/rantigora/aurime.yml'

@@ -101,35 +101,40 @@
                 fill: var(--boje4);
                 font-family: var(--pajne1);
                 font-weight: 800;
-                font-size: 56px;
+                font-size: 48px;
+                fill: var(--boje3);
                 /* letter-spacing: 16px; */
             }
             .拉丁标题 {
                 fill: var(--boje4);
                 font-family: var(--pajne1);
                 font-weight: 800;
-                font-size: 36px;
+                font-size: 28px;
+                fill: var(--boje3);
             }
             .标志 {
-                fill: var(--boje4);
+                fill: var(--boje3);
             }
             .底 {
                 fill: var(--boje4);
                 font-family: var(--pajne1);
                 font-weight: 800;
                 font-size: 40px;
+                fill: var(--boje3);
             }
             .拉丁底 {
                 fill: var(--boje4);
                 font-family: var(--pajne1);
                 font-weight: 800;
                 font-size: 20px;
+                fill: var(--boje3);
             }
             .日期 {
                 fill: var(--boje4);
                 font-family: var(--pajne3);
                 font-weight: 800;
                 font-size: 56px;
+                fill: var(--boje3);
             }
             .中 {
                 text-anchor: middle;
@@ -177,18 +182,18 @@
             }
             #图 {
                 transform:
-                    scale(0.9) translate(51.2px,0px);
+                    translate(51.2px,42px) ;
             }
         </style>
     </defs>
     <g style="transform:scale(0.5)">
         <rect class="背景" width="1024" height="1024" />
         <g id="标题">
-            <rect class="标题底" width="1024" height="128" />
-            <text class="中 标题" x="512" y="64">
+            <!-- <rect class="标题底" width="1024" height="128" /> -->
+            <text class="标题" x="128" y="64">
                 商弦矿铁线路图
             </text>
-            <text class="中 拉丁标题" x="512" y="112">
+            <text class="拉丁标题" x="128" y="100">
                 vinibise a bavgifejo a SianhGheln
             </text>
             <g class="标志">
@@ -199,7 +204,7 @@
                 <rect x="33.926" y="76.203" width="81.149" height="13.041" />
                 <rect x="32" y="92.959" width="85" height="13.041" />
             </g>
-            <rect class="标题底" y="896" width="1024" height="128" />
+            <!-- <rect class="标题底" y="896" width="1024" height="128" /> -->
             <text class="底" y="964" x="40">
                 商弦市交通委
             </text>
@@ -213,12 +218,12 @@
                 gu noviz
             </text>
             <text class="日期 右" y="980" x="880">
-                    2023.11.26
+                    2023.12.20
             </text>
         </g>
         <g id="图">
             <path class="线1 线" d="
-            M 512,304
+            M 512,104
             L 512,840" />
             <path class="线2 线" d="
             M 658,476
@@ -241,6 +246,16 @@
             <path class="线7 线" d="
             M 512,548
             l -72,0" />
+            <g class="线1" id="站1-06" transform="translate(512,104)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1-06
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>北苔庄</tspan>
+                    <tspan class="拉" x="0" dy="12">Fofirezicigusta</tspan>
+                </text>
+            </g>
             <g class="线1" id="站1-01" transform="translate(512,304)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
