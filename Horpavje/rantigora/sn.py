@@ -26,6 +26,8 @@ if last != content:
     # 写入csv
     with open(path + 'Rantrugork i\'Holrpavieh.csv', 'w', -1, 'utf-8') as h:
         h.write(content)
+    with open(path + 'last.txt', 'w', -1, 'utf-8') as l:
+        l.write(content)
 
     # csv转换aurogi文
     dat = pd.read_csv(path + 'Rantrugork i\'Holrpavieh.csv', header=None)
@@ -69,6 +71,6 @@ if last != content:
         f.write(html)
 
     import subprocess as sp
-    sp.run('git add .')
+    sp.run('git add Horpavje/rantigora')
     sp.run(['git', 'commit', '-m', 'novizi rantigora a Horpavje'])
     sp.run('git push origin main')
