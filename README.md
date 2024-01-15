@@ -1,10 +1,10 @@
 # 臤徘斯的个人主页
 
-## Nivoni | 立准语
+## hafa Nivoni | 立准语
 
 [hafa Nivoni | 立准语](https://kinboise.github.io/Nivoni)
 
-## Seniva | 帜和语
+## hafa Seniva | 帜和语
 
 [hafa Seniva | 帜和语](https://kinboise.github.io/Seniva)
 
@@ -20,13 +20,13 @@
 
 [hafa Horpavje | 霍洛巴语](https://kinboise.github.io/Horpavje)
 
-## SianhGheln | 商弦
+## zevo SianhGheln | 商弦
 
 [jepa | 主页](https://guc1010.top)
 
 [rote | 工具集](https://kinboise.github.io/Sig)
 
-## SeonPhourl | 先拂
+## zevo SeonPhourl | 先拂
 
 [fu hu Seon Phourl | 走进先拂](https://kinboise.github.io/Xef/fhSP2020)
 
