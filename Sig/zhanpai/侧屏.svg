@@ -1,0 +1,29 @@
+<svg
+   width="110"
+   height="60"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+    <style>
+        .lh {
+            font-family: 'Minecraft Ten';
+            fill: #ff2626;
+            font-size: 64pt;
+            text-anchor: start;
+        }
+        .zd {
+            font-family: 'Unifont';
+            fill: yellow;
+            font-size: 40pt;
+            text-anchor: end;
+        }
+    </style>
+    <g transform="scale(0.25)">
+    <rect width="440" height="240" />
+    <text x="20" y="90" class="lh">4-</text>
+    <text x="420" y="75" class="zd">河曲路口北</text>
+    <text x="20" y="210" class="lh">4+</text>
+    <text x="420" y="195" class="zd">神树四条</text>
+    </g>
+</svg>

@@ -42,6 +42,13 @@
 	src: url('../pajne/unifik.woff2');
 }
 
+/* 特正文宋体 SPUA-A */
+@font-face {
+	font-family: 'Fitensunti';
+	src: local('Fitenkasunti');
+	src: url('../pajne/Fitenkasunti.woff2')
+}
+
 /* 特正文手写 SPUA-A */
 @font-face {
 	font-family: 'Fitenkajti';

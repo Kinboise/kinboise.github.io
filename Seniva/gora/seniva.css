@@ -1,6 +1,6 @@
 :root {
-    --fserif: Fitenkasunti, Besley, unifik, '思源宋体 传统', FreeSerif;
-    --fsans: Fitenkasunti, 'Inter', 'Sarasa Gothic CL', 'unifik';
+    --fserif: Fitenkasunti, Fitenkajti, Besley, unifik, '思源宋体 传统', FreeSerif;
+    --fsans: Fitenkasunti, Fitenkajti, 'Inter', 'Sarasa Gothic CL', 'unifik';
 }
 .pagedjs_page:has(.nj) .pagedjs_margin-content {
     display: none;

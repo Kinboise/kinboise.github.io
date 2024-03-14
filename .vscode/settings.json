@@ -1,4 +1,5 @@
 {
     "LXLDevHelper.isrunning": false,
-    "livePreview.defaultPreviewPath": "/Seniva/gora/index.html"
+    "livePreview.defaultPreviewPath": "/Seniva/gora/index.html",
+    "editor.wordBasedSuggestions": "matchingDocuments"
 }
