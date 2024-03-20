@@ -5,6 +5,10 @@ td.title {
     vertical-align: middle;
 }
 
+h1 {
+    font-size: xx-large;
+}
+
 section {
     font-family: var(--fserif);
     margin-bottom: 1em;
