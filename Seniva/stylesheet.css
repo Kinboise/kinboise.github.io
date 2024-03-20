@@ -1,12 +1,13 @@
 :root {
-  --fserif: 'PT Serif', Constantia, Georgia, 'Times New Roman', unifik, '思源宋体 SC', '思源宋体 CN', '思源宋体', 'Source Han Serif CN', 'Source Han Serif', 华文中宋, serif;
-  --fsans: 'Source Sans 3', 'Segoe UI','Helvetica Neue', Helvetica, Arial, '獅尾黑體SC', '思源黑体 SC', '思源黑体 CN', '思源黑体', 'Source Han Sans CN', 'Source Han Sans', 微软雅黑, 'unifik', sans-serif;
+  --fserif: 'Besley', 'PT Serif', Constantia, Georgia, 'Times New Roman', Fitenkasunti, unifik, '思源宋体 SC', '思源宋体 CN', '思源宋体', 'Source Han Serif CN', 'Source Han Serif', 华文中宋, serif;
+  --fsans: 'Inter', 'Source Sans 3', 'Segoe UI','Helvetica Neue', Helvetica, Arial, '獅尾黑體SC', '思源黑体 SC', '思源黑体 CN', '思源黑体', 'Source Han Sans CN', 'Source Han Sans', 微软雅黑, Fitenkasunti,'unifik', sans-serif;
 }
 
 html {
   font-family: var(--fsans);
   background-color: #bfd3ca;
-  color: #333f50
+  color: #333f50;
+  font-feature-settings: 'ss02', 'ss08';
 }
 
 body {

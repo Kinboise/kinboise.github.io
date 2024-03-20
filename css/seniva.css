@@ -35,8 +35,8 @@
 }
 
 :root {
-  --fserif: 'STIX Two Text', 'PT Serif', Constantia, Georgia, 'Times New Roman', unifik, '思源宋体 SC', '思源宋体 CN', '思源宋体', 'Source Han Serif CN', 华文中宋, serif;
-  --fsans: 'Inter', 'Source Sans 3', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, '思源黑体 SC', '思源黑体 CN', '思源黑体', 'Source Han Sans CN', 微软雅黑, 'Fitenkajti', 'unifik', sans-serif;
+  --fserif: 'STIX Two Text', 'PT Serif', Constantia, Georgia, 'Times New Roman', Fitenkasunti, unifik, '思源宋体 SC', '思源宋体 CN', '思源宋体', 'Source Han Serif CN', 华文中宋, serif;
+  --fsans: 'Inter', 'Source Sans 3', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, '思源黑体 SC', '思源黑体 CN', '思源黑体', 'Source Han Sans CN', 微软雅黑, Fitenkasunti, unifik, sans-serif;
   --monospace: 'Fira Code', 'Inconsolata', 'Cascadia Code', 'Consolas', monospace;
   --bg-color: #bfd3ca;
   --text-color: #333f50;
