@@ -8,7 +8,7 @@
 
 [hafa Seniva | 帜和语](https://kinboise.github.io/Seniva)
 
-[rantigora a Seniva | 帜和语词典](https://kinboise.github.io/Seniva/rantigora/about.html)
+[rantigora a Seniva | 帜和语词典](https://kinboise.github.io/Seniva/rantigora)
 
 [gora Seniva | 《帜和集》](https://kinboise.github.io/Seniva/gora)
 
