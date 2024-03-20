@@ -3,7 +3,7 @@ import yaml
 
 # 将 Seniva.db 转换为列表
 
-path = 'Seniva/rante/'
+path = 'Seniva/rantigora/'
 
 with open(path + 'Seniva.db', 'r', encoding='utf-8') as f:
     db = f.readlines()
