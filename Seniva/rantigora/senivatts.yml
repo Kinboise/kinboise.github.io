@@ -1,0 +1,222 @@
+# 塞尔维亚语
+sr:
+  voices:
+  - TokenEnums\RHVoice\Dragana
+  rates:
+  - 120
+  rules:
+    q: ''
+    dc: dž
+    xz: ž
+    x: š
+    w: u
+    c: č
+# 马其顿语
+mk:
+  voices:
+  - TokenEnums\RHVoice\Kiko
+  - TokenEnums\RHVoice\Suze
+  rates:
+  - 140
+  - 140
+  rules:
+    q: ''
+    dc: dž
+    xz: ž
+    x: š
+    w: u
+    c: č
+# 斯洛伐克语
+sl:
+  voices:
+  - TokenEnums\RHVoice\Ondro
+  rates:
+  - 150
+  rules:
+    q: ''
+    dc: dž
+    xz: ž
+    x: š
+    w: u
+    c: č
+    i: y
+    e: é
+# 捷克语
+cs:
+  voices:
+  - TokenEnums\RHVoice\Zdenek
+  rates:
+  - 150
+  rules:
+    q: ''
+    dc: dž
+    xz: ž
+    x: š
+    w: u
+    c: č
+    i: y
+    e: é
+# 波兰语
+pl:
+  voices:
+  - TokenEnums\RHVoice\Alicja
+  - TokenEnums\RHVoice\Cezary
+  - TokenEnums\RHVoice\Natan
+  rates:
+  - 150
+  - 150
+  - 150
+  rules:
+    q: ''
+    dc: dż
+    xz: ż
+    x: sz
+    w: y
+    c: cz
+    si: sy
+    zi: zy
+    vi: wi
+    ve: we
+    v: ł
+# 乌克兰语
+uk:
+  voices:
+  - TokenEnums\RHVoice\Anatol
+  - TokenEnums\RHVoice\Natalia
+  rates:
+  - 150
+  - 150
+  rules:
+    q: ''
+    j: y
+    dc: dj
+    xz: j
+    x: sh
+    c: ch
+    w: y
+# 世界语
+eo:
+  voices:
+  - TokenEnums\RHVoice\Spomenka
+  rates:
+  - 200
+  rules:
+    q: ''
+    dc: gx
+    xz: jx
+    x: sx
+    w: u
+    c: cx
+# 阿尔巴尼亚语
+sq:
+  voices:
+  - TokenEnums\RHVoice\Hana
+  rates:
+  - 150
+  rules:
+    nq: ng
+    q: ''
+    dc: xh
+    xz: zh
+    x: sh
+    c: ç
+    w: u
+    r: rr
+# 土库曼语
+tk:
+  voices:
+  - TokenEnums\RHVoice\Dünýä
+  rates:
+  - 150
+  rules:
+    nq: ň
+    q: ''
+    j: ý
+    dc: j
+    xz: ž
+    x: ş
+    c: ç
+    y: ü
+    w: y
+    v: w
+# 乌兹别克语
+uz:
+  voices:
+  - TokenEnums\RHVoice\Sevinch
+  - TokenEnums\RHVoice\Islom
+  - TokenEnums\RHVoice\Dilnavoz
+  rates:
+  - 150
+  - 150
+  - 150
+  rules:
+    nq: ng
+    q: ''
+    j: y
+    dc: j
+    xz: j
+    x: sh
+    c: ch
+    o: oʻ
+    a: o
+    i: y
+    w: i
+    v: v
+# 吉尔吉斯语
+ky:
+  voices:
+  - TokenEnums\RHVoice\Azamat
+  - TokenEnums\RHVoice\Nazgul
+  rates:
+  - 150
+  - 150
+  rules:
+    nq: ң
+    q: ''
+    j: y
+    dc: j
+    xz: j
+    x: sh
+    c: ch
+    y: ү
+    w: ы
+    v: w
+# 鞑靼语
+tt:
+  voices:
+  - TokenEnums\RHVoice\Talgat
+  rates:
+  - 200
+  rules:
+    nq: ң
+    q: ''
+    j: y
+    dc: җ
+    xz: ж
+    x: ш
+    c: ч
+    y: ү
+    w: ы
+# 格鲁吉亚语
+ka:
+  voices:
+  - TokenEnums\RHVoice\Natia
+  rates:
+  - 150
+  rules:
+    nq: ng
+    q: ''
+    j: y
+    dc: j
+    xz: ჟ
+    x: შ
+    c: ჩ
+    y: i
+    w: u
+    v: v
+    p: ფ
+    t: თ
+    k: ქ
+    f: hv
+    a: ა
+    i: ი

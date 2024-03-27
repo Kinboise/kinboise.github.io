@@ -1,14 +1,14 @@
 import re
 import yaml
+import os
 
 # 将 Seniva.db 转换为列表
 
-path = 'Seniva/rantigora/'
-
+path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/') + '/' # 'Seniva/rantigora/'
 with open(path + 'Seniva.db', 'r', encoding='utf-8') as f:
     db = f.readlines()
 
-dict = []
+dic = []
 i = -1
 
 for line in db:
@@ -21,14 +21,14 @@ for line in db:
         continue
     if match.group(1) == 'lx':
         i += 1
-        dict.append({'lx': [match.group(2)]})
+        dic.append({'lx': [match.group(2)]})
     elif match.group(1) == 'nt':
         note = re.search(r'^\\nt\s(.*?):\s(.*?)$', line)
         if note is None:
-            if 'nt' in dict[i]:
-                dict[i]['nt'].append(match.group(2))
+            if 'nt' in dic[i]:
+                dic[i]['nt'].append(match.group(2))
             else:
-                dict[i]['nt'] = match.group(2)
+                dic[i]['nt'] = match.group(2)
         elif note.group(1) == 'Ftnk':
             ftnk = note.group(2)
             fitenka = []
@@ -40,9 +40,9 @@ for line in db:
                 else:
                     fitenka.append(kuatghauh.group(1)+kuatghauh.group(3))
                     fitenka.append(kuatghauh.group(1)+kuatghauh.group(2)+kuatghauh.group(3))
-            dict[i]['Ftnk'] = fitenka
+            dic[i]['Ftnk'] = fitenka
         elif note.group(1) == '词源':
-            dict[i]['et'] = [note.group(2)]
+            dic[i]['et'] = [note.group(2)]
         elif note.group(1) == 'Han':
             han = note.group(2)
             hans = []
@@ -54,19 +54,19 @@ for line in db:
                 else:
                     hans.append(kuatghauh.group(1)+kuatghauh.group(3))
                     hans.append(kuatghauh.group(1)+kuatghauh.group(2)+kuatghauh.group(3))
-            dict[i]['Hnv1'] = hans
-            dict[i]['Hnv3'] = hans
+            dic[i]['Hnv1'] = hans
+            dic[i]['Hnv3'] = hans
         elif note.group(1) == 'Hnv3':
-            dict[i]['Hnv3'] = note.group(2)
-    elif match.group(1) in dict[i]:
-        dict[i][match.group(1)].append(match.group(2))
+            dic[i]['Hnv3'] = note.group(2)
+    elif match.group(1) in dic[i]:
+        dic[i][match.group(1)].append(match.group(2))
     else:
-        dict[i][match.group(1)] = [match.group(2)]
+        dic[i][match.group(1)] = [match.group(2)]
 
-#print(dict)
-with open(path + 'dict.yaml', 'w', encoding='utf-8') as g:
-#g.write(dict)
-    g.write(yaml.dump(dict,allow_unicode=True))
+#print(dic)
+with open(path + 'dic.yaml', 'w', encoding='utf-8') as g:
+#g.write(dic)
+    g.write(yaml.dump(dic,allow_unicode=True))
 
 # 生成 html
 
@@ -80,6 +80,7 @@ section = '''    <section id="{lat}">
                 <span class="pnst">{pnst}</span> /
                 <span class="hnv1">{hnv1}</span> /
                 <span class="hnv3">{hnv3}</span>
+                <button onclick="haf('{lat}')">🔊</button>
             </div>
             <table>
                 <tr>
@@ -93,7 +94,8 @@ section = '''    <section id="{lat}">
 {ex}
 {cfs}
         </div>
-    </section>'''
+    </section>
+'''
 
 sense = '''                        <div class="sense">
                             <abbr title="{0}">{1}</abbr>{2}
@@ -173,7 +175,7 @@ def genHnv3(lat):
     return lat
 
 sections = ''
-for word in dict:
+for word in dic:
     form = {
         'search': '',
         'ftnk': '',

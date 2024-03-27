@@ -57,3 +57,9 @@ function lat_rub() {
 }
 
 window.onload = lat_rub
+
+function haf(lat) {
+    audio = document.getElementById('cute')
+    audio.src = `https://r2.20121010.xyz/${lat}.ogg`
+    audio.play()
+}
