@@ -1,5 +1,7 @@
 {
     "LXLDevHelper.isrunning": false,
     "livePreview.defaultPreviewPath": "/Seniva/gora/index.html",
-    "editor.wordBasedSuggestions": "matchingDocuments"
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
 }

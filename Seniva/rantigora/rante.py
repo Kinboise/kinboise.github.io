@@ -3,9 +3,9 @@ import yaml
 import os
 
 # 将 Seniva.db 转换为列表
-
 path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/') + '/' # 'Seniva/rantigora/'
-with open(path + 'Seniva.db', 'r', encoding='utf-8') as f:
+dbpath = r'Seniva/rantigora/'
+with open(dbpath, 'r', encoding='utf-8') as f:
     db = f.readlines()
 
 dic = []
@@ -98,7 +98,7 @@ section = '''    <section id="{lat}">
 '''
 
 sense = '''                        <div class="sense">
-                            <abbr title="{0}">{1}</abbr>{2}
+                            <abbr title="{0}">{1}</abbr>{2} <em>{3}</em>
                         </div>
 '''
 ety = '            <div class="ety"><abbr title="词源">源</abbr>{0}</div>'
@@ -106,18 +106,19 @@ ex = '            <div class="ex"><abbr title="用例">例</abbr>{0} {1}</div>'
 cfs = '            <div class="cf"><abbr title="参考">参</abbr>{0}</div>'
 cf0 = '<a href="#{0}" onclick="crom(\'{0}\')">{0}</a> '
 ps = {
-    'hf': ['叹', '感叹词'],
-    'v': ['动', '动词'],
-    'vn': ['代', '代词'],
-    'p': ['名', '名词'],
-    'cp': ['名', '名词'],
-    'fp': ['名', '名词'],
-    'jp': ['专', '专有名词'],
-    'c': ['副', '副词'],
-    't': ['数', '数词'],
-    'h': ['连', '连词'],
-    's': ['缀', '词缀'],
-    'k': ['介', '介词']
+    'hf': ['叹', '感叹词 Interjection'],
+    'v': ['动', '动词 Verb'],
+    'vn': ['代', '代词 Pronoun'],
+    'p': ['名', '名词 Noun'],
+    'cp': ['名', '名词 Noun'],
+    'fp': ['名', '名词 Noun'],
+    'jp': ['专', '专有名词 Proper Noun'],
+    'c': ['副', '副词 Adverb'],
+    't': ['数', '数词 Numeral'],
+    'h': ['连', '连词 Conjunction'],
+    's': ['缀', '词缀 Affix'],
+    'k': ['介', '介词 Preposition'],
+    'j': ['助', '助词 Particle']
 }
 
 with open(path + 'Fitenka.nam', 'r', -1, 'utf-8') as nam:
@@ -182,6 +183,7 @@ for word in dic:
         'hnv1': '',
         'hnv3': '',
         'senses': '',
+        'eng': '',
         'ety': '',
         'ex': '',
         'cfs': '',
@@ -207,7 +209,7 @@ for word in dic:
     for i in range(len(word['ps'])):
         form['search'] += (word['gn'][i] + ';')
         ps1 = word['ps'][i][:-1]
-        form['senses'] += sense.format(ps[ps1][1], ps[ps1][0], word['gn'][i])
+        form['senses'] += sense.format(ps[ps1][1], ps[ps1][0], word['gn'][i], word['ge'][i])
     # 解析词源
     if 'et' in word:
         form['ety'] = ety.format(word['et'][0])
