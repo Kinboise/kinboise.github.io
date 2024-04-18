@@ -4,7 +4,7 @@ import os
 
 # 将 Seniva.db 转换为列表
 path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/') + '/' # 'Seniva/rantigora/'
-dbpath = r'Seniva/rantigora/'
+dbpath = r'D:\hafa-zug\Lexique Pro Data\Seniva\Seniva.db'
 with open(dbpath, 'r', encoding='utf-8') as f:
     db = f.readlines()
 
