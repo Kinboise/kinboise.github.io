@@ -4,6 +4,15 @@ function conv() {
     document.getElementById('fit').appendChild(genSvg(lat))
 }
 
+// function autoConv() {
+//     var fits = document.getElementsByClassName('fit')
+//     for (var i in fits) {
+//         var lat = fits[i].innerHTML
+//         fits[i].innerHTML = ''
+//         fits[i].appendChild(genSvg(lat))
+//     }
+// }
+
 function genSvg(lat) {
     lat = lat.replace(/(.)([:·-])/g, '$1_$2')
     lat = lat.replace(/([:·-])(.)/g, '$1_$2')
@@ -42,3 +51,7 @@ function dldpng() {
         'fit'
     )
 }
+
+// window.onload = function() {
+//     autoConv()
+// }

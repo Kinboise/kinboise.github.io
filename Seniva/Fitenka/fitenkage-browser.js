@@ -203,6 +203,19 @@ function latToFit(kage, lat) {
             <rect x="15" y="97" height="6" width="70" />
             </g>
             </svg>`
+        } else if (lat == ',') {
+            return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 100 200" width="100" height="200">
+            <g fill="black">
+            <rect x="47" y="10" height="180" width="6" />
+            </g>
+            </svg>`
+        } else if (lat == '.') {
+            return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 100 200" width="100" height="200">
+            <g fill="black">
+            <rect x="37" y="10" height="180" width="6" />
+            <rect x="57" y="10" height="180" width="6" />
+            </g>
+            </svg>`
         } else if (lat == lat.toUpperCase()) {
             var tempId = makeC(kage, lat.toLowerCase())
             shrink(kage, tempId, 160, 160, 'target')
@@ -223,25 +236,52 @@ function latToFit(kage, lat) {
         var tempId = makeC(kage, lat)
         shrink(kage, tempId, 120, 120, 'target')
     } else if (lat.search(/[IEAOUYW]/g) != -1) {
+        // 大写音节
+        if (lat.search('`') != -1) {
+            lat = lat.split('`')
+            var affix = lat[1]
+            var hasAffix = true
+            lat = lat[0]
+        } else {
+            var hasAffix = false
+        }
+        // 切成声母、韵腹、韵尾
         lat = lat.replace(/([IEAOUYW])/g,'~$1~').replace(/~$/g,'').split('~')
         for (var i in lat) {
+            // 是否辅音
             var temp = lat[i].match(/[QHPBTDKGCJSZFVMNLRX]/g)
             if (temp != null && temp.length > 1) {
+                // 是辅音
                 lat[i] = makeC(kage, changeCase(lat[i]))
             } else {
+                // 是元音
                 lat[i] = changeCase(lat[i])
             }
         }
         if (lat.length == 2) {
+            // 声+腹，无韵尾
             if ('iuyw'.indexOf(lat[1]) != -1) {
-                kage.kBuhin.push('target',`99:0:0:60:0:140:80:${lat[1]}$99:0:0:40:80:160:200:${lat[0]}`)
+                // 元音在上
+                if (hasAffix) {
+                    kage.kBuhin.push('target',`99:0:0:20:0:100:80:${lat[1]}$99:0:0:0:80:120:200:${lat[0]}$99:0:0:120:0:200:200:${affix}`)
+                } else {
+                    kage.kBuhin.push('target',`99:0:0:60:0:140:80:${lat[1]}$99:0:0:40:80:160:200:${lat[0]}`)
+                }
             } else {
-                kage.kBuhin.push('target',`99:0:0:60:120:140:200:${lat[1]}$99:0:0:40:0:160:120:${lat[0]}`)
+                // 元音在下
+                if (hasAffix) {
+                    kage.kBuhin.push('target',`99:0:0:20:120:100:200:${lat[1]}$99:0:0:0:0:120:120:${lat[0]}$99:0:0:120:0:200:200:${affix}`)
+                } else {
+                    kage.kBuhin.push('target',`99:0:0:60:120:140:200:${lat[1]}$99:0:0:40:0:160:120:${lat[0]}`)
+                }
             }
         } else {
+            // 有韵尾
             if ('iuyw'.indexOf(lat[1]) != -1) {
+                // 元音在上
                 kage.kBuhin.push('target',`99:0:0:70:0:130:60:${lat[1]}$99:0:0:40:60:160:130:${lat[0]}$99:0:0:40:130:160:200:${lat[2]}`)
             } else {
+                // 元音在下
                 kage.kBuhin.push('target',`99:0:0:70:70:130:130:${lat[1]}$99:0:0:40:0:160:70:${lat[0]}$99:0:0:40:130:160:200:${lat[2]}`)
             }
         }
