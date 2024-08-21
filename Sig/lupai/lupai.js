@@ -156,7 +156,7 @@ const svg模板 =
             fill: #2e3192;
         }
         .汉 {
-            font-family: MiSans;
+            font-family: MiSans, 'MiSans VF', 'MiSans L3';
             font-weight: 600
         }
         .拉 {
@@ -486,8 +486,12 @@ function 下载全部svg() {
     // 初始化一个zip打包对象
     var zip = new JSZip();
     var svg = zip.folder('svg')
-    for (i in zp) {
-        svg.file(zm[i] + '.svg', zp[i])
+    for (i in 结果) {
+        if (i % 2 == 0) {
+            svg.file('lk' + 信息.汉路口.value + 拉方向[parseInt(i / 2)] + '.svg', 结果[i])
+        } else {
+            svg.file('gl' + 读取().路[parseInt(i / 2)] + '.svg', 结果[i])
+        }
     }
     // 把打包内容异步转成blob二进制格式
     zip.generateAsync({type:"blob"}).then(function(content) {

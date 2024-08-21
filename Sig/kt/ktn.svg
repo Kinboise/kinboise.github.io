@@ -1,0 +1,1155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" id="ktd" >
+    <defs>
+        <style>
+            svg {
+                font-family: STIX Two Text, 思源宋体;
+            }
+            .题 {
+                font-size: 80px;
+                font-weight: 800;
+            }
+            .帜题 {
+                font-size: 48px;
+                font-weight: 800;
+            }
+            .一 {
+                stroke: #e11;
+            }
+            .二 {
+                stroke: #039;
+            }
+            .三 {
+                stroke: #39c;
+            }
+            .四 {
+                stroke: #ca1;
+            }
+            .五 {
+                stroke: #40a
+            }
+            .六 {
+                stroke: #066
+            }
+            .七 {
+                stroke: #d62;
+            }
+            .八 {
+                stroke: #4d4;
+            }
+            .十 {
+                stroke: #082
+            }
+            .线 {
+                fill: none;
+                stroke-width: 4px;
+            }
+            .站 circle, .换 {
+                fill: white;
+                stroke: black;
+                stroke-width: 3px;
+            }
+            .站 text {
+                font-size: 8px;
+            }
+            .规划 circle {
+                stroke: #bbb;
+            }
+            .规划 text {
+                fill: #bbb;
+            }
+            .站  .名 {
+                font-weight: bold;
+                font-size: 12px;
+            }
+            .号 {
+                transform: translate(0,-12px);
+            }
+            .帜 {
+                font-style: italic;
+                transform: translate(0,10px);
+            }
+            text {
+                alignment-baseline: central;
+            }
+            .上 text, .下 text {
+                text-anchor: middle;
+            }
+            .左 text, .左下 text, .左上 text {
+                text-anchor: end;
+            }
+            .右 {
+                transform: translate(10px,0);
+            }
+            .左 {
+                transform: translate(-10px,0);
+            }
+            .上 {
+                transform: translate(0px,-22px);
+            }
+            .下 {
+                transform: translate(0px,24px);
+            }
+            .右上 {
+                transform: translate(10px,-22px);
+            }
+            .右下 {
+                transform: translate(10px,24px);
+            }
+            .左上 {
+                transform: translate(-10px,-22px);
+            }
+            .左下 {
+                transform: translate(-10px,24px);
+            }
+        </style>
+    </defs>
+    <rect width="2048" height="2048" fill="white"/>
+    <g class="标志" transform="scale(1.5)">
+        <rect x="54.264" y="16" width="13.784" height="55.811" />
+        <rect x="54.264" y="58.804" width="41.318" height="13.007" />
+        <rect x="33.926" y="47.622" width="15.135" height="41.622" />
+        <rect x="99.905" y="47.622" width="15.135" height="41.622" />
+        <rect x="33.926" y="76.203" width="81.149" height="13.041" />
+        <rect x="32" y="92.959" width="85" height="13.041" />
+    </g>
+    <text class="题" x="192" y="72">
+        商弦矿铁线路远景展望图
+    </text>
+    <text class="帜题" x="200" y="136">
+        vinibise a bavgifejo vaje a SianhGheln
+    </text>
+    <text class="题" x="64" y="1936">
+        拂弦郡交通委 制作
+    </text>
+    <text class="帜题" x="64" y="2000">
+        lopove u pitove a PhourlGheln
+    </text>
+    <g transform="translate(1024,1024)">
+        <path class="线 一" d="
+            M 128 -768
+            l 0 128
+            l -128 0
+            L 0 640
+            l 256 256
+        " />
+        <path class="线 二" d="
+            M -896 0
+            L 0 0
+            L 128 128
+            L 512 128
+        " />
+        <path class="线 三" d="
+            M 512 0
+            L 0 0
+            L -128 128
+            L -512 128
+        " />
+        <path class="线 四" d="
+            M -256 -512
+            L -256 512
+        " />
+        <path class="线 五" d="
+            M 384 -384
+            l -128 128
+            L 256 512
+        " />
+        <path class="线 六" d="
+            M -256 512
+            L 124 512
+            l 0 -128
+            l 4 0
+            l 128 -128
+            L 512 256
+        " />
+        <path class="线 七" d="
+            M -512 256
+            L 0 256
+            l 128 128
+            l 4 0
+            l 0 128
+            l 124 0
+        " />
+        <path class="线 八" d="
+            M -384 384
+            L 384 384
+            l 128 -128
+            l 0 -512
+            l -256 -256
+            l -512 0
+            l -256 256
+            l 0 512
+            Z
+        " />
+        <path class="线 十" d="
+            M -384 -384
+            l 128 128
+            L 512 -256
+        " />
+        <g class="站" transform="translate(128,-768)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    1-06
+                </text>
+                <text class="名">
+                    北苔庄
+                </text>
+                <text class="帜">
+                    Fofirezicigusta
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,-640)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    1-07
+                </text>
+                <text class="名">
+                    静阳台
+                </text>
+                <text class="帜">
+                    Curinitihilo
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,-640)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="左">
+                <text class="号">
+                    1-05
+                </text>
+                <text class="名">
+                    奥体
+                </text>
+                <text class="帜">
+                    vogajone Olympik
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,-512)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    1-04
+                </text>
+                <text class="名">
+                    上司房
+                </text>
+                <text class="帜">
+                    Bibilopilubo
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,-384)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    1-03
+                </text>
+                <text class="名">
+                    老金坪
+                </text>
+                <text class="帜">
+                    Padikiminitfa
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,-256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    1-02
+                </text>
+                <text class="名">
+                    广福里
+                </text>
+                <text class="帜">
+                    Labekarifisoda
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,-128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    1-01
+                </text>
+                <text class="名">
+                    太衒
+                </text>
+                <text class="帜">
+                    Honlinuma
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,0)">
+            <rect class="换" width="36" height="12" x="-18" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    1+00 / 2+00 / 3+00
+                </text>
+                <text class="名">
+                    八方阁
+                </text>
+                <text class="帜">
+                    lubovice Doviniza
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    1+01
+                </text>
+                <text class="名">
+                    宝音宫
+                </text>
+                <text class="帜">
+                    kralidomo Bulicuta
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    1+02
+                </text>
+                <text class="名">
+                    神树园
+                </text>
+                <text class="帜">
+                    Devideriploda
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,384)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    1+03 / 8+00
+                </text>
+                <text class="名">
+                    贯虹门
+                </text>
+                <text class="帜">
+                    Cabojerunito:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,512)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    1+04
+                </text>
+                <text class="名">
+                    南新里
+                </text>
+                <text class="帜">
+                    Popinovidumone
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(0,640)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="左">
+                <text class="号">
+                    1+05
+                </text>
+                <text class="名">
+                    焦游村
+                </text>
+                <text class="帜">
+                    Horasifretigusta
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,768)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    1+06
+                </text>
+                <text class="名">
+                    双城路
+                </text>
+                <text class="帜">
+                    Bezevo:puto
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,896)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    1+07
+                </text>
+                <text class="名">
+                    拂弦机场
+                </text>
+                <text class="帜">
+                    fligikihone Pog
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-896,0)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    2-07
+                </text>
+                <text class="名">
+                    怀圆响湖
+                </text>
+                <text class="帜">
+                    Mesiraviglaso:morice
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-768,0)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    2-06
+                </text>
+                <text class="名">
+                    圆园
+                </text>
+                <text class="帜">
+                    Raviploda
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-640,0)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    2-05
+                </text>
+                <text class="名">
+                    土画
+                </text>
+                <text class="帜">
+                    Raviploda
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-512,0)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    2-04 / 8-06
+                </text>
+                <text class="名">
+                    先复门
+                </text>
+                <text class="帜">
+                    Raviploda
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-384,0)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    2-03
+                </text>
+                <text class="名">
+                    翎霖路
+                </text>
+                <text class="帜">
+                    Fligoriflivume
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,0)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    2-02 / 4+00
+                </text>
+                <text class="名">
+                    西麦仓
+                </text>
+                <text class="帜">
+                    Dcanqovilipivebe
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-128,0)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    2-01
+                </text>
+                <text class="名">
+                    张家井
+                </text>
+                <text class="帜">
+                    Dcanqovilipivebe
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="下">
+                <text class="号">
+                    2+01
+                </text>
+                <text class="名">
+                    杉公庙
+                </text>
+                <text class="帜">
+                    Xemiduxirojone
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,128)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    2+02 / 5+01
+                </text>
+                <text class="名">
+                    代君苑
+                </text>
+                <text class="帜">
+                    Dajlasiploda
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(384,128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    2+03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(512,128)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    2+04 / 8+05
+                </text>
+                <text class="名">
+                    成惠门
+                </text>
+                <text class="帜">
+                    Pojijehoda:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-512,128)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    3-04 / 8-05
+                </text>
+                <text class="名">
+                    景昭门
+                </text>
+                <text class="帜">
+                    Soriposa:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-384,128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    3-03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,128)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    3-02 / 4+01
+                </text>
+                <text class="名">
+                    崔仙馆
+                </text>
+                <text class="帜">
+                    Tsvejdeviperone
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-128,128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="下">
+                <text class="号">
+                    3-01
+                </text>
+                <text class="名">
+                    百胜里
+                </text>
+                <text class="帜">
+                    Tobelucidumone
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,0)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    3+01
+                </text>
+                <text class="名">
+                    王爷府
+                </text>
+                <text class="帜">
+                    Vanqlasoosdomumo
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,0)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    3+02 / 5+00
+                </text>
+                <text class="名">
+                    东粮库
+                </text>
+                <text class="帜">
+                    Roririzilone
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(384,0)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    3+03
+                </text>
+                <text class="名">
+                    圆山路
+                </text>
+                <text class="帜">
+                    Ravivene
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(512,0)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    3+04 / 8+06
+                </text>
+                <text class="名">
+                    商建门
+                </text>
+                <text class="帜">
+                    Sianhzuge:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,-512)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    4-04 / 8-10
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,-384)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    4-03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,-256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    4-02 / 10-02
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,-128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    4-01
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    4+02 / 7-02
+                </text>
+                <text class="名">
+                    㭜林坊
+                </text>
+                <text class="帜">
+                    Lafumiganda:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,384)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    4+03 / 8-02
+                </text>
+                <text class="名">
+                    武桓门
+                </text>
+                <text class="帜">
+                    Lafumiganda:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-256,512)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    4+04 / 6-02
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(384,-384)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    5-03 / 8+09
+                </text>
+                <text class="名">
+                    威顺门
+                </text>
+                <text class="帜">
+                    Gufihise:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,-256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="左上">
+                <text class="号">
+                    5-02 / 10+02
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,-128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    5-01
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    5+02 / 6+03
+                </text>
+                <text class="名">
+                    桦厂口
+                </text>
+                <text class="帜">
+                    Brezizugone:cafone
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,384)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    5+03 / 8+02
+                </text>
+                <text class="名">
+                    文襄门
+                </text>
+                <text class="帜">
+                    Munhibibe:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,512)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    5+04 / 7+03
+                </text>
+                <text class="名">
+                    锦潮渡
+                </text>
+                <text class="帜">
+                    brodone Lepumihape
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-128,512)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    6-01
+                </text>
+                <text class="名">
+                    星纱路
+                </text>
+                <text class="帜">
+                    Stelikocice
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,512)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="下">
+                <text class="号">
+                    6+01 / 7+02
+                </text>
+                <text class="名">
+                    水田山
+                </text>
+                <text class="帜">
+                    Fosidivavene
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,384)">
+            <rect class="换" width="36" height="12" x="-18" y="-6" rx="6"/>
+            <g class="右下">
+                <text class="号">
+                    6+02 / 7+01 / 8+01
+                </text>
+                <text class="名">
+                    商弦南站
+                </text>
+                <text class="帜">
+                    focone Sig-pope
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(384,256)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    6+03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(512,256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    6+04 / 8+04
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-512,256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    7-04 / 8-04
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-384,256)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    7-03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-128,256)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    7-01
+                </text>
+                <text class="名">
+                    太平街
+                </text>
+                <text class="帜">
+                    Curumodicafone
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-128,-512)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    8-11
+                </text>
+                <text class="名">
+                    康元门
+                </text>
+                <text class="帜">
+                    Sofijehitome:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-384,-384)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="左上">
+                <text class="号">
+                    8-09 / 10-03
+                </text>
+                <text class="名">
+                    安烈门
+                </text>
+                <text class="帜">
+                    Pakigicume:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-512,-256)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="左">
+                <text class="号">
+                    8-08
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-512,-128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    8-07
+                </text>
+                <text class="名">
+                    庄穆门
+                </text>
+                <text class="帜">
+                    Nufisiroje:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-384,384)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="下">
+                <text class="号">
+                    8-03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-128,384)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    8-01
+                </text>
+                <text class="名">
+                    丹泸
+                </text>
+                <text class="帜">
+                    Danlu
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(384,384)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="下">
+                <text class="号">
+                    8+03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(512,-128)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="右">
+                <text class="号">
+                    8+07
+                </text>
+                <text class="名">
+                    明献门
+                </text>
+                <text class="帜">
+                    Pasirojidaje:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(512,-256)">
+            <rect class="换" width="24" height="12" x="-12" y="-6" rx="6"/>
+            <g class="右上">
+                <text class="号">
+                    8+08
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(256,-512)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    8+10
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,-512)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    8+11
+                </text>
+                <text class="名">
+                    宣孝门
+                </text>
+                <text class="帜">
+                    Hafumilehijehe:cine
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(-128,-256)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    10-01
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(128,-256)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    10+01
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+        <g class="站" transform="translate(384,-256)">
+            <circle r="6" cx="0" cy="0"/>
+            <g class="上">
+                <text class="号">
+                    10+03
+                </text>
+                <text class="名">
+                    未命名
+                </text>
+                <text class="帜">
+                    nu pleme
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
