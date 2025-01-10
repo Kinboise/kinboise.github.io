@@ -60,6 +60,6 @@ window.onload = lat_rub
 
 function haf(lat) {
     audio = document.getElementById('cute')
-    audio.src = `https://r2.20121010.xyz/${lat}.ogg`
+    audio.src = `https://r2.20121010.xyz/seniva-cute/${lat}.ogg`
     audio.play()
 }

@@ -212,10 +212,10 @@
             </g>
             <!-- <rect class="标题底" y="896" width="1024" height="128" /> -->
             <text class="底" y="964" x="40">
-                商弦市交通委
+                拂弦郡交通委
             </text>
             <text class="拉丁底" y="990" x="40">
-                lopove u pitove a SianhGheln
+                lopove u pitove a PhourlGheln
             </text>
             <text class="底 右" y="964" x="984">
                     更新
@@ -224,12 +224,12 @@
                 gu noviz
             </text>
             <text class="日期 右" y="980" x="880">
-                    2024.7.31
+                    2025.1.7
             </text>
         </g>
         <g id="图">
             <path class="线1 线" d="
-            M 512,104
+            M 512,88
             L 512,840" />
             <path class="线2 线" d="
             M 658,476
@@ -256,9 +256,9 @@
             M 512,548
             l -72,0" /> -->
             <path class="线8 线" d="
-            M 512,620
-            l -144,0" />
-            <g class="线1" id="站1-06" transform="translate(512,104)">
+            M 368,620
+            l 288,0" />
+            <g class="线1" id="站1-06" transform="translate(512,88)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     1-06
@@ -266,6 +266,26 @@
                 <text class="站名" transform="translate(20,2)">
                     <tspan>北苔庄</tspan>
                     <tspan class="拉" x="0" dy="12">Fofirezicigusta</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1-03" transform="translate(512,160)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1-03
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>老金坪</tspan>
+                    <tspan class="拉" x="0" dy="12">Padikiminitfa</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1-02" transform="translate(512,232)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1-02
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>广福里</tspan>
+                    <tspan class="拉" x="0" dy="12">Labekarifisoda</tspan>
                 </text>
             </g>
             <g class="线1" id="站1-01" transform="translate(512,304)">
@@ -493,7 +513,7 @@
                 <text class="站号" transform="translate(0,5.4)">
                     1+03
                 </text>
-                <text class="站名" transform="translate(20,11)">
+                <text class="站名 右" transform="translate(-20,38)">
                     <tspan>贯虹门</tspan>
                     <tspan class="拉" x="0" dy="12">Cabojerunito:cine</tspan>
                 </text>
@@ -548,12 +568,32 @@
                     <tspan class="拉" x="0" dy="12">Curumodicafone</tspan>
                 </text>
             </g> -->
+            <g class="线8" id="站8+02" transform="translate(656,620)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    8+01
+                </text>
+                <text class="站名 中" transform="translate(0,-25)">
+                    <tspan>文襄门</tspan>
+                    <tspan class="拉" x="0" dy="12">Munhibibe:cine</tspan>
+                </text>
+            </g>
+            <g class="线8" id="站8+01" transform="translate(584,620)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    8+01
+                </text>
+                <text class="站名 中" transform="translate(2.5,28)">
+                    <tspan>商弦南站</tspan>
+                    <tspan class="拉" x="0" dy="12">focone Sig-pope</tspan>
+                </text>
+            </g>
             <g class="线8" id="站8+00" transform="translate(512,629)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     8+00
                 </text>
-                <text class="站名" transform="translate(20,-7)">
+                <text class="站名 右" transform="translate(-20,20)">
                     <tspan>贯虹门</tspan>
                     <tspan class="拉" x="0" dy="12">Cabojerunito:cine</tspan>
                 </text>

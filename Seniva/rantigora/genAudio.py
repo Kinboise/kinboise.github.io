@@ -20,5 +20,5 @@ for i in range(len(dic)):
     if i in prog:
         print(i)
     # senivatts(lat, output=f'{path}cute/{lat}.mp3')
-    senivatts(lat, output=f'{path}seniva-cute/{lat}.ogg')
+    senivatts(lat, lang='ka', voice=2, output=f'{path}seniva-cute/{lat}.ogg')
     # sp.run(['wrangler', 'r2', 'object', 'put', f'guc-bise/{lat}.ogg', f'--file=Seniva/rantigora/seniva-cute/{lat}.ogg'])

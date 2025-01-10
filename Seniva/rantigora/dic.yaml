@@ -130,6 +130,23 @@
   - -il-
   ps:
   - s'
+- Ftnk:
+  - e
+  Hnv3: 致
+  dt:
+  - 10/1月/2025
+  ge:
+  - (Accusative preposition)
+  gn:
+  - 宾格
+  lc:
+  - e
+  lx:
+  - e
+  ph:
+  - e
+  ps:
+  - k'
 - Hnv3: 兮
   dn:
   - 默认的名词词尾。
@@ -146,23 +163,6 @@
   ps:
   - s'
 - Ftnk:
-  - e
-  Hnv3: 將
-  dt:
-  - 14/4月/2024
-  ge:
-  - (Accusative preposition)
-  gn:
-  - 宾格
-  lc:
-  - e
-  lx:
-  - e
-  ph:
-  - e
-  ps:
-  - k'
-- Ftnk:
   - e`l
   dn:
   - 电子的。旧词缀，不建议使用。
@@ -178,21 +178,6 @@
   - -el-
   ph:
   - -el-
-  ps:
-  - s'
-- Hnv3: 也
-  dn:
-  - 名词词尾。对有性名词，表示雌性。
-  dt:
-  - 14/4月/2024
-  ge:
-  - (Noun suffix; female suffix for gendered nouns)
-  gn:
-  - 名词词尾
-  lx:
-  - -a
-  ph:
-  - -a
   ps:
   - s'
 - Ftnk:
@@ -214,6 +199,21 @@
   - a
   ps:
   - k'
+- Hnv3: 也
+  dn:
+  - 名词词尾。对有性名词，表示雌性。
+  dt:
+  - 14/4月/2024
+  ge:
+  - (Noun suffix; female suffix for gendered nouns)
+  gn:
+  - 名词词尾
+  lx:
+  - -a
+  ph:
+  - -a
+  ps:
+  - s'
 - Ftnk:
   - '`t'
   Hnv1: &id006
@@ -363,21 +363,6 @@
   xv:
   - linove
   - sladove
-- Hnv3: 歟等
-  dt:
-  - 07/12月/2023
-  ge:
-  - (predicate verb marker)
-  gn:
-  - 谓语动词
-  lc:
-  - oN
-  lx:
-  - oN
-  ph:
-  - 'on'
-  ps:
-  - k'
 - Ftnk:
   - '`n'
   Hnv1: &id011
@@ -407,6 +392,21 @@
   xv:
   - velone
   - gorone
+- Hnv3: 歟等
+  dt:
+  - 07/12月/2023
+  ge:
+  - (predicate verb marker)
+  gn:
+  - 谓语动词
+  lc:
+  - oN
+  lx:
+  - oN
+  ph:
+  - 'on'
+  ps:
+  - k'
 - Ftnk:
   - '`r'
   Hnv1: &id012
@@ -426,6 +426,19 @@
   - -or-
   ps:
   - s'
+- Hnv3: 然
+  dt:
+  - 07/12月/2023
+  ge:
+  - (adverbial suffix)
+  gn:
+  - 副词词尾
+  lx:
+  - -u
+  ph:
+  - -u
+  ps:
+  - s'
 - Ftnk:
   - u
   Hnv3: 於
@@ -443,19 +456,6 @@
   - u
   ps:
   - k'
-- Hnv3: 然
-  dt:
-  - 07/12月/2023
-  ge:
-  - (adverbial suffix)
-  gn:
-  - 副词词尾
-  lx:
-  - -u
-  ph:
-  - -u
-  ps:
-  - s'
 - Ftnk:
   - '`m'
   Hnv1: &id013
@@ -618,33 +618,12 @@
   - hilo
   ps:
   - p'
-- Hnv1: &id021
-  - 使e
-  Hnv3: *id021
-  dt:
-  - 10/7月/2019
-  ge:
-  - (causative preposition)
-  - (imperative particle)
-  gn:
-  - 使动
-  - 命令式
-  lx:
-  - he
-  ph:
-  - he
-  ps:
-  - k'
-  - j'
-  sn:
-  - '1'
-  - '2'
 - Ftnk:
   - h`
   - he`
-  Hnv1: &id022
+  Hnv1: &id021
   - 使
-  Hnv3: *id022
+  Hnv3: *id021
   cf:
   - he
   cn:
@@ -663,6 +642,27 @@
   - he-
   ps:
   - s'
+- Hnv1: &id022
+  - 使e
+  Hnv3: *id022
+  dt:
+  - 10/7月/2019
+  ge:
+  - (causative preposition)
+  - (imperative particle)
+  gn:
+  - 使动
+  - 命令式
+  lx:
+  - he
+  ph:
+  - he
+  ps:
+  - k'
+  - j'
+  sn:
+  - '1'
+  - '2'
 - Ftnk:
   - h`hr`r
   Hnv1: &id023
@@ -1144,10 +1144,29 @@
   ps:
   - p'
 - Ftnk:
-  - '|hk'
+  - h'tr
   Hnv1: &id044
-  - 所意
+  - 里
   Hnv3: *id044
+  dt:
+  - 10/1月/2025
+  et:
+  - Niv atroe
+  ge:
+  - kilometre
+  gn:
+  - 千米
+  lx:
+  - hatro
+  ph:
+  - hatro
+  ps:
+  - p'
+- Ftnk:
+  - '|hk'
+  Hnv1: &id045
+  - 所意
+  Hnv3: *id045
   cf:
   - hok
   cn:
@@ -1168,9 +1187,9 @@
   - p'
 - Ftnk:
   - hc
-  Hnv1: &id045
+  Hnv1: &id046
   - 連
-  Hnv3: *id045
+  Hnv3: *id046
   dt:
   - 10/7月/2019
   et:
@@ -1187,9 +1206,9 @@
   - v'
 - Ftnk:
   - hci_kh
-  Hnv1: &id046
+  Hnv1: &id047
   - 連i車
-  Hnv3: *id046
+  Hnv3: *id047
   cf:
   - hac
   - kiha
@@ -1212,9 +1231,9 @@
   - p'
 - Ftnk:
   - hci_|fp
-  Hnv1: &id047
+  Hnv1: &id048
   - 連i所書
-  Hnv3: *id047
+  Hnv3: *id048
   cf:
   - hac
   - fep
@@ -1235,10 +1254,10 @@
 - Ftnk:
   - hc
   - hce
-  Hnv1: &id048
+  Hnv1: &id049
   - 連
   - 連e
-  Hnv3: *id048
+  Hnv3: *id049
   cf:
   - hac
   cn:
@@ -1259,9 +1278,9 @@
   - p'
 - Ftnk:
   - hca
-  Hnv1: &id049
+  Hnv1: &id050
   - 連a
-  Hnv3: *id049
+  Hnv3: *id050
   cf:
   - hac
   cn:
@@ -1286,9 +1305,9 @@
   - bavgifejiputo 2o:haca
 - Ftnk:
   - hco
-  Hnv1: &id050
+  Hnv1: &id051
   - 連o
-  Hnv3: *id050
+  Hnv3: *id051
   cf:
   - hac
   cn:
@@ -1309,9 +1328,9 @@
   - p'
 - Ftnk:
   - hc`v
-  Hnv1: &id051
+  Hnv1: &id052
   - 連衆
-  Hnv3: *id051
+  Hnv3: *id052
   cf:
   - hace
   - hac
@@ -1334,9 +1353,9 @@
   - p'
 - Ftnk:
   - h'st.
-  Hnv1: &id052
+  Hnv1: &id053
   - 富.
-  Hnv3: *id052
+  Hnv3: *id053
   cf:
   - haste
   dt:
@@ -1355,9 +1374,9 @@
   - v'
 - Ftnk:
   - h'st
-  Hnv1: &id053
+  Hnv1: &id054
   - 富
-  Hnv3: *id053
+  Hnv3: *id054
   dt:
   - 10/12月/2020
   et:
@@ -1376,9 +1395,9 @@
   - hase（已停用）
 - Ftnk:
   - hf
-  Hnv1: &id054
+  Hnv1: &id055
   - 言
-  Hnv3: *id054
+  Hnv3: *id055
   cf:
   - hafa
   - hefe
@@ -1404,10 +1423,10 @@
 - Ftnk:
   - h`fs
   - h`fs.
-  Hnv1: &id055
+  Hnv1: &id056
   - 歉
   - 歉.
-  Hnv3: *id055
+  Hnv3: *id056
   cf:
   - hafise
   dt:
@@ -1426,9 +1445,9 @@
   - v'
 - Ftnk:
   - h`fs
-  Hnv1: &id056
+  Hnv1: &id057
   - 歉
-  Hnv3: *id056
+  Hnv3: *id057
   cf:
   - hafis
   cn:
@@ -1455,9 +1474,9 @@
   - '2'
 - Ftnk:
   - hf`la
-  Hnv1: &id057
+  Hnv1: &id058
   - 言類a
-  Hnv3: *id057
+  Hnv3: *id058
   dt:
   - 28/11月/2021
   et:
@@ -1474,9 +1493,9 @@
   - p'
 - Ftnk:
   - hfi_rs
-  Hnv1: &id058
+  Hnv1: &id059
   - 言i務
-  Hnv3: *id058
+  Hnv3: *id059
   cf:
   - haf
   - rese
@@ -1499,9 +1518,9 @@
   - p'
 - Ftnk:
   - hfa
-  Hnv1: &id059
+  Hnv1: &id060
   - 言a
-  Hnv3: *id059
+  Hnv3: *id060
   cf:
   - haf
   cn:
@@ -1527,9 +1546,9 @@
   - ·seniva:hafa
 - Ftnk:
   - hfa-tr
-  Hnv1: &id060
+  Hnv1: &id061
   - 言a-轉
-  Hnv3: *id060
+  Hnv3: *id061
   cf:
   - hafa
   - tur
@@ -1552,9 +1571,9 @@
   - v'
 - Ftnk:
   - hfa-cl
-  Hnv1: &id061
+  Hnv1: &id062
   - 言a-律
-  Hnv3: *id061
+  Hnv3: *id062
   cf:
   - hafa
   - cile
@@ -1576,9 +1595,9 @@
   - gramatoda
 - Ftnk:
   - hfa-|zg
-  Hnv1: &id062
+  Hnv1: &id063
   - 言-所作
-  Hnv3: *id062
+  Hnv3: *id063
   cf:
   - hafa-zug
   cn:
@@ -1603,9 +1622,9 @@
   - (Eng)
 - Ftnk:
   - hfa-zg
-  Hnv1: &id063
+  Hnv1: &id064
   - 言-作
-  Hnv3: *id063
+  Hnv3: *id064
   cf:
   - hafa
   - zug
@@ -1634,9 +1653,9 @@
   - (Eng)
 - Ftnk:
   - hf`va
-  Hnv1: &id064
+  Hnv1: &id065
   - 言衆a
-  Hnv3: *id064
+  Hnv3: *id065
   cf:
   - hafa
   cn:
@@ -1659,9 +1678,9 @@
   - p'
 - Ftnk:
   - hf`|m
-  Hnv1: &id065
+  Hnv1: &id066
   - 言所太
-  Hnv3: *id065
+  Hnv3: *id066
   cf:
   - hafum
   cn:
@@ -1682,9 +1701,9 @@
   - p'
 - Ftnk:
   - hf`m
-  Hnv1: &id066
+  Hnv1: &id067
   - 言太
-  Hnv3: *id066
+  Hnv3: *id067
   cf:
   - haf
   - -um-
@@ -1708,9 +1727,9 @@
   - v'
 - Ftnk:
   - h'nh
-  Hnv1: &id067
+  Hnv1: &id068
   - 晡
-  Hnv3: *id067
+  Hnv3: *id068
   dt:
   - 10/2月/2021
   et:
@@ -1727,9 +1746,9 @@
   - p'
 - Ftnk:
   - HA_RA_BE
-  Hnv1: &id068
+  Hnv1: &id069
   - 劍
-  Hnv3: *id068
+  Hnv3: *id069
   dt:
   - 10/7月/2019
   et:
@@ -1746,9 +1765,9 @@
   - p'
 - Ftnk:
   - hb
-  Hnv1: &id069
+  Hnv1: &id070
   - 懶
-  Hnv3: *id069
+  Hnv3: *id070
   dt:
   - 30/4月/2020
   et:
@@ -1765,10 +1784,10 @@
   - fp'
 - Ftnk:
   - hd
-  Hnv1: &id070
+  Hnv1: &id071
   - 足
   - 步
-  Hnv3: *id070
+  Hnv3: *id071
   cf:
   - hode
   cn:
@@ -1789,9 +1808,9 @@
   - v'
 - Ftnk:
   - hdi_d'nb
-  Hnv1: &id071
+  Hnv1: &id072
   - 足i橋
-  Hnv3: *id071
+  Hnv3: *id072
   cf:
   - hod
   - doNbe
@@ -1814,9 +1833,9 @@
   - p'
 - Ftnk:
   - hde
-  Hnv1: &id072
+  Hnv1: &id073
   - 足e
-  Hnv3: *id072
+  Hnv3: *id073
   cf:
   - hod
   cn:
@@ -1837,9 +1856,9 @@
   - p'
 - Ftnk:
   - hk
-  Hnv1: &id073
+  Hnv1: &id074
   - 意
-  Hnv3: *id073
+  Hnv3: *id074
   cf:
   - hake
   cn:
@@ -1861,9 +1880,9 @@
 - Ftnk:
   - hki_tc
   - hki_tca
-  Hnv1: &id074
+  Hnv1: &id075
   - 意i示a
-  Hnv3: *id074
+  Hnv3: *id075
   cf:
   - hok
   - tuc
@@ -1886,9 +1905,9 @@
   - p'
 - Ftnk:
   - hg
-  Hnv1: &id075
+  Hnv1: &id076
   - 鞋
-  Hnv3: *id075
+  Hnv3: *id076
   dt:
   - 14/1月/2020
   et:
@@ -1905,9 +1924,9 @@
   - p'
 - Ftnk:
   - hv
-  Hnv1: &id076
+  Hnv1: &id077
   - 問
-  Hnv3: *id076
+  Hnv3: *id077
   dt:
   - 02/7月/2019
   et:
@@ -1925,9 +1944,9 @@
 - Ftnk:
   - hm
   - hom
-  Hnv1: &id077
+  Hnv1: &id078
   - 限
-  Hnv3: *id077
+  Hnv3: *id078
   cf:
   - home
   cn:
@@ -1949,10 +1968,10 @@
 - Ftnk:
   - hm
   - hme
-  Hnv1: &id078
+  Hnv1: &id079
   - 限
   - 限e
-  Hnv3: *id078
+  Hnv3: *id079
   cf:
   - hom
   cn:
@@ -1973,9 +1992,9 @@
   - p'
 - Ftnk:
   - hr.
-  Hnv1: &id079
+  Hnv1: &id080
   - 火.
-  Hnv3: *id079
+  Hnv3: *id080
   cf:
   - hora
   cn:
@@ -1996,9 +2015,9 @@
   - v'
 - Ftnk:
   - hri_pr'h
-  Hnv1: &id080
+  Hnv1: &id081
   - 火i粉
-  Hnv3: *id080
+  Hnv3: *id081
   cf:
   - hor
   - prahe
@@ -2020,9 +2039,9 @@
   - ˙hojo
 - Ftnk:
   - hra
-  Hnv1: &id081
+  Hnv1: &id082
   - 火a
-  Hnv3: *id081
+  Hnv3: *id082
   cf:
   - hor
   cn:
@@ -2041,6 +2060,28 @@
   - hora
   ps:
   - p'
+- Ftnk:
+  - hr`s
+  Hnv1: &id083
+  - 火焉
+  Hnv3: *id083
+  cf:
+  - hora
+  - -as-
+  dt:
+  - 24/7月/2024
+  et:
+  - hora + -as-
+  ge:
+  - burnt, scorched
+  gn:
+  - 烧焦的
+  lx:
+  - horase
+  ph:
+  - horase
+  ps:
+  - fp'
 - dn:
   - 同“h”，用于辅音开头的与格代词之前。
   - 五元文“h u-”的拉丁写法。
@@ -2070,9 +2111,9 @@
 - Ftnk:
   - HU_DJE
   - h'dj
-  Hnv1: &id082
+  Hnv1: &id084
   - 蝶
-  Hnv3: *id082
+  Hnv3: *id084
   dt:
   - 04/1月/2021
   et:
@@ -2089,9 +2130,9 @@
   - cp'
 - Ftnk:
   - hz
-  Hnv1: &id083
+  Hnv1: &id085
   - 備
-  Hnv3: *id083
+  Hnv3: *id085
   dt:
   - 13/8月/2019
   et:
@@ -2108,9 +2149,9 @@
   - v'
 - Ftnk:
   - h`mr
-  Hnv1: &id084
+  Hnv1: &id086
   - 在沒
-  Hnv3: *id084
+  Hnv3: *id086
   cf:
   - mer
   cn:
@@ -2135,9 +2176,9 @@
   - bi mi humer , he no mu tiN suze .
 - Ftnk:
   - h`mr`n
-  Hnv1: &id085
+  Hnv1: &id087
   - 在沒處
-  Hnv3: *id085
+  Hnv3: *id087
   cf:
   - humer
   - -on-
@@ -2158,9 +2199,9 @@
 - Ftnk:
   - hun
   - hn
-  Hnv1: &id086
+  Hnv1: &id088
   - 內
-  Hnv3: *id086
+  Hnv3: *id088
   cf:
   - h
   dt:
@@ -2179,9 +2220,9 @@
   - p'
 - Ftnk:
   - h'np
-  Hnv1: &id087
+  Hnv1: &id089
   - 鯨
-  Hnv3: *id087
+  Hnv3: *id089
   dt:
   - 11/12月/2020
   et:
@@ -2198,9 +2239,9 @@
   - cp'
 - Ftnk:
   - hri_hca
-  Hnv1: &id088
+  Hnv1: &id090
   - 中i連a
-  Hnv3: *id088
+  Hnv3: *id090
   cf:
   - hure
   - haca
@@ -2220,9 +2261,9 @@
   - p'
 - Ftnk:
   - hri_vno
-  Hnv1: &id089
+  Hnv1: &id091
   - 中i點o
-  Hnv3: *id089
+  Hnv3: *id091
   cf:
   - hure
   - vino
@@ -2251,9 +2292,9 @@
   - ·kinbvise
 - Ftnk:
   - hri_rv
-  Hnv1: &id090
+  Hnv1: &id092
   - 中i圓
-  Hnv3: *id090
+  Hnv3: *id092
   cf:
   - hure
   - rave
@@ -2274,9 +2315,9 @@
 - Ftnk:
   - hr
   - hur
-  Hnv1: &id091
+  Hnv1: &id093
   - 中
-  Hnv3: *id091
+  Hnv3: *id093
   dt:
   - 09/7月/2019
   et:
@@ -2293,9 +2334,9 @@
   - p'
 - Ftnk:
   - h'rm
-  Hnv1: &id092
+  Hnv1: &id094
   - 柿
-  Hnv3: *id092
+  Hnv3: *id094
   dt:
   - 10/7月/2019
   et:
@@ -2312,9 +2353,9 @@
   - p'
 - Ftnk:
   - pt
-  Hnv1: &id093
+  Hnv1: &id095
   - 行
-  Hnv3: *id093
+  Hnv3: *id095
   cf:
   - puto
   - fupit
@@ -2345,9 +2386,9 @@
   - v'
 - Ftnk:
   - pt`v
-  Hnv1: &id094
+  Hnv1: &id096
   - 行衆
-  Hnv3: *id094
+  Hnv3: *id096
   cf:
   - pit
   cn:
@@ -2368,9 +2409,9 @@
   - p'
 - Ftnk:
   - '|pc'
-  Hnv1: &id095
+  Hnv1: &id097
   - 所選
-  Hnv3: *id095
+  Hnv3: *id097
   cf:
   - pec
   cn:
@@ -2455,9 +2496,9 @@
   - p'
 - Ftnk:
   - pf
-  Hnv1: &id096
+  Hnv1: &id098
   - 皮
-  Hnv3: *id096
+  Hnv3: *id098
   dt:
   - 28/7月/2019
   et:
@@ -2474,9 +2515,9 @@
   - p'
 - Ftnk:
   - p'nki_zt
-  Hnv1: &id097
+  Hnv1: &id099
   - 肺i侵
-  Hnv3: *id097
+  Hnv3: *id099
   cf:
   - piNke
   - zete
@@ -2505,9 +2546,9 @@
   - piNkizete z ukoronabiNdo nove
 - Ftnk:
   - p'nk
-  Hnv1: &id098
+  Hnv1: &id100
   - 肺
-  Hnv3: *id098
+  Hnv3: *id100
   dt:
   - 28/8月/2020
   et:
@@ -2524,9 +2565,9 @@
   - p'
 - Ftnk:
   - p'ns
-  Hnv1: &id099
+  Hnv1: &id101
   - 勇
-  Hnv3: *id099
+  Hnv3: *id101
   an:
   - napiNs
   dt:
@@ -2546,10 +2587,10 @@
 - Ftnk:
   - p'ns
   - p'nse
-  Hnv1: &id100
+  Hnv1: &id102
   - 勇
   - 勇e
-  Hnv3: *id100
+  Hnv3: *id102
   cf:
   - pins
   cn:
@@ -2570,9 +2611,9 @@
   - fp'
 - Ftnk:
   - pg
-  Hnv1: &id101
+  Hnv1: &id103
   - 痛
-  Hnv3: *id101
+  Hnv3: *id103
   cf:
   - pegoda
   dt:
@@ -2591,9 +2632,9 @@
   - fp'
 - Ftnk:
   - pg`d
-  Hnv1: &id102
+  Hnv1: &id104
   - 痛事
-  Hnv3: *id102
+  Hnv3: *id104
   cf:
   - pege
   - -od-
@@ -2613,9 +2654,9 @@
   - p'
 - Ftnk:
   - pc
-  Hnv1: &id103
+  Hnv1: &id105
   - 選
-  Hnv3: *id103
+  Hnv3: *id105
   dt:
   - 02/7月/2019
   et:
@@ -2633,9 +2674,9 @@
 - Ftnk:
   - pej
   - pj
-  Hnv1: &id104
+  Hnv1: &id106
   - 飢
-  Hnv3: *id104
+  Hnv3: *id106
   dt:
   - 02/7月/2019
   et:
@@ -2652,9 +2693,9 @@
   - fp'
 - Ftnk:
   - p'st
-  Hnv1: &id105
+  Hnv1: &id107
   - 拳
-  Hnv3: *id105
+  Hnv3: *id107
   dt:
   - 10/7月/2019
   et:
@@ -2672,10 +2713,10 @@
 - Ftnk:
   - '|pv'
   - '|pva'
-  Hnv1: &id106
+  Hnv1: &id108
   - 所歌
   - 所歌a
-  Hnv3: *id106
+  Hnv3: *id108
   cf:
   - pav
   cn:
@@ -2696,9 +2737,9 @@
   - p'
 - Ftnk:
   - '|pr'
-  Hnv1: &id107
+  Hnv1: &id109
   - 所受
-  Hnv3: *id107
+  Hnv3: *id109
   cf:
   - par
   - perone
@@ -2721,9 +2762,9 @@
   - p'
 - Ftnk:
   - '|pr`n'
-  Hnv1: &id108
+  Hnv1: &id110
   - 所受處
-  Hnv3: *id108
+  Hnv3: *id110
   cf:
   - pere
   - par
@@ -2763,9 +2804,9 @@
   - p'
 - Ftnk:
   - p'tk
-  Hnv1: &id109
+  Hnv1: &id111
   - 鴨
-  Hnv3: *id109
+  Hnv3: *id111
   dt:
   - 10/7月/2019
   et:
@@ -2782,9 +2823,9 @@
   - cp'
 - Ftnk:
   - pdi_zv`c
-  Hnv1: &id110
+  Hnv1: &id112
   - 古i邑子
-  Hnv3: *id110
+  Hnv3: *id112
   cf:
   - pade
   - zevica
@@ -2807,9 +2848,9 @@
   - p'
 - Ftnk:
   - pdi_vka
-  Hnv1: &id111
+  Hnv1: &id113
   - 古i代a
-  Hnv3: *id111
+  Hnv3: *id113
   cf:
   - pade
   - veka
@@ -2832,9 +2873,9 @@
   - p'
 - Ftnk:
   - pd
-  Hnv1: &id112
+  Hnv1: &id114
   - 古
-  Hnv3: *id112
+  Hnv3: *id114
   cf:
   - nuzipade
   cn:
@@ -2861,9 +2902,9 @@
   - 停用
 - Ftnk:
   - '|pk'
-  Hnv1: &id113
+  Hnv1: &id115
   - 所保
-  Hnv3: *id113
+  Hnv3: *id115
   cf:
   - pok
   cn:
@@ -2884,9 +2925,9 @@
   - fp'
 - Ftnk:
   - '|pka'
-  Hnv1: &id114
+  Hnv1: &id116
   - 所保a
-  Hnv3: *id114
+  Hnv3: *id116
   cf:
   - pok
   cn:
@@ -2907,9 +2948,9 @@
   - p'
 - Ftnk:
   - pcn
-  Hnv1: &id115
+  Hnv1: &id117
   - 尬
-  Hnv3: *id115
+  Hnv3: *id117
   dt:
   - 19/9月/2021
   et:
@@ -2927,10 +2968,10 @@
 - Ftnk:
   - '|ps'
   - '|pse'
-  Hnv1: &id116
+  Hnv1: &id118
   - 所光
   - 所光e
-  Hnv3: *id116
+  Hnv3: *id118
   cf:
   - pos
   - pose
@@ -2955,9 +2996,9 @@
   - fp'
 - Ftnk:
   - pv
-  Hnv1: &id117
+  Hnv1: &id119
   - 歌
-  Hnv3: *id117
+  Hnv3: *id119
   cf:
   - peva
   cn:
@@ -2979,9 +3020,9 @@
 - Ftnk:
   - pvn
   - PA_VE_NE
-  Hnv1: &id118
+  Hnv1: &id120
   - 敵
-  Hnv3: *id118
+  Hnv3: *id120
   dt:
   - 30/5月/2022
   et:
@@ -2998,9 +3039,9 @@
   - p'
 - Ftnk:
   - p'vk
-  Hnv1: &id119
+  Hnv1: &id121
   - 蛛
-  Hnv3: *id119
+  Hnv3: *id121
   dt:
   - 02/4月/2020
   et:
@@ -3018,9 +3059,9 @@
 - Ftnk:
   - PA_MU_KA
   - pmk
-  Hnv1: &id120
+  Hnv1: &id122
   - 棉
-  Hnv3: *id120
+  Hnv3: *id122
   dt:
   - 30/5月/2022
   et:
@@ -3055,9 +3096,9 @@
   - hlebo
 - Ftnk:
   - pal
-  Hnv1: &id121
+  Hnv1: &id123
   - 玻
-  Hnv3: *id121
+  Hnv3: *id123
   dt:
   - 10/7月/2019
   et:
@@ -3074,9 +3115,9 @@
   - p'
 - Ftnk:
   - pr
-  Hnv1: &id122
+  Hnv1: &id124
   - 受
-  Hnv3: *id122
+  Hnv3: *id124
   cf:
   - pere
   - jehipar
@@ -3099,9 +3140,9 @@
   - v'
 - Ftnk:
   - PO
-  Hnv1: &id123
+  Hnv1: &id125
   - 已o
-  Hnv3: *id123
+  Hnv3: *id125
   dt:
   - 13/6月/2022
   ge:
@@ -3116,9 +3157,9 @@
   - c'
 - Ftnk:
   - pp.
-  Hnv1: &id124
+  Hnv1: &id126
   - 南
-  Hnv3: *id124
+  Hnv3: *id126
   dt:
   - 24/7月/2019
   et:
@@ -3139,9 +3180,9 @@
   - 停用
 - Ftnk:
   - ppi_bur
-  Hnv1: &id125
+  Hnv1: &id127
   - 南i風
-  Hnv3: *id125
+  Hnv3: *id127
   cf:
   - pope
   - bura
@@ -3164,9 +3205,9 @@
   - p'
 - Ftnk:
   - pp
-  Hnv1: &id126
+  Hnv1: &id128
   - 南
-  Hnv3: *id126
+  Hnv3: *id128
   cf:
   - pop
   cn:
@@ -3187,9 +3228,9 @@
   - p'
 - Ftnk:
   - pk
-  Hnv1: &id127
+  Hnv1: &id129
   - 保
-  Hnv3: *id127
+  Hnv3: *id129
   dt:
   - 08/7月/2019
   et:
@@ -3206,9 +3247,9 @@
   - v'
 - Ftnk:
   - pki_|hf
-  Hnv1: &id128
+  Hnv1: &id130
   - 保i所言
-  Hnv3: *id128
+  Hnv3: *id130
   cf:
   - pok
   - hefe
@@ -3229,10 +3270,10 @@
 - Ftnk:
   - pk`n
   - pk`no
-  Hnv1: &id129
+  Hnv1: &id131
   - 保處
   - 保處o
-  Hnv3: *id129
+  Hnv3: *id131
   cf:
   - pok
   - -on-
@@ -3252,9 +3293,9 @@
   - p'
 - Ftnk:
   - pk`r
-  Hnv1: &id130
+  Hnv1: &id132
   - 保具
-  Hnv3: *id130
+  Hnv3: *id132
   dt:
   - 14/4月/2024
   et:
@@ -3271,9 +3312,9 @@
   - p'
 - Ftnk:
   - pj
-  Hnv1: &id131
+  Hnv1: &id133
   - 成
-  Hnv3: *id131
+  Hnv3: *id133
   cf:
   - po
   - poje
@@ -3299,9 +3340,9 @@
   - pot（已停用）
 - Ftnk:
   - pj`z
-  Hnv1: &id132
+  Hnv1: &id134
   - 成化
-  Hnv3: *id132
+  Hnv3: *id134
   cf:
   - poje
   cn:
@@ -3322,9 +3363,9 @@
   - v'
 - Ftnk:
   - pj
-  Hnv1: &id133
+  Hnv1: &id135
   - 成
-  Hnv3: *id133
+  Hnv3: *id135
   cf:
   - poj
   cn:
@@ -3345,9 +3386,9 @@
   - fp'
 - Ftnk:
   - pj`d
-  Hnv1: &id134
+  Hnv1: &id136
   - 成事
-  Hnv3: *id134
+  Hnv3: *id136
   cf:
   - poj
   - -od-
@@ -3367,9 +3408,9 @@
   - p'
 - Ftnk:
   - pj`n
-  Hnv1: &id135
+  Hnv1: &id137
   - 成處
-  Hnv3: *id135
+  Hnv3: *id137
   cf:
   - poj
   - -on-
@@ -3391,9 +3432,9 @@
   - p'
 - Ftnk:
   - ps.
-  Hnv1: &id136
+  Hnv1: &id138
   - 光.
-  Hnv3: *id136
+  Hnv3: *id138
   cf:
   - posa
   - pose
@@ -3420,9 +3461,9 @@
   - v'
 - Ftnk:
   - psi_|bs
-  Hnv1: &id137
+  Hnv1: &id139
   - 光i所畫
-  Hnv3: *id137
+  Hnv3: *id139
   cf:
   - pos
   - bise
@@ -3447,9 +3488,9 @@
   - p'
 - Ftnk:
   - psi_bs
-  Hnv1: &id138
+  Hnv1: &id140
   - 光i畫
-  Hnv3: *id138
+  Hnv3: *id140
   cf:
   - pos
   - bes
@@ -3474,9 +3515,9 @@
   - p'
 - Ftnk:
   - psi_t'pt
-  Hnv1: &id139
+  Hnv1: &id141
   - 光i塔
-  Hnv3: *id139
+  Hnv3: *id141
   cf:
   - posa
   - tapto
@@ -3496,9 +3537,9 @@
   - p'
 - Ftnk:
   - ps`k
-  Hnv1: &id140
+  Hnv1: &id142
   - 光者
-  Hnv3: *id140
+  Hnv3: *id142
   cf:
   - pos
   cn:
@@ -3520,10 +3561,10 @@
 - Ftnk:
   - ps
   - pse
-  Hnv1: &id141
+  Hnv1: &id143
   - 光
   - 光e
-  Hnv3: *id141
+  Hnv3: *id143
   cf:
   - posa
   - pos
@@ -3550,9 +3591,9 @@
   - fp'
 - Ftnk:
   - psa
-  Hnv1: &id142
+  Hnv1: &id144
   - 光a
-  Hnv3: *id142
+  Hnv3: *id144
   cf:
   - pos
   - pose
@@ -3575,9 +3616,9 @@
   - p'
 - Ftnk:
   - p`sd
-  Hnv1: &id143
+  Hnv1: &id145
   - 已今
-  Hnv3: *id143
+  Hnv3: *id145
   cf:
   - po
   - sade
@@ -3597,9 +3638,9 @@
   - p'
 - Ftnk:
   - p`sdu
-  Hnv1: &id144
+  Hnv1: &id146
   - 已今u
-  Hnv3: *id144
+  Hnv3: *id146
   dt:
   - 12/11月/2019
   ge:
@@ -3614,9 +3655,9 @@
   - c'
 - Ftnk:
   - pso
-  Hnv1: &id145
+  Hnv1: &id147
   - 光o
-  Hnv3: *id145
+  Hnv3: *id147
   cf:
   - posa
   - pos
@@ -3641,9 +3682,9 @@
   - fp'
 - Ftnk:
   - ps`m
-  Hnv1: &id146
+  Hnv1: &id148
   - 光太
-  Hnv3: *id146
+  Hnv3: *id148
   cf:
   - pos
   - posumoda
@@ -3666,9 +3707,9 @@
   - fp'
 - Ftnk:
   - ps`m`d
-  Hnv1: &id147
+  Hnv1: &id149
   - 光太事
-  Hnv3: *id147
+  Hnv3: *id149
   cf:
   - posume
   - pos
@@ -3691,9 +3732,9 @@
   - p'
 - Ftnk:
   - '|pm'
-  Hnv1: &id148
+  Hnv1: &id150
   - 所容
-  Hnv3: *id148
+  Hnv3: *id150
   cf:
   - pum
   cn:
@@ -3714,9 +3755,9 @@
   - p'
 - Ftnk:
   - p'rk
-  Hnv1: &id149
+  Hnv1: &id151
   - 豕
-  Hnv3: *id149
+  Hnv3: *id151
   dt:
   - 22/8月/2019
   et:
@@ -3751,9 +3792,9 @@
   - t'
 - Ftnk:
   - '|pti_hca'
-  Hnv1: &id150
+  Hnv1: &id152
   - 所行i連a
-  Hnv3: *id150
+  Hnv3: *id152
   cf:
   - pit
   - haca
@@ -3776,9 +3817,9 @@
   - p'
 - Ftnk:
   - '|pti_ps`k'
-  Hnv1: &id151
+  Hnv1: &id153
   - 所行i光者
-  Hnv3: *id151
+  Hnv3: *id153
   cf:
   - puto
   - posike
@@ -3801,9 +3842,9 @@
   - p'
 - Ftnk:
   - '|pt`c'
-  Hnv1: &id152
+  Hnv1: &id154
   - 所行子
-  Hnv3: *id152
+  Hnv3: *id154
   cf:
   - puto
   - -ic-
@@ -3823,9 +3864,9 @@
   - p'
 - Ftnk:
   - '|pti_st''l'
-  Hnv1: &id153
+  Hnv1: &id155
   - 所行i星
-  Hnv3: *id153
+  Hnv3: *id155
   cf:
   - pit
   - stela
@@ -3848,9 +3889,9 @@
   - p'
 - Ftnk:
   - '|pti_fsa'
-  Hnv1: &id154
+  Hnv1: &id156
   - 所行i水a
-  Hnv3: *id154
+  Hnv3: *id156
   cf:
   - pit
   - fosa
@@ -3870,9 +3911,9 @@
   - p'
 - Ftnk:
   - '|pta'
-  Hnv1: &id155
+  Hnv1: &id157
   - 所行a
-  Hnv3: *id155
+  Hnv3: *id157
   cf:
   - pit
   cn:
@@ -3893,9 +3934,9 @@
   - p'
 - Ftnk:
   - '|pto'
-  Hnv1: &id156
+  Hnv1: &id158
   - 所行o
-  Hnv3: *id156
+  Hnv3: *id158
   cf:
   - pit
   cn:
@@ -3916,9 +3957,9 @@
   - p'
 - Ftnk:
   - '|pt`m'
-  Hnv1: &id157
+  Hnv1: &id159
   - 所行太
-  Hnv3: *id157
+  Hnv3: *id159
   cf:
   - puto
   - -um-
@@ -3938,9 +3979,9 @@
   - p'
 - Ftnk:
   - pm
-  Hnv1: &id158
+  Hnv1: &id160
   - 容
-  Hnv3: *id158
+  Hnv3: *id160
   cf:
   - pume
   - pome
@@ -3964,10 +4005,10 @@
 - Ftnk:
   - pm
   - pme
-  Hnv1: &id159
+  Hnv1: &id161
   - 容
   - 容e
-  Hnv3: *id159
+  Hnv3: *id161
   cf:
   - pum
   cn:
@@ -3988,9 +4029,9 @@
   - p'
 - Ftnk:
   - pl.
-  Hnv1: &id160
+  Hnv1: &id162
   - 滿.
-  Hnv3: *id160
+  Hnv3: *id162
   cf:
   - pule
   cn:
@@ -4011,9 +4052,9 @@
   - v'
 - Ftnk:
   - pl
-  Hnv1: &id161
+  Hnv1: &id163
   - 滿
-  Hnv3: *id161
+  Hnv3: *id163
   dt:
   - 02/7月/2019
   et:
@@ -4030,9 +4071,9 @@
   - fp'
 - Ftnk:
   - pl's
-  Hnv1: &id162
+  Hnv1: &id164
   - 簡
-  Hnv3: *id162
+  Hnv3: *id164
   an:
   - naplise
   cf:
@@ -4061,9 +4102,9 @@
   - di have plise , mo ju gahe ki de rahaf .
 - Ftnk:
   - pl'c
-  Hnv1: &id163
+  Hnv1: &id165
   - 肩
-  Hnv3: *id163
+  Hnv3: *id165
   dt:
   - 10/7月/2019
   et:
@@ -4080,9 +4121,9 @@
   - p'
 - Ftnk:
   - pl'm
-  Hnv1: &id164
+  Hnv1: &id166
   - 名
-  Hnv3: *id164
+  Hnv3: *id166
   cf:
   - basovipleme
   cn:
@@ -4103,9 +4144,9 @@
   - p'
 - Ftnk:
   - pl'fe
-  Hnv1: &id165
+  Hnv1: &id167
   - 支e
-  Hnv3: *id165
+  Hnv3: *id167
   cf:
   - plafa
   - plafo
@@ -4128,9 +4169,9 @@
   - p'
 - Ftnk:
   - pl'fa
-  Hnv1: &id166
+  Hnv1: &id168
   - 支a
-  Hnv3: *id166
+  Hnv3: *id168
   cf:
   - plafe
   - plafo
@@ -4153,9 +4194,9 @@
   - p'
 - Ftnk:
   - pl'fo
-  Hnv1: &id167
+  Hnv1: &id169
   - 支o
-  Hnv3: *id167
+  Hnv3: *id169
   cf:
   - plafe
   - plafa
@@ -4178,9 +4219,9 @@
   - p'
 - Ftnk:
   - pl'd`c
-  Hnv1: &id168
+  Hnv1: &id170
   - 園子
-  Hnv3: *id168
+  Hnv3: *id170
   dt:
   - 13/4月/2024
   et:
@@ -4197,9 +4238,9 @@
   - p'
 - Ftnk:
   - pl'de
-  Hnv1: &id169
+  Hnv1: &id171
   - 園e
-  Hnv3: *id169
+  Hnv3: *id171
   cf:
   - ploda
   cn:
@@ -4220,9 +4261,9 @@
   - p'
 - Ftnk:
   - pl'd
-  Hnv1: &id170
+  Hnv1: &id172
   - 園
-  Hnv3: *id170
+  Hnv3: *id172
   dt:
   - 10/2月/2020
   et:
@@ -4239,9 +4280,9 @@
   - p'
 - Ftnk:
   - pr'h
-  Hnv1: &id171
+  Hnv1: &id173
   - 粉
-  Hnv3: *id171
+  Hnv3: *id173
   dt:
   - 03/11月/2022
   et:
@@ -4258,9 +4299,9 @@
   - p'
 - Ftnk:
   - pr'k
-  Hnv1: &id172
+  Hnv1: &id174
   - 胃
-  Hnv3: *id172
+  Hnv3: *id174
   dt:
   - 15/6月/2022
   et:
@@ -4277,9 +4318,9 @@
   - p'
 - Ftnk:
   - pr'v
-  Hnv1: &id173
+  Hnv1: &id175
   - 義
-  Hnv3: *id173
+  Hnv3: *id175
   dt:
   - 09/7月/2019
   et:
@@ -4296,9 +4337,9 @@
   - fp'
 - Ftnk:
   - pr'v`d
-  Hnv1: &id174
+  Hnv1: &id176
   - 義事
-  Hnv3: *id174
+  Hnv3: *id176
   cf:
   - prave
   dt:
@@ -4315,9 +4356,9 @@
   - pravoda
   ps:
   - p'
-- Hnv1: &id175
+- Hnv1: &id177
   - 依
-  Hnv3: *id175
+  Hnv3: *id177
   dt:
   - 12/1月/2023
   ge:
@@ -4332,9 +4373,9 @@
   - k'
 - Ftnk:
   - BI
-  Hnv1: &id176
+  Hnv1: &id178
   - 當
-  Hnv3: *id176
+  Hnv3: *id178
   dt:
   - 12/1月/2023
   ge:
@@ -4355,9 +4396,9 @@
   - li luc utego-jafo bi di voge jena ki li fret .
 - Ftnk:
   - bb.
-  Hnv1: &id177
+  Hnv1: &id179
   - 上
-  Hnv3: *id177
+  Hnv3: *id179
   cf:
   - bibore
   cn:
@@ -4378,9 +4419,9 @@
   - v'
 - Ftnk:
   - bb`z
-  Hnv1: &id178
+  Hnv1: &id180
   - 上化
-  Hnv3: *id178
+  Hnv3: *id180
   dt:
   - 14/4月/2024
   et:
@@ -4397,9 +4438,9 @@
   - v'
 - Ftnk:
   - bbi_vno
-  Hnv1: &id179
+  Hnv1: &id181
   - 上i點
-  Hnv3: *id179
+  Hnv3: *id181
   cf:
   - bibe
   - vino
@@ -4428,9 +4469,9 @@
   - ˙gavkav
 - Ftnk:
   - bbi_nt
-  Hnv1: &id180
+  Hnv1: &id182
   - 上i陽
-  Hnv3: *id180
+  Hnv3: *id182
   cf:
   - bib
   - nito
@@ -4453,9 +4494,9 @@
   - p'
 - Ftnk:
   - bb
-  Hnv1: &id181
+  Hnv1: &id183
   - 上
-  Hnv3: *id181
+  Hnv3: *id183
   cf:
   - bib
   cn:
@@ -4476,9 +4517,9 @@
   - p'
 - Ftnk:
   - bb`r
-  Hnv1: &id182
+  Hnv1: &id184
   - 上具
-  Hnv3: *id182
+  Hnv3: *id184
   cf:
   - bib
   - biborele
@@ -4500,9 +4541,9 @@
   - p'
 - Ftnk:
   - bb`re`l
-  Hnv1: &id183
+  Hnv1: &id185
   - 上具eLe
-  Hnv3: *id183
+  Hnv3: *id185
   cf:
   - bibore
   - bib
@@ -4525,9 +4566,9 @@
   - p'
 - Ftnk:
   - bbu
-  Hnv1: &id184
+  Hnv1: &id186
   - 上u
-  Hnv3: *id184
+  Hnv3: *id186
   cf:
   - bibe
   dt:
@@ -4546,9 +4587,9 @@
   - k'
 - Ftnk:
   - bt
-  Hnv1: &id185
+  Hnv1: &id187
   - 爲
-  Hnv3: *id185
+  Hnv3: *id187
   cf:
   - bite
   - bita
@@ -4570,10 +4611,10 @@
 - Ftnk:
   - bti_|gr
   - bti_|gra
-  Hnv1: &id186
+  Hnv1: &id188
   - 爲i所學
   - 爲i所學a
-  Hnv3: *id186
+  Hnv3: *id188
   cf:
   - bit
   - gara
@@ -4596,9 +4637,9 @@
   - p'
 - Ftnk:
   - bte
-  Hnv1: &id187
+  Hnv1: &id189
   - 爲e
-  Hnv3: *id187
+  Hnv3: *id189
   cf:
   - bit
   cn:
@@ -4619,9 +4660,9 @@
   - p'
 - Ftnk:
   - bta
-  Hnv1: &id188
+  Hnv1: &id190
   - 爲a
-  Hnv3: *id188
+  Hnv3: *id190
   cf:
   - bit
   cn:
@@ -4642,9 +4683,9 @@
   - p'
 - Ftnk:
   - bto
-  Hnv1: &id189
+  Hnv1: &id191
   - 爲o
-  Hnv3: *id189
+  Hnv3: *id191
   cf:
   - bit
   cn:
@@ -4665,9 +4706,9 @@
   - p'
 - Ftnk:
   - bg
-  Hnv1: &id190
+  Hnv1: &id192
   - 斜
-  Hnv3: *id190
+  Hnv3: *id192
   dt:
   - 12/1月/2023
   et:
@@ -4684,9 +4725,9 @@
   - fp'
 - Ftnk:
   - BI_JA
-  Hnv1: &id191
+  Hnv1: &id193
   - 當而
-  Hnv3: *id191
+  Hnv3: *id193
   cf:
   - bi
   - ja
@@ -4765,9 +4806,9 @@
   - p'
 - Ftnk:
   - b'nd
-  Hnv1: &id192
+  Hnv1: &id194
   - 病
-  Hnv3: *id192
+  Hnv3: *id194
   dt:
   - 12/1月/2023
   et:
@@ -4782,34 +4823,11 @@
   - bindo
   ps:
   - p'
-- Hnv1: &id193
-  - 二
-  Hnv3: *id193
-  dt:
-  - 12/1月/2023
-  et:
-  - Niv ebh
-  ge:
-  - '2'
-  - again
-  gn:
-  - '2'
-  - 再，又
-  lx:
-  - be
-  ph:
-  - be
-  ps:
-  - t'
-  - c'
-  sn:
-  - '1'
-  - '2'
 - Ftnk:
   - be`
-  Hnv1: &id194
+  Hnv1: &id195
   - 再
-  Hnv3: *id194
+  Hnv3: *id195
   cf:
   - be
   cn:
@@ -4834,12 +4852,35 @@
   sn:
   - '1'
   - '2'
+- Hnv1: &id196
+  - 二
+  Hnv3: *id196
+  dt:
+  - 12/1月/2023
+  et:
+  - Niv ebh
+  ge:
+  - '2'
+  - again
+  gn:
+  - '2'
+  - 再，又
+  lx:
+  - be
+  ph:
+  - be
+  ps:
+  - t'
+  - c'
+  sn:
+  - '1'
+  - '2'
 - Ftnk:
   - bhu
-  Hnv1: &id195
+  Hnv1: &id197
   - 仍
   - 再在
-  Hnv3: *id195
+  Hnv3: *id197
   dt:
   - 12/1月/2023
   et:
@@ -4856,9 +4897,9 @@
   - c'
 - Ftnk:
   - be`bt
-  Hnv1: &id196
+  Hnv1: &id198
   - 再爲
-  Hnv3: *id196
+  Hnv3: *id198
   cf:
   - be-
   - bit
@@ -4878,9 +4919,9 @@
   - v'
 - Ftnk:
   - bebe
-  Hnv1: &id197
+  Hnv1: &id199
   - 嬰
-  Hnv3: *id197
+  Hnv3: *id199
   dt:
   - 12/1月/2023
   et:
@@ -4897,9 +4938,9 @@
   - cp'
 - Ftnk:
   - b`d'nd
-  Hnv1: &id198
+  Hnv1: &id200
   - 雙讀
-  Hnv3: *id198
+  Hnv3: *id200
   cf:
   - be-
   - daNda
@@ -4941,9 +4982,9 @@
 - Ftnk:
   - bs.
   - bes
-  Hnv1: &id199
+  Hnv1: &id201
   - 畫
-  Hnv3: *id199
+  Hnv3: *id201
   dt:
   - 12/1月/2023
   et:
@@ -4960,9 +5001,9 @@
   - v'
 - Ftnk:
   - b`vno
-  Hnv1: &id200
+  Hnv1: &id202
   - 再點o
-  Hnv3: *id200
+  Hnv3: *id202
   cf:
   - be-
   - vino
@@ -5006,9 +5047,9 @@
   - fp'
 - Ftnk:
   - beva
-  Hnv1: &id201
+  Hnv1: &id203
   - 苦a
-  Hnv3: *id201
+  Hnv3: *id203
   cf:
   - beve
   cn:
@@ -5031,9 +5072,9 @@
   - p'
 - Ftnk:
   - b'nl`z
-  Hnv1: &id202
+  Hnv1: &id204
   - 便化
-  Hnv3: *id202
+  Hnv3: *id204
   cf:
   - beNle
   - -iz-
@@ -5056,9 +5097,9 @@
   - v'
 - Ftnk:
   - b'nl
-  Hnv1: &id203
+  Hnv1: &id205
   - 便
-  Hnv3: *id203
+  Hnv3: *id205
   dt:
   - 12/1月/2023
   et:
@@ -5079,9 +5120,9 @@
   - putihaca 18o veru beNle.
 - Ftnk:
   - b`rvi_kh
-  Hnv1: &id204
+  Hnv1: &id206
   - 雙圓i車
-  Hnv3: *id204
+  Hnv3: *id206
   cf:
   - be-
   - rava
@@ -5122,9 +5163,9 @@
   - p'
 - Ftnk:
   - BA
-  Hnv1: &id205
+  Hnv1: &id207
   - 共
-  Hnv3: *id205
+  Hnv3: *id207
   dt:
   - 15/1月/2023
   et:
@@ -5141,9 +5182,9 @@
   - c'
 - Ftnk:
   - bat
-  Hnv1: &id206
+  Hnv1: &id208
   - 友
-  Hnv3: *id206
+  Hnv3: *id208
   dt:
   - 27/6月/2019
   et:
@@ -5160,9 +5201,9 @@
   - cp'
 - Ftnk:
   - bt`d
-  Hnv1: &id207
+  Hnv1: &id209
   - 友事
-  Hnv3: *id207
+  Hnv3: *id209
   dt:
   - 14/4月/2024
   et:
@@ -5179,9 +5220,9 @@
   - p'
 - Ftnk:
   - bk
-  Hnv1: &id208
+  Hnv1: &id210
   - 白
-  Hnv3: *id208
+  Hnv3: *id210
   dt:
   - 09/4月/2021
   et:
@@ -5200,9 +5241,9 @@
   - bele（停用）
 - Ftnk:
   - b'kt
-  Hnv1: &id209
+  Hnv1: &id211
   - 菌
-  Hnv3: *id209
+  Hnv3: *id211
   dt:
   - 05/1月/2022
   et:
@@ -5219,9 +5260,9 @@
   - p'
 - Ftnk:
   - bsi_dj
-  Hnv1: &id210
+  Hnv1: &id212
   - 家i予
-  Hnv3: *id210
+  Hnv3: *id212
   cf:
   - base
   - daj
@@ -5244,9 +5285,9 @@
   - v'
 - Ftnk:
   - bsi_dj`r
-  Hnv1: &id211
+  Hnv1: &id213
   - 家i予具
-  Hnv3: *id211
+  Hnv3: *id213
   cf:
   - basidaj
   cn:
@@ -5267,9 +5308,9 @@
   - p'
 - Ftnk:
   - bs`l
-  Hnv1: &id212
+  Hnv1: &id214
   - 家類
-  Hnv3: *id212
+  Hnv3: *id214
   cf:
   - base
   cn:
@@ -5290,9 +5331,9 @@
   - cp'
 - Ftnk:
   - bs`l`v
-  Hnv1: &id213
+  Hnv1: &id215
   - 家類衆
-  Hnv3: *id213
+  Hnv3: *id215
   cf:
   - basile
   - base
@@ -5315,9 +5356,9 @@
   - p'
 - Ftnk:
   - bas
-  Hnv1: &id214
+  Hnv1: &id216
   - 家
-  Hnv3: *id214
+  Hnv3: *id216
   dt:
   - 27/6月/2019
   et:
@@ -5334,9 +5375,9 @@
   - cp'
 - Ftnk:
   - bs`vi_pl`m
-  Hnv1: &id215
+  Hnv1: &id217
   - 家衆i名
-  Hnv3: *id215
+  Hnv3: *id217
   cf:
   - basove
   - pleme
@@ -5359,9 +5400,9 @@
   - p'
 - Ftnk:
   - bs`v
-  Hnv1: &id216
+  Hnv1: &id218
   - 家衆
-  Hnv3: *id216
+  Hnv3: *id218
   cf:
   - base
   cn:
@@ -5382,9 +5423,9 @@
   - p'
 - Ftnk:
   - b'sn
-  Hnv1: &id217
+  Hnv1: &id219
   - 世
-  Hnv3: *id217
+  Hnv3: *id219
   dt:
   - 12/4月/2024
   et:
@@ -5405,9 +5446,9 @@
   - 停用
 - Ftnk:
   - b`zgi_|ms
-  Hnv1: &id218
+  Hnv1: &id220
   - 共作i所思
-  Hnv3: *id218
+  Hnv3: *id220
   cf:
   - ba
   - zug
@@ -5438,9 +5479,9 @@
   - fp'
 - Ftnk:
   - b`zgi_|ms`d
-  Hnv1: &id219
+  Hnv1: &id221
   - 共作i所思事
-  Hnv3: *id219
+  Hnv3: *id221
   cf:
   - bazugimise
   - mise
@@ -5467,9 +5508,9 @@
   - p'
 - Ftnk:
   - b'ft
-  Hnv1: &id220
+  Hnv1: &id222
   - 錢
-  Hnv3: *id220
+  Hnv3: *id222
   cf:
   - vaste
   cn:
@@ -5492,9 +5533,9 @@
   - p'
 - Ftnk:
   - b'vgi_fjo
-  Hnv1: &id221
+  Hnv1: &id223
   - 礦i鐵o
-  Hnv3: *id221
+  Hnv3: *id223
   cf:
   - bavga
   - fejiputo
@@ -5517,9 +5558,9 @@
   - p'
 - Ftnk:
   - b'vgi_ven
-  Hnv1: &id222
+  Hnv1: &id224
   - 礦i山
-  Hnv3: *id222
+  Hnv3: *id224
   cf:
   - bavga
   - vene
@@ -5542,9 +5583,9 @@
   - p'
 - Ftnk:
   - b'vg
-  Hnv1: &id223
+  Hnv1: &id225
   - 礦
-  Hnv3: *id223
+  Hnv3: *id225
   dt:
   - 10/7月/2019
   et:
@@ -5562,9 +5603,9 @@
 - Ftnk:
   - ba`|ms
   - b`|ms
-  Hnv1: &id224
+  Hnv1: &id226
   - 共所思
-  Hnv3: *id224
+  Hnv3: *id226
   cf:
   - ba
   - mise
@@ -5596,9 +5637,9 @@
 - Ftnk:
   - b`|ms`v
   - b`mis`v
-  Hnv1: &id225
+  Hnv1: &id227
   - 共所思衆
-  Hnv3: *id225
+  Hnv3: *id227
   dt:
   - 24/6月/2022
   ge:
@@ -5616,9 +5657,9 @@
   - bamisove
 - Ftnk:
   - bm
-  Hnv1: &id226
+  Hnv1: &id228
   - 土
-  Hnv3: *id226
+  Hnv3: *id228
   dt:
   - 11/12月/2020
   et:
@@ -5636,9 +5677,9 @@
 - Ftnk:
   - BA_NA_NA
   - bnn
-  Hnv1: &id227
+  Hnv1: &id229
   - 蕉
-  Hnv3: *id227
+  Hnv3: *id229
   dt:
   - 05/12月/2021
   et:
@@ -5655,9 +5696,9 @@
   - p'
 - Ftnk:
   - b'ns
-  Hnv1: &id228
+  Hnv1: &id230
   - 裙
-  Hnv3: *id228
+  Hnv3: *id230
   dt:
   - 07/5月/2021
   et:
@@ -5674,9 +5715,9 @@
   - p'
 - Ftnk:
   - ba`rd`k
-  Hnv1: &id229
+  Hnv1: &id231
   - 共工者
-  Hnv3: *id229
+  Hnv3: *id231
   cf:
   - ba
   - rad
@@ -5701,9 +5742,9 @@
   - suradike
 - Ftnk:
   - bh
-  Hnv1: &id230
+  Hnv1: &id232
   - 黃
-  Hnv3: *id230
+  Hnv3: *id232
   dt:
   - 27/6月/2019
   et:
@@ -5720,9 +5761,9 @@
   - fp'
 - Ftnk:
   - '|bd'
-  Hnv1: &id231
+  Hnv1: &id233
   - 所餘
-  Hnv3: *id231
+  Hnv3: *id233
   cf:
   - bud
   cn:
@@ -5743,9 +5784,9 @@
   - p'
 - Ftnk:
   - bj
-  Hnv1: &id232
+  Hnv1: &id234
   - 色
-  Hnv3: *id232
+  Hnv3: *id234
   dt:
   - 10/7月/2019
   et:
@@ -5762,9 +5803,9 @@
   - p'
 - Ftnk:
   - bj`s
-  Hnv1: &id233
+  Hnv1: &id235
   - 色焉
-  Hnv3: *id233
+  Hnv3: *id235
   cf:
   - boje
   - -as-
@@ -5785,9 +5826,9 @@
 - Ftnk:
   - bov
   - bv
-  Hnv1: &id234
+  Hnv1: &id236
   - 牛
-  Hnv3: *id234
+  Hnv3: *id236
   dt:
   - 12/11月/2019
   et:
@@ -5808,9 +5849,9 @@
   - 停用
 - Ftnk:
   - b'nb
-  Hnv1: &id235
+  Hnv1: &id237
   - 炸
-  Hnv3: *id235
+  Hnv3: *id237
   dt:
   - 23/6月/2022
   et:
@@ -5827,9 +5868,9 @@
   - p'
 - Ftnk:
   - bri_g'pt
-  Hnv1: &id236
+  Hnv1: &id238
   - 大i美
-  Hnv3: *id236
+  Hnv3: *id238
   cf:
   - bore
   - gupte
@@ -5852,9 +5893,9 @@
   - fp'
 - Ftnk:
   - bri_ls
-  Hnv1: &id237
+  Hnv1: &id239
   - 大i發
-  Hnv3: *id237
+  Hnv3: *id239
   cf:
   - bore
   - les
@@ -5877,9 +5918,9 @@
   - v'
 - Ftnk:
   - br
-  Hnv1: &id238
+  Hnv1: &id240
   - 大
-  Hnv3: *id238
+  Hnv3: *id240
   dt:
   - 27/6月/2019
   et:
@@ -5896,9 +5937,9 @@
   - fp'
 - Ftnk:
   - br`m
-  Hnv1: &id239
+  Hnv1: &id241
   - 大太
-  Hnv3: *id239
+  Hnv3: *id241
   cf:
   - bore
   - -um-
@@ -5938,9 +5979,9 @@
   - '2'
 - Ftnk:
   - bd
-  Hnv1: &id240
+  Hnv1: &id242
   - 餘
-  Hnv3: *id240
+  Hnv3: *id242
   cf:
   - bode
   cn:
@@ -5965,9 +6006,9 @@
   - he ne kege bud.!
 - Ftnk:
   - bc
-  Hnv1: &id241
+  Hnv1: &id243
   - 面
-  Hnv3: *id241
+  Hnv3: *id243
   dt:
   - 14/1月/2020
   et:
@@ -5984,9 +6025,9 @@
   - p'
 - Ftnk:
   - bu`sc
-  Hnv1: &id242
+  Hnv1: &id244
   - 依試
-  Hnv3: *id242
+  Hnv3: *id244
   cf:
   - soc
   dt:
@@ -6005,9 +6046,9 @@
   - v'
 - Ftnk:
   - bu`sr
-  Hnv1: &id243
+  Hnv1: &id245
   - 依見
-  Hnv3: *id243
+  Hnv3: *id245
   cf:
   - b
   - sur
@@ -6029,9 +6070,9 @@
   - v'
 - Ftnk:
   - bn
-  Hnv1: &id244
+  Hnv1: &id246
   - 邊
-  Hnv3: *id244
+  Hnv3: *id246
   cf:
   - b
   - buna
@@ -6053,9 +6094,9 @@
   - p'
 - Ftnk:
   - bna
-  Hnv1: &id245
+  Hnv1: &id247
   - 邊a
-  Hnv3: *id245
+  Hnv3: *id247
   cf:
   - bune
   cn:
@@ -6076,9 +6117,9 @@
   - p'
 - Ftnk:
   - bl
-  Hnv1: &id246
+  Hnv1: &id248
   - 貴
-  Hnv3: *id246
+  Hnv3: *id248
   cf:
   - buloda
   - bulode
@@ -6101,9 +6142,9 @@
   - fp'
 - Ftnk:
   - bl`de
-  Hnv1: &id247
+  Hnv1: &id249
   - 貴事e
-  Hnv3: *id247
+  Hnv3: *id249
   cf:
   - bule
   cn:
@@ -6124,9 +6165,9 @@
   - p'
 - Ftnk:
   - bl`da
-  Hnv1: &id248
+  Hnv1: &id250
   - 貴事a
-  Hnv3: *id248
+  Hnv3: *id250
   cf:
   - bule
   cn:
@@ -6147,9 +6188,9 @@
   - p'
 - Ftnk:
   - br.
-  Hnv1: &id249
+  Hnv1: &id251
   - 風.
-  Hnv3: *id249
+  Hnv3: *id251
   cf:
   - bura
   cn:
@@ -6170,9 +6211,9 @@
   - v'
 - Ftnk:
   - br`c
-  Hnv1: &id250
+  Hnv1: &id252
   - 風子
-  Hnv3: *id250
+  Hnv3: *id252
   cf:
   - bura
   cn:
@@ -6193,9 +6234,9 @@
   - p'
 - Ftnk:
   - bur
-  Hnv1: &id251
+  Hnv1: &id253
   - 風
-  Hnv3: *id251
+  Hnv3: *id253
   dt:
   - 27/6月/2019
   et:
@@ -6212,9 +6253,9 @@
   - p'
 - Ftnk:
   - b`rt
-  Hnv1: &id252
+  Hnv1: &id254
   - 依用
-  Hnv3: *id252
+  Hnv3: *id254
   cf:
   - rut
   cn:
@@ -6235,9 +6276,9 @@
   - v'
 - Ftnk:
   - bu`rt`m
-  Hnv1: &id253
+  Hnv1: &id255
   - 依用太
-  Hnv3: *id253
+  Hnv3: *id255
   cf:
   - burut
   - -um-
@@ -6257,9 +6298,9 @@
   - v'
 - Ftnk:
   - bu`rt`m`d
-  Hnv1: &id254
+  Hnv1: &id256
   - 依用太事
-  Hnv3: *id254
+  Hnv3: *id256
   cf:
   - burutum
   - -od-
@@ -6279,9 +6320,9 @@
   - p'
 - Ftnk:
   - br`m
-  Hnv1: &id255
+  Hnv1: &id257
   - 風太
-  Hnv3: *id255
+  Hnv3: *id257
   cf:
   - bura
   - -um-
@@ -6301,9 +6342,9 @@
   - p'
 - Ftnk:
   - bl'k
-  Hnv1: &id256
+  Hnv1: &id258
   - 植
-  Hnv3: *id256
+  Hnv3: *id258
   cf:
   - dere
   cn:
@@ -6326,9 +6367,9 @@
   - kope（停用）
 - Ftnk:
   - bl'n
-  Hnv1: &id257
+  Hnv1: &id259
   - 腦
-  Hnv3: *id257
+  Hnv3: *id259
   dt:
   - 27/6月/2019
   et:
@@ -6345,9 +6386,9 @@
   - p'
 - Ftnk:
   - bl'ne`l
-  Hnv1: &id258
+  Hnv1: &id260
   - 腦eLe
-  Hnv3: *id258
+  Hnv3: *id260
   cf:
   - blane
   - daliblanele
@@ -6370,9 +6411,9 @@
   - p'
 - Ftnk:
   - br'k
-  Hnv1: &id259
+  Hnv1: &id261
   - 骨
-  Hnv3: *id259
+  Hnv3: *id261
   dt:
   - 10/7月/2019
   et:
@@ -6389,9 +6430,9 @@
   - p'
 - Ftnk:
   - br'z
-  Hnv1: &id260
+  Hnv1: &id262
   - 樺
-  Hnv3: *id260
+  Hnv3: *id262
   dt:
   - 27/10月/2022
   et:
@@ -6408,9 +6449,9 @@
   - p'
 - Ftnk:
   - br'd
-  Hnv1: &id261
+  Hnv1: &id263
   - 舟
-  Hnv3: *id261
+  Hnv3: *id263
   dt:
   - 07/5月/2021
   et:
@@ -6431,9 +6472,9 @@
   - fosoN ebrodoN bibipum ja gikirav .
 - Ftnk:
   - br'd`n
-  Hnv1: &id262
+  Hnv1: &id264
   - 舟處
-  Hnv3: *id262
+  Hnv3: *id264
   cf:
   - brodo
   cn:
@@ -6454,9 +6495,9 @@
   - p'
 - Ftnk:
   - br'h
-  Hnv1: &id263
+  Hnv1: &id265
   - 腹
-  Hnv3: *id263
+  Hnv3: *id265
   dt:
   - 24/1月/2020
   et:
@@ -6473,9 +6514,9 @@
   - p'
 - Ftnk:
   - TI
-  Hnv1: &id264
+  Hnv1: &id266
   - 爾
-  Hnv3: *id264
+  Hnv3: *id266
   dt:
   - 13/6月/2022
   ge:
@@ -6494,9 +6535,9 @@
   - ti gorike .?
 - Ftnk:
   - td
-  Hnv1: &id265
+  Hnv1: &id267
   - 替
-  Hnv3: *id265
+  Hnv3: *id267
   dt:
   - 14/3月/2021
   et:
@@ -6517,9 +6558,9 @@
   - liN ebavgikihaN uporkeN meke tid.
 - Ftnk:
   - tig
-  Hnv1: &id266
+  Hnv1: &id268
   - 分
-  Hnv3: *id266
+  Hnv3: *id268
   dt:
   - 09/7月/2019
   et:
@@ -6536,9 +6577,9 @@
   - p'
 - Ftnk:
   - t'gr
-  Hnv1: &id267
+  Hnv1: &id269
   - 虎
-  Hnv3: *id267
+  Hnv3: *id269
   dt:
   - 10/7月/2019
   et:
@@ -6555,9 +6596,9 @@
   - cp'
 - Ftnk:
   - tf
-  Hnv1: &id268
+  Hnv1: &id270
   - 擊
-  Hnv3: *id268
+  Hnv3: *id270
   dt:
   - 09/7月/2019
   et:
@@ -6574,9 +6615,9 @@
   - v'
 - Ftnk:
   - tf`j
-  Hnv1: &id269
+  Hnv1: &id271
   - 擊欸
-  Hnv3: *id269
+  Hnv3: *id271
   cf:
   - tif
   - lutitifaje
@@ -6600,9 +6641,9 @@
   - p'
 - Ftnk:
   - tfo
-  Hnv1: &id270
+  Hnv1: &id272
   - 擊o
-  Hnv3: *id270
+  Hnv3: *id272
   cf:
   - tif
   cn:
@@ -6624,9 +6665,9 @@
 - Ftnk:
   - tn
   - tin
-  Hnv1: &id271
+  Hnv1: &id273
   - 形
-  Hnv3: *id271
+  Hnv3: *id273
   cf:
   - tinaje
   cn:
@@ -6647,9 +6688,9 @@
   - p'
 - Ftnk:
   - tn`j
-  Hnv1: &id272
+  Hnv1: &id274
   - 形欸
-  Hnv3: *id272
+  Hnv3: *id274
   cf:
   - tine
   cn:
@@ -6670,9 +6711,9 @@
   - p'
 - Ftnk:
   - t'nt
-  Hnv1: &id273
+  Hnv1: &id275
   - 腿
-  Hnv3: *id273
+  Hnv3: *id275
   dt:
   - 09/7月/2019
   et:
@@ -6690,9 +6731,9 @@
 - Ftnk:
   - til.
   - tl.
-  Hnv1: &id274
+  Hnv1: &id276
   - 左.
-  Hnv3: *id274
+  Hnv3: *id276
   dt:
   - 27/6月/2019
   et:
@@ -6709,9 +6750,9 @@
   - v'
 - Ftnk:
   - til
-  Hnv1: &id275
+  Hnv1: &id277
   - 左
-  Hnv3: *id275
+  Hnv3: *id277
   cf:
   - til
   cn:
@@ -6733,9 +6774,9 @@
 - Ftnk:
   - '|tp'
   - '|tpe'
-  Hnv1: &id276
+  Hnv1: &id278
   - 所衣
-  Hnv3: *id276
+  Hnv3: *id278
   cf:
   - tap
   cn:
@@ -6756,9 +6797,9 @@
   - p'
 - Ftnk:
   - tk
-  Hnv1: &id277
+  Hnv1: &id279
   - 赤
-  Hnv3: *id277
+  Hnv3: *id279
   dt:
   - 27/6月/2019
   et:
@@ -6775,9 +6816,9 @@
   - fp'
 - Ftnk:
   - tg
-  Hnv1: &id278
+  Hnv1: &id280
   - 主
-  Hnv3: *id278
+  Hnv3: *id280
   dt:
   - 01/2月/2020
   et:
@@ -6794,9 +6835,9 @@
   - fp'
 - Ftnk:
   - tgo
-  Hnv1: &id279
+  Hnv1: &id281
   - 主o
-  Hnv3: *id279
+  Hnv3: *id281
   ge:
   - main piece (in tego-jafo)
   gn:
@@ -6823,9 +6864,9 @@
   - p'
 - Ftnk:
   - tg`m
-  Hnv1: &id280
+  Hnv1: &id282
   - 主太
-  Hnv3: *id280
+  Hnv3: *id282
   cf:
   - tege
   dt:
@@ -6844,9 +6885,9 @@
   - p'
 - Ftnk:
   - '|tm'
-  Hnv1: &id281
+  Hnv1: &id283
   - 所數
-  Hnv3: *id281
+  Hnv3: *id283
   cf:
   - tam
   cn:
@@ -6867,9 +6908,9 @@
   - p'
 - Ftnk:
   - tni_g'pt
-  Hnv1: &id282
+  Hnv1: &id284
   - 細i美
-  Hnv3: *id282
+  Hnv3: *id284
   cf:
   - tene
   - gupte
@@ -6893,9 +6934,9 @@
 - Ftnk:
   - tn
   - ten
-  Hnv1: &id283
+  Hnv1: &id285
   - 細
-  Hnv3: *id283
+  Hnv3: *id285
   an:
   - debe
   dt:
@@ -6914,9 +6955,9 @@
   - fp'
 - Ftnk:
   - t'np
-  Hnv1: &id284
+  Hnv1: &id286
   - 狂
-  Hnv3: *id284
+  Hnv3: *id286
   dt:
   - 10/7月/2019
   et:
@@ -6933,9 +6974,9 @@
   - fp'
 - Ftnk:
   - t'nc
-  Hnv1: &id285
+  Hnv1: &id287
   - 徽
-  Hnv3: *id285
+  Hnv3: *id287
   dt:
   - 21/12月/2020
   et:
@@ -6952,9 +6993,9 @@
   - p'
 - Ftnk:
   - tl
-  Hnv1: &id286
+  Hnv1: &id288
   - 體
-  Hnv3: *id286
+  Hnv3: *id288
   dt:
   - 27/6月/2019
   et:
@@ -6971,9 +7012,9 @@
   - p'
 - Ftnk:
   - tp
-  Hnv1: &id287
+  Hnv1: &id289
   - 衣
-  Hnv3: *id287
+  Hnv3: *id289
   dt:
   - 02/7月/2019
   et:
@@ -6990,9 +7031,9 @@
   - v'
 - Ftnk:
   - tpl
-  Hnv1: &id288
+  Hnv1: &id290
   - 瓶
-  Hnv3: *id288
+  Hnv3: *id290
   dt:
   - 01/11月/2021
   et:
@@ -7026,9 +7067,9 @@
   - p'
 - Ftnk:
   - tt
-  Hnv1: &id289
+  Hnv1: &id291
   - 刀
-  Hnv3: *id289
+  Hnv3: *id291
   dt:
   - 23/7月/2022
   et:
@@ -7047,9 +7088,9 @@
   - sec（停用）
 - Ftnk:
   - tt
-  Hnv1: &id290
+  Hnv1: &id292
   - 刀
-  Hnv3: *id290
+  Hnv3: *id292
   cf:
   - -at-
   - tat
@@ -7071,9 +7112,9 @@
   - sece（停用）
 - Ftnk:
   - tt`r
-  Hnv1: &id291
+  Hnv1: &id293
   - 刀具
-  Hnv3: *id291
+  Hnv3: *id293
   dt:
   - 23/7月/2022
   et:
@@ -7090,9 +7131,9 @@
   - p'
 - Ftnk:
   - tt`ro
-  Hnv1: &id292
+  Hnv1: &id294
   - 刀具o
-  Hnv3: *id292
+  Hnv3: *id294
   cf:
   - tat
   - tatore
@@ -7114,9 +7155,9 @@
   - secoro（停用）
 - Ftnk:
   - t'jl
-  Hnv1: &id293
+  Hnv1: &id295
   - 腰
-  Hnv3: *id293
+  Hnv3: *id295
   dt:
   - 24/1月/2020
   et:
@@ -7133,9 +7174,9 @@
   - p'
 - Ftnk:
   - '|ts'
-  Hnv1: &id294
+  Hnv1: &id296
   - 所知
-  Hnv3: *id294
+  Hnv3: *id296
   cf:
   - tos
   cn:
@@ -7156,9 +7197,9 @@
   - p'
 - Ftnk:
   - tzi_tt`r
-  Hnv1: &id295
+  Hnv1: &id297
   - 重i刀具
-  Hnv3: *id295
+  Hnv3: *id297
   cf:
   - taze
   - tatore
@@ -7181,9 +7222,9 @@
   - p'
 - Ftnk:
   - tz
-  Hnv1: &id296
+  Hnv1: &id298
   - 重
-  Hnv3: *id296
+  Hnv3: *id298
   an:
   - deke
   dt:
@@ -7202,9 +7243,9 @@
   - fp'
 - Ftnk:
   - tv
-  Hnv1: &id297
+  Hnv1: &id299
   - 曲
-  Hnv3: *id297
+  Hnv3: *id299
   an:
   - lame
   dt:
@@ -7223,9 +7264,9 @@
   - fp'
 - Ftnk:
   - tm.
-  Hnv1: &id298
+  Hnv1: &id300
   - 數.
-  Hnv3: *id298
+  Hnv3: *id300
   cf:
   - tame
   - tamo
@@ -7248,9 +7289,9 @@
   - v'
 - Ftnk:
   - tmi_|gr
-  Hnv1: &id299
+  Hnv1: &id301
   - 數i所學
-  Hnv3: *id299
+  Hnv3: *id301
   cf:
   - tam
   - gara
@@ -7273,9 +7314,9 @@
   - p'
 - Ftnk:
   - tm
-  Hnv1: &id300
+  Hnv1: &id302
   - 數
-  Hnv3: *id300
+  Hnv3: *id302
   cf:
   - tam
   - tamo
@@ -7298,9 +7339,9 @@
   - p'
 - Ftnk:
   - tmo
-  Hnv1: &id301
+  Hnv1: &id303
   - 數o
-  Hnv3: *id301
+  Hnv3: *id303
   cf:
   - tame
   - tam
@@ -7323,9 +7364,9 @@
   - p'
 - Ftnk:
   - t'nb
-  Hnv1: &id302
+  Hnv1: &id304
   - 鼓
-  Hnv3: *id302
+  Hnv3: *id304
   dt:
   - 23/6月/2022
   et:
@@ -7342,9 +7383,9 @@
   - p'
   va:
   - taNbur（停用）
-- Hnv1: &id303
+- Hnv1: &id305
   - 十
-  Hnv3: *id303
+  Hnv3: *id305
   dn:
   - 十。在数中间表达×10^。
   dt:
@@ -7363,9 +7404,9 @@
   - t'
 - Ftnk:
   - t'pl
-  Hnv1: &id304
+  Hnv1: &id306
   - 疲
-  Hnv3: *id304
+  Hnv3: *id306
   dt:
   - 24/1月/2020
   et:
@@ -7382,9 +7423,9 @@
   - fp'
 - Ftnk:
   - '|tb'
-  Hnv1: &id305
+  Hnv1: &id307
   - 所慣
-  Hnv3: *id305
+  Hnv3: *id307
   an:
   - natobe
   cf:
@@ -7407,9 +7448,9 @@
   - fp'
 - Ftnk:
   - '|tba'
-  Hnv1: &id306
+  Hnv1: &id308
   - 所慣a
-  Hnv3: *id306
+  Hnv3: *id308
   cf:
   - tub
   cn:
@@ -7430,9 +7471,9 @@
   - p'
 - Ftnk:
   - tok
-  Hnv1: &id307
+  Hnv1: &id309
   - 觸
-  Hnv3: *id307
+  Hnv3: *id309
   dt:
   - 02/7月/2019
   et:
@@ -7449,9 +7490,9 @@
   - v'
 - Ftnk:
   - '|tc'
-  Hnv1: &id308
+  Hnv1: &id310
   - 所觸
-  Hnv3: *id308
+  Hnv3: *id310
   cf:
   - tuc
   cn:
@@ -7472,9 +7513,9 @@
   - p'
 - Ftnk:
   - '|tca'
-  Hnv1: &id309
+  Hnv1: &id311
   - 所示a
-  Hnv3: *id309
+  Hnv3: *id311
   cf:
   - tuc
   cn:
@@ -7495,9 +7536,9 @@
   - p'
 - Ftnk:
   - '|tco'
-  Hnv1: &id310
+  Hnv1: &id312
   - 所示o
-  Hnv3: *id310
+  Hnv3: *id312
   cf:
   - tuc
   cn:
@@ -7518,9 +7559,9 @@
   - p'
 - Ftnk:
   - ts
-  Hnv1: &id311
+  Hnv1: &id313
   - 知
-  Hnv3: *id311
+  Hnv3: *id313
   dt:
   - 02/7月/2019
   et:
@@ -7554,9 +7595,9 @@
   - p'
 - Ftnk:
   - tmi_|tc`v
-  Hnv1: &id312
+  Hnv1: &id314
   - 元i所示衆
-  Hnv3: *id312
+  Hnv3: *id314
   cf:
   - tomo
   - toce
@@ -7581,9 +7622,9 @@
   - (Niv)
 - Ftnk:
   - tom
-  Hnv1: &id313
+  Hnv1: &id315
   - 元
-  Hnv3: *id313
+  Hnv3: *id315
   cf:
   - tomo
   - toma
@@ -7606,9 +7647,9 @@
   - p'
 - Ftnk:
   - toma
-  Hnv1: &id314
+  Hnv1: &id316
   - 元a
-  Hnv3: *id314
+  Hnv3: *id316
   cf:
   - tomo
   - tome
@@ -7648,9 +7689,9 @@
   - p'
 - Ftnk:
   - tma-lf
-  Hnv1: &id315
+  Hnv1: &id317
   - 元a-鬥
-  Hnv3: *id315
+  Hnv3: *id317
   cf:
   - toma
   - lafe
@@ -7670,9 +7711,9 @@
   - p'
 - Ftnk:
   - tomo
-  Hnv1: &id316
+  Hnv1: &id318
   - 元o
-  Hnv3: *id316
+  Hnv3: *id318
   cf:
   - tome
   - toma
@@ -7696,9 +7737,9 @@
 - Ftnk:
   - tom`v
   - tm`v
-  Hnv1: &id317
+  Hnv1: &id319
   - 元衆
-  Hnv3: *id317
+  Hnv3: *id319
   dt:
   - 10/7月/2019
   et:
@@ -7719,9 +7760,9 @@
   - e·kyrilitomove e·latina-tomove u·srbija vis rot .
 - Ftnk:
   - t'rt
-  Hnv1: &id318
+  Hnv1: &id320
   - 糕
-  Hnv3: *id318
+  Hnv3: *id320
   dt:
   - 06/12月/2020
   et:
@@ -7742,9 +7783,9 @@
   - jajitorta
 - Ftnk:
   - tb
-  Hnv1: &id319
+  Hnv1: &id321
   - 慣
-  Hnv3: *id319
+  Hnv3: *id321
   cf:
   - tobe
   - toba
@@ -7769,9 +7810,9 @@
   - v'
 - Ftnk:
   - tc
-  Hnv1: &id320
+  Hnv1: &id322
   - 示
-  Hnv3: *id320
+  Hnv3: *id322
   an:
   - natuc
   cf:
@@ -7794,9 +7835,9 @@
   - v'
 - Ftnk:
   - tc
-  Hnv1: &id321
+  Hnv1: &id323
   - 示
-  Hnv3: *id321
+  Hnv3: *id323
   cf:
   - tuc
   cn:
@@ -7817,9 +7858,9 @@
   - fp'
 - Ftnk:
   - tc`r
-  Hnv1: &id322
+  Hnv1: &id324
   - 示具
-  Hnv3: *id322
+  Hnv3: *id324
   cf:
   - tuc
   cn:
@@ -7840,9 +7881,9 @@
   - p'
 - Ftnk:
   - tr
-  Hnv1: &id323
+  Hnv1: &id325
   - 轉
-  Hnv3: *id323
+  Hnv3: *id325
   cf:
   - natura
   cn:
@@ -7867,9 +7908,9 @@
   - uju kule k urupoda 0 ifosoN egone tur.
 - Ftnk:
   - tr'm
-  Hnv1: &id324
+  Hnv1: &id326
   - 陡
-  Hnv3: *id324
+  Hnv3: *id326
   dt:
   - 26/8月/2019
   et:
@@ -7886,9 +7927,9 @@
   - fp'
 - Ftnk:
   - tr'g
-  Hnv1: &id325
+  Hnv1: &id327
   - 場
-  Hnv3: *id325
+  Hnv3: *id327
   dt:
   - 12/12月/2020
   et:
@@ -7905,9 +7946,9 @@
   - p'
 - Ftnk:
   - tr'k
-  Hnv1: &id326
+  Hnv1: &id328
   - 竹
-  Hnv3: *id326
+  Hnv3: *id328
   dt:
   - 10/7月/2019
   et:
@@ -7924,9 +7965,9 @@
   - p'
 - Ftnk:
   - DI
-  Hnv1: &id327
+  Hnv1: &id329
   - 此
-  Hnv3: *id327
+  Hnv3: *id329
   dn:
   - 这。第三人称代词，指代离说话者近的事物。
   dt:
@@ -7949,9 +7990,9 @@
   - mig de kupore jo di caNke vo rad .
 - Ftnk:
   - dc
-  Hnv1: &id328
+  Hnv1: &id330
   - 幸
-  Hnv3: *id328
+  Hnv3: *id330
   dt:
   - 10/7月/2019
   et:
@@ -7968,9 +8009,9 @@
   - fp'
 - Ftnk:
   - dc`m`d
-  Hnv1: &id329
+  Hnv1: &id331
   - 幸太事
-  Hnv3: *id329
+  Hnv3: *id331
   cf:
   - dice
   - -um-
@@ -7993,9 +8034,9 @@
   - p'
 - Ftnk:
   - dz
-  Hnv1: &id330
+  Hnv1: &id332
   - 少
-  Hnv3: *id330
+  Hnv3: *id332
   dt:
   - 02/7月/2019
   et:
@@ -8012,9 +8053,9 @@
   - fp'
 - Ftnk:
   - dvi_vbo
-  Hnv1: &id331
+  Hnv1: &id333
   - 地i穴o
-  Hnv3: *id331
+  Hnv3: *id333
   cf:
   - diva
   - vabo
@@ -8034,9 +8075,9 @@
   - p'
 - Ftnk:
   - dvi_ln
-  Hnv1: &id332
+  Hnv1: &id334
   - 地i人
-  Hnv3: *id332
+  Hnv3: *id334
   cf:
   - diva
   - line
@@ -8056,9 +8097,9 @@
   - fp'
 - Ftnk:
   - dv
-  Hnv1: &id333
+  Hnv1: &id335
   - 地
-  Hnv3: *id333
+  Hnv3: *id335
   cf:
   - diva
   cn:
@@ -8079,9 +8120,9 @@
   - p'
 - Ftnk:
   - dva
-  Hnv1: &id334
+  Hnv1: &id336
   - 地a
-  Hnv3: *id334
+  Hnv3: *id336
   cf:
   - dive
   cn:
@@ -8102,9 +8143,9 @@
   - p'
 - Ftnk:
   - db
-  Hnv1: &id335
+  Hnv1: &id337
   - 厚
-  Hnv3: *id335
+  Hnv3: *id337
   an:
   - tene
   dt:
@@ -8123,9 +8164,9 @@
   - fp'
 - Ftnk:
   - db`t
-  Hnv1: &id336
+  Hnv1: &id338
   - 厚部
-  Hnv3: *id336
+  Hnv3: *id338
   cf:
   - debe
   cn:
@@ -8148,9 +8189,9 @@
   - debeca（停用）
 - Ftnk:
   - dk
-  Hnv1: &id337
+  Hnv1: &id339
   - 輕
-  Hnv3: *id337
+  Hnv3: *id339
   an:
   - taze
   dt:
@@ -8169,9 +8210,9 @@
   - fp'
 - Ftnk:
   - '|dj'
-  Hnv1: &id338
+  Hnv1: &id340
   - 所予
-  Hnv3: *id338
+  Hnv3: *id340
   cf:
   - daj
   dt:
@@ -8190,9 +8231,9 @@
   - p'
 - Ftnk:
   - dev`l
-  Hnv1: &id339
+  Hnv1: &id341
   - 神類
-  Hnv3: *id339
+  Hnv3: *id341
   cf:
   - deviloda
   cn:
@@ -8213,9 +8254,9 @@
   - fp'
 - Ftnk:
   - dev`l`d
-  Hnv1: &id340
+  Hnv1: &id342
   - 神類事
-  Hnv3: *id340
+  Hnv3: *id342
   cf:
   - devile
   - -od-
@@ -8237,9 +8278,9 @@
   - p'
 - Ftnk:
   - '|dv'
-  Hnv1: &id341
+  Hnv1: &id343
   - 所拜
-  Hnv3: *id341
+  Hnv3: *id343
   cf:
   - dav
   cn:
@@ -8265,9 +8306,9 @@
   - '2'
 - Ftnk:
   - d'nt
-  Hnv1: &id342
+  Hnv1: &id344
   - 齒
-  Hnv3: *id342
+  Hnv3: *id344
   dt:
   - 10/7月/2019
   et:
@@ -8284,9 +8325,9 @@
   - p'
 - Ftnk:
   - d'nk
-  Hnv1: &id343
+  Hnv1: &id345
   - 瓜
-  Hnv3: *id343
+  Hnv3: *id345
   dt:
   - 22/8月/2021
   et:
@@ -8303,9 +8344,9 @@
   - p'
 - Ftnk:
   - dr
-  Hnv1: &id344
+  Hnv1: &id346
   - 木
-  Hnv3: *id344
+  Hnv3: *id346
   dt:
   - 10/2月/2021
   et:
@@ -8324,9 +8365,9 @@
   - kopo（停用）
 - Ftnk:
   - dr`v
-  Hnv1: &id345
+  Hnv1: &id347
   - 木衆
-  Hnv3: *id345
+  Hnv3: *id347
   dt:
   - 14/3月/2021
   et:
@@ -8363,9 +8404,9 @@
   - siN
 - Ftnk:
   - dd
-  Hnv1: &id346
+  Hnv1: &id348
   - 犬
-  Hnv3: *id346
+  Hnv3: *id348
   dt:
   - 13/8月/2019
   et:
@@ -8386,9 +8427,9 @@
   - 停用
 - Ftnk:
   - dj
-  Hnv1: &id347
+  Hnv1: &id349
   - 予
-  Hnv3: *id347
+  Hnv3: *id349
   dt:
   - 27/6月/2019
   et:
@@ -8409,9 +8450,9 @@
   - molim daj mu le jabuka .
 - Ftnk:
   - d'zv
-  Hnv1: &id348
+  Hnv1: &id350
   - 棗
-  Hnv3: *id348
+  Hnv3: *id350
   dt:
   - 24/8月/2021
   et:
@@ -8428,9 +8469,9 @@
   - p'
 - Ftnk:
   - dv
-  Hnv1: &id349
+  Hnv1: &id351
   - 拜
-  Hnv3: *id349
+  Hnv3: *id351
   cf:
   - deve
   - davifat
@@ -8454,9 +8495,9 @@
   - v'
 - Ftnk:
   - d'nd
-  Hnv1: &id350
+  Hnv1: &id352
   - 讀
-  Hnv3: *id350
+  Hnv3: *id352
   cf:
   - bedanda
   cn:
@@ -8479,9 +8520,9 @@
   - p'
 - Ftnk:
   - '|d''ns'
-  Hnv1: &id351
+  Hnv1: &id353
   - 所舞
-  Hnv3: *id351
+  Hnv3: *id353
   cf:
   - doNs
   cn:
@@ -8502,9 +8543,9 @@
   - p'
 - Ftnk:
   - dl.
-  Hnv1: &id352
+  Hnv1: &id354
   - 遠.
-  Hnv3: *id352
+  Hnv3: *id354
   cf:
   - dale
   cn:
@@ -8525,9 +8566,9 @@
   - v'
 - Ftnk:
   - dli_bl'ne`l
-  Hnv1: &id353
+  Hnv1: &id355
   - 遠i腦eLe
-  Hnv3: *id353
+  Hnv3: *id355
   cf:
   - dale
   - blanele
@@ -8550,9 +8591,9 @@
   - p'
 - Ftnk:
   - dli_gl's
-  Hnv1: &id354
+  Hnv1: &id356
   - 遠i音
-  Hnv3: *id354
+  Hnv3: *id356
   cf:
   - dale
   - glase
@@ -8579,9 +8620,9 @@
   - daliglase alinove·xef
 - Ftnk:
   - dl
-  Hnv1: &id355
+  Hnv1: &id357
   - 遠
-  Hnv3: *id355
+  Hnv3: *id357
   dt:
   - 02/7月/2019
   et:
@@ -8598,9 +8639,9 @@
   - fp'
 - Ftnk:
   - dl`d
-  Hnv1: &id356
+  Hnv1: &id358
   - 遠事
-  Hnv3: *id356
+  Hnv3: *id358
   cf:
   - dal
   - -od-
@@ -8618,9 +8659,9 @@
   - daloda
   ps:
   - p'
-- Hnv1: &id357
+- Hnv1: &id359
   - 八
-  Hnv3: *id357
+  Hnv3: *id359
   dt:
   - 09/7月/2019
   et:
@@ -8637,9 +8678,9 @@
   - t'
 - Ftnk:
   - dt
-  Hnv1: &id358
+  Hnv1: &id360
   - 閉
-  Hnv3: *id358
+  Hnv3: *id360
   cf:
   - dote
   cn:
@@ -8660,9 +8701,9 @@
   - v'
 - Ftnk:
   - dte
-  Hnv1: &id359
+  Hnv1: &id361
   - 閉e
-  Hnv3: *id359
+  Hnv3: *id361
   cf:
   - dot
   cn:
@@ -8684,9 +8725,9 @@
 - Ftnk:
   - doz`l
   - dz`l
-  Hnv1: &id360
+  Hnv1: &id362
   - 瓷類
-  Hnv3: *id360
+  Hnv3: *id362
   cf:
   - doze
   cn:
@@ -8707,9 +8748,9 @@
   - fp'
 - Ftnk:
   - doz
-  Hnv1: &id361
+  Hnv1: &id363
   - 瓷
-  Hnv3: *id361
+  Hnv3: *id363
   dt:
   - 05/1月/2022
   et:
@@ -8727,10 +8768,10 @@
 - Ftnk:
   - '|dm'
   - '|dmo'
-  Hnv1: &id362
+  Hnv1: &id364
   - 所居
   - 所居o
-  Hnv3: *id362
+  Hnv3: *id364
   cf:
   - dum
   cn:
@@ -8751,9 +8792,9 @@
   - p'
 - Ftnk:
   - '|dm`v'
-  Hnv1: &id363
+  Hnv1: &id365
   - 所居衆
-  Hnv3: *id363
+  Hnv3: *id365
   cf:
   - domo
   - domovume
@@ -8776,9 +8817,9 @@
   - p'
 - Ftnk:
   - '|dm`v`m'
-  Hnv1: &id364
+  Hnv1: &id366
   - 所居衆太
-  Hnv3: *id364
+  Hnv3: *id366
   cf:
   - domove
   - domo
@@ -8805,9 +8846,9 @@
   - p'
 - Ftnk:
   - '|dm`m'
-  Hnv1: &id365
+  Hnv1: &id367
   - 所居太
-  Hnv3: *id365
+  Hnv3: *id367
   cf:
   - domo
   - -um-
@@ -8827,9 +8868,9 @@
   - p'
 - Ftnk:
   - d'nb
-  Hnv1: &id366
+  Hnv1: &id368
   - 橋
-  Hnv3: *id366
+  Hnv3: *id368
   dt:
   - 09/2月/2020
   et:
@@ -8846,9 +8887,9 @@
   - p'
 - Ftnk:
   - d'ng
-  Hnv1: &id367
+  Hnv1: &id369
   - 銅
-  Hnv3: *id367
+  Hnv3: *id369
   dt:
   - 03/11月/2022
   et:
@@ -8865,9 +8906,9 @@
   - p'
 - Ftnk:
   - d'ns
-  Hnv1: &id368
+  Hnv1: &id370
   - 舞
-  Hnv3: *id368
+  Hnv3: *id370
   cf:
   - daNse
   cn:
@@ -8888,9 +8929,9 @@
   - v'
 - Ftnk:
   - dh
-  Hnv1: &id369
+  Hnv1: &id371
   - 靈
-  Hnv3: *id369
+  Hnv3: *id371
   dt:
   - 10/7月/2019
   et:
@@ -8908,10 +8949,10 @@
 - Ftnk:
   - ds
   - ds.
-  Hnv1: &id370
+  Hnv1: &id372
   - 氣
   - 氣.
-  Hnv3: *id370
+  Hnv3: *id372
   cf:
   - duse
   cn:
@@ -8932,9 +8973,9 @@
   - v'
 - Ftnk:
   - dsi_fs
-  Hnv1: &id371
+  Hnv1: &id373
   - 氣i水
-  Hnv3: *id371
+  Hnv3: *id373
   cf:
   - duse
   - foso
@@ -8958,10 +8999,10 @@
 - Ftnk:
   - ds
   - dse
-  Hnv1: &id372
+  Hnv1: &id374
   - 氣
   - 氣e
-  Hnv3: *id372
+  Hnv3: *id374
   cf:
   - dus
   cn:
@@ -8982,9 +9023,9 @@
   - p'
 - Ftnk:
   - df
-  Hnv1: &id373
+  Hnv1: &id375
   - 僞
-  Hnv3: *id373
+  Hnv3: *id375
   dt:
   - 09/7月/2019
   et:
@@ -9001,9 +9042,9 @@
   - fp'
 - Ftnk:
   - dm
-  Hnv1: &id374
+  Hnv1: &id376
   - 居
-  Hnv3: *id374
+  Hnv3: *id376
   cf:
   - domo
   cn:
@@ -9024,9 +9065,9 @@
   - v'
 - Ftnk:
   - dm`n
-  Hnv1: &id375
+  Hnv1: &id377
   - 居處
-  Hnv3: *id375
+  Hnv3: *id377
   cf:
   - dum
   - -on-
@@ -9046,9 +9087,9 @@
   - dumone
   ps:
   - p'
-- Hnv1: &id376
+- Hnv1: &id378
   - 至
-  Hnv3: *id376
+  Hnv3: *id378
   dt:
   - 07/12月/2023
   ge:
@@ -9065,9 +9106,9 @@
   - 北风必须承认太阳比他更强。
   xv:
   - fofibura cas curi ke nito ju gice k lu .
-- Hnv1: &id377
+- Hnv1: &id379
   - 夫
-  Hnv3: *id377
+  Hnv3: *id379
   dt:
   - 10/7月/2019
   ge:
@@ -9088,9 +9129,9 @@
   - liN ke ti udomo pit ojok .
 - Ftnk:
   - kh
-  Hnv1: &id378
+  Hnv1: &id380
   - 車
-  Hnv3: *id378
+  Hnv3: *id380
   cf:
   - beravikiha
   - kovumikiha
@@ -9121,9 +9162,9 @@
   - p'
 - Ftnk:
   - k'tr`c
-  Hnv1: &id379
+  Hnv1: &id381
   - 橙子
-  Hnv3: *id379
+  Hnv3: *id381
   cf:
   - kitro
   cn:
@@ -9144,9 +9185,9 @@
   - p'
 - Ftnk:
   - k'tr
-  Hnv1: &id380
+  Hnv1: &id382
   - 橙
-  Hnv3: *id380
+  Hnv3: *id382
   cf:
   - kitrica
   cn:
@@ -9167,9 +9208,9 @@
   - p'
 - Ftnk:
   - kik
-  Hnv1: &id381
+  Hnv1: &id383
   - 器
-  Hnv3: *id381
+  Hnv3: *id383
   dt:
   - 10/7月/2019
   et:
@@ -9186,9 +9227,9 @@
   - p'
 - Ftnk:
   - kz
-  Hnv1: &id382
+  Hnv1: &id384
   - 同
-  Hnv3: *id382
+  Hnv3: *id384
   dt:
   - 02/7月/2019
   et:
@@ -9206,10 +9247,10 @@
 - Ftnk:
   - kz
   - kze
-  Hnv1: &id383
+  Hnv1: &id385
   - 同
   - 同e
-  Hnv3: *id383
+  Hnv3: *id385
   an:
   - nakize
   cf:
@@ -9233,9 +9274,9 @@
 - Ftnk:
   - kim
   - km
-  Hnv1: &id384
+  Hnv1: &id386
   - 金
-  Hnv3: *id384
+  Hnv3: *id386
   dt:
   - 09/7月/2019
   et:
@@ -9252,9 +9293,9 @@
   - fp'
 - Ftnk:
   - kmo
-  Hnv1: &id385
+  Hnv1: &id387
   - 秒
-  Hnv3: *id385
+  Hnv3: *id387
   dt:
   - 09/7月/2019
   et:
@@ -9289,9 +9330,9 @@
   - piNgvine
 - Ftnk:
   - keh
-  Hnv1: &id386
+  Hnv1: &id388
   - 鍵
-  Hnv3: *id386
+  Hnv3: *id388
   dn:
   - 键。尤化学键。
   dt:
@@ -9311,9 +9352,9 @@
 - Ftnk:
   - '|kg`z'
   - keg`z
-  Hnv1: &id387
+  Hnv1: &id389
   - 所食化
-  Hnv3: *id387
+  Hnv3: *id389
   cf:
   - kege
   cn:
@@ -9346,9 +9387,9 @@
   - dusifosikegiz
 - Ftnk:
   - '|kgi_fn'
-  Hnv1: &id388
+  Hnv1: &id390
   - 所食i液
-  Hnv3: *id388
+  Hnv3: *id390
   cf:
   - kege
   - fone
@@ -9371,9 +9412,9 @@
   - p'
 - Ftnk:
   - '|kg'
-  Hnv1: &id389
+  Hnv1: &id391
   - 所食
-  Hnv3: *id389
+  Hnv3: *id391
   cf:
   - kag
   cn:
@@ -9394,9 +9435,9 @@
   - p'
 - Ftnk:
   - '|kj'
-  Hnv1: &id390
+  Hnv1: &id392
   - 所開
-  Hnv3: *id390
+  Hnv3: *id392
   cf:
   - kaj
   cn:
@@ -9417,9 +9458,9 @@
   - p'
 - Ftnk:
   - kf
-  Hnv1: &id391
+  Hnv1: &id393
   - 信
-  Hnv3: *id391
+  Hnv3: *id393
   cf:
   - kefum
   cn:
@@ -9448,9 +9489,9 @@
   - mi eno kanijuki oboribule kef , ja ti enjoke boribule kef .
 - Ftnk:
   - kf`|m
-  Hnv1: &id392
+  Hnv1: &id394
   - 信所太
-  Hnv3: *id392
+  Hnv3: *id394
   cf:
   - kefum
   - kef
@@ -9473,9 +9514,9 @@
   - p'
 - Ftnk:
   - kf`|ma
-  Hnv1: &id393
+  Hnv1: &id395
   - 信所太a
-  Hnv3: *id393
+  Hnv3: *id395
   cf:
   - kefum
   - kef
@@ -9500,9 +9541,9 @@
   - p'
 - Ftnk:
   - kf`|m`n
-  Hnv1: &id394
+  Hnv1: &id396
   - 信所太處
-  Hnv3: *id394
+  Hnv3: *id396
   cf:
   - kefoma
   cn:
@@ -9523,9 +9564,9 @@
   - p'
 - Ftnk:
   - kf`m
-  Hnv1: &id395
+  Hnv1: &id397
   - 信太
-  Hnv3: *id395
+  Hnv3: *id397
   cf:
   - kef
   - kefome
@@ -9550,9 +9591,9 @@
   - v'
 - Ftnk:
   - krs
-  Hnv1: &id396
+  Hnv1: &id398
   - 櫻
-  Hnv3: *id396
+  Hnv3: *id398
   dt:
   - 05/1月/2022
   et:
@@ -9569,9 +9610,9 @@
   - p'
 - Ftnk:
   - k'rv
-  Hnv1: &id397
+  Hnv1: &id399
   - 鹿
-  Hnv3: *id397
+  Hnv3: *id399
   dt:
   - 23/12月/2019
   et:
@@ -9588,9 +9629,9 @@
   - cp'
 - Ftnk:
   - kah
-  Hnv1: &id398
+  Hnv1: &id400
   - 塊
-  Hnv3: *id398
+  Hnv3: *id400
   dt:
   - 10/7月/2019
   et:
@@ -9607,9 +9648,9 @@
   - p'
 - Ftnk:
   - kho
-  Hnv1: &id399
+  Hnv1: &id401
   - 塊o
-  Hnv3: *id399
+  Hnv3: *id401
   cf:
   - 塊
   dt:
@@ -9628,9 +9669,9 @@
   - p'
 - Ftnk:
   - kap
-  Hnv1: &id400
+  Hnv1: &id402
   - 冠
-  Hnv3: *id400
+  Hnv3: *id402
   dt:
   - 10/7月/2019
   et:
@@ -9647,9 +9688,9 @@
   - p'
 - Ftnk:
   - k'bl
-  Hnv1: &id401
+  Hnv1: &id403
   - 馬
-  Hnv3: *id401
+  Hnv3: *id403
   dt:
   - 05/6月/2021
   et:
@@ -9666,9 +9707,9 @@
   - cp'
 - Ftnk:
   - kti_rs
-  Hnv1: &id402
+  Hnv1: &id404
   - 貓i熊
-  Hnv3: *id402
+  Hnv3: *id404
   cf:
   - kate
   - ruse
@@ -9691,9 +9732,9 @@
   - cp'
 - Ftnk:
   - kt
-  Hnv1: &id403
+  Hnv1: &id405
   - 貓
-  Hnv3: *id403
+  Hnv3: *id405
   dt:
   - 09/7月/2019
   et:
@@ -9710,9 +9751,9 @@
   - cp'
 - Ftnk:
   - kg
-  Hnv1: &id404
+  Hnv1: &id406
   - 食
-  Hnv3: *id404
+  Hnv3: *id406
   cf:
   - kege
   cn:
@@ -9733,9 +9774,9 @@
   - v'
 - Ftnk:
   - kg`n
-  Hnv1: &id405
+  Hnv1: &id407
   - 食處
-  Hnv3: *id405
+  Hnv3: *id407
   cf:
   - kag
   - -on-
@@ -9755,9 +9796,9 @@
   - p'
 - Ftnk:
   - kj
-  Hnv1: &id406
+  Hnv1: &id408
   - 開
-  Hnv3: *id406
+  Hnv3: *id408
   dt:
   - 27/6月/2019
   et:
@@ -9774,9 +9815,9 @@
   - v'
 - Ftnk:
   - kj`r
-  Hnv1: &id407
+  Hnv1: &id409
   - 開具
-  Hnv3: *id407
+  Hnv3: *id409
   cf:
   - kaj
   cn:
@@ -9797,9 +9838,9 @@
   - p'
 - Ftnk:
   - k'jg
-  Hnv1: &id408
+  Hnv1: &id410
   - 舒
-  Hnv3: *id408
+  Hnv3: *id410
   dt:
   - 25/1月/2020
   et:
@@ -9816,9 +9857,9 @@
   - fp'
 - Ftnk:
   - k'js
-  Hnv1: &id409
+  Hnv1: &id411
   - 杏
-  Hnv3: *id409
+  Hnv3: *id411
   dt:
   - 15/2月/2022
   et:
@@ -9833,9 +9874,9 @@
   - kajse
   ps:
   - p'
-- Hnv1: &id410
+- Hnv1: &id412
   - 次
-  Hnv3: *id410
+  Hnv3: *id412
   dt:
   - 10/7月/2019
   ge:
@@ -9850,9 +9891,9 @@
   - vn'
 - Ftnk:
   - ks`c
-  Hnv1: &id411
+  Hnv1: &id413
   - 次子
-  Hnv3: *id411
+  Hnv3: *id413
   cf:
   - kaso
   cn:
@@ -9873,9 +9914,9 @@
   - p'
 - Ftnk:
   - ksi_sm
-  Hnv1: &id412
+  Hnv1: &id414
   - 次i時
-  Hnv3: *id412
+  Hnv3: *id414
   cf:
   - kase
   - sume
@@ -9898,9 +9939,9 @@
   - p'
 - Ftnk:
   - ksi_vka
-  Hnv1: &id413
+  Hnv1: &id415
   - 次i代a
-  Hnv3: *id413
+  Hnv3: *id415
   cf:
   - kase
   - veka
@@ -9923,9 +9964,9 @@
   - p'
 - Ftnk:
   - ksi_ld
-  Hnv1: &id414
+  Hnv1: &id416
   - 次i日
-  Hnv3: *id414
+  Hnv3: *id416
   cf:
   - kas
   - lado
@@ -9956,9 +9997,9 @@
   - (SH)
 - Ftnk:
   - kas
-  Hnv1: &id415
+  Hnv1: &id417
   - 次
-  Hnv3: *id415
+  Hnv3: *id417
   cf:
   - kus
   - kaso
@@ -9980,9 +10021,9 @@
   - fp'
 - Ftnk:
   - kso
-  Hnv1: &id416
+  Hnv1: &id418
   - 次o
-  Hnv3: *id416
+  Hnv3: *id418
   cf:
   - kase
   cn:
@@ -10020,9 +10061,9 @@
   - p'
 - Ftnk:
   - '|kv'
-  Hnv1: &id417
+  Hnv1: &id419
   - 所集
-  Hnv3: *id417
+  Hnv3: *id419
   cf:
   - kov
   dt:
@@ -10040,10 +10081,35 @@
   ps:
   - p'
 - Ftnk:
+  - kni_pj
+  Hnv1: &id420
+  - 過i成
+  Hnv3: *id420
+  cf:
+  - kane
+  - poje
+  cn:
+  - 过度
+  - 成熟，完成
+  dt:
+  - 10/1月/2025
+  et:
+  - kane + poje
+  ge:
+  - rotten
+  gn:
+  - 腐烂
+  lx:
+  - kanipoje
+  ph:
+  - kanipoje
+  ps:
+  - fp'
+- Ftnk:
   - kni_tb
-  Hnv1: &id418
+  Hnv1: &id421
   - 過i慣
-  Hnv3: *id418
+  Hnv3: *id421
   cf:
   - kane
   - tub
@@ -10063,9 +10129,9 @@
   - v'
 - Ftnk:
   - kn
-  Hnv1: &id419
+  Hnv1: &id422
   - 過
-  Hnv3: *id419
+  Hnv3: *id422
   dt:
   - 10/7月/2019
   et:
@@ -10082,9 +10148,9 @@
   - fp'
 - Ftnk:
   - k'nc
-  Hnv1: &id420
+  Hnv1: &id423
   - 綠
-  Hnv3: *id420
+  Hnv3: *id423
   dt:
   - 27/6月/2019
   et:
@@ -10101,9 +10167,9 @@
   - fp'
 - Ftnk:
   - kr
-  Hnv1: &id421
+  Hnv1: &id424
   - 長
-  Hnv3: *id421
+  Hnv3: *id424
   dt:
   - 02/7月/2019
   et:
@@ -10120,9 +10186,9 @@
   - fp'
 - Ftnk:
   - kr`d
-  Hnv1: &id422
+  Hnv1: &id425
   - 長事
-  Hnv3: *id422
+  Hnv3: *id425
   cf:
   - kare
   - labekaroda
@@ -10148,9 +10214,9 @@
 - Ftnk:
   - k'rt
   - k'rta
-  Hnv1: &id423
+  Hnv1: &id426
   - 卡
-  Hnv3: *id423
+  Hnv3: *id426
   dt:
   - 10/7月/2019
   ge:
@@ -10163,9 +10229,9 @@
   - karta
   ps:
   - p'
-- Hnv1: &id424
+- Hnv1: &id427
   - 三
-  Hnv3: *id424
+  Hnv3: *id427
   dt:
   - 09/7月/2019
   et:
@@ -10182,9 +10248,9 @@
   - t'
 - Ftnk:
   - kd`z
-  Hnv1: &id425
+  Hnv1: &id428
   - 碼化
-  Hnv3: *id425
+  Hnv3: *id428
   cf:
   - kode
   cn:
@@ -10205,9 +10271,9 @@
   - v'
 - Ftnk:
   - kd
-  Hnv1: &id426
+  Hnv1: &id429
   - 碼
-  Hnv3: *id426
+  Hnv3: *id429
   cf:
   - kodove
   - kodiz
@@ -10230,9 +10296,9 @@
   - p'
 - Ftnk:
   - kd`v
-  Hnv1: &id427
+  Hnv1: &id430
   - 碼衆
-  Hnv3: *id427
+  Hnv3: *id430
   cf:
   - kode
   - kodiz
@@ -10255,9 +10321,9 @@
   - p'
 - Ftnk:
   - kk.
-  Hnv1: &id428
+  Hnv1: &id431
   - 西.
-  Hnv3: *id428
+  Hnv3: *id431
   dt:
   - 27/6月/2019
   et:
@@ -10274,9 +10340,9 @@
   - v'
 - Ftnk:
   - kki_pp
-  Hnv1: &id429
+  Hnv1: &id432
   - 西i南
-  Hnv3: *id429
+  Hnv3: *id432
   cf:
   - koke
   - pope
@@ -10301,9 +10367,9 @@
   - popikoke
 - Ftnk:
   - kki_bur
-  Hnv1: &id430
+  Hnv1: &id433
   - 西i風
-  Hnv3: *id430
+  Hnv3: *id433
   cf:
   - koke
   - bura
@@ -10326,9 +10392,9 @@
   - p'
 - Ftnk:
   - kki_ff
-  Hnv1: &id431
+  Hnv1: &id434
   - 西i北
-  Hnv3: *id431
+  Hnv3: *id434
   cf:
   - koke
   - fofe
@@ -10353,9 +10419,9 @@
   - fofikoke
 - Ftnk:
   - kk
-  Hnv1: &id432
+  Hnv1: &id435
   - 西
-  Hnv3: *id432
+  Hnv3: *id435
   cf:
   - kok
   cn:
@@ -10376,9 +10442,9 @@
   - p'
 - Ftnk:
   - '|kc'
-  Hnv1: &id433
+  Hnv1: &id436
   - 所織
-  Hnv3: *id433
+  Hnv3: *id436
   cf:
   - kuc
   cn:
@@ -10400,9 +10466,9 @@
 - Ftnk:
   - koj
   - kjo
-  Hnv1: &id434
+  Hnv1: &id437
   - 季
-  Hnv3: *id434
+  Hnv3: *id437
   cf:
   - ko
   - jono
@@ -10435,9 +10501,9 @@
   - fanikojo, kolo
 - Ftnk:
   - kv
-  Hnv1: &id435
+  Hnv1: &id438
   - 集
-  Hnv3: *id435
+  Hnv3: *id438
   cf:
   - -ov-
   - kave
@@ -10463,9 +10529,9 @@
   - line faN ekave kov .
 - Ftnk:
   - kvi_zl
-  Hnv1: &id436
+  Hnv1: &id439
   - 集i狀
-  Hnv3: *id436
+  Hnv3: *id439
   cf:
   - kov
   - zile
@@ -10488,9 +10554,9 @@
   - p'
 - Ftnk:
   - kv`mi_ss
-  Hnv1: &id437
+  Hnv1: &id440
   - 集太i國
-  Hnv3: *id437
+  Hnv3: *id440
   cf:
   - kovume
   - saso
@@ -10519,9 +10585,9 @@
   - (Niv)
 - Ftnk:
   - kv`m
-  Hnv1: &id438
+  Hnv1: &id441
   - 集太
-  Hnv3: *id438
+  Hnv3: *id441
   cf:
   - kov
   cn:
@@ -10558,9 +10624,9 @@
   - fp'
 - Ftnk:
   - k'ns
-  Hnv1: &id439
+  Hnv1: &id442
   - 紐
-  Hnv3: *id439
+  Hnv3: *id442
   cf:
   - vokale
   cn:
@@ -10581,9 +10647,9 @@
   - koNsonaNt
 - Ftnk:
   - KO_RO_NA_nv
-  Hnv1: &id440
+  Hnv1: &id443
   - KoRoNa新
-  Hnv3: *id440
+  Hnv3: *id443
   cf:
   - nove
   - piNkizete
@@ -10607,9 +10673,9 @@
   - ˙xingvan
 - Ftnk:
   - k`
-  Hnv1: &id441
+  Hnv1: &id444
   - 至
-  Hnv3: *id441
+  Hnv3: *id444
   cf:
   - k
   cn:
@@ -10658,9 +10724,9 @@
   - '3'
 - Ftnk:
   - kp
-  Hnv1: &id442
+  Hnv1: &id445
   - 入
-  Hnv3: *id442
+  Hnv3: *id445
   cf:
   - kupore
   cn:
@@ -10681,9 +10747,9 @@
   - v'
 - Ftnk:
   - k`pt
-  Hnv1: &id443
+  Hnv1: &id446
   - 至行
-  Hnv3: *id443
+  Hnv3: *id446
   cf:
   - ku-
   - pit
@@ -10707,9 +10773,9 @@
 - Ftnk:
   - KU_PE_SO
   - kps
-  Hnv1: &id444
+  Hnv1: &id447
   - 柏
-  Hnv3: *id444
+  Hnv3: *id447
   dt:
   - 04/6月/2022
   et:
@@ -10728,9 +10794,9 @@
   - kupreso（停用）
 - Ftnk:
   - kp`r
-  Hnv1: &id445
+  Hnv1: &id448
   - 入具
-  Hnv3: *id445
+  Hnv3: *id448
   cf:
   - kup
   - kuporove
@@ -10753,9 +10819,9 @@
   - p'
 - Ftnk:
   - kp`r`v
-  Hnv1: &id446
+  Hnv1: &id449
   - 入具衆
-  Hnv3: *id446
+  Hnv3: *id449
   dt:
   - 08/7月/2019
   et:
@@ -10772,9 +10838,9 @@
   - p'
 - Ftnk:
   - k`bt
-  Hnv1: &id447
+  Hnv1: &id450
   - 至爲
-  Hnv3: *id447
+  Hnv3: *id450
   cf:
   - bit
   cn:
@@ -10795,9 +10861,9 @@
   - v'
 - Ftnk:
   - kc
-  Hnv1: &id448
+  Hnv1: &id451
   - 織
-  Hnv3: *id448
+  Hnv3: *id451
   cf:
   - koce
   cn:
@@ -10818,9 +10884,9 @@
   - v'
 - Ftnk:
   - k`sf
-  Hnv1: &id449
+  Hnv1: &id452
   - 至生
-  Hnv3: *id449
+  Hnv3: *id452
   cf:
   - ku-
   - sof
@@ -10840,9 +10906,9 @@
   - v'
 - Ftnk:
   - k`vg
-  Hnv1: &id450
+  Hnv1: &id453
   - 至動
-  Hnv3: *id450
+  Hnv3: *id453
   cf:
   - vog
   dt:
@@ -10861,9 +10927,9 @@
   - v'
 - Ftnk:
   - k'nk
-  Hnv1: &id451
+  Hnv1: &id454
   - 頸
-  Hnv3: *id451
+  Hnv3: *id454
   cf:
   - kuNkihaca
   cn:
@@ -10884,9 +10950,9 @@
   - p'
 - Ftnk:
   - kli_g'nk
-  Hnv1: &id452
+  Hnv1: &id455
   - 冷i堅
-  Hnv3: *id452
+  Hnv3: *id455
   cf:
   - kule
   - goNke
@@ -10906,9 +10972,9 @@
   - v'
 - Ftnk:
   - kl
-  Hnv1: &id453
+  Hnv1: &id456
   - 寒
-  Hnv3: *id453
+  Hnv3: *id456
   an:
   - dule
   dt:
@@ -10927,9 +10993,9 @@
   - fp'
 - Ftnk:
   - kl't
-  Hnv1: &id454
+  Hnv1: &id457
   - 尖
-  Hnv3: *id454
+  Hnv3: *id457
   cf:
   - klite
   - klito
@@ -10952,9 +11018,9 @@
   - v'
 - Ftnk:
   - kl't
-  Hnv1: &id455
+  Hnv1: &id458
   - 尖
-  Hnv3: *id455
+  Hnv3: *id458
   cf:
   - klit
   - klito
@@ -10977,9 +11043,9 @@
   - fp'
 - Ftnk:
   - kl't`j
-  Hnv1: &id456
+  Hnv1: &id459
   - 尖欸
-  Hnv3: *id456
+  Hnv3: *id459
   cf:
   - klite
   cn:
@@ -11000,9 +11066,9 @@
   - p'
 - Ftnk:
   - kl'to
-  Hnv1: &id457
+  Hnv1: &id460
   - 尖o
-  Hnv3: *id457
+  Hnv3: *id460
   cf:
   - klit
   - klite
@@ -11025,9 +11091,9 @@
   - fp'
 - Ftnk:
   - kr'j
-  Hnv1: &id458
+  Hnv1: &id461
   - 龜
-  Hnv3: *id458
+  Hnv3: *id461
   dt:
   - 03/11月/2022
   et:
@@ -11044,9 +11110,9 @@
   - cp'
 - Ftnk:
   - kr'd
-  Hnv1: &id459
+  Hnv1: &id462
   - 角
-  Hnv3: *id459
+  Hnv3: *id462
   dt:
   - 27/10月/2022
   et:
@@ -11063,9 +11129,9 @@
   - p'
 - Ftnk:
   - kr'li_|dm
-  Hnv1: &id460
+  Hnv1: &id463
   - 君i所居
-  Hnv3: *id460
+  Hnv3: *id463
   cf:
   - krale
   - domo
@@ -11085,9 +11151,9 @@
   - p'
 - Ftnk:
   - kr'l
-  Hnv1: &id461
+  Hnv1: &id464
   - 君
-  Hnv3: *id461
+  Hnv3: *id464
   cf:
   - dotemne
   - rexe
@@ -11114,9 +11180,9 @@
   - cp'
 - Ftnk:
   - kr'c
-  Hnv1: &id462
+  Hnv1: &id465
   - 梨
-  Hnv3: *id462
+  Hnv3: *id465
   dt:
   - 10/7月/2019
   et:
@@ -11152,9 +11218,9 @@
   - mi f ugico ge pojuz pav .
 - Ftnk:
   - gt
-  Hnv1: &id463
+  Hnv1: &id466
   - 躍
-  Hnv3: *id463
+  Hnv3: *id466
   dt:
   - 27/6月/2019
   et:
@@ -11171,9 +11237,9 @@
   - v'
 - Ftnk:
   - gk.
-  Hnv1: &id464
+  Hnv1: &id467
   - 下.
-  Hnv3: *id464
+  Hnv3: *id467
   cf:
   - gikum
   cn:
@@ -11194,9 +11260,9 @@
   - v'
 - Ftnk:
   - gki_nt
-  Hnv1: &id465
+  Hnv1: &id468
   - 下i陽
-  Hnv3: *id465
+  Hnv3: *id468
   cf:
   - gik
   - nito
@@ -11219,9 +11285,9 @@
   - p'
 - Ftnk:
   - gk
-  Hnv1: &id466
+  Hnv1: &id469
   - 下
-  Hnv3: *id466
+  Hnv3: *id469
   cf:
   - gik
   cn:
@@ -11242,9 +11308,9 @@
   - p'
 - Ftnk:
   - gku
-  Hnv1: &id467
+  Hnv1: &id470
   - 下u
-  Hnv3: *id467
+  Hnv3: *id470
   cf:
   - gike
   dt:
@@ -11263,9 +11329,9 @@
   - k'
 - Ftnk:
   - gk`m
-  Hnv1: &id468
+  Hnv1: &id471
   - 下太
-  Hnv3: *id468
+  Hnv3: *id471
   cf:
   - gik
   cn:
@@ -11286,9 +11352,9 @@
   - v'
 - Ftnk:
   - gc
-  Hnv1: &id469
+  Hnv1: &id472
   - 能
-  Hnv3: *id469
+  Hnv3: *id472
   cf:
   - gice
   - gico
@@ -11318,10 +11384,10 @@
 - Ftnk:
   - gc
   - gce
-  Hnv1: &id470
+  Hnv1: &id473
   - 能
   - 能e
-  Hnv3: *id470
+  Hnv3: *id473
   cf:
   - gic
   cn:
@@ -11342,9 +11408,9 @@
   - fp'
 - Ftnk:
   - gca
-  Hnv1: &id471
+  Hnv1: &id474
   - 能a
-  Hnv3: *id471
+  Hnv3: *id474
   cf:
   - gic
   cn:
@@ -11369,9 +11435,9 @@
   - eline s ugica moge sadu ces .
 - Ftnk:
   - gco
-  Hnv1: &id472
+  Hnv1: &id475
   - 能o
-  Hnv3: *id472
+  Hnv3: *id475
   cf:
   - gic
   cn:
@@ -11392,9 +11458,9 @@
   - p'
 - Ftnk:
   - gc`d
-  Hnv1: &id473
+  Hnv1: &id476
   - 能事
-  Hnv3: *id473
+  Hnv3: *id476
   cf:
   - gic
   cn:
@@ -11415,9 +11481,9 @@
   - p'
 - Ftnk:
   - gin
-  Hnv1: &id474
+  Hnv1: &id477
   - 銀
-  Hnv3: *id474
+  Hnv3: *id477
   dt:
   - 09/7月/2019
   et:
@@ -11434,9 +11500,9 @@
   - fp'
 - Ftnk:
   - gv
-  Hnv1: &id475
+  Hnv1: &id478
   - 待
-  Hnv3: *id475
+  Hnv3: *id478
   dt:
   - 08/7月/2019
   et:
@@ -11453,9 +11519,9 @@
   - v'
 - Ftnk:
   - gh
-  Hnv1: &id476
+  Hnv1: &id479
   - 難
-  Hnv3: *id476
+  Hnv3: *id479
   an:
   - nagahe
   cf:
@@ -11480,9 +11546,9 @@
   - fp'
 - Ftnk:
   - gd.
-  Hnv1: &id477
+  Hnv1: &id480
   - 外.
-  Hnv3: *id477
+  Hnv3: *id480
   cf:
   - gade
   cn:
@@ -11503,9 +11569,9 @@
   - v'
 - Ftnk:
   - gd
-  Hnv1: &id478
+  Hnv1: &id481
   - 外
-  Hnv3: *id478
+  Hnv3: *id481
   dt:
   - 10/7月/2019
   et:
@@ -11522,9 +11588,9 @@
   - p'
 - Ftnk:
   - gdu
-  Hnv1: &id479
+  Hnv1: &id482
   - 外u
-  Hnv3: *id479
+  Hnv3: *id482
   cf:
   - gade
   cn:
@@ -11545,9 +11611,9 @@
   - k'
 - Ftnk:
   - g'vr
-  Hnv1: &id480
+  Hnv1: &id483
   - 鴉
-  Hnv3: *id480
+  Hnv3: *id483
   dt:
   - 10/6月/2022
   et:
@@ -11564,9 +11630,9 @@
   - cp'
 - Ftnk:
   - g'nb
-  Hnv1: &id481
+  Hnv1: &id484
   - 蝦
-  Hnv3: *id481
+  Hnv3: *id484
   dt:
   - 11/6月/2020
   et:
@@ -11583,9 +11649,9 @@
   - cp'
 - Ftnk:
   - g'nd
-  Hnv1: &id482
+  Hnv1: &id485
   - 柱
-  Hnv3: *id482
+  Hnv3: *id485
   dt:
   - 25/10月/2020
   et:
@@ -11602,9 +11668,9 @@
   - p'
 - Ftnk:
   - g'ns
-  Hnv1: &id483
+  Hnv1: &id486
   - 鵝
-  Hnv3: *id483
+  Hnv3: *id486
   dt:
   - 05/6月/2021
   et:
@@ -11621,9 +11687,9 @@
   - cp'
 - Ftnk:
   - gl
-  Hnv1: &id484
+  Hnv1: &id487
   - 雞
-  Hnv3: *id484
+  Hnv3: *id487
   dt:
   - 10/7月/2019
   et:
@@ -11641,10 +11707,10 @@
 - Ftnk:
   - '|gr'
   - '|gre'
-  Hnv1: &id485
+  Hnv1: &id488
   - 所學
   - 所學e
-  Hnv3: *id485
+  Hnv3: *id488
   cf:
   - gor
   cn:
@@ -11666,10 +11732,10 @@
 - Ftnk:
   - '|gr'
   - '|gra'
-  Hnv1: &id486
+  Hnv1: &id489
   - 所學
   - 所學a
-  Hnv3: *id486
+  Hnv3: *id489
   cf:
   - gor
   cn:
@@ -11688,9 +11754,9 @@
   - gara
   ps:
   - p'
-- Hnv1: &id487
+- Hnv1: &id490
   - 乘
-  Hnv3: *id487
+  Hnv3: *id490
   dt:
   - 10/7月/2019
   ge:
@@ -11705,9 +11771,9 @@
   - t'
 - Ftnk:
   - gb.
-  Hnv1: &id488
+  Hnv1: &id491
   - 濃.
-  Hnv3: *id488
+  Hnv3: *id491
   cf:
   - gobe
   cn:
@@ -11728,9 +11794,9 @@
   - v'
 - Ftnk:
   - gb
-  Hnv1: &id489
+  Hnv1: &id492
   - 濃
-  Hnv3: *id489
+  Hnv3: *id492
   dt:
   - 24/1月/2020
   et:
@@ -11747,9 +11813,9 @@
   - fp'
 - Ftnk:
   - ggi_jla
-  Hnv1: &id490
+  Hnv1: &id493
   - 石i油a
-  Hnv3: *id490
+  Hnv3: *id493
   cf:
   - goge
   - jola
@@ -11772,9 +11838,9 @@
   - p'
 - Ftnk:
   - gg
-  Hnv1: &id491
+  Hnv1: &id494
   - 石
-  Hnv3: *id491
+  Hnv3: *id494
   dt:
   - 09/7月/2019
   et:
@@ -11791,9 +11857,9 @@
   - p'
 - Ftnk:
   - gs.
-  Hnv1: &id492
+  Hnv1: &id495
   - 合.
-  Hnv3: *id492
+  Hnv3: *id495
   cf:
   - gose
   dt:
@@ -11812,9 +11878,9 @@
   - v'
 - Ftnk:
   - gs
-  Hnv1: &id493
+  Hnv1: &id496
   - 合
-  Hnv3: *id493
+  Hnv3: *id496
   cf:
   - gos
   dt:
@@ -11853,9 +11919,9 @@
   - fp'
 - Ftnk:
   - gni_fs
-  Hnv1: &id494
+  Hnv1: &id497
   - 固i水
-  Hnv3: *id494
+  Hnv3: *id497
   cf:
   - gone
   - foso
@@ -11879,9 +11945,9 @@
 - Ftnk:
   - gni_nr
   - gni_nra
-  Hnv1: &id495
+  Hnv1: &id498
   - 固i粘
-  Hnv3: *id495
+  Hnv3: *id498
   cf:
   - gone
   - nira
@@ -11905,9 +11971,9 @@
 - Ftnk:
   - gon
   - gn
-  Hnv1: &id496
+  Hnv1: &id499
   - 固
-  Hnv3: *id496
+  Hnv3: *id499
   cf:
   - gonke
   cn:
@@ -11928,9 +11994,9 @@
   - p'
 - Ftnk:
   - g'nk
-  Hnv1: &id497
+  Hnv1: &id500
   - 堅
-  Hnv3: *id497
+  Hnv3: *id500
   dt:
   - 09/7月/2019
   et:
@@ -11947,9 +12013,9 @@
   - fp'
 - Ftnk:
   - gr
-  Hnv1: &id498
+  Hnv1: &id501
   - 學
-  Hnv3: *id498
+  Hnv3: *id501
   cf:
   - gora
   - gore
@@ -11982,9 +12048,9 @@
   - v'
 - Ftnk:
   - gr`k
-  Hnv1: &id499
+  Hnv1: &id502
   - 學者
-  Hnv3: *id499
+  Hnv3: *id502
   cf:
   - gor
   - hegorike
@@ -12007,9 +12073,9 @@
   - cp'
 - Ftnk:
   - gri_gra
-  Hnv1: &id500
+  Hnv1: &id503
   - 學i學a
-  Hnv3: *id500
+  Hnv3: *id503
   cf:
   - gor
   - gora
@@ -12032,9 +12098,9 @@
   - p'
 - Ftnk:
   - gr`c
-  Hnv1: &id501
+  Hnv1: &id504
   - 學子
-  Hnv3: *id501
+  Hnv3: *id504
   cf:
   - gora
   cn:
@@ -12055,9 +12121,9 @@
   - p'
 - Ftnk:
   - gri_s`b`nz
-  Hnv1: &id502
+  Hnv1: &id505
   - 學i除二年
-  Hnv3: *id502
+  Hnv3: *id505
   cf:
   - gor
   - se
@@ -12084,9 +12150,9 @@
   - p'
 - Ftnk:
   - gri_sco
-  Hnv1: &id503
+  Hnv1: &id506
   - 學i試o
-  Hnv3: *id503
+  Hnv3: *id506
   cf:
   - gor
   - soco
@@ -12111,9 +12177,9 @@
   - p'
 - Ftnk:
   - gri_|rd
-  Hnv1: &id504
+  Hnv1: &id507
   - 學i所工
-  Hnv3: *id504
+  Hnv3: *id507
   cf:
   - gor
   - rede
@@ -12140,9 +12206,9 @@
   - egorirede moge mi mip .
 - Ftnk:
   - gre
-  Hnv1: &id505
+  Hnv1: &id508
   - 學e
-  Hnv3: *id505
+  Hnv3: *id508
   cf:
   - gor
   cn:
@@ -12163,9 +12229,9 @@
   - p'
 - Ftnk:
   - gra
-  Hnv1: &id506
+  Hnv1: &id509
   - 學a
-  Hnv3: *id506
+  Hnv3: *id509
   cf:
   - gor
   cn:
@@ -12190,9 +12256,9 @@
   - di gora teka ta .
 - Ftnk:
   - gra-lb
-  Hnv1: &id507
+  Hnv1: &id510
   - 學a-室
-  Hnv3: *id507
+  Hnv3: *id510
   cf:
   - gora
   - lubo
@@ -12215,9 +12281,9 @@
   - p'
 - Ftnk:
   - gr`n
-  Hnv1: &id508
+  Hnv1: &id511
   - 學處
-  Hnv3: *id508
+  Hnv3: *id511
   cf:
   - gor
   - loNgigorone
@@ -12244,9 +12310,9 @@
   - p'
 - Ftnk:
   - gr`m
-  Hnv1: &id509
+  Hnv1: &id512
   - 學太
-  Hnv3: *id509
+  Hnv3: *id512
   cf:
   - gor
   - gorumone
@@ -12275,9 +12341,9 @@
   - gorumonove anaturigara a·JuNqhva
 - Ftnk:
   - gp
-  Hnv1: &id510
+  Hnv1: &id513
   - 誌
-  Hnv3: *id510
+  Hnv3: *id513
   dt:
   - 02/7月/2019
   et:
@@ -12295,10 +12361,10 @@
 - Ftnk:
   - gp
   - gpe
-  Hnv1: &id511
+  Hnv1: &id514
   - 誌
   - 誌e
-  Hnv3: *id511
+  Hnv3: *id514
   cf:
   - gup
   cn:
@@ -12319,9 +12385,9 @@
   - p'
 - Ftnk:
   - g'pt
-  Hnv1: &id512
+  Hnv1: &id515
   - 美
-  Hnv3: *id512
+  Hnv3: *id515
   dt:
   - 14/3月/2021
   et:
@@ -12340,9 +12406,9 @@
   - lepe
 - Ftnk:
   - g'pt`d
-  Hnv1: &id513
+  Hnv1: &id516
   - 美事
-  Hnv3: *id513
+  Hnv3: *id516
   cf:
   - gupte
   cn:
@@ -12363,9 +12429,9 @@
   - p'
 - Ftnk:
   - g'ps
-  Hnv1: &id514
+  Hnv1: &id517
   - 鷲
-  Hnv3: *id514
+  Hnv3: *id517
   dt:
   - 10/6月/2022
   et:
@@ -12382,9 +12448,9 @@
   - cp'
 - Ftnk:
   - '|gc'
-  Hnv1: &id515
+  Hnv1: &id518
   - 所能
-  Hnv3: *id515
+  Hnv3: *id518
   cf:
   - gic
   cn:
@@ -12405,9 +12471,9 @@
   - p'
 - Ftnk:
   - g'ste
-  Hnv1: &id516
+  Hnv1: &id519
   - 邨
-  Hnv3: *id516
+  Hnv3: *id519
   cf:
   - gusta
   cn:
@@ -12431,10 +12497,10 @@
 - Ftnk:
   - g'st
   - g'sta
-  Hnv1: &id517
+  Hnv1: &id520
   - 邨
   - 邨a
-  Hnv3: *id517
+  Hnv3: *id520
   cf:
   - guste
   - gustove
@@ -12459,9 +12525,9 @@
   - p'
 - Ftnk:
   - g'st`ve
-  Hnv1: &id518
+  Hnv1: &id521
   - 邨衆e
-  Hnv3: *id518
+  Hnv3: *id521
   cf:
   - gusta
   - gustova
@@ -12485,10 +12551,10 @@
 - Ftnk:
   - g'st`v
   - g'st`va
-  Hnv1: &id519
+  Hnv1: &id522
   - 邨衆
   - 邨衆a
-  Hnv3: *id519
+  Hnv3: *id522
   cf:
   - gusto
   - gustove
@@ -12511,9 +12577,9 @@
   - p'
 - Ftnk:
   - gz
-  Hnv1: &id520
+  Hnv1: &id523
   - 臀
-  Hnv3: *id520
+  Hnv3: *id523
   dt:
   - 07/5月/2021
   et:
@@ -12530,9 +12596,9 @@
   - p'
 - Ftnk:
   - gf
-  Hnv1: &id521
+  Hnv1: &id524
   - 怒
-  Hnv3: *id521
+  Hnv3: *id524
   cf:
   - gufe
   cn:
@@ -12553,9 +12619,9 @@
   - v'
 - Ftnk:
   - gf
-  Hnv1: &id522
+  Hnv1: &id525
   - 怒
-  Hnv3: *id522
+  Hnv3: *id525
   cf:
   - guf
   cn:
@@ -12576,9 +12642,9 @@
   - fp'
 - Ftnk:
   - gj'z
-  Hnv1: &id523
+  Hnv1: &id526
   - 茄
-  Hnv3: *id523
+  Hnv3: *id526
   dt:
   - 05/1月/2022
   et:
@@ -12596,9 +12662,9 @@
 - Ftnk:
   - gl'd
   - gl'd.
-  Hnv1: &id524
+  Hnv1: &id527
   - 滑
-  Hnv3: *id524
+  Hnv3: *id527
   cf:
   - glade
   cn:
@@ -12623,9 +12689,9 @@
   - hetu glad .!
 - Ftnk:
   - gl'd
-  Hnv1: &id525
+  Hnv1: &id528
   - 滑
-  Hnv3: *id525
+  Hnv3: *id528
   cf:
   - glad
   cn:
@@ -12648,9 +12714,9 @@
   - 小心地滑！
   xv:
   - hat edive glade .!
-- Hnv1: &id526
+- Hnv1: &id529
   - 音.
-  Hnv3: *id526
+  Hnv3: *id529
   cf:
   - glase
   - glaso
@@ -12674,9 +12740,9 @@
   - v'
 - Ftnk:
   - gl's
-  Hnv1: &id527
+  Hnv1: &id530
   - 音
-  Hnv3: *id527
+  Hnv3: *id530
   cf:
   - glas
   cn:
@@ -12697,9 +12763,9 @@
   - p'
 - Ftnk:
   - gl'sa
-  Hnv1: &id528
+  Hnv1: &id531
   - 音a
-  Hnv3: *id528
+  Hnv3: *id531
   cf:
   - glas
   - glaso
@@ -12726,9 +12792,9 @@
   - ci glasa da rante .?
 - Ftnk:
   - gl's`t
-  Hnv1: &id529
+  Hnv1: &id532
   - 音部
-  Hnv3: *id529
+  Hnv3: *id532
   cf:
   - glasa
   cn:
@@ -12749,9 +12815,9 @@
   - p'
 - Ftnk:
   - gl'so
-  Hnv1: &id530
+  Hnv1: &id533
   - 音o
-  Hnv3: *id530
+  Hnv3: *id533
   cf:
   - glas
   - glasa
@@ -12778,9 +12844,9 @@
   - uhafa·qingland ni glaso [y] .
 - Ftnk:
   - gl'v
-  Hnv1: &id531
+  Hnv1: &id534
   - 首
-  Hnv3: *id531
+  Hnv3: *id534
   dt:
   - 05/1月/2022
   et:
@@ -12799,9 +12865,9 @@
   - cele（停用）
 - Ftnk:
   - gl'k.
-  Hnv1: &id532
+  Hnv1: &id535
   - 驚.
-  Hnv3: *id532
+  Hnv3: *id535
   cf:
   - gloke
   cn:
@@ -12822,9 +12888,9 @@
   - v'
 - Ftnk:
   - gl'k
-  Hnv1: &id533
+  Hnv1: &id536
   - 驚
-  Hnv3: *id533
+  Hnv3: *id536
   dt:
   - 02/7月/2019
   et:
@@ -12841,9 +12907,9 @@
   - fp'
 - Ftnk:
   - gr'c
-  Hnv1: &id534
+  Hnv1: &id537
   - 酒
-  Hnv3: *id534
+  Hnv3: *id537
   dt:
   - 10/7月/2019
   et:
@@ -12860,9 +12926,9 @@
   - p'
 - Ftnk:
   - gr'c`n
-  Hnv1: &id535
+  Hnv1: &id538
   - 酒處
-  Hnv3: *id535
+  Hnv3: *id538
   cf:
   - grica
   - -on-
@@ -12884,9 +12950,9 @@
   - p'
 - Ftnk:
   - gr'j
-  Hnv1: &id536
+  Hnv1: &id539
   - 戲
-  Hnv3: *id536
+  Hnv3: *id539
   dt:
   - 07/10月/2022
   et:
@@ -12903,9 +12969,9 @@
   - v'
 - Ftnk:
   - gr'fi_fpo
-  Hnv1: &id537
+  Hnv1: &id540
   - 墨i書o
-  Hnv3: *id537
+  Hnv3: *id540
   cf:
   - grafe
   - fepo
@@ -12928,9 +12994,9 @@
   - p'
 - Ftnk:
   - gr'f
-  Hnv1: &id538
+  Hnv1: &id541
   - 墨
-  Hnv3: *id538
+  Hnv3: *id541
   dt:
   - 10/7月/2019
   et:
@@ -12947,9 +13013,9 @@
   - p'
 - Ftnk:
   - gr'z
-  Hnv1: &id539
+  Hnv1: &id542
   - 葡
-  Hnv3: *id539
+  Hnv3: *id542
   dt:
   - 13/6月/2022
   et:
@@ -12966,9 +13032,9 @@
   - p'
 - Ftnk:
   - gr'm
-  Hnv1: &id540
+  Hnv1: &id543
   - 雷
-  Hnv3: *id540
+  Hnv3: *id543
   dt:
   - 10/7月/2019
   et:
@@ -12985,9 +13051,9 @@
   - p'
 - Ftnk:
   - gr'm`m
-  Hnv1: &id541
+  Hnv1: &id544
   - 雷太
-  Hnv3: *id541
+  Hnv3: *id544
   cf:
   - gromo
   - -um-
@@ -13009,9 +13075,9 @@
   - p'
 - Ftnk:
   - gr's
-  Hnv1: &id542
+  Hnv1: &id545
   - 鶴
-  Hnv3: *id542
+  Hnv3: *id545
   dt:
   - 03/1月/2021
   et:
@@ -13028,9 +13094,9 @@
   - cp'
 - Ftnk:
   - gr'm
-  Hnv1: &id543
+  Hnv1: &id546
   - 琴
-  Hnv3: *id543
+  Hnv3: *id546
   dt:
   - 01/6月/2022
   et:
@@ -13047,9 +13113,9 @@
   - p'
 - Ftnk:
   - gr'l
-  Hnv1: &id544
+  Hnv1: &id547
   - 槐
-  Hnv3: *id544
+  Hnv3: *id547
   dt:
   - 13/10月/2022
   et:
@@ -13066,9 +13132,9 @@
   - p'
 - Ftnk:
   - CI
-  Hnv1: &id545
+  Hnv1: &id548
   - 何
-  Hnv3: *id545
+  Hnv3: *id548
   dn:
   - 什么。疑问代词，不区分有生无生。
   dt:
@@ -13091,9 +13157,9 @@
   - di gora ca .?
 - Ftnk:
   - ct
-  Hnv1: &id546
+  Hnv1: &id549
   - 耳
-  Hnv3: *id546
+  Hnv3: *id549
   cf:
   - cite
   - cute
@@ -13118,9 +13184,9 @@
   - v'
 - Ftnk:
   - cte
-  Hnv1: &id547
+  Hnv1: &id550
   - 耳e
-  Hnv3: *id547
+  Hnv3: *id550
   cf:
   - cit
   cn:
@@ -13141,9 +13207,9 @@
   - p'
 - Ftnk:
   - cc`z
-  Hnv1: &id548
+  Hnv1: &id551
   - 小化
-  Hnv3: *id548
+  Hnv3: *id551
   cf:
   - cice
   - -iz-
@@ -13163,9 +13229,9 @@
   - v'
 - Ftnk:
   - cc
-  Hnv1: &id549
+  Hnv1: &id552
   - 小
-  Hnv3: *id549
+  Hnv3: *id552
   cf:
   - -ic-
   dt:
@@ -13184,9 +13250,9 @@
   - fp'
 - Ftnk:
   - czi
-  Hnv1: &id550
+  Hnv1: &id553
   - 何如
-  Hnv3: *id550
+  Hnv3: *id553
   cf:
   - ci
   - zi
@@ -13206,9 +13272,9 @@
   - vn'
 - Ftnk:
   - cn
-  Hnv1: &id551
+  Hnv1: &id554
   - 門
-  Hnv3: *id551
+  Hnv3: *id554
   dt:
   - 10/7月/2019
   et:
@@ -13225,9 +13291,9 @@
   - p'
 - Ftnk:
   - c'nt
-  Hnv1: &id552
+  Hnv1: &id555
   - 憂
-  Hnv3: *id552
+  Hnv3: *id555
   dt:
   - 09/2月/2020
   et:
@@ -13244,9 +13310,9 @@
   - v'
 - Ftnk:
   - c'ns
-  Hnv1: &id553
+  Hnv1: &id556
   - 青
-  Hnv3: *id553
+  Hnv3: *id556
   dt:
   - 03/1月/2021
   et:
@@ -13263,9 +13329,9 @@
   - fp'
 - Ftnk:
   - cl
-  Hnv1: &id554
+  Hnv1: &id557
   - 律
-  Hnv3: *id554
+  Hnv3: *id557
   cf:
   - cile
   - cule
@@ -13289,9 +13355,9 @@
   - jaka cul ke mi eslado no kag .
 - Ftnk:
   - cli_cp
-  Hnv1: &id555
+  Hnv1: &id558
   - 律i度
-  Hnv3: *id555
+  Hnv3: *id558
   cf:
   - cil
   - cap
@@ -13311,9 +13377,9 @@
   - v'
 - Ftnk:
   - cli_zl
-  Hnv1: &id556
+  Hnv1: &id559
   - 律i狀
-  Hnv3: *id556
+  Hnv3: *id559
   cf:
   - cil
   - zile
@@ -13336,9 +13402,9 @@
   - p'
 - Ftnk:
   - cle
-  Hnv1: &id557
+  Hnv1: &id560
   - 律e
-  Hnv3: *id557
+  Hnv3: *id560
   cf:
   - cil
   cn:
@@ -13359,9 +13425,9 @@
   - p'
 - Ftnk:
   - cl`s
-  Hnv1: &id558
+  Hnv1: &id561
   - 律焉
-  Hnv3: *id558
+  Hnv3: *id561
   cf:
   - cil
   cn:
@@ -13382,9 +13448,9 @@
   - fp'
 - Ftnk:
   - '|cl`m'
-  Hnv1: &id559
+  Hnv1: &id562
   - 所律太
-  Hnv3: *id559
+  Hnv3: *id562
   cf:
   - cil
   cn:
@@ -13405,9 +13471,9 @@
   - p'
 - Ftnk:
   - CE_QO_VE
-  Hnv1: &id560
+  Hnv1: &id563
   - 碳衆
-  Hnv3: *id560
+  Hnv3: *id563
   cf:
   - naceqove
   cn:
@@ -13428,9 +13494,9 @@
   - p'
 - Ftnk:
   - ces`l
-  Hnv1: &id561
+  Hnv1: &id564
   - 銫衆
-  Hnv3: *id561
+  Hnv3: *id564
   dt:
   - 12/6月/2022
   et:
@@ -13447,9 +13513,9 @@
   - p'
 - Ftnk:
   - '|cs'
-  Hnv1: &id562
+  Hnv1: &id565
   - 所需
-  Hnv3: *id562
+  Hnv3: *id565
   cf:
   - cas
   cn:
@@ -13470,9 +13536,9 @@
   - p'
 - Ftnk:
   - ce`s'nt
-  Hnv1: &id563
+  Hnv1: &id566
   - 碳晶
-  Hnv3: *id563
+  Hnv3: *id566
   cf:
   - sente
   cn:
@@ -13494,9 +13560,9 @@
 - Ftnk:
   - CEZ
   - cz
-  Hnv1: &id564
+  Hnv1: &id567
   - 別
-  Hnv3: *id564
+  Hnv3: *id567
   dt:
   - 09/7月/2019
   et:
@@ -13523,9 +13589,28 @@
   vn:
   - 再见
   - 再见
-- Hnv1: &id565
+- Ftnk:
+  - c'rt
+  Hnv1: &id568
+  - 鬼
+  Hnv3: *id568
+  dt:
+  - 10/1月/2025
+  et:
+  - PSl čьrtъ
+  ge:
+  - demon, ghost
+  gn:
+  - 魔鬼
+  lx:
+  - certe
+  ph:
+  - certe
+  ps:
+  - p'
+- Hnv1: &id569
   - 七
-  Hnv3: *id565
+  Hnv3: *id569
   dt:
   - 09/7月/2019
   et:
@@ -13542,9 +13627,9 @@
   - t'
 - Ftnk:
   - cp
-  Hnv1: &id566
+  Hnv1: &id570
   - 度
-  Hnv3: *id566
+  Hnv3: *id570
   dt:
   - 09/7月/2019
   et:
@@ -13561,9 +13646,9 @@
   - v'
 - Ftnk:
   - cpi_cn
-  Hnv1: &id567
+  Hnv1: &id571
   - 度i門
-  Hnv3: *id567
+  Hnv3: *id571
   cf:
   - cap
   - cine
@@ -13587,10 +13672,10 @@
 - Ftnk:
   - cp
   - cpe
-  Hnv1: &id568
+  Hnv1: &id572
   - 度
   - 度e
-  Hnv3: *id568
+  Hnv3: *id572
   cf:
   - cap
   - kocape
@@ -13612,9 +13697,9 @@
   - p'
 - Ftnk:
   - ca`bj
-  Hnv1: &id569
+  Hnv1: &id573
   - 七色
-  Hnv3: *id569
+  Hnv3: *id573
   cf:
   - ca
   - boje
@@ -13634,9 +13719,9 @@
   - p'
 - Ftnk:
   - cdi_mr
-  Hnv1: &id570
+  Hnv1: &id574
   - 狹i沒
-  Hnv3: *id570
+  Hnv3: *id574
   cf:
   - cade
   - mer
@@ -13656,9 +13741,9 @@
   - v'
 - Ftnk:
   - cd
-  Hnv1: &id571
+  Hnv1: &id575
   - 狹
-  Hnv3: *id571
+  Hnv3: *id575
   dt:
   - 10/7月/2019
   et:
@@ -13675,9 +13760,9 @@
   - fp'
 - Ftnk:
   - cje
-  Hnv1: &id572
+  Hnv1: &id576
   - 茶e
-  Hnv3: *id572
+  Hnv3: *id576
   cf:
   - caja
   cn:
@@ -13698,9 +13783,9 @@
   - p'
 - Ftnk:
   - caja
-  Hnv1: &id573
+  Hnv1: &id577
   - 茶a
-  Hnv3: *id573
+  Hnv3: *id577
   cf:
   - caje
   cn:
@@ -13721,9 +13806,9 @@
   - p'
 - Ftnk:
   - cs
-  Hnv1: &id574
+  Hnv1: &id578
   - 需
-  Hnv3: *id574
+  Hnv3: *id578
   dt:
   - 25/1月/2020
   et:
@@ -13744,9 +13829,9 @@
   - ja zo li line line , ekege visa lado li ces .
 - Ftnk:
   - cs`n
-  Hnv1: &id575
+  Hnv1: &id579
   - ''
-  Hnv3: *id575
+  Hnv3: *id579
   cf:
   - cas
   cn:
@@ -13771,9 +13856,9 @@
   - 非正式
 - Ftnk:
   - cf
-  Hnv1: &id576
+  Hnv1: &id580
   - 交
-  Hnv3: *id576
+  Hnv3: *id580
   cf:
   - cafone
   - cafivino
@@ -13796,9 +13881,9 @@
   - v'
 - Ftnk:
   - cfi_vno
-  Hnv1: &id577
+  Hnv1: &id581
   - 交i點o
-  Hnv3: *id577
+  Hnv3: *id581
   cf:
   - caf
   - vino
@@ -13821,9 +13906,9 @@
   - p'
 - Ftnk:
   - cf`n
-  Hnv1: &id578
+  Hnv1: &id582
   - 交處
-  Hnv3: *id578
+  Hnv3: *id582
   cf:
   - caf
   cn:
@@ -13844,9 +13929,9 @@
   - p'
 - Ftnk:
   - cm
-  Hnv1: &id579
+  Hnv1: &id583
   - 黑
-  Hnv3: *id579
+  Hnv3: *id583
   dt:
   - 27/6月/2019
   et:
@@ -13863,9 +13948,9 @@
   - fp'
 - Ftnk:
   - c'nk
-  Hnv1: &id580
+  Hnv1: &id584
   - 機
-  Hnv3: *id580
+  Hnv3: *id584
   dt:
   - 09/7月/2019
   et:
@@ -13882,9 +13967,9 @@
   - p'
 - Ftnk:
   - cli_PU_NA
-  Hnv1: &id581
+  Hnv1: &id585
   - 週i五等a
-  Hnv3: *id581
+  Hnv3: *id585
   cf:
   - calo
   - pu
@@ -13907,9 +13992,9 @@
   - p'
 - Ftnk:
   - cli_BE_NA
-  Hnv1: &id582
+  Hnv1: &id586
   - 週i二等a
-  Hnv3: *id582
+  Hnv3: *id586
   cf:
   - calo
   - be
@@ -13932,9 +14017,9 @@
   - p'
 - Ftnk:
   - cli_KO_NA
-  Hnv1: &id583
+  Hnv1: &id587
   - 週i三等a
-  Hnv3: *id583
+  Hnv3: *id587
   cf:
   - calo
   - ko
@@ -13957,9 +14042,9 @@
   - p'
 - Ftnk:
   - cli_CA_NA
-  Hnv1: &id584
+  Hnv1: &id588
   - 週i七等a
-  Hnv3: *id584
+  Hnv3: *id588
   cf:
   - calo
   - ca
@@ -13984,9 +14069,9 @@
   - calinuna
 - Ftnk:
   - cli_JE_NA
-  Hnv1: &id585
+  Hnv1: &id589
   - 週i一等a
-  Hnv3: *id585
+  Hnv3: *id589
   cf:
   - calo
   - je
@@ -14009,9 +14094,9 @@
   - p'
 - Ftnk:
   - cli_FA_NA
-  Hnv1: &id586
+  Hnv1: &id590
   - 週i四等a
-  Hnv3: *id586
+  Hnv3: *id590
   cf:
   - calo
   - fa
@@ -14034,9 +14119,9 @@
   - p'
 - Ftnk:
   - cli_NU_NA
-  Hnv1: &id587
+  Hnv1: &id591
   - 週i〇等a
-  Hnv3: *id587
+  Hnv3: *id591
   cf:
   - calo
   - nu
@@ -14061,9 +14146,9 @@
   - calicana
 - Ftnk:
   - cli_RE_NA
-  Hnv1: &id588
+  Hnv1: &id592
   - 週i六等a
-  Hnv3: *id588
+  Hnv3: *id592
   cf:
   - calo
   - re
@@ -14087,9 +14172,9 @@
 - Ftnk:
   - cal
   - clo
-  Hnv1: &id589
+  Hnv1: &id593
   - 週
-  Hnv3: *id589
+  Hnv3: *id593
   cf:
   - ca
   - lado
@@ -14126,9 +14211,9 @@
   - calipuna
   - calirena
   - calinuna
-- Hnv1: &id590
+- Hnv1: &id594
   - 豈
-  Hnv3: *id590
+  Hnv3: *id594
   cf:
   - ci
   dt:
@@ -14149,9 +14234,9 @@
   - co hegorike du?.
 - Ftnk:
   - ck
-  Hnv1: &id591
+  Hnv1: &id595
   - 級
-  Hnv3: *id591
+  Hnv3: *id595
   dt:
   - 19/9月/2021
   et:
@@ -14185,9 +14270,9 @@
   - p'
 - Ftnk:
   - coj
-  Hnv1: &id592
+  Hnv1: &id596
   - 桃
-  Hnv3: *id592
+  Hnv3: *id596
   dt:
   - 10/7月/2019
   et:
@@ -14204,9 +14289,9 @@
   - p'
 - Ftnk:
   - c'sk
-  Hnv1: &id593
+  Hnv1: &id597
   - 篋
-  Hnv3: *id593
+  Hnv3: *id597
   dt:
   - 24/8月/2020
   ge:
@@ -14222,9 +14307,9 @@
   - p'
 - Ftnk:
   - coz.
-  Hnv1: &id594
+  Hnv1: &id598
   - 性.
-  Hnv3: *id594
+  Hnv3: *id598
   cf:
   - coze
   cn:
@@ -14246,9 +14331,9 @@
 - Ftnk:
   - coz
   - cz
-  Hnv1: &id595
+  Hnv1: &id599
   - 性
-  Hnv3: *id595
+  Hnv3: *id599
   cf:
   - coz
   dt:
@@ -14265,9 +14350,9 @@
   - coze
   ps:
   - p'
-- Hnv1: &id596
+- Hnv1: &id600
   - 胡
-  Hnv3: *id596
+  Hnv3: *id600
   cf:
   - oN
   - co
@@ -14289,9 +14374,9 @@
   - coN vi kate vi dade?.
 - Ftnk:
   - c'nz
-  Hnv1: &id597
+  Hnv1: &id601
   - 蟲
-  Hnv3: *id597
+  Hnv3: *id601
   dt:
   - 11/12月/2020
   et:
@@ -14311,9 +14396,9 @@
 - Ftnk:
   - cut`z
   - '|ct`z'
-  Hnv1: &id598
+  Hnv1: &id602
   - 所耳化
-  Hnv3: *id598
+  Hnv3: *id602
   cf:
   - cuta
   - cit
@@ -14337,10 +14422,10 @@
 - Ftnk:
   - '|ct'
   - '|cte'
-  Hnv1: &id599
+  Hnv1: &id603
   - 所耳
   - 所耳e
-  Hnv3: *id599
+  Hnv3: *id603
   cf:
   - cit
   - cuta
@@ -14363,9 +14448,9 @@
   - p'
 - Ftnk:
   - '|cta'
-  Hnv1: &id600
+  Hnv1: &id604
   - 所耳a
-  Hnv3: *id600
+  Hnv3: *id604
   cf:
   - cit
   - cute
@@ -14392,9 +14477,9 @@
   - p'
 - Ftnk:
   - '|ct`va'
-  Hnv1: &id601
+  Hnv1: &id605
   - 所耳族a
-  Hnv3: *id601
+  Hnv3: *id605
   cf:
   - cuta
   - -ov-
@@ -14414,9 +14499,9 @@
   - p'
 - Ftnk:
   - '|cl'
-  Hnv1: &id602
+  Hnv1: &id606
   - 所律
-  Hnv3: *id602
+  Hnv3: *id606
   cf:
   - cil
   cn:
@@ -14438,10 +14523,10 @@
 - Ftnk:
   - cr
   - cr.
-  Hnv1: &id603
+  Hnv1: &id607
   - 定
   - 定.
-  Hnv3: *id603
+  Hnv3: *id607
   cf:
   - cure
   cn:
@@ -14463,10 +14548,10 @@
 - Ftnk:
   - cr
   - cre
-  Hnv1: &id604
+  Hnv1: &id608
   - 定
   - 定e
-  Hnv3: *id604
+  Hnv3: *id608
   cf:
   - cur
   cn:
@@ -14489,9 +14574,9 @@
   - 停用
 - Ftnk:
   - cr`d
-  Hnv1: &id605
+  Hnv1: &id609
   - 定事
-  Hnv3: *id605
+  Hnv3: *id609
   cf:
   - cure
   - -od-
@@ -14511,9 +14596,9 @@
   - p'
 - Ftnk:
   - cr`n
-  Hnv1: &id606
+  Hnv1: &id610
   - 定處
-  Hnv3: *id606
+  Hnv3: *id610
   cf:
   - cur
   - -on-
@@ -14535,9 +14620,9 @@
   - p'
 - Ftnk:
   - cr`m
-  Hnv1: &id607
+  Hnv1: &id611
   - 定太
-  Hnv3: *id607
+  Hnv3: *id611
   cf:
   - cure
   - -um-
@@ -14557,9 +14642,9 @@
   - fp'
 - Ftnk:
   - cr`m`d
-  Hnv1: &id608
+  Hnv1: &id612
   - 定太事
-  Hnv3: *id608
+  Hnv3: *id612
   dt:
   - 14/4月/2024
   et:
@@ -14574,9 +14659,9 @@
   - curumoda
   ps:
   - p'
-- Hnv1: &id609
+- Hnv1: &id613
   - 一
-  Hnv3: *id609
+  Hnv3: *id613
   dt:
   - 09/7月/2019
   et:
@@ -14613,9 +14698,9 @@
   - hf'
 - Ftnk:
   - jhi_pr
-  Hnv1: &id610
+  Hnv1: &id614
   - 好i受
-  Hnv3: *id610
+  Hnv3: *id614
   cf:
   - jehe
   - par
@@ -14638,9 +14723,9 @@
   - v'
 - Ftnk:
   - jhi_dj
-  Hnv1: &id611
+  Hnv1: &id615
   - 好i予
-  Hnv3: *id611
+  Hnv3: *id615
   cf:
   - jehe
   - daj
@@ -14660,9 +14745,9 @@
   - v'
 - Ftnk:
   - jh
-  Hnv1: &id612
+  Hnv1: &id616
   - 好
-  Hnv3: *id612
+  Hnv3: *id616
   cf:
   - jeq
   cn:
@@ -14693,9 +14778,9 @@
   - jehe ki mi egora sor .
 - Ftnk:
   - jh`d
-  Hnv1: &id613
+  Hnv1: &id617
   - 好事
-  Hnv3: *id613
+  Hnv3: *id617
   cf:
   - jehe
   cn:
@@ -14716,9 +14801,9 @@
   - p'
 - Ftnk:
   - jp
-  Hnv1: &id614
+  Hnv1: &id618
   - 葉
-  Hnv3: *id614
+  Hnv3: *id618
   cf:
   - jepa
   cn:
@@ -14739,9 +14824,9 @@
   - p'
 - Ftnk:
   - jpa
-  Hnv1: &id615
+  Hnv1: &id619
   - 葉a
-  Hnv3: *id615
+  Hnv3: *id619
   cf:
   - jepe
   cn:
@@ -14762,9 +14847,9 @@
   - p'
 - Ftnk:
   - '|jt'
-  Hnv1: &id616
+  Hnv1: &id620
   - 所舌
-  Hnv3: *id616
+  Hnv3: *id620
   cf:
   - jat
   cn:
@@ -14787,9 +14872,9 @@
   - p'
 - Ftnk:
   - js
-  Hnv1: &id617
+  Hnv1: &id621
   - 異
-  Hnv3: *id617
+  Hnv3: *id621
   cf:
   - je
   - si
@@ -14812,9 +14897,9 @@
   - fp'
 - Ftnk:
   - jn`z
-  Hnv1: &id618
+  Hnv1: &id622
   - 一化
-  Hnv3: *id618
+  Hnv3: *id622
   cf:
   - jenizo
   - jenize
@@ -14834,9 +14919,9 @@
   - v'
 - Ftnk:
   - jn`zi_vpa
-  Hnv1: &id619
+  Hnv1: &id623
   - 一化i前a
-  Hnv3: *id619
+  Hnv3: *id623
   cf:
   - jeniz
   - vopa
@@ -14859,9 +14944,9 @@
   - p'
 - Ftnk:
   - jn`ze
-  Hnv1: &id620
+  Hnv1: &id624
   - 一化e
-  Hnv3: *id620
+  Hnv3: *id624
   cf:
   - jeniz
   cn:
@@ -14882,9 +14967,9 @@
   - p'
 - Ftnk:
   - jn`zo
-  Hnv1: &id621
+  Hnv1: &id625
   - 一化o
-  Hnv3: *id621
+  Hnv3: *id625
   cf:
   - jeniz
   cn:
@@ -14905,9 +14990,9 @@
   - p'
 - Ftnk:
   - jn`z`d
-  Hnv1: &id622
+  Hnv1: &id626
   - 一化事
-  Hnv3: *id622
+  Hnv3: *id626
   cf:
   - jeniz
   - -od-
@@ -14927,9 +15012,9 @@
   - p'
 - Ftnk:
   - jeli_pm
-  Hnv1: &id623
+  Hnv1: &id627
   - 電i容
-  Hnv3: *id623
+  Hnv3: *id627
   cf:
   - jele
   - pume
@@ -14953,9 +15038,9 @@
 - Ftnk:
   - jel
   - jl
-  Hnv1: &id624
+  Hnv1: &id628
   - 電
-  Hnv3: *id624
+  Hnv3: *id628
   cf:
   - -el-
   dt:
@@ -14974,9 +15059,9 @@
   - p'
 - Ftnk:
   - jel`n
-  Hnv1: &id625
+  Hnv1: &id629
   - 電處
-  Hnv3: *id625
+  Hnv3: *id629
   cf:
   - jele
   cn:
@@ -14997,9 +15082,9 @@
   - p'
 - Ftnk:
   - JA
-  Hnv1: &id626
+  Hnv1: &id630
   - 而
-  Hnv3: *id626
+  Hnv3: *id630
   cf:
   - jaN
   cn:
@@ -15027,10 +15112,10 @@
 - Ftnk:
   - jb
   - jbe
-  Hnv1: &id627
+  Hnv1: &id631
   - 果
   - 果e
-  Hnv3: *id627
+  Hnv3: *id631
   dt:
   - 10/7月/2019
   et:
@@ -15047,9 +15132,9 @@
   - p'
 - Ftnk:
   - jba
-  Hnv1: &id628
+  Hnv1: &id632
   - 果a
-  Hnv3: *id628
+  Hnv3: *id632
   cf:
   - jabe
   cn:
@@ -15071,9 +15156,9 @@
 - Ftnk:
   - jbk
   - JA_BU_KA
-  Hnv1: &id629
+  Hnv1: &id633
   - 蘋
-  Hnv3: *id629
+  Hnv3: *id633
   dt:
   - 13/6月/2022
   et:
@@ -15092,9 +15177,9 @@
   - piNgo
 - Ftnk:
   - jt
-  Hnv1: &id630
+  Hnv1: &id634
   - 舌
-  Hnv3: *id630
+  Hnv3: *id634
   cf:
   - jate
   - jete
@@ -15117,9 +15202,9 @@
   - v'
 - Ftnk:
   - jte
-  Hnv1: &id631
+  Hnv1: &id635
   - 舌e
-  Hnv3: *id631
+  Hnv3: *id635
   cf:
   - jat
   cn:
@@ -15140,9 +15225,9 @@
   - p'
 - Ftnk:
   - jki_ss
-  Hnv1: &id632
+  Hnv1: &id636
   - 親i國
-  Hnv3: *id632
+  Hnv3: *id636
   cf:
   - jake
   - saso
@@ -15165,9 +15250,9 @@
   - p'
 - Ftnk:
   - jak
-  Hnv1: &id633
+  Hnv1: &id637
   - 親
-  Hnv3: *id633
+  Hnv3: *id637
   cf:
   - jaka
   - jako
@@ -15190,9 +15275,9 @@
   - cp'
 - Ftnk:
   - jka
-  Hnv1: &id634
+  Hnv1: &id638
   - 親a
-  Hnv3: *id634
+  Hnv3: *id638
   cf:
   - jake
   - jako
@@ -15215,9 +15300,9 @@
   - p'
 - Ftnk:
   - jko
-  Hnv1: &id635
+  Hnv1: &id639
   - 親o
-  Hnv3: *id635
+  Hnv3: *id639
   cf:
   - jake
   - jaka
@@ -15241,9 +15326,9 @@
 - Ftnk:
   - jgd
   - JA_GO_DA
-  Hnv1: &id636
+  Hnv1: &id640
   - 莓
-  Hnv3: *id636
+  Hnv3: *id640
   dt:
   - 19/9月/2021
   et:
@@ -15260,9 +15345,9 @@
   - p'
 - Ftnk:
   - jj
-  Hnv1: &id637
+  Hnv1: &id641
   - 卵
-  Hnv3: *id637
+  Hnv3: *id641
   dt:
   - 10/7月/2019
   et:
@@ -15279,9 +15364,9 @@
   - p'
 - Ftnk:
   - jf
-  Hnv1: &id638
+  Hnv1: &id642
   - 助
-  Hnv3: *id638
+  Hnv3: *id642
   dt:
   - 08/7月/2019
   et:
@@ -15298,9 +15383,9 @@
   - v'
 - Ftnk:
   - jf`k
-  Hnv1: &id639
+  Hnv1: &id643
   - 助者
-  Hnv3: *id639
+  Hnv3: *id643
   cf:
   - jaf
   cn:
@@ -15321,9 +15406,9 @@
   - cp'
 - Ftnk:
   - jfo
-  Hnv1: &id640
+  Hnv1: &id644
   - 助o
-  Hnv3: *id640
+  Hnv3: *id644
   dt:
   - 10/7月/2019
   ge:
@@ -15338,9 +15423,9 @@
   - p'
 - Ftnk:
   - jv
-  Hnv1: &id641
+  Hnv1: &id645
   - 急
-  Hnv3: *id641
+  Hnv3: *id645
   dt:
   - 20/11月/2021
   et:
@@ -15357,9 +15442,9 @@
   - jp'
 - Ftnk:
   - JA_n
-  Hnv1: &id642
+  Hnv1: &id646
   - 亦
-  Hnv3: *id642
+  Hnv3: *id646
   cf:
   - ja
   dt:
@@ -15378,9 +15463,9 @@
   - c'
 - Ftnk:
   - jan
-  Hnv1: &id643
+  Hnv1: &id647
   - 羊
-  Hnv3: *id643
+  Hnv3: *id647
   dt:
   - 10/7月/2019
   et:
@@ -15397,9 +15482,9 @@
   - cp'
 - Ftnk:
   - JO
-  Hnv1: &id644
+  Hnv1: &id648
   - 乃
-  Hnv3: *id644
+  Hnv3: *id648
   cf:
   - joN
   cn:
@@ -15418,9 +15503,9 @@
   - h'
 - Ftnk:
   - '|jk'
-  Hnv1: &id645
+  Hnv1: &id649
   - 所欲
-  Hnv3: *id645
+  Hnv3: *id649
   cf:
   - juk
   cn:
@@ -15441,9 +15526,9 @@
   - p'
 - Ftnk:
   - JO_n
-  Hnv1: &id646
+  Hnv1: &id650
   - 則
-  Hnv3: *id646
+  Hnv3: *id650
   cf:
   - jo
   cn:
@@ -15464,9 +15549,9 @@
   - h'
 - Ftnk:
   - jn`l
-  Hnv1: &id647
+  Hnv1: &id651
   - 月類
-  Hnv3: *id647
+  Hnv3: *id651
   cf:
   - jona
   cn:
@@ -15488,10 +15573,10 @@
 - Ftnk:
   - jn
   - jna
-  Hnv1: &id648
+  Hnv1: &id652
   - 月
   - 月a
-  Hnv3: *id648
+  Hnv3: *id652
   cf:
   - jono
   cn:
@@ -15512,9 +15597,9 @@
   - p'
 - Ftnk:
   - jno
-  Hnv1: &id649
+  Hnv1: &id653
   - 月o
-  Hnv3: *id649
+  Hnv3: *id653
   cf:
   - jona
   - kojo
@@ -15537,9 +15622,9 @@
   - p'
 - Ftnk:
   - j'nj
-  Hnv1: &id650
+  Hnv1: &id654
   - 魷
-  Hnv3: *id650
+  Hnv3: *id654
   dt:
   - 11/6月/2020
   et:
@@ -15557,9 +15642,9 @@
 - Ftnk:
   - jla
   - jola
-  Hnv1: &id651
+  Hnv1: &id655
   - 油a
-  Hnv3: *id651
+  Hnv3: *id655
   cf:
   - jolo
   - gogijola
@@ -15585,9 +15670,9 @@
 - Ftnk:
   - jlo
   - jolo
-  Hnv1: &id652
+  Hnv1: &id656
   - 油o
-  Hnv3: *id652
+  Hnv3: *id656
   cf:
   - jola
   dn:
@@ -15608,9 +15693,9 @@
   - p'
 - Ftnk:
   - JU
-  Hnv1: &id653
+  Hnv1: &id657
   - 甚
-  Hnv3: *id653
+  Hnv3: *id657
   cf:
   - juN
   cn:
@@ -15633,9 +15718,9 @@
   - di dade ju bore k vu kate .
 - Ftnk:
   - jk
-  Hnv1: &id654
+  Hnv1: &id658
   - 欲
-  Hnv3: *id654
+  Hnv3: *id658
   cf:
   - jukum
   cn:
@@ -15656,9 +15741,9 @@
   - v'
 - Ftnk:
   - jk`|m
-  Hnv1: &id655
+  Hnv1: &id659
   - 欲所太
-  Hnv3: *id655
+  Hnv3: *id659
   cf:
   - jukum
   - juk
@@ -15681,9 +15766,9 @@
   - p'
 - Ftnk:
   - jk`m
-  Hnv1: &id656
+  Hnv1: &id660
   - 欲太
-  Hnv3: *id656
+  Hnv3: *id660
   cf:
   - juk
   - jukome
@@ -15706,9 +15791,9 @@
   - v'
 - Ftnk:
   - jc.
-  Hnv1: &id657
+  Hnv1: &id661
   - 樂.
-  Hnv3: *id657
+  Hnv3: *id661
   an:
   - najuc
   cf:
@@ -15731,9 +15816,9 @@
   - v'
 - Ftnk:
   - jc
-  Hnv1: &id658
+  Hnv1: &id662
   - 樂
-  Hnv3: *id658
+  Hnv3: *id662
   an:
   - najuce
   cf:
@@ -15756,9 +15841,9 @@
   - fp'
 - Ftnk:
   - jc`d
-  Hnv1: &id659
+  Hnv1: &id663
   - 樂事
-  Hnv3: *id659
+  Hnv3: *id663
   cf:
   - juc
   cn:
@@ -15780,10 +15865,10 @@
 - Ftnk:
   - jm
   - jm.
-  Hnv1: &id660
+  Hnv1: &id664
   - 跡
   - 跡.
-  Hnv3: *id660
+  Hnv3: *id664
   cf:
   - jumo
   - jume
@@ -15813,10 +15898,10 @@
 - Ftnk:
   - jm
   - jme
-  Hnv1: &id661
+  Hnv1: &id665
   - 跡
   - 跡e
-  Hnv3: *id661
+  Hnv3: *id665
   cf:
   - jum
   cn:
@@ -15837,9 +15922,9 @@
   - p'
 - Ftnk:
   - jma
-  Hnv1: &id662
+  Hnv1: &id666
   - 跡a
-  Hnv3: *id662
+  Hnv3: *id666
   cf:
   - jum
   cn:
@@ -15860,9 +15945,9 @@
   - p'
 - Ftnk:
   - jmo
-  Hnv1: &id663
+  Hnv1: &id667
   - 跡o
-  Hnv3: *id663
+  Hnv3: *id667
   cf:
   - jum
   cn:
@@ -15883,9 +15968,9 @@
   - p'
 - Ftnk:
   - JU_n
-  Hnv1: &id664
+  Hnv1: &id668
   - 極
-  Hnv3: *id664
+  Hnv3: *id668
   cf:
   - ju
   dt:
@@ -15923,9 +16008,9 @@
   - heroje
 - Ftnk:
   - jun`m
-  Hnv1: &id665
+  Hnv1: &id669
   - 极太
-  Hnv3: *id665
+  Hnv3: *id669
   dt:
   - 12/4月/2024
   et:
@@ -15940,9 +16025,9 @@
   - junume
   ps:
   - p'
-- Hnv1: &id666
+- Hnv1: &id670
   - 與
-  Hnv3: *id666
+  Hnv3: *id670
   dt:
   - 05/7月/2021
   ge:
@@ -15963,9 +16048,9 @@
   - s uzase rupe s ulesa , liN lafumike f uvopa .
 - Ftnk:
   - SI
-  Hnv1: &id667
+  Hnv1: &id671
   - 己
-  Hnv3: *id667
+  Hnv3: *id671
   dt:
   - 13/6月/2022
   ge:
@@ -15984,9 +16069,9 @@
   - li egora sa sor .
 - Ftnk:
   - sp
-  Hnv1: &id668
+  Hnv1: &id672
   - 來
-  Hnv3: *id668
+  Hnv3: *id672
   dt:
   - 09/7月/2019
   et:
@@ -16003,9 +16088,9 @@
   - v'
 - Ftnk:
   - '|sd'
-  Hnv1: &id669
+  Hnv1: &id673
   - 所坐
-  Hnv3: *id669
+  Hnv3: *id673
   cf:
   - sed
   cn:
@@ -16026,9 +16111,9 @@
   - p'
 - Ftnk:
   - '|sdo'
-  Hnv1: &id670
+  Hnv1: &id674
   - 所坐o
-  Hnv3: *id670
+  Hnv3: *id674
   cf:
   - sed
   cn:
@@ -16049,9 +16134,9 @@
   - p'
 - Ftnk:
   - sk`l
-  Hnv1: &id671
+  Hnv1: &id675
   - 胞類
-  Hnv3: *id671
+  Hnv3: *id675
   dt:
   - 10/7月/2019
   et:
@@ -16068,9 +16153,9 @@
   - cp'
 - Ftnk:
   - sk
-  Hnv1: &id672
+  Hnv1: &id676
   - 胞
-  Hnv3: *id672
+  Hnv3: *id676
   cf:
   - sikile
   - sule
@@ -16093,9 +16178,9 @@
   - cp'
 - Ftnk:
   - sk`d
-  Hnv1: &id673
+  Hnv1: &id677
   - 胞事
-  Hnv3: *id673
+  Hnv3: *id677
   cf:
   - sike
   - -od-
@@ -16115,9 +16200,9 @@
   - p'
 - Ftnk:
   - siv
-  Hnv1: &id674
+  Hnv1: &id678
   - 灰
-  Hnv3: *id674
+  Hnv3: *id678
   dt:
   - 27/6月/2019
   et:
@@ -16135,9 +16220,9 @@
 - Ftnk:
   - sn
   - SIN
-  Hnv1: &id675
+  Hnv1: &id679
   - 諾
-  Hnv3: *id675
+  Hnv3: *id679
   dt:
   - 07/12月/2023
   et:
@@ -16154,9 +16239,9 @@
   - hf'
 - Ftnk:
   - s'ng
-  Hnv1: &id676
+  Hnv1: &id680
   - 辛
-  Hnv3: *id676
+  Hnv3: *id680
   dt:
   - 10/7月/2019
   et:
@@ -16173,9 +16258,9 @@
   - fp'
 - Ftnk:
   - s`lp`k
-  Hnv1: &id677
+  Hnv1: &id681
   - 己理者
-  Hnv3: *id677
+  Hnv3: *id681
   cf:
   - si
   - lop
@@ -16195,9 +16280,9 @@
   - cp'
   va:
   - diktatore
-- Hnv1: &id678
+- Hnv1: &id682
   - 除
-  Hnv3: *id678
+  Hnv3: *id682
   dt:
   - 10/7月/2019
   ge:
@@ -16212,9 +16297,9 @@
   - t'
 - Ftnk:
   - '|st'
-  Hnv1: &id679
+  Hnv1: &id683
   - 所感
-  Hnv3: *id679
+  Hnv3: *id683
   cf:
   - sat
   cn:
@@ -16235,9 +16320,9 @@
   - p'
 - Ftnk:
   - sd
-  Hnv1: &id680
+  Hnv1: &id684
   - 坐
-  Hnv3: *id680
+  Hnv3: *id684
   dt:
   - 27/6月/2019
   et:
@@ -16254,9 +16339,9 @@
   - v'
 - Ftnk:
   - s`kf
-  Hnv1: &id681
+  Hnv1: &id685
   - 己信
-  Hnv3: *id681
+  Hnv3: *id685
   cf:
   - si
   - kef
@@ -16279,9 +16364,9 @@
   - fp'
 - Ftnk:
   - s`kf`d
-  Hnv1: &id682
+  Hnv1: &id686
   - 己信事
-  Hnv3: *id682
+  Hnv3: *id686
   cf:
   - sekefe
   - kef
@@ -16304,9 +16389,9 @@
   - p'
 - Ftnk:
   - sej
-  Hnv1: &id683
+  Hnv1: &id687
   - 雄
-  Hnv3: *id683
+  Hnv3: *id687
   dt:
   - 09/7月/2019
   et:
@@ -16323,9 +16408,9 @@
   - fp'
 - Ftnk:
   - se`jh
-  Hnv1: &id684
+  Hnv1: &id688
   - 己e好
-  Hnv3: *id684
+  Hnv3: *id688
   cf:
   - si
   - jehe
@@ -16348,9 +16433,9 @@
   - fp'
 - Ftnk:
   - s'nt
-  Hnv1: &id685
+  Hnv1: &id689
   - 晶
-  Hnv3: *id685
+  Hnv3: *id689
   dt:
   - 03/11月/2022
   et:
@@ -16368,9 +16453,9 @@
 - Ftnk:
   - sl.
   - sel.
-  Hnv1: &id686
+  Hnv1: &id690
   - 齊
-  Hnv3: *id686
+  Hnv3: *id690
   dt:
   - 08/7月/2019
   et:
@@ -16387,9 +16472,9 @@
   - v'
 - Ftnk:
   - sl`z
-  Hnv1: &id687
+  Hnv1: &id691
   - 齊化
-  Hnv3: *id687
+  Hnv3: *id691
   cf:
   - sel
   - -iz-
@@ -16412,9 +16497,9 @@
   - v'
 - Ftnk:
   - sl`z`d
-  Hnv1: &id688
+  Hnv1: &id692
   - 齊化事
-  Hnv3: *id688
+  Hnv3: *id692
   cf:
   - seliz
   - -od-
@@ -16437,9 +16522,9 @@
 - Ftnk:
   - sl
   - sle
-  Hnv1: &id689
+  Hnv1: &id693
   - 齊
-  Hnv3: *id689
+  Hnv3: *id693
   an:
   - nasele
   cf:
@@ -16462,9 +16547,9 @@
   - fp'
 - Ftnk:
   - sl`d
-  Hnv1: &id690
+  Hnv1: &id694
   - 齊事
-  Hnv3: *id690
+  Hnv3: *id694
   cf:
   - sel
   cn:
@@ -16485,9 +16570,9 @@
   - p'
 - Ftnk:
   - st
-  Hnv1: &id691
+  Hnv1: &id695
   - 感
-  Hnv3: *id691
+  Hnv3: *id695
   cf:
   - sete
   - satum
@@ -16510,9 +16595,9 @@
   - v'
 - Ftnk:
   - st`m
-  Hnv1: &id692
+  Hnv1: &id696
   - 感太
-  Hnv3: *id692
+  Hnv3: *id696
   cf:
   - sat
   - satumoda
@@ -16535,9 +16620,9 @@
   - v'
 - Ftnk:
   - st`m`d
-  Hnv1: &id693
+  Hnv1: &id697
   - 感太事
-  Hnv3: *id693
+  Hnv3: *id697
   cf:
   - satum
   - sat
@@ -16562,9 +16647,9 @@
   - sone（停用）
 - Ftnk:
   - sdi_vka
-  Hnv1: &id694
+  Hnv1: &id698
   - 今i代a
-  Hnv3: *id694
+  Hnv3: *id698
   cf:
   - sade
   - veka
@@ -16587,9 +16672,9 @@
   - p'
 - Ftnk:
   - sdi_ld
-  Hnv1: &id695
+  Hnv1: &id699
   - 今i日
-  Hnv3: *id695
+  Hnv3: *id699
   cf:
   - sade
   - lado
@@ -16622,9 +16707,9 @@
   - (SH)
 - Ftnk:
   - sad
-  Hnv1: &id696
+  Hnv1: &id700
   - 今
-  Hnv3: *id696
+  Hnv3: *id700
   cf:
   - posade
   - vosade
@@ -16666,9 +16751,9 @@
   - sadu mi ugorone .
 - Ftnk:
   - sg
-  Hnv1: &id697
+  Hnv1: &id701
   - 破
-  Hnv3: *id697
+  Hnv3: *id701
   dt:
   - 27/6月/2019
   et:
@@ -16685,9 +16770,9 @@
   - v'
 - Ftnk:
   - sg`s
-  Hnv1: &id698
+  Hnv1: &id702
   - 破焉
-  Hnv3: *id698
+  Hnv3: *id702
   cf:
   - sag
   - -as-
@@ -16710,10 +16795,10 @@
 - Ftnk:
   - sj
   - sj.
-  Hnv1: &id699
+  Hnv1: &id703
   - 正
   - 正.
-  Hnv3: *id699
+  Hnv3: *id703
   cf:
   - saje
   dt:
@@ -16732,9 +16817,9 @@
   - hf'
 - Ftnk:
   - sj
-  Hnv1: &id700
+  Hnv1: &id704
   - 正
-  Hnv3: *id700
+  Hnv3: *id704
   cf:
   - saj
   cn:
@@ -16755,9 +16840,9 @@
   - fp'
 - Ftnk:
   - sju
-  Hnv1: &id701
+  Hnv1: &id705
   - 正u
-  Hnv3: *id701
+  Hnv3: *id705
   cf:
   - saje
   - saj
@@ -16780,9 +16865,9 @@
   - c'
 - Ftnk:
   - ssi_bl'n
-  Hnv1: &id702
+  Hnv1: &id706
   - 國i腦
-  Hnv3: *id702
+  Hnv3: *id706
   cf:
   - saso
   - blane
@@ -16807,9 +16892,9 @@
   - p'
 - Ftnk:
   - ssi_jn`z
-  Hnv1: &id703
+  Hnv1: &id707
   - 國i一化
-  Hnv3: *id703
+  Hnv3: *id707
   cf:
   - saso
   - jenizo
@@ -16832,9 +16917,9 @@
   - p'
 - Ftnk:
   - ssi_ln
-  Hnv1: &id704
+  Hnv1: &id708
   - 國i人
-  Hnv3: *id704
+  Hnv3: *id708
   dt:
   - 14/4月/2024
   et:
@@ -16851,9 +16936,9 @@
   - fp'
 - Ftnk:
   - ss`te
-  Hnv1: &id705
+  Hnv1: &id709
   - 國部e
-  Hnv3: *id705
+  Hnv3: *id709
   cf:
   - saso
   - sasato
@@ -16877,10 +16962,10 @@
 - Ftnk:
   - ss`t
   - ss`to
-  Hnv1: &id706
+  Hnv1: &id710
   - 國部
   - 國部o
-  Hnv3: *id706
+  Hnv3: *id710
   cf:
   - saso
   - sasate
@@ -16906,9 +16991,9 @@
 - Ftnk:
   - ss
   - sso
-  Hnv1: &id707
+  Hnv1: &id711
   - 國
-  Hnv3: *id707
+  Hnv3: *id711
   cf:
   - saseco
   cn:
@@ -16930,10 +17015,10 @@
 - Ftnk:
   - '|sf'
   - '|sfa'
-  Hnv1: &id708
+  Hnv1: &id712
   - 所生
   - 所生a
-  Hnv3: *id708
+  Hnv3: *id712
   cf:
   - sof
   cn:
@@ -16954,9 +17039,9 @@
   - p'
 - Ftnk:
   - s'vr
-  Hnv1: &id709
+  Hnv1: &id713
   - 猿
-  Hnv3: *id709
+  Hnv3: *id713
   dt:
   - 11/2月/2020
   et:
@@ -16975,9 +17060,9 @@
   - sime
 - Ftnk:
   - sam
-  Hnv1: &id710
+  Hnv1: &id714
   - 僅
-  Hnv3: *id710
+  Hnv3: *id714
   dt:
   - 14/10月/2023
   et:
@@ -16993,10 +17078,29 @@
   ps:
   - c'
 - Ftnk:
+  - s'nd
+  Hnv1: &id715
+  - 蒜
+  Hnv3: *id715
+  dt:
+  - 10/1月/2025
+  et:
+  - 漢 蒜頭
+  ge:
+  - garlic
+  gn:
+  - 蒜
+  lx:
+  - saNde
+  ph:
+  - sande
+  ps:
+  - p'
+- Ftnk:
   - sale
-  Hnv1: &id711
+  Hnv1: &id716
   - 鹹
-  Hnv3: *id711
+  Hnv3: *id716
   cf:
   - sala
   cn:
@@ -17017,9 +17121,9 @@
   - fp'
 - Ftnk:
   - sala
-  Hnv1: &id712
+  Hnv1: &id717
   - 鹹a
-  Hnv3: *id712
+  Hnv3: *id717
   cf:
   - sale
   - salove
@@ -17042,9 +17146,9 @@
   - p'
 - Ftnk:
   - SO
-  Hnv1: &id713
+  Hnv1: &id718
   - 與
-  Hnv3: *id713
+  Hnv3: *id718
   cf:
   - s
   dt:
@@ -17063,9 +17167,9 @@
   - h'
 - Ftnk:
   - sh
-  Hnv1: &id714
+  Hnv1: &id719
   - 蔥
-  Hnv3: *id714
+  Hnv3: *id719
   dt:
   - 24/8月/2022
   et:
@@ -17086,9 +17190,9 @@
   - soha ravaja
 - Ftnk:
   - sc
-  Hnv1: &id715
+  Hnv1: &id720
   - 試
-  Hnv3: *id715
+  Hnv3: *id720
   cf:
   - soco
   cn:
@@ -17109,9 +17213,9 @@
   - v'
 - Ftnk:
   - sco
-  Hnv1: &id716
+  Hnv1: &id721
   - 試o
-  Hnv3: *id716
+  Hnv3: *id721
   cf:
   - soc
   - gorisoco
@@ -17134,9 +17238,9 @@
   - p'
 - Ftnk:
   - s'sn
-  Hnv1: &id717
+  Hnv1: &id722
   - 松
-  Hnv3: *id717
+  Hnv3: *id722
   dt:
   - 10/7月/2019
   et:
@@ -17153,9 +17257,9 @@
   - p'
 - Ftnk:
   - sf
-  Hnv1: &id718
+  Hnv1: &id723
   - 生
-  Hnv3: *id718
+  Hnv3: *id723
   cf:
   - sofa
   - safa
@@ -17178,9 +17282,9 @@
   - v'
 - Ftnk:
   - sfi_jh
-  Hnv1: &id719
+  Hnv1: &id724
   - 生i好
-  Hnv3: *id719
+  Hnv3: *id724
   cf:
   - sofa
   - jehe
@@ -17203,9 +17307,9 @@
   - fp'
 - Ftnk:
   - sfa
-  Hnv1: &id720
+  Hnv1: &id725
   - 生a
-  Hnv3: *id720
+  Hnv3: *id725
   cf:
   - sof
   cn:
@@ -17226,9 +17330,9 @@
   - p'
 - Ftnk:
   - sov
-  Hnv1: &id721
+  Hnv1: &id726
   - 弟
-  Hnv3: *id721
+  Hnv3: *id726
   dt:
   - 27/6月/2019
   et:
@@ -17245,9 +17349,9 @@
   - cp'
 - Ftnk:
   - '|sr'
-  Hnv1: &id722
+  Hnv1: &id727
   - 所目
-  Hnv3: *id722
+  Hnv3: *id727
   cf:
   - sur
   cn:
@@ -17268,9 +17372,9 @@
   - p'
 - Ftnk:
   - '|sra'
-  Hnv1: &id723
+  Hnv1: &id728
   - 所目a
-  Hnv3: *id723
+  Hnv3: *id728
   cf:
   - sur
   cn:
@@ -17321,9 +17425,9 @@
   - '3'
 - Ftnk:
   - sti_cn
-  Hnv1: &id724
+  Hnv1: &id729
   - 口i門
-  Hnv3: *id724
+  Hnv3: *id729
   cf:
   - sute
   - cine
@@ -17346,9 +17450,9 @@
   - p'
 - Ftnk:
   - sut
-  Hnv1: &id725
+  Hnv1: &id730
   - 口
-  Hnv3: *id725
+  Hnv3: *id730
   dt:
   - 10/7月/2019
   et:
@@ -17365,9 +17469,9 @@
   - p'
 - Ftnk:
   - su`gr`k
-  Hnv1: &id726
+  Hnv1: &id731
   - 與學者
-  Hnv3: *id726
+  Hnv3: *id731
   cf:
   - gorike
   cn:
@@ -17388,9 +17492,9 @@
   - p'
 - Ftnk:
   - su`|cta
-  Hnv1: &id727
+  Hnv1: &id732
   - 與所耳a
-  Hnv3: *id727
+  Hnv3: *id732
   cf:
   - s
   - cuta
@@ -17414,9 +17518,9 @@
 - Ftnk:
   - sz
   - sz.
-  Hnv1: &id728
+  Hnv1: &id733
   - 悲
-  Hnv3: *id728
+  Hnv3: *id733
   cf:
   - suze
   cn:
@@ -17437,9 +17541,9 @@
   - v'
 - Ftnk:
   - szi_fn
-  Hnv1: &id729
+  Hnv1: &id734
   - 悲i液
-  Hnv3: *id729
+  Hnv3: *id734
   cf:
   - suz
   - fone
@@ -17463,10 +17567,10 @@
 - Ftnk:
   - sz
   - sze
-  Hnv1: &id730
+  Hnv1: &id735
   - 悲
   - 悲e
-  Hnv3: *id730
+  Hnv3: *id735
   cf:
   - suz
   cn:
@@ -17487,9 +17591,9 @@
   - fp'
 - Ftnk:
   - sz`d
-  Hnv1: &id731
+  Hnv1: &id736
   - 悲事
-  Hnv3: *id731
+  Hnv3: *id736
   cf:
   - suze
   - -od-
@@ -17511,9 +17615,9 @@
   - p'
 - Ftnk:
   - smi_hto
-  Hnv1: &id732
+  Hnv1: &id737
   - 時i慎
-  Hnv3: *id732
+  Hnv3: *id737
   cf:
   - sume
   - hato
@@ -17536,9 +17640,9 @@
   - p'
 - Ftnk:
   - sm`k
-  Hnv1: &id733
+  Hnv1: &id738
   - 時者
-  Hnv3: *id733
+  Hnv3: *id738
   cf:
   - sume
   cn:
@@ -17559,9 +17663,9 @@
   - p'
 - Ftnk:
   - smi_z`mc
-  Hnv1: &id734
+  Hnv1: &id739
   - 時i自市
-  Hnv3: *id734
+  Hnv3: *id739
   cf:
   - sume
   - zumic
@@ -17584,9 +17688,9 @@
   - v'
 - Ftnk:
   - smi_f`mc
-  Hnv1: &id735
+  Hnv1: &id740
   - 時i向市
-  Hnv3: *id735
+  Hnv3: *id740
   cf:
   - sume
   - fumic
@@ -17609,9 +17713,9 @@
   - v'
 - Ftnk:
   - smi_mc
-  Hnv1: &id736
+  Hnv1: &id741
   - 時i市
-  Hnv3: *id736
+  Hnv3: *id741
   cf:
   - sume
   - mic
@@ -17634,9 +17738,9 @@
   - v'
 - Ftnk:
   - sm
-  Hnv1: &id737
+  Hnv1: &id742
   - 時
-  Hnv3: *id737
+  Hnv3: *id742
   cf:
   - sumo
   cn:
@@ -17657,9 +17761,9 @@
   - p'
 - Ftnk:
   - smo
-  Hnv1: &id738
+  Hnv1: &id743
   - 時o
-  Hnv3: *id738
+  Hnv3: *id743
   cf:
   - sume
   cn:
@@ -17680,9 +17784,9 @@
   - p'
 - Ftnk:
   - sul
-  Hnv1: &id739
+  Hnv1: &id744
   - 兄
-  Hnv3: *id739
+  Hnv3: *id744
   dt:
   - 27/6月/2019
   et:
@@ -17699,9 +17803,9 @@
   - cp'
 - Ftnk:
   - sr
-  Hnv1: &id740
+  Hnv1: &id745
   - 目
-  Hnv3: *id740
+  Hnv3: *id745
   dt:
   - 27/6月/2019
   et:
@@ -17718,9 +17822,9 @@
   - v'
 - Ftnk:
   - sur + -ik-
-  Hnv1: &id741
+  Hnv1: &id746
   - 目者
-  Hnv3: *id741
+  Hnv3: *id746
   cf:
   - sur
   - -ik-
@@ -17740,9 +17844,9 @@
   - fp'
 - Ftnk:
   - sre
-  Hnv1: &id742
+  Hnv1: &id747
   - 目e
-  Hnv3: *id742
+  Hnv3: *id747
   cf:
   - sur
   cn:
@@ -17763,9 +17867,9 @@
   - p'
 - Ftnk:
   - su`rd`k
-  Hnv1: &id743
+  Hnv1: &id748
   - 與工者
-  Hnv3: *id743
+  Hnv3: *id748
   cf:
   - rad
   cn:
@@ -17786,9 +17890,9 @@
   - p'
 - Ftnk:
   - SPI_NA_KA
-  Hnv1: &id744
+  Hnv1: &id749
   - 菠
-  Hnv3: *id744
+  Hnv3: *id749
   dt:
   - 10/7月/2019
   et:
@@ -17805,9 +17909,9 @@
   - p'
 - Ftnk:
   - sp'j
-  Hnv1: &id745
+  Hnv1: &id750
   - 競
-  Hnv3: *id745
+  Hnv3: *id750
   dt:
   - 11/2月/2021
   et:
@@ -17824,9 +17928,9 @@
   - v'
 - Ftnk:
   - sp'j`n
-  Hnv1: &id746
+  Hnv1: &id751
   - 競處
-  Hnv3: *id746
+  Hnv3: *id751
   cf:
   - spaj
   - -on-
@@ -17846,9 +17950,9 @@
   - p'
 - Ftnk:
   - st'h
-  Hnv1: &id747
+  Hnv1: &id752
   - 詩
-  Hnv3: *id747
+  Hnv3: *id752
   dt:
   - 10/7月/2019
   et:
@@ -17865,9 +17969,9 @@
   - p'
 - Ftnk:
   - st'l
-  Hnv1: &id748
+  Hnv1: &id753
   - 星
-  Hnv3: *id748
+  Hnv3: *id753
   dt:
   - 27/12月/2020
   et:
@@ -17886,9 +17990,9 @@
   - toze（停用）
 - Ftnk:
   - sn'g.
-  Hnv1: &id749
+  Hnv1: &id754
   - 雪.
-  Hnv3: *id749
+  Hnv3: *id754
   cf:
   - snege
   dt:
@@ -17907,9 +18011,9 @@
   - v'
 - Ftnk:
   - sn'g
-  Hnv1: &id750
+  Hnv1: &id755
   - 雪
-  Hnv3: *id750
+  Hnv3: *id755
   cf:
   - sneg
   dt:
@@ -17928,9 +18032,9 @@
   - p'
 - Ftnk:
   - sl'k.
-  Hnv1: &id751
+  Hnv1: &id756
   - 鼻.
-  Hnv3: *id751
+  Hnv3: *id756
   cf:
   - slike
   - sluke
@@ -17953,9 +18057,9 @@
   - v'
 - Ftnk:
   - sl'ki_jh
-  Hnv1: &id752
+  Hnv1: &id757
   - 鼻i好
-  Hnv3: *id752
+  Hnv3: *id757
   cf:
   - slik
   - jehe
@@ -17978,9 +18082,9 @@
   - fp'
 - Ftnk:
   - sl'ki_fr
-  Hnv1: &id753
+  Hnv1: &id758
   - 鼻i惡
-  Hnv3: *id753
+  Hnv3: *id758
   cf:
   - slik
   - fare
@@ -18004,10 +18108,10 @@
 - Ftnk:
   - sl'k
   - sl'ke
-  Hnv1: &id754
+  Hnv1: &id759
   - 鼻
   - 鼻e
-  Hnv3: *id754
+  Hnv3: *id759
   cf:
   - slik
   cn:
@@ -18028,9 +18132,9 @@
   - p'
 - Ftnk:
   - '|sl''p'
-  Hnv1: &id755
+  Hnv1: &id760
   - 所憶
-  Hnv3: *id755
+  Hnv3: *id760
   cf:
   - slap
   cn:
@@ -18051,9 +18155,9 @@
   - p'
 - Ftnk:
   - sl'p
-  Hnv1: &id756
+  Hnv1: &id761
   - 憶
-  Hnv3: *id756
+  Hnv3: *id761
   dt:
   - 14/3月/2021
   et:
@@ -18072,9 +18176,9 @@
   - pam
 - Ftnk:
   - sl'p`n
-  Hnv1: &id757
+  Hnv1: &id762
   - 憶處
-  Hnv3: *id757
+  Hnv3: *id762
   cf:
   - slap
   - -on-
@@ -18096,9 +18200,9 @@
   - p'
 - Ftnk:
   - sl'd
-  Hnv1: &id758
+  Hnv1: &id763
   - 甘
-  Hnv3: *id758
+  Hnv3: *id763
   cf:
   - slado
   cn:
@@ -18119,9 +18223,9 @@
   - fp'
 - Ftnk:
   - sl'do
-  Hnv1: &id759
+  Hnv1: &id764
   - 甘o
-  Hnv3: *id759
+  Hnv3: *id764
   cf:
   - slade
   - sladove
@@ -18144,9 +18248,9 @@
   - p'
 - Ftnk:
   - sl'd`v
-  Hnv1: &id760
+  Hnv1: &id765
   - 甘衆
-  Hnv3: *id760
+  Hnv3: *id765
   cf:
   - slado
   - slade
@@ -18169,9 +18273,9 @@
   - p'
 - Ftnk:
   - sl'b
-  Hnv1: &id761
+  Hnv1: &id766
   - 逸
-  Hnv3: *id761
+  Hnv3: *id766
   cf:
   - sloboda
   cn:
@@ -18192,9 +18296,9 @@
   - fp'
 - Ftnk:
   - sl'b`d
-  Hnv1: &id762
+  Hnv1: &id767
   - 逸事
-  Hnv3: *id762
+  Hnv3: *id767
   cf:
   - slobe
   cn:
@@ -18215,9 +18319,9 @@
   - p'
 - Ftnk:
   - sl'n
-  Hnv1: &id763
+  Hnv1: &id768
   - 象
-  Hnv3: *id763
+  Hnv3: *id768
   dt:
   - 02/6月/2022
   et:
@@ -18234,9 +18338,9 @@
   - cp'
 - Ftnk:
   - '|sl''k'
-  Hnv1: &id764
+  Hnv1: &id769
   - 所鼻
-  Hnv3: *id764
+  Hnv3: *id769
   cf:
   - slik
   cn:
@@ -18255,9 +18359,9 @@
   - sluke
   ps:
   - p'
-- Hnv1: &id765
+- Hnv1: &id770
   - 自
-  Hnv3: *id765
+  Hnv3: *id770
   dn:
   - 同“z”，可用于辅音开头的与格代词之前。
   - 五元文“z u-”的拉丁写法。
@@ -18300,9 +18404,9 @@
   - linam z udeje ta .
 - Ftnk:
   - ZI
-  Hnv1: &id766
+  Hnv1: &id771
   - 如
-  Hnv3: *id766
+  Hnv3: *id771
   cf:
   - zil
   cn:
@@ -18323,9 +18427,9 @@
   - h'
 - Ftnk:
   - zb
-  Hnv1: &id767
+  Hnv1: &id772
   - 短
-  Hnv3: *id767
+  Hnv3: *id772
   dt:
   - 02/7月/2019
   et:
@@ -18342,9 +18446,9 @@
   - fp'
 - Ftnk:
   - '|zt'
-  Hnv1: &id768
+  Hnv1: &id773
   - 所疾
-  Hnv3: *id768
+  Hnv3: *id773
   cf:
   - zet
   dt:
@@ -18363,9 +18467,9 @@
   - fp'
 - Ftnk:
   - zdi_nra
-  Hnv1: &id769
+  Hnv1: &id774
   - 壁i粘a
-  Hnv3: *id769
+  Hnv3: *id774
   cf:
   - zido
   - nira
@@ -18385,9 +18489,9 @@
   - p'
 - Ftnk:
   - zid
-  Hnv1: &id770
+  Hnv1: &id775
   - 壁
-  Hnv3: *id770
+  Hnv3: *id775
   dt:
   - 10/7月/2019
   et:
@@ -18404,9 +18508,9 @@
   - p'
 - Ftnk:
   - zz
-  Hnv1: &id771
+  Hnv1: &id776
   - 磁
-  Hnv3: *id771
+  Hnv3: *id776
   dt:
   - 27/12月/2019
   et:
@@ -18423,9 +18527,9 @@
   - p'
 - Ftnk:
   - zmj
-  Hnv1: &id772
+  Hnv1: &id777
   - 蛇
-  Hnv3: *id772
+  Hnv3: *id777
   dt:
   - 15/6月/2022
   et:
@@ -18442,9 +18546,9 @@
   - cp'
 - Ftnk:
   - zl.
-  Hnv1: &id773
+  Hnv1: &id778
   - 似
-  Hnv3: *id773
+  Hnv3: *id778
   cf:
   - zi
   - zile
@@ -18468,10 +18572,10 @@
 - Ftnk:
   - zl
   - zle
-  Hnv1: &id774
+  Hnv1: &id779
   - 似
   - 似e
-  Hnv3: *id774
+  Hnv3: *id779
   cf:
   - zil
   cn:
@@ -18492,9 +18596,9 @@
   - p'
 - Ftnk:
   - zlu
-  Hnv1: &id775
+  Hnv1: &id780
   - 似u
-  Hnv3: *id775
+  Hnv3: *id780
   cf:
   - zil
   cn:
@@ -18515,9 +18619,9 @@
   - c'
 - Ftnk:
   - zt
-  Hnv1: &id776
+  Hnv1: &id781
   - 疾
-  Hnv3: *id776
+  Hnv3: *id781
   cf:
   - nazet
   cn:
@@ -18555,10 +18659,10 @@
 - Ftnk:
   - zt
   - zte
-  Hnv1: &id777
+  Hnv1: &id782
   - 疾
   - 疾e
-  Hnv3: *id777
+  Hnv3: *id782
   cf:
   - zet
   dt:
@@ -18577,9 +18681,9 @@
   - p'
 - Ftnk:
   - '|zse'
-  Hnv1: &id778
+  Hnv1: &id783
   - 所愛e
-  Hnv3: *id778
+  Hnv3: *id783
   cf:
   - zas
   dt:
@@ -18598,9 +18702,9 @@
   - cp'
 - Ftnk:
   - zv`c
-  Hnv1: &id779
+  Hnv1: &id784
   - 邑子
-  Hnv3: *id779
+  Hnv3: *id784
   cf:
   - zevo
   - gustove
@@ -18625,9 +18729,9 @@
   - p'
 - Ftnk:
   - zv`le
-  Hnv1: &id780
+  Hnv1: &id785
   - 邑類e
-  Hnv3: *id780
+  Hnv3: *id785
   cf:
   - zevo
   - zevilo
@@ -18651,10 +18755,10 @@
 - Ftnk:
   - zv`l
   - zv`lo
-  Hnv1: &id781
+  Hnv1: &id786
   - 邑類
   - 邑類o
-  Hnv3: *id781
+  Hnv3: *id786
   cf:
   - zevo
   - zevile
@@ -18677,9 +18781,9 @@
   - p'
 - Ftnk:
   - zve
-  Hnv1: &id782
+  Hnv1: &id787
   - 邑e
-  Hnv3: *id782
+  Hnv3: *id787
   cf:
   - zevo
   cn:
@@ -18706,9 +18810,9 @@
   - zeve selope
 - Ftnk:
   - zv`t
-  Hnv1: &id783
+  Hnv1: &id788
   - 邑部
-  Hnv3: *id783
+  Hnv3: *id788
   cf:
   - zevo
   cn:
@@ -18732,10 +18836,10 @@
 - Ftnk:
   - zv
   - zvo
-  Hnv1: &id784
+  Hnv1: &id789
   - 邑
   - 邑o
-  Hnv3: *id784
+  Hnv3: *id789
   cf:
   - zevica
   - zeve
@@ -18766,9 +18870,9 @@
   - zevo sasate
 - Ftnk:
   - zm
-  Hnv1: &id785
+  Hnv1: &id790
   - 陸
-  Hnv3: *id785
+  Hnv3: *id790
   dt:
   - 08/7月/2019
   et:
@@ -18783,9 +18887,9 @@
   - zeme
   ps:
   - p'
-- Hnv1: &id786
+- Hnv1: &id791
   - 九
-  Hnv3: *id786
+  Hnv3: *id791
   dt:
   - 09/7月/2019
   et:
@@ -18802,9 +18906,9 @@
   - t'
 - Ftnk:
   - zc
-  Hnv1: &id787
+  Hnv1: &id792
   - 從
-  Hnv3: *id787
+  Hnv3: *id792
   dt:
   - 22/6月/2022
   et:
@@ -18821,9 +18925,9 @@
   - v'
 - Ftnk:
   - zs
-  Hnv1: &id788
+  Hnv1: &id793
   - 心
-  Hnv3: *id788
+  Hnv3: *id793
   cf:
   - zase
   cn:
@@ -18844,9 +18948,9 @@
   - v'
 - Ftnk:
   - zsi_gt
-  Hnv1: &id789
+  Hnv1: &id794
   - 心i躍
-  Hnv3: *id789
+  Hnv3: *id794
   cf:
   - zase
   - git
@@ -18869,9 +18973,9 @@
   - v'
 - Ftnk:
   - zse
-  Hnv1: &id790
+  Hnv1: &id795
   - 心e
-  Hnv3: *id790
+  Hnv3: *id795
   cf:
   - zas
   cn:
@@ -18892,9 +18996,9 @@
   - p'
 - Ftnk:
   - zs`s
-  Hnv1: &id791
+  Hnv1: &id796
   - 心焉
-  Hnv3: *id791
+  Hnv3: *id796
   dt:
   - 15/2月/2022
   et:
@@ -18911,9 +19015,9 @@
   - fp'
 - Ftnk:
   - zs`d
-  Hnv1: &id792
+  Hnv1: &id797
   - 心事
-  Hnv3: *id792
+  Hnv3: *id797
   dt:
   - 15/2月/2022
   et:
@@ -18930,9 +19034,9 @@
   - p'
 - Ftnk:
   - zf
-  Hnv1: &id793
+  Hnv1: &id798
   - 磨
-  Hnv3: *id793
+  Hnv3: *id798
   cf:
   - zafe
   cn:
@@ -18953,9 +19057,9 @@
   - v'
 - Ftnk:
   - zfe
-  Hnv1: &id794
+  Hnv1: &id799
   - 磨e
-  Hnv3: *id794
+  Hnv3: *id799
   cf:
   - zaf
   cn:
@@ -18976,9 +19080,9 @@
   - fp'
 - Ftnk:
   - z'ng
-  Hnv1: &id795
+  Hnv1: &id800
   - 鐘
-  Hnv3: *id795
+  Hnv3: *id800
   dt:
   - 02/10月/2022
   et:
@@ -18995,9 +19099,9 @@
   - p'
 - Ftnk:
   - z'ng`m
-  Hnv1: &id796
+  Hnv1: &id801
   - 鐘太
-  Hnv3: *id796
+  Hnv3: *id801
   cf:
   - zange
   - -um-
@@ -19017,9 +19121,9 @@
   - p'
 - Ftnk:
   - z'ng`m`v
-  Hnv1: &id797
+  Hnv1: &id802
   - 鐘太集
-  Hnv3: *id797
+  Hnv3: *id802
   dt:
   - 12/4月/2024
   et:
@@ -19036,9 +19140,9 @@
   - p'
 - Ftnk:
   - ZO
-  Hnv1: &id798
+  Hnv1: &id803
   - 自o
-  Hnv3: *id798
+  Hnv3: *id803
   cf:
   - z
   dt:
@@ -19057,9 +19161,9 @@
   - h'
 - Ftnk:
   - zod
-  Hnv1: &id799
+  Hnv1: &id804
   - 蓋
-  Hnv3: *id799
+  Hnv3: *id804
   cf:
   - zodo
   cn:
@@ -19080,9 +19184,9 @@
   - v'
 - Ftnk:
   - zodo
-  Hnv1: &id800
+  Hnv1: &id805
   - 蓋o
-  Hnv3: *id800
+  Hnv3: *id805
   cf:
   - zod
   cn:
@@ -19103,9 +19207,9 @@
   - p'
 - Ftnk:
   - z'kr
-  Hnv1: &id801
+  Hnv1: &id806
   - 皂
-  Hnv3: *id801
+  Hnv3: *id806
   dt:
   - 27/10月/2022
   et:
@@ -19122,9 +19226,9 @@
   - p'
 - Ftnk:
   - '|zg'
-  Hnv1: &id802
+  Hnv1: &id807
   - 所作
-  Hnv3: *id802
+  Hnv3: *id807
   cf:
   - zug
   cn:
@@ -19145,9 +19249,9 @@
   - p'
 - Ftnk:
   - zj
-  Hnv1: &id803
+  Hnv1: &id808
   - 獸
-  Hnv3: *id803
+  Hnv3: *id808
   dt:
   - 01/11月/2020
   et:
@@ -19166,6 +19270,29 @@
   - lipe
   vn:
   - 停用
+- Ftnk:
+  - z`
+  Hnv1: &id809
+  - 自
+  Hnv3: *id809
+  cf:
+  - z
+  cn:
+  - 从，由于
+  dt:
+  - 10/7月/2019
+  et:
+  - z
+  ge:
+  - (prefix, from, departing)
+  gn:
+  - 从，离
+  lx:
+  - zu-
+  ph:
+  - zu-
+  ps:
+  - s'
 - dn:
   - 同“z”，可用于辅音开头的与格代词之前。
   - 五元文“z u-”的拉丁写法。
@@ -19193,33 +19320,10 @@
   - mi le ratif zu ku li me tif . (=mi le ratif z ku li me tif .)
   - linam z udeje ta .
 - Ftnk:
-  - z`
-  Hnv1: &id804
-  - 自
-  Hnv3: *id804
-  cf:
-  - z
-  cn:
-  - 从，由于
-  dt:
-  - 10/7月/2019
-  et:
-  - z
-  ge:
-  - (prefix, from, departing)
-  gn:
-  - 从，离
-  lx:
-  - zu-
-  ph:
-  - zu-
-  ps:
-  - s'
-- Ftnk:
   - z`pt
-  Hnv1: &id805
+  Hnv1: &id810
   - 自行
-  Hnv3: *id805
+  Hnv3: *id810
   cf:
   - pit
   cn:
@@ -19240,9 +19344,9 @@
   - v'
 - Ftnk:
   - zk
-  Hnv1: &id806
+  Hnv1: &id811
   - 肉
-  Hnv3: *id806
+  Hnv3: *id811
   cf:
   - huzizuke
   - gicizuke
@@ -19265,9 +19369,9 @@
   - p'
 - Ftnk:
   - zg
-  Hnv1: &id807
+  Hnv1: &id812
   - 作
-  Hnv3: *id807
+  Hnv3: *id812
   cf:
   - zugike
   - zoge
@@ -19290,9 +19394,9 @@
   - v'
 - Ftnk:
   - zg`k
-  Hnv1: &id808
+  Hnv1: &id813
   - 作者
-  Hnv3: *id808
+  Hnv3: *id813
   cf:
   - zug
   cn:
@@ -19313,9 +19417,9 @@
   - cp'
 - Ftnk:
   - zg`d
-  Hnv1: &id809
+  Hnv1: &id814
   - 作事
-  Hnv3: *id809
+  Hnv3: *id814
   cf:
   - zug
   - -od-
@@ -19335,9 +19439,9 @@
   - p'
 - Ftnk:
   - zsi
-  Hnv1: &id810
+  Hnv1: &id815
   - 宜i
-  Hnv3: *id810
+  Hnv3: *id815
   cf:
   - z
   - si
@@ -19357,9 +19461,9 @@
   - c'
 - Ftnk:
   - zus
-  Hnv1: &id811
+  Hnv1: &id816
   - 宜e
-  Hnv3: *id811
+  Hnv3: *id816
   cf:
   - z
   - si
@@ -19382,9 +19486,9 @@
   - fp'
 - Ftnk:
   - z`vd
-  Hnv1: &id812
+  Hnv1: &id817
   - 自持
-  Hnv3: *id812
+  Hnv3: *id817
   cf:
   - z
   - vod
@@ -19404,9 +19508,9 @@
   - v'
 - Ftnk:
   - z`mc
-  Hnv1: &id813
+  Hnv1: &id818
   - 自市
-  Hnv3: *id813
+  Hnv3: *id818
   cf:
   - mic
   cn:
@@ -19428,9 +19532,9 @@
 - Ftnk:
   - zun
   - zn
-  Hnv1: &id814
+  Hnv1: &id819
   - 故
-  Hnv3: *id814
+  Hnv3: *id819
   cf:
   - z
   dt:
@@ -19447,9 +19551,9 @@
   - zune
   ps:
   - p'
-- Hnv1: &id815
+- Hnv1: &id820
   - 向u
-  Hnv3: *id815
+  Hnv3: *id820
   dn:
   - 同“f”，可用于辅音开头的与格代词之前。
   - 五元文“f u-”的拉丁写法。
@@ -19490,9 +19594,9 @@
   - fu cu ti put .? (=f cu ti put .?)
   - bamisove fu visu linove .
   - f ujakisaso miN vise daj .
-- Hnv1: &id816
+- Hnv1: &id821
   - 某
-  Hnv3: *id816
+  Hnv3: *id821
   cf:
   - fiN
   cn:
@@ -19512,10 +19616,10 @@
 - Ftnk:
   - '|fp'
   - '|fpo'
-  Hnv1: &id817
+  Hnv1: &id822
   - 所書
   - 所書o
-  Hnv3: *id817
+  Hnv3: *id822
   cf:
   - fep
   cn:
@@ -19536,9 +19640,9 @@
   - p'
 - Ftnk:
   - fit
-  Hnv1: &id818
+  Hnv1: &id823
   - 特
-  Hnv3: *id818
+  Hnv3: *id823
   cf:
   - ·fiteNka
   cn:
@@ -19559,9 +19663,9 @@
   - p'
 - Ftnk:
   - fdi_pr
-  Hnv1: &id819
+  Hnv1: &id824
   - 網i受
-  Hnv3: *id819
+  Hnv3: *id824
   cf:
   - fida
   - par
@@ -19584,9 +19688,9 @@
   - v'
 - Ftnk:
   - fdi_dj
-  Hnv1: &id820
+  Hnv1: &id825
   - 網i予
-  Hnv3: *id820
+  Hnv3: *id825
   cf:
   - fida
   - daj
@@ -19609,9 +19713,9 @@
   - v'
 - Ftnk:
   - fd
-  Hnv1: &id821
+  Hnv1: &id826
   - 網
-  Hnv3: *id821
+  Hnv3: *id826
   dt:
   - 05/7月/2021
   ge:
@@ -19635,9 +19739,9 @@
   - fino（停用）
 - Ftnk:
   - fdo
-  Hnv1: &id822
+  Hnv1: &id827
   - 網o
-  Hnv3: *id822
+  Hnv3: *id827
   dt:
   - 05/7月/2021
   ge:
@@ -19668,10 +19772,10 @@
 - Ftnk:
   - fic
   - fic.
-  Hnv1: &id823
+  Hnv1: &id828
   - 包
   - 包.
-  Hnv3: *id823
+  Hnv3: *id828
   cf:
   - fice
   cn:
@@ -19693,10 +19797,10 @@
 - Ftnk:
   - fic
   - fice
-  Hnv1: &id824
+  Hnv1: &id829
   - 包
   - 包e
-  Hnv3: *id824
+  Hnv3: *id829
   cf:
   - fic
   cn:
@@ -19717,9 +19821,9 @@
   - p'
 - Ftnk:
   - fco
-  Hnv1: &id825
+  Hnv1: &id830
   - 包o
-  Hnv3: *id825
+  Hnv3: *id830
   cf:
   - fic
   cn:
@@ -19747,9 +19851,9 @@
 - Ftnk:
   - fis.
   - fs.
-  Hnv1: &id826
+  Hnv1: &id831
   - 喜.
-  Hnv3: *id826
+  Hnv3: *id831
   cf:
   - fise
   cn:
@@ -19770,9 +19874,9 @@
   - v'
 - Ftnk:
   - fis
-  Hnv1: &id827
+  Hnv1: &id832
   - 喜
-  Hnv3: *id827
+  Hnv3: *id832
   cf:
   - fis
   cn:
@@ -19793,9 +19897,9 @@
   - fp'
 - Ftnk:
   - fs`d
-  Hnv1: &id828
+  Hnv1: &id833
   - 喜事
-  Hnv3: *id828
+  Hnv3: *id833
   cf:
   - fise
   - -od-
@@ -19817,9 +19921,9 @@
   - p'
 - Ftnk:
   - fn
-  Hnv1: &id829
+  Hnv1: &id834
   - 某等
-  Hnv3: *id829
+  Hnv3: *id834
   cf:
   - fi
   cn:
@@ -19841,9 +19945,9 @@
 - Ftnk:
   - fil
   - fl
-  Hnv1: &id830
+  Hnv1: &id835
   - 通
-  Hnv3: *id830
+  Hnv3: *id835
   cf:
   - filo
   - file
@@ -19867,10 +19971,10 @@
 - Ftnk:
   - fle
   - fil
-  Hnv1: &id831
+  Hnv1: &id836
   - 通
   - 通e
-  Hnv3: *id831
+  Hnv3: *id836
   cf:
   - fil
   cn:
@@ -19891,9 +19995,9 @@
   - p'
 - Ftnk:
   - flo
-  Hnv1: &id832
+  Hnv1: &id837
   - 通o
-  Hnv3: *id832
+  Hnv3: *id837
   cf:
   - fil
   cn:
@@ -19914,9 +20018,9 @@
   - p'
 - Ftnk:
   - FE
-  Hnv1: &id833
+  Hnv1: &id838
   - 或
-  Hnv3: *id833
+  Hnv3: *id838
   dt:
   - 13/6月/2022
   et:
@@ -19933,9 +20037,9 @@
   - c'
 - Ftnk:
   - fp
-  Hnv1: &id834
+  Hnv1: &id839
   - 書
-  Hnv3: *id834
+  Hnv3: *id839
   cf:
   - fepo
   cn:
@@ -19956,9 +20060,9 @@
   - v'
 - Ftnk:
   - fpi_fn
-  Hnv1: &id835
+  Hnv1: &id840
   - 書i液
-  Hnv3: *id835
+  Hnv3: *id840
   cf:
   - fep
   - fone
@@ -19981,9 +20085,9 @@
   - p'
 - Ftnk:
   - fpo
-  Hnv1: &id836
+  Hnv1: &id841
   - 書o
-  Hnv3: *id836
+  Hnv3: *id841
   cf:
   - fep
   - nirifepo
@@ -20010,9 +20114,9 @@
   - p'
 - Ftnk:
   - fji_|pt
-  Hnv1: &id837
+  Hnv1: &id842
   - 鐵i所行
-  Hnv3: *id837
+  Hnv3: *id842
   cf:
   - feje
   - puto
@@ -20035,9 +20139,9 @@
   - p'
 - Ftnk:
   - fj
-  Hnv1: &id838
+  Hnv1: &id843
   - 鐵
-  Hnv3: *id838
+  Hnv3: *id843
   dt:
   - 09/7月/2019
   et:
@@ -20054,9 +20158,9 @@
   - fp'
 - Ftnk:
   - fj`m
-  Hnv1: &id839
+  Hnv1: &id844
   - 鐵太
-  Hnv3: *id839
+  Hnv3: *id844
   cf:
   - feje
   cn:
@@ -20077,9 +20181,9 @@
   - p'
 - Ftnk:
   - fesi
-  Hnv1: &id840
+  Hnv1: &id845
   - 互
-  Hnv3: *id840
+  Hnv3: *id845
   cf:
   - fe
   - si
@@ -20102,9 +20206,9 @@
   - vn'
 - Ftnk:
   - fen
-  Hnv1: &id841
+  Hnv1: &id846
   - 他
-  Hnv3: *id841
+  Hnv3: *id846
   cf:
   - fe
   cn:
@@ -20123,9 +20227,9 @@
   - fene
   ps:
   - p'
-- Hnv1: &id842
+- Hnv1: &id847
   - 四
-  Hnv3: *id842
+  Hnv3: *id847
   dt:
   - 09/7月/2019
   et:
@@ -20142,9 +20246,9 @@
   - t'
 - Ftnk:
   - fh
-  Hnv1: &id843
+  Hnv1: &id848
   - 雲
-  Hnv3: *id843
+  Hnv3: *id848
   dt:
   - 10/7月/2019
   et:
@@ -20162,9 +20266,9 @@
 - Ftnk:
   - fat
   - ft
-  Hnv1: &id844
+  Hnv1: &id849
   - 議
-  Hnv3: *id844
+  Hnv3: *id849
   cf:
   - fatov
   cn:
@@ -20185,9 +20289,9 @@
   - v'
 - Ftnk:
   - ft`v.
-  Hnv1: &id845
+  Hnv1: &id850
   - 議太.
-  Hnv3: *id845
+  Hnv3: *id850
   cf:
   - fat
   dt:
@@ -20206,9 +20310,9 @@
   - v'
 - Ftnk:
   - ft`v
-  Hnv1: &id846
+  Hnv1: &id851
   - 議太
-  Hnv3: *id846
+  Hnv3: *id851
   dt:
   - 08/7月/2019
   et:
@@ -20225,9 +20329,9 @@
   - p'
 - Ftnk:
   - fv
-  Hnv1: &id847
+  Hnv1: &id852
   - 豆
-  Hnv3: *id847
+  Hnv3: *id852
   dt:
   - 13/6月/2020
   et:
@@ -20244,9 +20348,9 @@
   - p'
 - Ftnk:
   - f'nhi_fd
-  Hnv1: &id848
+  Hnv1: &id853
   - 方i網
-  Hnv3: *id848
+  Hnv3: *id853
   cf:
   - faNhe
   - fido
@@ -20269,9 +20373,9 @@
   - p'
 - Ftnk:
   - f'nh
-  Hnv1: &id849
+  Hnv1: &id854
   - 方
-  Hnv3: *id849
+  Hnv3: *id854
   cf:
   - faNhaje
   cn:
@@ -20292,9 +20396,9 @@
   - p'
 - Ftnk:
   - f'nh`j
-  Hnv1: &id850
+  Hnv1: &id855
   - 方欸
-  Hnv3: *id850
+  Hnv3: *id855
   cf:
   - faNhe
   cn:
@@ -20319,9 +20423,9 @@
   - faNhaje·rubik
 - Ftnk:
   - fri_gl's
-  Hnv1: &id851
+  Hnv1: &id856
   - 惡i音
-  Hnv3: *id851
+  Hnv3: *id856
   cf:
   - fare
   - glase
@@ -20344,9 +20448,9 @@
   - p'
 - Ftnk:
   - fri_vd
-  Hnv1: &id852
+  Hnv1: &id857
   - 惡i持
-  Hnv3: *id852
+  Hnv3: *id857
   cf:
   - fare
   - vod
@@ -20366,9 +20470,9 @@
   - v'
 - Ftnk:
   - fr
-  Hnv1: &id853
+  Hnv1: &id858
   - 惡
-  Hnv3: *id853
+  Hnv3: *id858
   dt:
   - 20/11月/2019
   et:
@@ -20389,9 +20493,9 @@
   - 已停用
 - Ftnk:
   - FO
-  Hnv1: &id854
+  Hnv1: &id859
   - 向o
-  Hnv3: *id854
+  Hnv3: *id859
   cf:
   - f
   dt:
@@ -20410,9 +20514,9 @@
   - h'
 - Ftnk:
   - fb.
-  Hnv1: &id855
+  Hnv1: &id860
   - 右.
-  Hnv3: *id855
+  Hnv3: *id860
   dt:
   - 27/6月/2019
   et:
@@ -20429,9 +20533,9 @@
   - v'
 - Ftnk:
   - fb
-  Hnv1: &id856
+  Hnv1: &id861
   - 右
-  Hnv3: *id856
+  Hnv3: *id861
   cf:
   - fob
   cn:
@@ -20452,9 +20556,9 @@
   - p'
 - Ftnk:
   - fk
-  Hnv1: &id857
+  Hnv1: &id862
   - 菜
-  Hnv3: *id857
+  Hnv3: *id862
   dt:
   - 09/4月/2021
   et:
@@ -20474,9 +20578,9 @@
 - Ftnk:
   - fc
   - foc
-  Hnv1: &id858
+  Hnv1: &id863
   - 止
-  Hnv3: *id858
+  Hnv3: *id863
   dt:
   - 27/6月/2019
   et:
@@ -20493,9 +20597,9 @@
   - v'
 - Ftnk:
   - fc`n
-  Hnv1: &id859
+  Hnv1: &id864
   - 止處
-  Hnv3: *id859
+  Hnv3: *id864
   cf:
   - foc
   cn:
@@ -20516,9 +20620,9 @@
   - p'
 - Ftnk:
   - fos.
-  Hnv1: &id860
+  Hnv1: &id865
   - 水.
-  Hnv3: *id860
+  Hnv3: *id865
   cf:
   - foso
   cn:
@@ -20539,9 +20643,9 @@
   - v'
 - Ftnk:
   - fsa
-  Hnv1: &id861
+  Hnv1: &id866
   - 水a
-  Hnv3: *id861
+  Hnv3: *id866
   cf:
   - foso
   - putifosa
@@ -20564,9 +20668,9 @@
   - p'
 - Ftnk:
   - fs`s
-  Hnv1: &id862
+  Hnv1: &id867
   - 水焉
-  Hnv3: *id862
+  Hnv3: *id867
   cf:
   - foso
   - -as-
@@ -20587,10 +20691,10 @@
 - Ftnk:
   - fs
   - fso
-  Hnv1: &id863
+  Hnv1: &id868
   - 水
   - 水o
-  Hnv3: *id863
+  Hnv3: *id868
   cf:
   - fosa
   cn:
@@ -20615,9 +20719,9 @@
   - foso gono
 - Ftnk:
   - ff.
-  Hnv1: &id864
+  Hnv1: &id869
   - 北.
-  Hnv3: *id864
+  Hnv3: *id869
   dt:
   - 24/7月/2019
   et:
@@ -20638,9 +20742,9 @@
   - 停用
 - Ftnk:
   - ffi_bur
-  Hnv1: &id865
+  Hnv1: &id870
   - 北i風
-  Hnv3: *id865
+  Hnv3: *id870
   cf:
   - fofe
   - bura
@@ -20663,9 +20767,9 @@
   - p'
 - Ftnk:
   - ff
-  Hnv1: &id866
+  Hnv1: &id871
   - 北
-  Hnv3: *id866
+  Hnv3: *id871
   cf:
   - fof
   cn:
@@ -20686,9 +20790,9 @@
   - p'
 - Ftnk:
   - fni_fpo
-  Hnv1: &id867
+  Hnv1: &id872
   - 液i書o
-  Hnv3: *id867
+  Hnv3: *id872
   cf:
   - fone
   - fepifone
@@ -20714,9 +20818,9 @@
 - Ftnk:
   - fn
   - fon
-  Hnv1: &id868
+  Hnv1: &id873
   - 液
-  Hnv3: *id868
+  Hnv3: *id873
   cf:
   - foso
   cn:
@@ -20737,9 +20841,9 @@
   - p'
 - Ftnk:
   - fol
-  Hnv1: &id869
+  Hnv1: &id874
   - 藍
-  Hnv3: *id869
+  Hnv3: *id874
   dt:
   - 27/6月/2019
   et:
@@ -20756,9 +20860,9 @@
   - fp'
 - Ftnk:
   - f'rm
-  Hnv1: &id870
+  Hnv1: &id875
   - 蟻
-  Hnv3: *id870
+  Hnv3: *id875
   dt:
   - 31/8月/2022
   et:
@@ -20773,9 +20877,9 @@
   - forme
   ps:
   - jp'
-- Hnv1: &id871
+- Hnv1: &id876
   - 向u
-  Hnv3: *id871
+  Hnv3: *id876
   dn:
   - 同“f”，可用于辅音开头的与格代词之前。
   - 五元文“f u-”的拉丁写法。
@@ -20804,9 +20908,9 @@
   - f ujakisaso miN vise daj .
 - Ftnk:
   - f`pt
-  Hnv1: &id872
+  Hnv1: &id877
   - 向行
-  Hnv3: *id872
+  Hnv3: *id877
   cf:
   - f
   - pit
@@ -20829,9 +20933,9 @@
   - v'
 - Ftnk:
   - f`mc
-  Hnv1: &id873
+  Hnv1: &id878
   - 向市
-  Hnv3: *id873
+  Hnv3: *id878
   cf:
   - mic
   cn:
@@ -20852,9 +20956,9 @@
   - v'
 - Ftnk:
   - fm
-  Hnv1: &id874
+  Hnv1: &id879
   - 煙
-  Hnv3: *id874
+  Hnv3: *id879
   dt:
   - 26/11月/2019
   et:
@@ -20871,9 +20975,9 @@
   - p'
 - Ftnk:
   - fun
-  Hnv1: &id875
+  Hnv1: &id880
   - 的
-  Hnv3: *id875
+  Hnv3: *id880
   cf:
   - f
   dt:
@@ -20892,9 +20996,9 @@
   - p'
 - Ftnk:
   - f'ng
-  Hnv1: &id876
+  Hnv1: &id881
   - 菇
-  Hnv3: *id876
+  Hnv3: *id881
   cf:
   - fungove
   cn:
@@ -20915,9 +21019,9 @@
   - p'
 - Ftnk:
   - f'ng`v
-  Hnv1: &id877
+  Hnv1: &id882
   - 菇衆
-  Hnv3: *id877
+  Hnv3: *id882
   cf:
   - funge
   cn:
@@ -20938,9 +21042,9 @@
   - p'
 - Ftnk:
   - fl'g
-  Hnv1: &id878
+  Hnv1: &id883
   - 飛
-  Hnv3: *id878
+  Hnv3: *id883
   dt:
   - 14/3月/2021
   et:
@@ -20959,9 +21063,9 @@
   - lat
 - Ftnk:
   - fl'gi_kh
-  Hnv1: &id879
+  Hnv1: &id884
   - 飛i車
-  Hnv3: *id879
+  Hnv3: *id884
   dt:
   - 12/3月/2021
   et:
@@ -20977,10 +21081,35 @@
   ps:
   - p'
 - Ftnk:
+  - fl'gi_kh`n
+  Hnv1: &id885
+  - 飛i車處
+  Hnv3: *id885
+  cf:
+  - fligikiha
+  - -on-
+  cn:
+  - 飞机
+  - 地点
+  dt:
+  - 10/1月/2025
+  et:
+  - fligikiha + -on-
+  ge:
+  - airport
+  gn:
+  - 机场
+  lx:
+  - fligikihone
+  ph:
+  - fligikihone
+  ps:
+  - p'
+- Ftnk:
   - fl'ge
-  Hnv1: &id880
+  Hnv1: &id886
   - 飛e
-  Hnv3: *id880
+  Hnv3: *id886
   cf:
   - flig
   cn:
@@ -21003,9 +21132,9 @@
   - late
 - Ftnk:
   - fl'g`r
-  Hnv1: &id881
+  Hnv1: &id887
   - 飛具
-  Hnv3: *id881
+  Hnv3: *id887
   cf:
   - flig
   cn:
@@ -21026,9 +21155,9 @@
   - cp'
 - Ftnk:
   - fl'v.
-  Hnv1: &id882
+  Hnv1: &id888
   - 雨.
-  Hnv3: *id882
+  Hnv3: *id888
   cf:
   - flive
   dt:
@@ -21047,9 +21176,9 @@
   - v'
 - Ftnk:
   - fl'v
-  Hnv1: &id883
+  Hnv1: &id889
   - 雨
-  Hnv3: *id883
+  Hnv3: *id889
   cf:
   - fliv
   dt:
@@ -21068,9 +21197,9 @@
   - p'
 - Ftnk:
   - fl's
-  Hnv1: &id884
+  Hnv1: &id890
   - 司
-  Hnv3: *id884
+  Hnv3: *id890
   dt:
   - 28/7月/2019
   et:
@@ -21087,9 +21216,9 @@
   - p'
 - Ftnk:
   - '|fl''r'
-  Hnv1: &id885
+  Hnv1: &id891
   - 所花
-  Hnv3: *id885
+  Hnv3: *id891
   cf:
   - flur
   cn:
@@ -21108,9 +21237,9 @@
   - flore
   ps:
   - cp'
-- Hnv1: &id886
+- Hnv1: &id892
   - 花
-  Hnv3: *id886
+  Hnv3: *id892
   cf:
   - flore
   cn:
@@ -21136,9 +21265,9 @@
   - flor liN jabuka liN kruce ,'
 - Ftnk:
   - '|fr''ti_vt`c'
-  Hnv1: &id887
+  Hnv1: &id893
   - 所戲i片子
-  Hnv3: *id887
+  Hnv3: *id893
   cf:
   - frite
   - vatice
@@ -21158,9 +21287,9 @@
   - p'
 - Ftnk:
   - '|fr''t'
-  Hnv1: &id888
+  Hnv1: &id894
   - 所戲
-  Hnv3: *id888
+  Hnv3: *id894
   cf:
   - fret
   cn:
@@ -21181,9 +21310,9 @@
   - p'
 - Ftnk:
   - fr't
-  Hnv1: &id889
+  Hnv1: &id895
   - 戲
-  Hnv3: *id889
+  Hnv3: *id895
   cf:
   - frite
   cn:
@@ -21204,9 +21333,9 @@
   - v'
 - Ftnk:
   - fr't`n
-  Hnv1: &id890
+  Hnv1: &id896
   - 戲處
-  Hnv3: *id890
+  Hnv3: *id896
   cf:
   - fret
   - -on-
@@ -21228,9 +21357,9 @@
   - p'
 - Ftnk:
   - fr'j
-  Hnv1: &id891
+  Hnv1: &id897
   - 恣
-  Hnv3: *id891
+  Hnv3: *id897
   dt:
   - 14/3月/2021
   et:
@@ -21247,9 +21376,9 @@
   - fp'
 - Ftnk:
   - VI
-  Hnv1: &id892
+  Hnv1: &id898
   - 彼
-  Hnv3: *id892
+  Hnv3: *id898
   cf:
   - vino
   cn:
@@ -21283,9 +21412,9 @@
   - ·gavrila , ci vi .?
 - Ftnk:
   - vk
-  Hnv1: &id893
+  Hnv1: &id899
   - 高
-  Hnv3: *id893
+  Hnv3: *id899
   dt:
   - 10/7月/2019
   et:
@@ -21302,9 +21431,9 @@
   - fp'
 - Ftnk:
   - vika
-  Hnv1: &id894
+  Hnv1: &id900
   - 高a
-  Hnv3: *id894
+  Hnv3: *id900
   cf:
   - vike
   dt:
@@ -21323,9 +21452,9 @@
   - p'
 - Ftnk:
   - vk`m
-  Hnv1: &id895
+  Hnv1: &id901
   - 高太
-  Hnv3: *id895
+  Hnv3: *id901
   cf:
   - vike
   cn:
@@ -21346,9 +21475,9 @@
   - fp'
 - Ftnk:
   - vs
-  Hnv1: &id896
+  Hnv1: &id902
   - 全
-  Hnv3: *id896
+  Hnv3: *id902
   cf:
   - visi
   cn:
@@ -21369,9 +21498,9 @@
   - c'
 - Ftnk:
   - vsi
-  Hnv1: &id897
+  Hnv1: &id903
   - 全i
-  Hnv3: *id897
+  Hnv3: *id903
   cf:
   - vis
   cn:
@@ -21392,9 +21521,9 @@
   - vn'
 - Ftnk:
   - vsi_smu
-  Hnv1: &id898
+  Hnv1: &id904
   - 全i時u
-  Hnv3: *id898
+  Hnv3: *id904
   cf:
   - visi
   - sume
@@ -21417,9 +21546,9 @@
   - c'
 - Ftnk:
   - v'zb
-  Hnv1: &id899
+  Hnv1: &id905
   - 板
-  Hnv3: *id899
+  Hnv3: *id905
   dt:
   - 10/2月/2021
   et:
@@ -21436,9 +21565,9 @@
   - p'
 - Ftnk:
   - vni_|bs
-  Hnv1: &id900
+  Hnv1: &id906
   - 點i所畫
-  Hnv3: *id900
+  Hnv3: *id906
   cf:
   - vine
   - bise
@@ -21461,10 +21590,10 @@
 - Ftnk:
   - vn`z
   - vn`z.
-  Hnv1: &id901
+  Hnv1: &id907
   - 點化
   - 點化.
-  Hnv3: *id901
+  Hnv3: *id907
   cf:
   - vine
   - vinize
@@ -21489,10 +21618,10 @@
 - Ftnk:
   - vn`z
   - vn`ze
-  Hnv1: &id902
+  Hnv1: &id908
   - 點化
   - 點化e
-  Hnv3: *id902
+  Hnv3: *id908
   cf:
   - viniz
   cn:
@@ -21513,9 +21642,9 @@
   - p'
 - Ftnk:
   - vn`za
-  Hnv1: &id903
+  Hnv1: &id909
   - 點化a
-  Hnv3: *id903
+  Hnv3: *id909
   cf:
   - viniz
   cn:
@@ -21536,9 +21665,9 @@
   - p'
 - Ftnk:
   - vn`zo
-  Hnv1: &id904
+  Hnv1: &id910
   - 點化o
-  Hnv3: *id904
+  Hnv3: *id910
   cf:
   - viniz
   cn:
@@ -21559,9 +21688,9 @@
   - p'
 - Ftnk:
   - vn`z`r
-  Hnv1: &id905
+  Hnv1: &id911
   - 點化具
-  Hnv3: *id905
+  Hnv3: *id911
   cf:
   - viniz
   cn:
@@ -21582,9 +21711,9 @@
   - p'
 - Ftnk:
   - vn
-  Hnv1: &id906
+  Hnv1: &id912
   - 點
-  Hnv3: *id906
+  Hnv3: *id912
   cf:
   - vino
   cn:
@@ -21605,9 +21734,9 @@
   - p'
 - Ftnk:
   - VI_NA
-  Hnv1: &id907
+  Hnv1: &id913
   - ViNa
-  Hnv3: *id907
+  Hnv3: *id913
   dt:
   - 13/6月/2022
   et:
@@ -21624,9 +21753,9 @@
   - p'
 - Ftnk:
   - vno
-  Hnv1: &id908
+  Hnv1: &id914
   - 點o
-  Hnv3: *id908
+  Hnv3: *id914
   cf:
   - vine
   - -on-
@@ -21654,9 +21783,9 @@
   - p'
 - Ftnk:
   - vn`d
-  Hnv1: &id909
+  Hnv1: &id915
   - 點事
-  Hnv3: *id909
+  Hnv3: *id915
   cf:
   - vine
   cn:
@@ -21677,9 +21806,9 @@
   - p'
 - Ftnk:
   - v'ns.
-  Hnv1: &id910
+  Hnv1: &id916
   - 置.
-  Hnv3: *id910
+  Hnv3: *id916
   cf:
   - vine
   cn:
@@ -21700,9 +21829,9 @@
   - v'
 - Ftnk:
   - '|vli_|ms'
-  Hnv1: &id911
+  Hnv1: &id917
   - 所寢i所思
-  Hnv3: *id911
+  Hnv3: *id917
   cf:
   - vilimes
   - vel
@@ -21727,9 +21856,9 @@
   - v'
 - Ftnk:
   - '|vli_ms'
-  Hnv1: &id912
+  Hnv1: &id918
   - 所寢i思
-  Hnv3: *id912
+  Hnv3: *id918
   cf:
   - vel
   - mes
@@ -21752,9 +21881,9 @@
   - v'
 - Ftnk:
   - VEQ
-  Hnv1: &id913
+  Hnv1: &id919
   - 歟
-  Hnv3: *id913
+  Hnv3: *id919
   dt:
   - 10/8月/2019
   et:
@@ -21771,9 +21900,9 @@
   - hf'
 - Ftnk:
   - '|vb'
-  Hnv1: &id914
+  Hnv1: &id920
   - 所穴
-  Hnv3: *id914
+  Hnv3: *id920
   cf:
   - vab
   - lipivebe
@@ -21796,9 +21925,9 @@
   - p'
 - Ftnk:
   - '|vb-ln'
-  Hnv1: &id915
+  Hnv1: &id921
   - 所穴-人
-  Hnv3: *id915
+  Hnv3: *id921
   cf:
   - vebe
   - line
@@ -21818,9 +21947,9 @@
   - fp'
 - Ftnk:
   - vka
-  Hnv1: &id916
+  Hnv1: &id922
   - 代a
-  Hnv3: *id916
+  Hnv3: *id922
   cf:
   - veko
   cn:
@@ -21853,9 +21982,9 @@
   - kovekilehe
 - Ftnk:
   - vko
-  Hnv1: &id917
+  Hnv1: &id923
   - 代o
-  Hnv3: *id917
+  Hnv3: *id923
   cf:
   - veka
   cn:
@@ -21876,9 +22005,9 @@
   - p'
 - Ftnk:
   - v'sp`c
-  Hnv1: &id918
+  Hnv1: &id924
   - 社子
-  Hnv3: *id918
+  Hnv3: *id924
   cf:
   - vespa
   cn:
@@ -21899,9 +22028,9 @@
   - p'
 - Ftnk:
   - v'spi_|ms
-  Hnv1: &id919
+  Hnv1: &id925
   - 社i所思
-  Hnv3: *id919
+  Hnv3: *id925
   cf:
   - vespa
   - mise
@@ -21936,9 +22065,9 @@
   - ·rosíja·sovjeti saso vespimise jena u·zema .
 - Ftnk:
   - v'spi_|ms`d
-  Hnv1: &id920
+  Hnv1: &id926
   - 社i所思事
-  Hnv3: *id920
+  Hnv3: *id926
   cf:
   - vespimise
   - vespa
@@ -21967,9 +22096,9 @@
   - p'
 - Ftnk:
   - v'sp
-  Hnv1: &id921
+  Hnv1: &id927
   - 社
-  Hnv3: *id921
+  Hnv3: *id927
   cf:
   - vespica
   cn:
@@ -21990,9 +22119,9 @@
   - p'
 - Ftnk:
   - vm`z
-  Hnv1: &id922
+  Hnv1: &id928
   - 血化
-  Hnv3: *id922
+  Hnv3: *id928
   cf:
   - veme
   - -iz-
@@ -22012,9 +22141,9 @@
   - v'
 - Ftnk:
   - vm
-  Hnv1: &id923
+  Hnv1: &id929
   - 血
-  Hnv3: *id923
+  Hnv3: *id929
   dt:
   - 10/7月/2019
   et:
@@ -22031,9 +22160,9 @@
   - p'
 - Ftnk:
   - vm`s
-  Hnv1: &id924
+  Hnv1: &id930
   - 血焉
-  Hnv3: *id924
+  Hnv3: *id930
   cf:
   - veme
   - -as-
@@ -22053,9 +22182,9 @@
   - fp'
 - Ftnk:
   - ven
-  Hnv1: &id925
+  Hnv1: &id931
   - 山
-  Hnv3: *id925
+  Hnv3: *id931
   dt:
   - 09/7月/2019
   et:
@@ -22072,9 +22201,9 @@
   - p'
 - Ftnk:
   - v'nc
-  Hnv1: &id926
+  Hnv1: &id932
   - 婚
-  Hnv3: *id926
+  Hnv3: *id932
   dt:
   - 11/12月/2020
   et:
@@ -22092,12 +22221,34 @@
   va:
   - poj（已停用）
 - Ftnk:
+  - v'nci_|tc
+  Hnv1: &id933
+  - 婚i所示o
+  Hnv3: *id933
+  cf:
+  - veNc
+  - toco
+  dt:
+  - 24/7月/2024
+  et:
+  - venc + toco
+  ge:
+  - wedding ceremony
+  gn:
+  - 婚礼
+  lx:
+  - veNcitoco
+  ph:
+  - vencitoco
+  ps:
+  - p'
+- Ftnk:
   - v'nc
   - v'nce
-  Hnv1: &id927
+  Hnv1: &id934
   - 婚
   - 婚e
-  Hnv3: *id927
+  Hnv3: *id934
   cf:
   - veNc
   - veNca
@@ -22122,9 +22273,9 @@
   - cp'
 - Ftnk:
   - v'nca
-  Hnv1: &id928
+  Hnv1: &id935
   - 婚a
-  Hnv3: *id928
+  Hnv3: *id935
   cf:
   - veNce
   - veNco
@@ -22147,9 +22298,9 @@
   - p'
 - Ftnk:
   - v'nco
-  Hnv1: &id929
+  Hnv1: &id936
   - 婚o
-  Hnv3: *id929
+  Hnv3: *id936
   cf:
   - veNce
   - veNca
@@ -22172,9 +22323,9 @@
   - p'
 - Ftnk:
   - vel
-  Hnv1: &id930
+  Hnv1: &id937
   - 寢
-  Hnv3: *id930
+  Hnv3: *id937
   cf:
   - velone
   cn:
@@ -22195,9 +22346,9 @@
   - v'
 - Ftnk:
   - vl`n
-  Hnv1: &id931
+  Hnv1: &id938
   - 寢處
-  Hnv3: *id931
+  Hnv3: *id938
   cf:
   - vel
   cn:
@@ -22218,9 +22369,9 @@
   - p'
 - Ftnk:
   - vr
-  Hnv1: &id932
+  Hnv1: &id939
   - 真
-  Hnv3: *id932
+  Hnv3: *id939
   dt:
   - 02/7月/2019
   et:
@@ -22237,9 +22388,9 @@
   - fp'
 - Ftnk:
   - vro
-  Hnv1: &id933
+  Hnv1: &id940
   - 真o
-  Hnv3: *id933
+  Hnv3: *id940
   cf:
   - vere
   cn:
@@ -22260,9 +22411,9 @@
   - p'
 - Ftnk:
   - vr`d
-  Hnv1: &id934
+  Hnv1: &id941
   - 真事
-  Hnv3: *id934
+  Hnv3: *id941
   cf:
   - vere
   cn:
@@ -22283,9 +22434,9 @@
   - p'
 - Ftnk:
   - v'rb
-  Hnv1: &id935
+  Hnv1: &id942
   - 柳
-  Hnv3: *id935
+  Hnv3: *id942
   dt:
   - 07/2月/2023
   et:
@@ -22302,9 +22453,9 @@
   - p'
 - Ftnk:
   - vb
-  Hnv1: &id936
+  Hnv1: &id943
   - 穴
-  Hnv3: *id936
+  Hnv3: *id943
   cf:
   - vabe
   cn:
@@ -22325,9 +22476,9 @@
   - v'
 - Ftnk:
   - vbo
-  Hnv1: &id937
+  Hnv1: &id944
   - 穴o
-  Hnv3: *id937
+  Hnv3: *id944
   cf:
   - vab
   cn:
@@ -22348,9 +22499,9 @@
   - p'
 - Ftnk:
   - vt`c
-  Hnv1: &id938
+  Hnv1: &id945
   - 片子
-  Hnv3: *id938
+  Hnv3: *id945
   cf:
   - vate
   - vato
@@ -22376,10 +22527,10 @@
 - Ftnk:
   - vt
   - vte
-  Hnv1: &id939
+  Hnv1: &id946
   - 片
   - 片e
-  Hnv3: *id939
+  Hnv3: *id946
   cf:
   - vato
   - vatice
@@ -22402,9 +22553,9 @@
   - p'
 - Ftnk:
   - vto
-  Hnv1: &id940
+  Hnv1: &id947
   - 片o
-  Hnv3: *id940
+  Hnv3: *id947
   cf:
   - vate
   - vatove
@@ -22427,9 +22578,9 @@
   - p'
 - Ftnk:
   - vt`v
-  Hnv1: &id941
+  Hnv1: &id948
   - 片衆
-  Hnv3: *id941
+  Hnv3: *id948
   cf:
   - vato
   cn:
@@ -22450,9 +22601,9 @@
   - p'
 - Ftnk:
   - v'st
-  Hnv1: &id942
+  Hnv1: &id949
   - 斤
-  Hnv3: *id942
+  Hnv3: *id949
   cf:
   - bafte
   cn:
@@ -22475,9 +22626,9 @@
   - p'
 - Ftnk:
   - VO
-  Hnv1: &id943
+  Hnv1: &id950
   - 且
-  Hnv3: *id943
+  Hnv3: *id950
   dt:
   - 13/6月/2022
   ge:
@@ -22492,9 +22643,9 @@
   - c'
 - Ftnk:
   - vh
-  Hnv1: &id944
+  Hnv1: &id951
   - 酸
-  Hnv3: *id944
+  Hnv3: *id951
   cf:
   - voha
   cn:
@@ -22515,9 +22666,9 @@
   - fp'
 - Ftnk:
   - vha
-  Hnv1: &id945
+  Hnv1: &id952
   - 酸a
-  Hnv3: *id945
+  Hnv3: *id952
   cf:
   - vohe
   cn:
@@ -22540,9 +22691,9 @@
   - p'
 - Ftnk:
   - vp
-  Hnv1: &id946
+  Hnv1: &id953
   - 前
-  Hnv3: *id946
+  Hnv3: *id953
   dt:
   - 12/3月/2020
   et:
@@ -22565,9 +22716,9 @@
   - 停用
 - Ftnk:
   - vpi_hd
-  Hnv1: &id947
+  Hnv1: &id954
   - 前i足
-  Hnv3: *id947
+  Hnv3: *id954
   cf:
   - vop
   - hod
@@ -22590,9 +22741,9 @@
   - v'
 - Ftnk:
   - vpi_hd`d
-  Hnv1: &id948
+  Hnv1: &id955
   - 前i足事
-  Hnv3: *id948
+  Hnv3: *id955
   cf:
   - vopihod
   - -od-
@@ -22614,9 +22765,9 @@
   - p'
 - Ftnk:
   - vp
-  Hnv1: &id949
+  Hnv1: &id956
   - 前
-  Hnv3: *id949
+  Hnv3: *id956
   cf:
   - vop
   cn:
@@ -22637,9 +22788,9 @@
   - p'
 - Ftnk:
   - vpa
-  Hnv1: &id950
+  Hnv1: &id957
   - 前a
-  Hnv3: *id950
+  Hnv3: *id957
   cf:
   - vop
   cn:
@@ -22660,9 +22811,9 @@
   - p'
 - Ftnk:
   - vd
-  Hnv1: &id951
+  Hnv1: &id958
   - 持
-  Hnv3: *id951
+  Hnv3: *id958
   dt:
   - 23/6月/2021
   et:
@@ -22681,9 +22832,9 @@
   - nos（停用）
 - Ftnk:
   - vd`k
-  Hnv1: &id952
+  Hnv1: &id959
   - 持者
-  Hnv3: *id952
+  Hnv3: *id959
   dt:
   - 13/4月/2024
   et:
@@ -22700,9 +22851,9 @@
   - p'
 - Ftnk:
   - vok
-  Hnv1: &id953
+  Hnv1: &id960
   - 抱
-  Hnv3: *id953
+  Hnv3: *id960
   dt:
   - 08/7月/2019
   et:
@@ -22719,9 +22870,9 @@
   - v'
 - Ftnk:
   - vkl
-  Hnv1: &id954
+  Hnv1: &id961
   - 韻
-  Hnv3: *id954
+  Hnv3: *id961
   cf:
   - koNso
   cn:
@@ -22740,9 +22891,9 @@
   - p'
 - Ftnk:
   - vg
-  Hnv1: &id955
+  Hnv1: &id962
   - 動
-  Hnv3: *id955
+  Hnv3: *id962
   dt:
   - 27/6月/2019
   et:
@@ -22759,9 +22910,9 @@
   - v'
 - Ftnk:
   - vgi_|bs
-  Hnv1: &id956
+  Hnv1: &id963
   - 動i所畫
-  Hnv3: *id956
+  Hnv3: *id963
   cf:
   - vog
   - bise
@@ -22781,9 +22932,9 @@
   - p'
 - Ftnk:
   - vge
-  Hnv1: &id957
+  Hnv1: &id964
   - 動e
-  Hnv3: *id957
+  Hnv3: *id964
   cf:
   - vog
   dt:
@@ -22802,9 +22953,9 @@
   - p'
 - Ftnk:
   - vg`j
-  Hnv1: &id958
+  Hnv1: &id965
   - 動欸
-  Hnv3: *id958
+  Hnv3: *id965
   cf:
   - vog
   dt:
@@ -22823,9 +22974,9 @@
   - v'
 - Ftnk:
   - vg`m
-  Hnv1: &id959
+  Hnv1: &id966
   - 動太
-  Hnv3: *id959
+  Hnv3: *id966
   cf:
   - vog
   cn:
@@ -22846,9 +22997,9 @@
   - p'
 - Ftnk:
   - vj
-  Hnv1: &id960
+  Hnv1: &id967
   - 計
-  Hnv3: *id960
+  Hnv3: *id967
   cf:
   - vo
   dt:
@@ -22867,9 +23018,9 @@
   - v'
 - Ftnk:
   - vos
-  Hnv1: &id961
+  Hnv1: &id968
   - 衫
-  Hnv3: *id961
+  Hnv3: *id968
   dt:
   - 10/7月/2019
   et:
@@ -22886,9 +23037,9 @@
   - p'
 - Ftnk:
   - v`sd
-  Hnv1: &id962
+  Hnv1: &id969
   - 且今
-  Hnv3: *id962
+  Hnv3: *id969
   cf:
   - vo
   - sade
@@ -22909,9 +23060,9 @@
   - p'
 - Ftnk:
   - v`sdu
-  Hnv1: &id963
+  Hnv1: &id970
   - 且今u
-  Hnv3: *id963
+  Hnv3: *id970
   dt:
   - 15/6月/2022
   ge:
@@ -22926,9 +23077,9 @@
   - c'
 - Ftnk:
   - vz
-  Hnv1: &id964
+  Hnv1: &id971
   - 振
-  Hnv3: *id964
+  Hnv3: *id971
   et:
   - Niv vočoc
   ge:
@@ -22943,9 +23094,9 @@
   - v'
 - Ftnk:
   - vv
-  Hnv1: &id965
+  Hnv1: &id972
   - 呼
-  Hnv3: *id965
+  Hnv3: *id972
   dt:
   - 08/7月/2019
   et:
@@ -22962,9 +23113,9 @@
   - v'
 - Ftnk:
   - vl
-  Hnv1: &id966
+  Hnv1: &id973
   - 愛
-  Hnv3: *id966
+  Hnv3: *id973
   an:
   - navul
   dt:
@@ -22983,9 +23134,9 @@
   - v'
 - Ftnk:
   - MI
-  Hnv1: &id967
+  Hnv1: &id974
   - 我i
-  Hnv3: *id967
+  Hnv3: *id974
   dt:
   - 13/6月/2022
   ge:
@@ -23004,9 +23155,9 @@
   - mi ehafa·seniva vol .
 - Ftnk:
   - mb
-  Hnv1: &id968
+  Hnv1: &id975
   - 尾
-  Hnv3: *id968
+  Hnv3: *id975
   cf:
   - mibe
   cn:
@@ -23027,9 +23178,9 @@
   - v'
 - Ftnk:
   - mbe
-  Hnv1: &id969
+  Hnv1: &id976
   - 尾e
-  Hnv3: *id969
+  Hnv3: *id976
   dt:
   - 01/11月/2021
   et:
@@ -23046,9 +23197,9 @@
   - p'
 - Ftnk:
   - mbo
-  Hnv1: &id970
+  Hnv1: &id977
   - 尾o
-  Hnv3: *id970
+  Hnv3: *id977
   cf:
   - mib
   cn:
@@ -23069,9 +23220,9 @@
   - p'
 - Ftnk:
   - mig
-  Hnv1: &id971
+  Hnv1: &id978
   - 力
-  Hnv3: *id971
+  Hnv3: *id978
   cf:
   - miga
   cn:
@@ -23092,9 +23243,9 @@
   - v'
 - Ftnk:
   - miga
-  Hnv1: &id972
+  Hnv1: &id979
   - 力a
-  Hnv3: *id972
+  Hnv3: *id979
   cf:
   - mig
   cn:
@@ -23119,9 +23270,9 @@
   - miga njutn 1 ejaje cice 2 vod .
 - Ftnk:
   - mc
-  Hnv1: &id973
+  Hnv1: &id980
   - 市
-  Hnv3: *id973
+  Hnv3: *id980
   cf:
   - fumic
   - zumic
@@ -23144,9 +23295,9 @@
   - v'
 - Ftnk:
   - mce
-  Hnv1: &id974
+  Hnv1: &id981
   - 市e
-  Hnv3: *id974
+  Hnv3: *id981
   cf:
   - mic
   - mice-lubo
@@ -23170,9 +23321,9 @@
 - Ftnk:
   - mce-|ms
   - mc-|ms
-  Hnv1: &id975
+  Hnv1: &id982
   - 市e-所思
-  Hnv3: *id975
+  Hnv3: *id982
   cf:
   - mice
   - mise
@@ -23202,9 +23353,9 @@
 - Ftnk:
   - mce-|ms`d
   - mc-|ms`d
-  Hnv1: &id976
+  Hnv1: &id983
   - 市e-所思
-  Hnv3: *id976
+  Hnv3: *id983
   cf:
   - mice-mise
   - mice
@@ -23233,9 +23384,9 @@
   - p'
 - Ftnk:
   - mce-lb
-  Hnv1: &id977
+  Hnv1: &id984
   - 市e-室
-  Hnv3: *id977
+  Hnv3: *id984
   cf:
   - mice
   - lubo
@@ -23258,9 +23409,9 @@
   - p'
 - Ftnk:
   - mc`n
-  Hnv1: &id978
+  Hnv1: &id985
   - 市處
-  Hnv3: *id978
+  Hnv3: *id985
   cf:
   - mic
   - -on-
@@ -23282,9 +23433,9 @@
   - p'
 - Ftnk:
   - mc`n`m
-  Hnv1: &id979
+  Hnv1: &id986
   - 市處太
-  Hnv3: *id979
+  Hnv3: *id986
   cf:
   - micone
   - -um-
@@ -23306,9 +23457,9 @@
   - p'
 - Ftnk:
   - '|ms'
-  Hnv1: &id980
+  Hnv1: &id987
   - 所思
-  Hnv3: *id980
+  Hnv3: *id987
   cf:
   - mes
   cn:
@@ -23329,9 +23480,9 @@
   - p'
 - Ftnk:
   - mp
-  Hnv1: &id981
+  Hnv1: &id988
   - 有
-  Hnv3: *id981
+  Hnv3: *id988
   dt:
   - 27/6月/2019
   et:
@@ -23348,9 +23499,9 @@
   - v'
 - Ftnk:
   - m'tr
-  Hnv1: &id982
+  Hnv1: &id989
   - 丈
-  Hnv3: *id982
+  Hnv3: *id989
   dn:
   - 米。长度单位。
   dt:
@@ -23367,9 +23518,9 @@
   - p'
 - Ftnk:
   - md
-  Hnv1: &id983
+  Hnv1: &id990
   - 蜜
-  Hnv3: *id983
+  Hnv3: *id990
   dt:
   - 27/3月/2020
   et:
@@ -23386,9 +23537,9 @@
   - p'
 - Ftnk:
   - mk.
-  Hnv1: &id984
+  Hnv1: &id991
   - 走.
-  Hnv3: *id984
+  Hnv3: *id991
   cf:
   - meke
   - hemek
@@ -23411,9 +23562,9 @@
   - v'
 - Ftnk:
   - mk`z
-  Hnv1: &id985
+  Hnv1: &id992
   - 速化
-  Hnv3: *id985
+  Hnv3: *id992
   cf:
   - meke
   - -iz-
@@ -23437,10 +23588,10 @@
 - Ftnk:
   - mk
   - mke
-  Hnv1: &id986
+  Hnv1: &id993
   - 走
   - 走e
-  Hnv3: *id986
+  Hnv3: *id993
   an:
   - leNte
   cf:
@@ -23463,9 +23614,9 @@
   - fp'
 - Ftnk:
   - mj
-  Hnv1: &id987
+  Hnv1: &id994
   - 雌
-  Hnv3: *id987
+  Hnv3: *id994
   dt:
   - 09/7月/2019
   et:
@@ -23482,9 +23633,9 @@
   - fp'
 - Ftnk:
   - ms
-  Hnv1: &id988
+  Hnv1: &id995
   - 思
-  Hnv3: *id988
+  Hnv3: *id995
   dt:
   - 27/6月/2019
   et:
@@ -23501,9 +23652,9 @@
   - v'
 - Ftnk:
   - msi_gc
-  Hnv1: &id989
+  Hnv1: &id996
   - 思i能
-  Hnv3: *id989
+  Hnv3: *id996
   cf:
   - mes
   - gic
@@ -23524,10 +23675,10 @@
 - Ftnk:
   - msi_|gr
   - msi_|gra
-  Hnv1: &id990
+  Hnv1: &id997
   - 思i所學
   - 思i所學a
-  Hnv3: *id990
+  Hnv3: *id997
   cf:
   - mes
   - gara
@@ -23548,9 +23699,9 @@
   - mesigara
   ps:
   - p'
-- Hnv1: &id991
+- Hnv1: &id998
   - 思i惡
-  Hnv3: *id991
+  Hnv3: *id998
   cf:
   - mes
   - fare
@@ -23571,9 +23722,9 @@
   - fp'
 - Ftnk:
   - mse
-  Hnv1: &id992
+  Hnv1: &id999
   - 思e
-  Hnv3: *id992
+  Hnv3: *id999
   cf:
   - mes
   cn:
@@ -23594,9 +23745,9 @@
   - p'
 - Ftnk:
   - ms`m`d
-  Hnv1: &id993
+  Hnv1: &id1000
   - 思太事
-  Hnv3: *id993
+  Hnv3: *id1000
   dt:
   - 27/6月/2019
   et:
@@ -23613,9 +23764,9 @@
   - p'
 - Ftnk:
   - mel.
-  Hnv1: &id994
+  Hnv1: &id1001
   - 後.
-  Hnv3: *id994
+  Hnv3: *id1001
   dt:
   - 27/6月/2019
   et:
@@ -23632,9 +23783,9 @@
   - v'
 - Ftnk:
   - ml
-  Hnv1: &id995
+  Hnv1: &id1002
   - 後
-  Hnv3: *id995
+  Hnv3: *id1002
   cf:
   - mel
   cn:
@@ -23656,9 +23807,9 @@
 - Ftnk:
   - mr
   - mer
-  Hnv1: &id996
+  Hnv1: &id1003
   - 沒
-  Hnv3: *id996
+  Hnv3: *id1003
   cf:
   - humer
   cn:
@@ -23683,9 +23834,9 @@
   - mer ve naluse uhilo , molim .
 - Ftnk:
   - mr`s
-  Hnv1: &id997
+  Hnv1: &id1004
   - 沒焉
-  Hnv3: *id997
+  Hnv3: *id1004
   cf:
   - mer
   - -as-
@@ -23705,9 +23856,9 @@
   - fp'
 - Ftnk:
   - mg
-  Hnv1: &id998
+  Hnv1: &id1005
   - 質
-  Hnv3: *id998
+  Hnv3: *id1005
   dt:
   - 10/7月/2019
   et:
@@ -23724,9 +23875,9 @@
   - p'
 - Ftnk:
   - mgri_k'bl
-  Hnv1: &id999
+  Hnv1: &id1006
   - 驢i馬
-  Hnv3: *id999
+  Hnv3: *id1006
   cf:
   - magare
   - kable
@@ -23749,9 +23900,9 @@
   - cp'
 - Ftnk:
   - mgr
-  Hnv1: &id1000
+  Hnv1: &id1007
   - 驢
-  Hnv3: *id1000
+  Hnv3: *id1007
   dt:
   - 22/6月/2022
   et:
@@ -23768,9 +23919,9 @@
   - cp'
 - Ftnk:
   - m'gl
-  Hnv1: &id1001
+  Hnv1: &id1008
   - 霧
-  Hnv3: *id1001
+  Hnv3: *id1008
   dt:
   - 10/7月/2019
   et:
@@ -23787,9 +23938,9 @@
   - p'
 - Ftnk:
   - m'jg
-  Hnv1: &id1002
+  Hnv1: &id1009
   - 麪
-  Hnv3: *id1002
+  Hnv3: *id1009
   dt:
   - 10/7月/2019
   et:
@@ -23806,9 +23957,9 @@
   - p'
 - Ftnk:
   - m'js
-  Hnv1: &id1003
+  Hnv1: &id1010
   - 䊈
-  Hnv3: *id1003
+  Hnv3: *id1010
   dt:
   - 05/1月/2022
   et:
@@ -23825,9 +23976,9 @@
   - p'
 - Ftnk:
   - m'nt
-  Hnv1: &id1004
+  Hnv1: &id1011
   - 傲
-  Hnv3: *id1004
+  Hnv3: *id1011
   dt:
   - 22/8月/2019
   et:
@@ -23844,9 +23995,9 @@
   - fp'
 - Ftnk:
   - MO
-  Hnv1: &id1005
+  Hnv1: &id1012
   - 但
-  Hnv3: *id1005
+  Hnv3: *id1012
   dt:
   - 18/10月/2023
   et:
@@ -23869,9 +24020,9 @@
   - '2'
 - Ftnk:
   - mgi_hf
-  Hnv1: &id1006
+  Hnv1: &id1013
   - 多i言
-  Hnv3: *id1006
+  Hnv3: *id1013
   cf:
   - moge
   - haf
@@ -23894,9 +24045,9 @@
   - v'
 - Ftnk:
   - mgi_hf
-  Hnv1: &id1007
+  Hnv1: &id1014
   - 多i言
-  Hnv3: *id1007
+  Hnv3: *id1014
   cf:
   - mogihaf
   cn:
@@ -23917,9 +24068,9 @@
   - p'
 - Ftnk:
   - mgi_|ts
-  Hnv1: &id1008
+  Hnv1: &id1015
   - 多i所知
-  Hnv3: *id1008
+  Hnv3: *id1015
   cf:
   - moge
   - tos
@@ -23942,9 +24093,9 @@
   - fp'
 - Ftnk:
   - mgi_|rd
-  Hnv1: &id1009
+  Hnv1: &id1016
   - 多i工.
-  Hnv3: *id1009
+  Hnv3: *id1016
   cf:
   - moge
   - rad
@@ -23967,9 +24118,9 @@
   - p'
 - Ftnk:
   - mgi_|rd
-  Hnv1: &id1010
+  Hnv1: &id1017
   - 多i工
-  Hnv3: *id1010
+  Hnv3: *id1017
   cf:
   - mogirad
   cn:
@@ -23990,9 +24141,9 @@
   - p'
 - Ftnk:
   - mg
-  Hnv1: &id1011
+  Hnv1: &id1018
   - 多
-  Hnv3: *id1011
+  Hnv3: *id1018
   dt:
   - 02/7月/2019
   et:
@@ -24009,9 +24160,9 @@
   - fp'
 - Ftnk:
   - mz
-  Hnv1: &id1012
+  Hnv1: &id1019
   - 襪
-  Hnv3: *id1012
+  Hnv3: *id1019
   dt:
   - 17/12月/2019
   et:
@@ -24028,9 +24179,9 @@
   - p'
 - Ftnk:
   - mf
-  Hnv1: &id1013
+  Hnv1: &id1020
   - 臥
-  Hnv3: *id1013
+  Hnv3: *id1020
   dt:
   - 28/7月/2019
   et:
@@ -24051,9 +24202,9 @@
   - 停用
 - Ftnk:
   - mfi_kr
-  Hnv1: &id1014
+  Hnv1: &id1021
   - 臥i長
-  Hnv3: *id1014
+  Hnv3: *id1021
   cf:
   - mofe
   - kare
@@ -24073,9 +24224,9 @@
   - fp'
 - Ftnk:
   - mfe
-  Hnv1: &id1015
+  Hnv1: &id1022
   - 臥e
-  Hnv3: *id1015
+  Hnv3: *id1022
   cf:
   - mof
   cn:
@@ -24096,9 +24247,9 @@
   - fp'
 - Ftnk:
   - m'ml
-  Hnv1: &id1016
+  Hnv1: &id1023
   - 沙
-  Hnv3: *id1016
+  Hnv3: *id1023
   cf:
   - momlova
   cn:
@@ -24119,9 +24270,9 @@
   - p'
 - Ftnk:
   - m'ml`v
-  Hnv1: &id1017
+  Hnv1: &id1024
   - 沙衆
-  Hnv3: *id1017
+  Hnv3: *id1024
   cf:
   - momla
   cn:
@@ -24142,9 +24293,9 @@
   - p'
 - Ftnk:
   - ml
-  Hnv1: &id1018
+  Hnv1: &id1025
   - 求
-  Hnv3: *id1018
+  Hnv3: *id1025
   dt:
   - 02/7月/2019
   et:
@@ -24182,9 +24333,9 @@
 - Ftnk:
   - m
   - mo
-  Hnv1: &id1019
+  Hnv1: &id1026
   - 海i曲a
-  Hnv3: *id1019
+  Hnv3: *id1026
   cf:
   - more
   - tave
@@ -24211,9 +24362,9 @@
   - (SH)
 - Ftnk:
   - mor`c
-  Hnv1: &id1020
+  Hnv1: &id1027
   - 海子
-  Hnv3: *id1020
+  Hnv3: *id1027
   cf:
   - more
   cn:
@@ -24234,9 +24385,9 @@
   - p'
 - Ftnk:
   - mori_zm
-  Hnv1: &id1021
+  Hnv1: &id1028
   - 海i陸
-  Hnv3: *id1021
+  Hnv3: *id1028
   cf:
   - more
   - zeme
@@ -24259,9 +24410,9 @@
   - p'
 - Ftnk:
   - mor
-  Hnv1: &id1022
+  Hnv1: &id1029
   - 海
-  Hnv3: *id1022
+  Hnv3: *id1029
   cf:
   - morume
   - morizeme
@@ -24286,9 +24437,9 @@
   - p'
 - Ftnk:
   - mor`m
-  Hnv1: &id1023
+  Hnv1: &id1030
   - 海太
-  Hnv3: *id1023
+  Hnv3: *id1030
   cf:
   - more
   cn:
@@ -24309,9 +24460,9 @@
   - p'
 - Ftnk:
   - mh
-  Hnv1: &id1024
+  Hnv1: &id1031
   - 籽
-  Hnv3: *id1024
+  Hnv3: *id1031
   dt:
   - 27/10月/2022
   et:
@@ -24328,9 +24479,9 @@
   - p'
 - Ftnk:
   - m'sk
-  Hnv1: &id1025
+  Hnv1: &id1032
   - 鼠
-  Hnv3: *id1025
+  Hnv3: *id1032
   dt:
   - 20/7月/2021
   et:
@@ -24347,9 +24498,9 @@
   - cp'
 - Ftnk:
   - mn
-  Hnv1: &id1026
+  Hnv1: &id1033
   - 胸
-  Hnv3: *id1026
+  Hnv3: *id1033
   dt:
   - 03/8月/2019
   et:
@@ -24410,9 +24561,9 @@
   - p'
 - Ftnk:
   - m'nh
-  Hnv1: &id1027
+  Hnv1: &id1034
   - 俗
-  Hnv3: *id1027
+  Hnv3: *id1034
   dt:
   - 06/9月/2021
   et:
@@ -24429,9 +24580,9 @@
   - p'
 - Ftnk:
   - m'nz
-  Hnv1: &id1028
+  Hnv1: &id1035
   - 蚊
-  Hnv3: *id1028
+  Hnv3: *id1035
   dt:
   - 22/6月/2022
   et:
@@ -24448,9 +24599,9 @@
   - cp'
 - Ftnk:
   - _N
-  Hnv1: &id1029
+  Hnv1: &id1036
   - 等
-  Hnv3: *id1029
+  Hnv3: *id1036
   dn:
   - 复数。用于格介词或代词。
   - 泛指。用于名词。
@@ -24473,9 +24624,9 @@
   - '2'
 - Ftnk:
   - NI
-  Hnv1: &id1030
+  Hnv1: &id1037
   - 無i
-  Hnv3: *id1030
+  Hnv3: *id1037
   cf:
   - 'no'
   dn:
@@ -24498,9 +24649,9 @@
   - mi ne dade sur .
 - Ftnk:
   - nti_psa
-  Hnv1: &id1031
+  Hnv1: &id1038
   - 日i光a
-  Hnv3: *id1031
+  Hnv3: *id1038
   cf:
   - nito
   - posa
@@ -24523,9 +24674,9 @@
   - p'
 - Ftnk:
   - nti_|fl'r
-  Hnv1: &id1032
+  Hnv1: &id1039
   - 陽i所花
-  Hnv3: *id1032
+  Hnv3: *id1039
   cf:
   - nito
   - flore
@@ -24548,9 +24699,9 @@
   - p'
 - Ftnk:
   - nt`l
-  Hnv1: &id1033
+  Hnv1: &id1040
   - 陽類
-  Hnv3: *id1033
+  Hnv3: *id1040
   cf:
   - nito
   cn:
@@ -24572,10 +24723,10 @@
 - Ftnk:
   - nt
   - nto
-  Hnv1: &id1034
+  Hnv1: &id1041
   - 陽
   - 陽o
-  Hnv3: *id1034
+  Hnv3: *id1041
   cf:
   - nitile
   cn:
@@ -24596,9 +24747,9 @@
   - p'
 - Ftnk:
   - n'tf
-  Hnv1: &id1035
+  Hnv1: &id1042
   - 平
-  Hnv3: *id1035
+  Hnv3: *id1042
   dt:
   - 06/9月/2021
   et:
@@ -24617,9 +24768,9 @@
   - nitife（停用）
 - Ftnk:
   - n'tfa
-  Hnv1: &id1036
+  Hnv1: &id1043
   - 平a
-  Hnv3: *id1036
+  Hnv3: *id1043
   cf:
   - nitfe
   dt:
@@ -24638,9 +24789,9 @@
   - p'
 - Ftnk:
   - n'nh
-  Hnv1: &id1037
+  Hnv1: &id1044
   - 莕
-  Hnv3: *id1037
+  Hnv3: *id1044
   dt:
   - 15/2月/2022
   et:
@@ -24658,9 +24809,9 @@
 - Ftnk:
   - nr
   - nr.
-  Hnv1: &id1038
+  Hnv1: &id1045
   - 粘
-  Hnv3: *id1038
+  Hnv3: *id1045
   cf:
   - nire
   - nira
@@ -24683,9 +24834,9 @@
   - v'
 - Ftnk:
   - nri_fpo
-  Hnv1: &id1039
+  Hnv1: &id1046
   - 粘i書o
-  Hnv3: *id1039
+  Hnv3: *id1046
   cf:
   - nire
   - fepo
@@ -24709,10 +24860,10 @@
 - Ftnk:
   - nr
   - nre
-  Hnv1: &id1040
+  Hnv1: &id1047
   - 粘
   - 粘e
-  Hnv3: *id1040
+  Hnv3: *id1047
   cf:
   - nir
   dt:
@@ -24731,9 +24882,9 @@
   - fp'
 - Ftnk:
   - nra
-  Hnv1: &id1041
+  Hnv1: &id1048
   - 粘a
-  Hnv3: *id1041
+  Hnv3: *id1048
   cf:
   - nir
   - goninira
@@ -24755,9 +24906,9 @@
   - p'
 - Ftnk:
   - n'pr
-  Hnv1: &id1042
+  Hnv1: &id1049
   - 腎
-  Hnv3: *id1042
+  Hnv3: *id1049
   dt:
   - 22/6月/2022
   et:
@@ -24774,9 +24925,9 @@
   - p'
 - Ftnk:
   - nb
-  Hnv1: &id1043
+  Hnv1: &id1050
   - 天
-  Hnv3: *id1043
+  Hnv3: *id1050
   dt:
   - 10/7月/2019
   et:
@@ -24793,9 +24944,9 @@
   - p'
 - Ftnk:
   - ns
-  Hnv1: &id1044
+  Hnv1: &id1051
   - 安
-  Hnv3: *id1044
+  Hnv3: *id1051
   dt:
   - 05/1月/2022
   et:
@@ -24818,9 +24969,9 @@
   - '2'
 - Ftnk:
   - na`
-  Hnv1: &id1045
+  Hnv1: &id1052
   - 非
-  Hnv3: *id1045
+  Hnv3: *id1052
   dt:
   - 10/7月/2019
   ge:
@@ -24835,9 +24986,9 @@
   - s'
 - Ftnk:
   - na`|hm
-  Hnv1: &id1046
+  Hnv1: &id1053
   - 非所限
-  Hnv3: *id1046
+  Hnv3: *id1053
   cf:
   - hom
   cn:
@@ -24858,9 +25009,9 @@
   - fp'
 - Ftnk:
   - na`p'ns
-  Hnv1: &id1047
+  Hnv1: &id1054
   - 非勇
-  Hnv3: *id1047
+  Hnv3: *id1054
   cf:
   - piNs
   cn:
@@ -24881,9 +25032,9 @@
   - v'
 - Ftnk:
   - na`p'ns
-  Hnv1: &id1048
+  Hnv1: &id1055
   - 非勇
-  Hnv3: *id1048
+  Hnv3: *id1055
   cf:
   - na-
   - piNse
@@ -24903,9 +25054,9 @@
   - fp'
 - Ftnk:
   - na`p'ns`d
-  Hnv1: &id1049
+  Hnv1: &id1056
   - 非勇事
-  Hnv3: *id1049
+  Hnv3: *id1056
   cf:
   - napiNs
   - -od-
@@ -24925,9 +25076,9 @@
   - p'
 - Ftnk:
   - na`|ps
-  Hnv1: &id1050
+  Hnv1: &id1057
   - 非所光
-  Hnv3: *id1050
+  Hnv3: *id1057
   cf:
   - na-
   - pase
@@ -24948,9 +25099,9 @@
 - Ftnk:
   - na`|ps
   - na`|psa
-  Hnv1: &id1051
+  Hnv1: &id1058
   - 非所光
-  Hnv3: *id1051
+  Hnv3: *id1058
   cf:
   - na-
   - pase
@@ -24972,9 +25123,9 @@
   - p'
 - Ftnk:
   - na`|p'ns
-  Hnv1: &id1052
+  Hnv1: &id1059
   - 非所勇
-  Hnv3: *id1052
+  Hnv3: *id1059
   cf:
   - napiNs
   dt:
@@ -24993,9 +25144,9 @@
   - fp'
 - Ftnk:
   - na`pl's
-  Hnv1: &id1053
+  Hnv1: &id1060
   - 非簡
-  Hnv3: *id1053
+  Hnv3: *id1060
   cf:
   - plise
   - gahe
@@ -25018,9 +25169,9 @@
   - p'
 - Ftnk:
   - na`pr'v
-  Hnv1: &id1054
+  Hnv1: &id1061
   - 非義
-  Hnv3: *id1054
+  Hnv3: *id1061
   cf:
   - na-
   - prave
@@ -25040,9 +25191,9 @@
   - fp'
 - Ftnk:
   - na`b'nl
-  Hnv1: &id1055
+  Hnv1: &id1062
   - 非便
-  Hnv3: *id1055
+  Hnv3: *id1062
   cf:
   - na-
   - beNle
@@ -25064,9 +25215,9 @@
   - fp'
 - Ftnk:
   - na`tp
-  Hnv1: &id1056
+  Hnv1: &id1063
   - 非衣
-  Hnv3: *id1056
+  Hnv3: *id1063
   cf:
   - na-
   - tap
@@ -25088,9 +25239,9 @@
   - v'
 - Ftnk:
   - na`|tb
-  Hnv1: &id1057
+  Hnv1: &id1064
   - 非所慣
-  Hnv3: *id1057
+  Hnv3: *id1064
   cf:
   - tobe
   dt:
@@ -25109,9 +25260,9 @@
   - fp'
 - Ftnk:
   - na`|tb`d
-  Hnv1: &id1058
+  Hnv1: &id1065
   - 非所慣事
-  Hnv3: *id1058
+  Hnv3: *id1065
   cf:
   - natobe
   - -od-
@@ -25133,9 +25284,9 @@
   - p'
 - Ftnk:
   - na`tc
-  Hnv1: &id1059
+  Hnv1: &id1066
   - 非示
-  Hnv3: *id1059
+  Hnv3: *id1066
   cf:
   - tuc
   - natuce
@@ -25158,10 +25309,10 @@
 - Ftnk:
   - na`tc
   - na`tce
-  Hnv1: &id1060
+  Hnv1: &id1067
   - 非示
   - 非示e
-  Hnv3: *id1060
+  Hnv3: *id1067
   cf:
   - tuc
   - natuc
@@ -25183,9 +25334,9 @@
   - fp'
 - Ftnk:
   - na`tr
-  Hnv1: &id1061
+  Hnv1: &id1068
   - 非轉
-  Hnv3: *id1061
+  Hnv3: *id1068
   cf:
   - natura
   dt:
@@ -25204,9 +25355,9 @@
   - fp'
 - Ftnk:
   - na`tra
-  Hnv1: &id1062
+  Hnv1: &id1069
   - 非轉a
-  Hnv3: *id1062
+  Hnv3: *id1069
   cf:
   - tur
   - nature
@@ -25229,9 +25380,9 @@
   - p'
 - Ftnk:
   - na`kz
-  Hnv1: &id1063
+  Hnv1: &id1070
   - 非同
-  Hnv3: *id1063
+  Hnv3: *id1070
   cf:
   - na-
   - kize
@@ -25253,9 +25404,9 @@
   - fp'
 - Ftnk:
   - na`kj`r
-  Hnv1: &id1064
+  Hnv1: &id1071
   - 非開具
-  Hnv3: *id1064
+  Hnv3: *id1071
   cf:
   - kajore
   - kaj
@@ -25298,9 +25449,9 @@
   - fp'
 - Ftnk:
   - na`gh
-  Hnv1: &id1065
+  Hnv1: &id1072
   - 非難
-  Hnv3: *id1065
+  Hnv3: *id1072
   cf:
   - gahe
   - plise
@@ -25325,9 +25476,9 @@
   - fp'
 - Ftnk:
   - NA_CE_QO_VE
-  Hnv1: &id1066
+  Hnv1: &id1073
   - 非碳衆
-  Hnv3: *id1066
+  Hnv3: *id1073
   cf:
   - ceqove
   cn:
@@ -25348,9 +25499,9 @@
   - p'
 - Ftnk:
   - na`cr
-  Hnv1: &id1067
+  Hnv1: &id1074
   - 非定
-  Hnv3: *id1067
+  Hnv3: *id1074
   cf:
   - na-
   - cure
@@ -25370,9 +25521,9 @@
   - fp'
 - Ftnk:
   - na`jc.
-  Hnv1: &id1068
+  Hnv1: &id1075
   - 非樂.
-  Hnv3: *id1068
+  Hnv3: *id1075
   an:
   - juc
   cf:
@@ -25397,9 +25548,9 @@
   - v'
 - Ftnk:
   - na`jc
-  Hnv1: &id1069
+  Hnv1: &id1076
   - 非樂
-  Hnv3: *id1069
+  Hnv3: *id1076
   cf:
   - juce
   cn:
@@ -25420,9 +25571,9 @@
   - fp'
 - Ftnk:
   - na`se`jh
-  Hnv1: &id1070
+  Hnv1: &id1077
   - 非己好
-  Hnv3: *id1070
+  Hnv3: *id1077
   cf:
   - na-
   - sejehe
@@ -25442,9 +25593,9 @@
   - fp'
 - Ftnk:
   - na`sl
-  Hnv1: &id1071
+  Hnv1: &id1078
   - 非齊
-  Hnv3: *id1071
+  Hnv3: *id1078
   cf:
   - na-
   - sel
@@ -25464,9 +25615,9 @@
   - v'
 - Ftnk:
   - na`sl
-  Hnv1: &id1072
+  Hnv1: &id1079
   - 非齊
-  Hnv3: *id1072
+  Hnv3: *id1079
   cf:
   - sele
   - sel
@@ -25489,9 +25640,9 @@
   - fp'
 - Ftnk:
   - na`sg`s
-  Hnv1: &id1073
+  Hnv1: &id1080
   - 非破焉
-  Hnv3: *id1073
+  Hnv3: *id1080
   cf:
   - na-
   - sagase
@@ -25514,10 +25665,10 @@
 - Ftnk:
   - na`sj
   - na`sj.
-  Hnv1: &id1074
+  Hnv1: &id1081
   - 非正
   - 非正.
-  Hnv3: *id1074
+  Hnv3: *id1081
   cf:
   - na-
   - saj
@@ -25537,9 +25688,9 @@
   - hf'
 - Ftnk:
   - na`sj
-  Hnv1: &id1075
+  Hnv1: &id1082
   - 非正
-  Hnv3: *id1075
+  Hnv3: *id1082
   cf:
   - na-
   - saje
@@ -25559,9 +25710,9 @@
   - fp'
 - Ftnk:
   - na`sl'b
-  Hnv1: &id1076
+  Hnv1: &id1083
   - 非逸
-  Hnv3: *id1076
+  Hnv3: *id1083
   cf:
   - slobe
   cn:
@@ -25582,9 +25733,9 @@
   - fp'
 - Ftnk:
   - na`zt
-  Hnv1: &id1077
+  Hnv1: &id1084
   - 非疾
-  Hnv3: *id1077
+  Hnv3: *id1084
   cf:
   - zet
   - nazetone
@@ -25610,9 +25761,9 @@
   - v'
 - Ftnk:
   - na`zt`k
-  Hnv1: &id1078
+  Hnv1: &id1085
   - 非疾者
-  Hnv3: *id1078
+  Hnv3: *id1085
   cf:
   - nazet
   - zet
@@ -25639,9 +25790,9 @@
   - cp'
 - Ftnk:
   - na`zt`n
-  Hnv1: &id1079
+  Hnv1: &id1086
   - 非疾處
-  Hnv3: *id1079
+  Hnv3: *id1086
   cf:
   - nazet
   - zet
@@ -25668,9 +25819,9 @@
   - p'
 - Ftnk:
   - na`zt`r
-  Hnv1: &id1080
+  Hnv1: &id1087
   - 非疾具
-  Hnv3: *id1080
+  Hnv3: *id1087
   cf:
   - nazet
   - zet
@@ -25701,9 +25852,9 @@
   - micone anazetore
 - Ftnk:
   - na`zc
-  Hnv1: &id1081
+  Hnv1: &id1088
   - 非從
-  Hnv3: *id1081
+  Hnv3: *id1088
   cf:
   - zac
   cn:
@@ -25722,9 +25873,9 @@
   - nazac
   ps:
   - v'
-- Hnv1: &id1082
+- Hnv1: &id1089
   - 非水焉
-  Hnv3: *id1082
+  Hnv3: *id1089
   cf:
   - na-
   - fosase
@@ -25744,9 +25895,9 @@
   - fp'
 - Ftnk:
   - na`vel
-  Hnv1: &id1083
+  Hnv1: &id1090
   - 非寢
-  Hnv3: *id1083
+  Hnv3: *id1090
   cf:
   - vel
   cn:
@@ -25767,9 +25918,9 @@
   - v'
 - Ftnk:
   - na`vl
-  Hnv1: &id1084
+  Hnv1: &id1091
   - 非愛
-  Hnv3: *id1084
+  Hnv3: *id1091
   cf:
   - vul
   cn:
@@ -25790,9 +25941,9 @@
   - v'
 - Ftnk:
   - na`mp
-  Hnv1: &id1085
+  Hnv1: &id1092
   - 非有
-  Hnv3: *id1085
+  Hnv3: *id1092
   cf:
   - mep
   dt:
@@ -25811,9 +25962,9 @@
   - v'
 - Ftnk:
   - nl
-  Hnv1: &id1086
+  Hnv1: &id1093
   - 釋
-  Hnv3: *id1086
+  Hnv3: *id1093
   dt:
   - 08/9月/2019
   et:
@@ -25830,9 +25981,9 @@
   - v'
 - Ftnk:
   - nl
-  Hnv1: &id1087
+  Hnv1: &id1094
   - 釋
-  Hnv3: *id1087
+  Hnv3: *id1094
   cf:
   - nal
   dt:
@@ -25851,9 +26002,9 @@
   - p'
 - Ftnk:
   - na`ls
-  Hnv1: &id1088
+  Hnv1: &id1095
   - 非淨
-  Hnv3: *id1088
+  Hnv3: *id1095
   cf:
   - luse
   cn:
@@ -25874,9 +26025,9 @@
   - fp'
 - Ftnk:
   - na`RE_VO_LU_CE
-  Hnv1: &id1089
+  Hnv1: &id1096
   - 非革
-  Hnv3: *id1089
+  Hnv3: *id1096
   cf:
   - na-
   - revoluce
@@ -25896,9 +26047,9 @@
   - fp'
 - Ftnk:
   - na`rd
-  Hnv1: &id1090
+  Hnv1: &id1097
   - 非工
-  Hnv3: *id1090
+  Hnv3: *id1097
   cf:
   - rad
   cn:
@@ -25919,9 +26070,9 @@
   - v'
 - Ftnk:
   - na`rdi_g'st
-  Hnv1: &id1091
+  Hnv1: &id1098
   - 非工i邨
-  Hnv3: *id1091
+  Hnv3: *id1098
   cf:
   - narad
   - gusta
@@ -25944,9 +26095,9 @@
   - p'
 - Ftnk:
   - na`rdo
-  Hnv1: &id1092
+  Hnv1: &id1099
   - 非工o
-  Hnv3: *id1092
+  Hnv3: *id1099
   cf:
   - narad
   cn:
@@ -25967,9 +26118,9 @@
   - p'
 - Ftnk:
   - 'NO'
-  Hnv1: &id1093
+  Hnv1: &id1100
   - 不
-  Hnv3: *id1093
+  Hnv3: *id1100
   cf:
   - ni
   dt:
@@ -25990,9 +26141,9 @@
   - mi edade no sur.
 - Ftnk:
   - nc
-  Hnv1: &id1094
+  Hnv1: &id1101
   - 夜
-  Hnv3: *id1094
+  Hnv3: *id1101
   cf:
   - poso
   cn:
@@ -26015,9 +26166,9 @@
   - naposo
 - Ftnk:
   - nv
-  Hnv1: &id1095
+  Hnv1: &id1102
   - 新
-  Hnv3: *id1095
+  Hnv3: *id1102
   cf:
   - novo
   cn:
@@ -26038,9 +26189,9 @@
   - fp'
 - Ftnk:
   - nvo
-  Hnv1: &id1096
+  Hnv1: &id1103
   - 新o
-  Hnv3: *id1096
+  Hnv3: *id1103
   cf:
   - nove
   cn:
@@ -26061,9 +26212,9 @@
   - p'
 - Ftnk:
   - nvo-hv
-  Hnv1: &id1097
+  Hnv1: &id1104
   - 新o-問
-  Hnv3: *id1097
+  Hnv3: *id1104
   cf:
   - novo
   - hov
@@ -26088,9 +26239,9 @@
   - v'
 - Ftnk:
   - nvo-hv`k
-  Hnv1: &id1098
+  Hnv1: &id1105
   - 新o-問者
-  Hnv3: *id1098
+  Hnv3: *id1105
   cf:
   - novo-hov
   - novo
@@ -26116,9 +26267,9 @@
   - cp'
 - Ftnk:
   - nv`m
-  Hnv1: &id1099
+  Hnv1: &id1106
   - 新太
-  Hnv3: *id1099
+  Hnv3: *id1106
   cf:
   - nove
   - -um-
@@ -26138,26 +26289,9 @@
   - novume
   ps:
   - fp'
-- Ftnk:
-  - nu`
-  Hnv1: &id1100
-  - 否
-  Hnv3: *id1100
-  dt:
-  - 10/7月/2019
-  ge:
-  - non- (prefix)
-  gn:
-  - 否
-  lx:
-  - nu-
-  ph:
-  - nu-
-  ps:
-  - s'
-- Hnv1: &id1101
+- Hnv1: &id1107
   - 〇
-  Hnv3: *id1101
+  Hnv3: *id1107
   dt:
   - 09/7月/2019
   et:
@@ -26173,10 +26307,27 @@
   ps:
   - t'
 - Ftnk:
+  - nu`
+  Hnv1: &id1108
+  - 否
+  Hnv3: *id1108
+  dt:
+  - 10/7月/2019
+  ge:
+  - non- (prefix)
+  gn:
+  - 否
+  lx:
+  - nu-
+  ph:
+  - nu-
+  ps:
+  - s'
+- Ftnk:
   - nu`tc
-  Hnv1: &id1102
+  Hnv1: &id1109
   - 否示
-  Hnv3: *id1102
+  Hnv3: *id1109
   cf:
   - nu-
   - tuce
@@ -26198,9 +26349,9 @@
   - fp'
 - Ftnk:
   - ndi_pt
-  Hnv1: &id1103
+  Hnv1: &id1110
   - 對i行
-  Hnv3: *id1103
+  Hnv3: *id1110
   cf:
   - nude
   - pit
@@ -26223,9 +26374,9 @@
   - v'
 - Ftnk:
   - nd
-  Hnv1: &id1104
+  Hnv1: &id1111
   - 對
-  Hnv3: *id1104
+  Hnv3: *id1111
   dt:
   - 10/2月/2021
   et:
@@ -26242,9 +26393,9 @@
   - fp'
 - Ftnk:
   - nzi_pd
-  Hnv1: &id1105
+  Hnv1: &id1112
   - 年i古
-  Hnv3: *id1105
+  Hnv3: *id1112
   cf:
   - nuza
   - pade
@@ -26267,9 +26418,9 @@
   - fp'
 - Ftnk:
   - nzi_nv
-  Hnv1: &id1106
+  Hnv1: &id1113
   - 年i新
-  Hnv3: *id1106
+  Hnv3: *id1113
   cf:
   - nuza
   - nove
@@ -26292,9 +26443,9 @@
   - fp'
 - Ftnk:
   - nza
-  Hnv1: &id1107
+  Hnv1: &id1114
   - 年a
-  Hnv3: *id1107
+  Hnv3: *id1114
   cf:
   - nuzo
   - nuzinove
@@ -26320,10 +26471,10 @@
 - Ftnk:
   - nz
   - nzo
-  Hnv1: &id1108
+  Hnv1: &id1115
   - 年
   - 年o
-  Hnv3: *id1108
+  Hnv3: *id1115
   cf:
   - nuza
   cn:
@@ -26345,9 +26496,9 @@
 - Ftnk:
   - NJO_KE
   - nj'k
-  Hnv1: &id1109
+  Hnv1: &id1116
   - 玉
-  Hnv3: *id1109
+  Hnv3: *id1116
   dt:
   - 10/7月/2019
   et:
@@ -26364,9 +26515,9 @@
   - p'
 - Ftnk:
   - LI
-  Hnv1: &id1110
+  Hnv1: &id1117
   - 其i
-  Hnv3: *id1110
+  Hnv3: *id1117
   dn:
   - 他。默认的第三人称代词，代指离说话者不近不远的事物或距离不定的事物。
   dt:
@@ -26383,9 +26534,9 @@
   - vn'
 - Ftnk:
   - lp
-  Hnv1: &id1111
+  Hnv1: &id1118
   - 立
-  Hnv3: *id1111
+  Hnv3: *id1118
   dt:
   - 27/6月/2019
   et:
@@ -26406,9 +26557,9 @@
   - 停用
 - Ftnk:
   - lpi_|vb
-  Hnv1: &id1112
+  Hnv1: &id1119
   - 立i所穴
-  Hnv3: *id1112
+  Hnv3: *id1119
   cf:
   - lipe
   - vebe
@@ -26431,9 +26582,9 @@
   - p'
 - Ftnk:
   - lpe
-  Hnv1: &id1113
+  Hnv1: &id1120
   - 立e
-  Hnv3: *id1113
+  Hnv3: *id1120
   cf:
   - lip
   - zoje
@@ -26456,9 +26607,9 @@
   - fp'
 - Ftnk:
   - lk
-  Hnv1: &id1114
+  Hnv1: &id1121
   - 尋
-  Hnv3: *id1114
+  Hnv3: *id1121
   dt:
   - 27/6月/2019
   et:
@@ -26479,9 +26630,9 @@
   - 停用
 - Ftnk:
   - ln`c
-  Hnv1: &id1115
+  Hnv1: &id1122
   - 人子
-  Hnv3: *id1115
+  Hnv3: *id1122
   cf:
   - line
   cn:
@@ -26502,9 +26653,9 @@
   - cp'
 - Ftnk:
   - ln
-  Hnv1: &id1116
+  Hnv1: &id1123
   - 人
-  Hnv3: *id1116
+  Hnv3: *id1123
   cf:
   - linice
   - linove
@@ -26527,9 +26678,9 @@
   - cp'
 - Ftnk:
   - ln`s
-  Hnv1: &id1117
+  Hnv1: &id1124
   - 人焉
-  Hnv3: *id1117
+  Hnv3: *id1124
   cf:
   - line
   - -as-
@@ -26551,9 +26702,9 @@
   - fp'
 - Ftnk:
   - l`nm
-  Hnv1: &id1118
+  Hnv1: &id1125
   - 謝
-  Hnv3: *id1118
+  Hnv3: *id1125
   dt:
   - 09/7月/2019
   et:
@@ -26576,9 +26727,9 @@
   - '2'
 - Ftnk:
   - ln`vi_kv`mi_ss
-  Hnv1: &id1119
+  Hnv1: &id1126
   - 人衆i集太i國
-  Hnv3: *id1119
+  Hnv3: *id1126
   cf:
   - linove
   - kovumisaso
@@ -26598,9 +26749,9 @@
   - p'
 - Ftnk:
   - ln`vi_lp
-  Hnv1: &id1120
+  Hnv1: &id1127
   - 人衆i理
-  Hnv3: *id1120
+  Hnv3: *id1127
   cf:
   - linove
   - lop
@@ -26623,9 +26774,9 @@
   - fp'
 - Ftnk:
   - ln`v
-  Hnv1: &id1121
+  Hnv1: &id1128
   - 人衆
-  Hnv3: *id1121
+  Hnv3: *id1128
   cf:
   - line
   cn:
@@ -26646,9 +26797,9 @@
   - p'
 - Ftnk:
   - ll.
-  Hnv1: &id1122
+  Hnv1: &id1129
   - 近
-  Hnv3: *id1122
+  Hnv3: *id1129
   cf:
   - -il-
   dt:
@@ -26665,9 +26816,9 @@
   - lil
   ps:
   - v'
-- Hnv1: &id1123
+- Hnv1: &id1130
   - 近
-  Hnv3: *id1123
+  Hnv3: *id1130
   cf:
   - lil
   cn:
@@ -26689,9 +26840,9 @@
   - fp'
 - Ftnk:
   - llu
-  Hnv1: &id1124
+  Hnv1: &id1131
   - 近u
-  Hnv3: *id1124
+  Hnv3: *id1131
   cf:
   - lile
   cn:
@@ -26712,9 +26863,9 @@
   - k'
 - Ftnk:
   - lh
-  Hnv1: &id1125
+  Hnv1: &id1132
   - 兒
-  Hnv3: *id1125
+  Hnv3: *id1132
   dt:
   - 11/12月/2020
   et:
@@ -26735,9 +26886,9 @@
 - Ftnk:
   - ls
   - les
-  Hnv1: &id1126
+  Hnv1: &id1133
   - 發
-  Hnv3: *id1126
+  Hnv3: *id1133
   dt:
   - 06/9月/2021
   et:
@@ -26756,9 +26907,9 @@
   - blas（停用）
 - Ftnk:
   - lesa
-  Hnv1: &id1127
+  Hnv1: &id1134
   - 發a
-  Hnv3: *id1127
+  Hnv3: *id1134
   cf:
   - les
   cn:
@@ -26781,9 +26932,9 @@
   - p'
 - Ftnk:
   - l'sk
-  Hnv1: &id1128
+  Hnv1: &id1135
   - 榛
-  Hnv3: *id1128
+  Hnv3: *id1135
   dt:
   - 13/10月/2022
   et:
@@ -26800,9 +26951,9 @@
   - p'
 - Ftnk:
   - l'nt
-  Hnv1: &id1129
+  Hnv1: &id1136
   - 緩
-  Hnv3: *id1129
+  Hnv3: *id1136
   an:
   - meke
   dt:
@@ -26819,9 +26970,9 @@
   - lente
   ps:
   - fp'
-- Hnv1: &id1130
+- Hnv1: &id1137
   - 冪
-  Hnv3: *id1130
+  Hnv3: *id1137
   dt:
   - 01/10月/2019
   ge:
@@ -26836,9 +26987,9 @@
   - t'
 - Ftnk:
   - l'pr
-  Hnv1: &id1131
+  Hnv1: &id1138
   - 兔
-  Hnv3: *id1131
+  Hnv3: *id1138
   dt:
   - 22/8月/2019
   et:
@@ -26855,9 +27006,9 @@
   - cp'
 - Ftnk:
   - LA_BE_kr`z
-  Hnv1: &id1132
+  Hnv1: &id1139
   - 冪二長化
-  Hnv3: *id1132
+  Hnv3: *id1139
   cf:
   - labekare
   - -iz-
@@ -26877,9 +27028,9 @@
   - v'
 - Ftnk:
   - LA_BE_kr
-  Hnv1: &id1133
+  Hnv1: &id1140
   - 冪二長
-  Hnv3: *id1133
+  Hnv3: *id1140
   cf:
   - la
   - be
@@ -26901,9 +27052,9 @@
   - fp'
 - Ftnk:
   - LA_BE_kr`d
-  Hnv1: &id1134
+  Hnv1: &id1141
   - 冪二長事
-  Hnv3: *id1134
+  Hnv3: *id1141
   cf:
   - la
   - be
@@ -26930,9 +27081,9 @@
   - p'
 - Ftnk:
   - ldi_|fpo
-  Hnv1: &id1135
+  Hnv1: &id1142
   - 日i所書o
-  Hnv3: *id1135
+  Hnv3: *id1142
   cf:
   - lado
   - fipo
@@ -26955,9 +27106,9 @@
   - p'
 - Ftnk:
   - lad
-  Hnv1: &id1136
+  Hnv1: &id1143
   - 日
-  Hnv3: *id1136
+  Hnv3: *id1143
   cf:
   - sadilado
   - ranilado
@@ -26982,9 +27133,9 @@
   - p'
 - Ftnk:
   - lak.
-  Hnv1: &id1137
+  Hnv1: &id1144
   - 養.
-  Hnv3: *id1137
+  Hnv3: *id1144
   cf:
   - lako
   cn:
@@ -27005,9 +27156,9 @@
   - v'
 - Ftnk:
   - lak
-  Hnv1: &id1138
+  Hnv1: &id1145
   - 養
-  Hnv3: *id1138
+  Hnv3: *id1145
   cf:
   - lak
   cn:
@@ -27028,9 +27179,9 @@
   - p'
 - Ftnk:
   - LA_KO_kr`d
-  Hnv1: &id1139
+  Hnv1: &id1146
   - 冪三長事
-  Hnv3: *id1139
+  Hnv3: *id1146
   cf:
   - la
   - ko
@@ -27057,9 +27208,9 @@
   - p'
 - Ftnk:
   - l'kt
-  Hnv1: &id1140
+  Hnv1: &id1147
   - 駝
-  Hnv3: *id1140
+  Hnv3: *id1147
   dt:
   - 27/11月/2021
   et:
@@ -27076,10 +27227,10 @@
   - cp'
 - Ftnk:
   - las
-  Hnv1: &id1141
+  Hnv1: &id1148
   - 公
   - 士
-  Hnv3: *id1141
+  Hnv3: *id1148
   dt:
   - 10/7月/2019
   et:
@@ -27104,9 +27255,9 @@
   - di laso ·kinbvise .
 - Ftnk:
   - l'sm
-  Hnv1: &id1142
+  Hnv1: &id1149
   - 旗
-  Hnv3: *id1142
+  Hnv3: *id1149
   dt:
   - 10/7月/2019
   et:
@@ -27123,9 +27274,9 @@
   - p'
 - Ftnk:
   - lf
-  Hnv1: &id1143
+  Hnv1: &id1150
   - 鬥
-  Hnv3: *id1143
+  Hnv3: *id1150
   cf:
   - lafum
   - lafe
@@ -27148,9 +27299,9 @@
   - v'
 - Ftnk:
   - lfe
-  Hnv1: &id1144
+  Hnv1: &id1151
   - 鬥e
-  Hnv3: *id1144
+  Hnv3: *id1151
   cf:
   - laf
   cn:
@@ -27171,9 +27322,9 @@
   - p'
 - Ftnk:
   - lf`m
-  Hnv1: &id1145
+  Hnv1: &id1152
   - 鬥太
-  Hnv3: *id1145
+  Hnv3: *id1152
   cf:
   - laf
   - lafumike
@@ -27196,9 +27347,9 @@
   - v'
 - Ftnk:
   - lf`m`k
-  Hnv1: &id1146
+  Hnv1: &id1153
   - 鬥太者
-  Hnv3: *id1146
+  Hnv3: *id1153
   cf:
   - laf
   - lafum
@@ -27227,9 +27378,9 @@
   - (SH)
 - Ftnk:
   - lf`m`k`v
-  Hnv1: &id1147
+  Hnv1: &id1154
   - 鬥太者衆
-  Hnv3: *id1147
+  Hnv3: *id1154
   cf:
   - lafumike
   - lafum
@@ -27257,10 +27408,10 @@
 - Ftnk:
   - lf`m
   - lf`me
-  Hnv1: &id1148
+  Hnv1: &id1155
   - 鬥太
   - 鬥太e
-  Hnv3: *id1148
+  Hnv3: *id1155
   cf:
   - laf
   - lafum
@@ -27283,9 +27434,9 @@
   - p'
 - Ftnk:
   - lav
-  Hnv1: &id1149
+  Hnv1: &id1156
   - 獅
-  Hnv3: *id1149
+  Hnv3: *id1156
   dt:
   - 06/5月/2021
   et:
@@ -27302,9 +27453,9 @@
   - cp'
 - Ftnk:
   - lm
-  Hnv1: &id1150
+  Hnv1: &id1157
   - 直
-  Hnv3: *id1150
+  Hnv3: *id1157
   an:
   - tave
   dt:
@@ -27323,9 +27474,9 @@
   - fp'
 - Ftnk:
   - l'nh
-  Hnv1: &id1151
+  Hnv1: &id1158
   - 蘭
-  Hnv3: *id1151
+  Hnv3: *id1158
   dt:
   - 25/7月/2021
   et:
@@ -27342,9 +27493,9 @@
   - p'
 - Ftnk:
   - lop.
-  Hnv1: &id1152
+  Hnv1: &id1159
   - 理.
-  Hnv3: *id1152
+  Hnv3: *id1159
   cf:
   - lope
   - lopike
@@ -27367,9 +27518,9 @@
   - v'
 - Ftnk:
   - lp`k
-  Hnv1: &id1153
+  Hnv1: &id1160
   - 理者
-  Hnv3: *id1153
+  Hnv3: *id1160
   cf:
   - lop
   cn:
@@ -27391,9 +27542,9 @@
 - Ftnk:
   - lp`k`v
   - lop`k`v
-  Hnv1: &id1154
+  Hnv1: &id1161
   - 理者衆
-  Hnv3: *id1154
+  Hnv3: *id1161
   cf:
   - lopike
   cn:
@@ -27414,9 +27565,9 @@
   - p'
 - Ftnk:
   - lop
-  Hnv1: &id1155
+  Hnv1: &id1162
   - 理
-  Hnv3: *id1155
+  Hnv3: *id1162
   cf:
   - lop
   cn:
@@ -27438,9 +27589,9 @@
 - Ftnk:
   - lp`v
   - lop`v
-  Hnv1: &id1156
+  Hnv1: &id1163
   - 理衆
-  Hnv3: *id1156
+  Hnv3: *id1163
   cf:
   - lop
   cn:
@@ -27461,9 +27612,9 @@
   - p'
 - Ftnk:
   - lp`n
-  Hnv1: &id1157
+  Hnv1: &id1164
   - 理處
-  Hnv3: *id1157
+  Hnv3: *id1164
   cf:
   - lop
   cn:
@@ -27488,9 +27639,9 @@
   - lopone asaso·nivjon e·nivja but .
 - Ftnk:
   - lg
-  Hnv1: &id1158
+  Hnv1: &id1165
   - 登
-  Hnv3: *id1158
+  Hnv3: *id1165
   cf:
   - logo
   cn:
@@ -27511,9 +27662,9 @@
   - v'
 - Ftnk:
   - lgo
-  Hnv1: &id1159
+  Hnv1: &id1166
   - 登o
-  Hnv3: *id1159
+  Hnv3: *id1166
   cf:
   - log
   cn:
@@ -27557,10 +27708,32 @@
   ps:
   - v'
 - Ftnk:
+  - lz`z
+  Hnv1: &id1167
+  - 完化
+  Hnv3: *id1167
+  cf:
+  - loze
+  - -iz-
+  dt:
+  - 24/7月/2024
+  et:
+  - loze + -iz-
+  ge:
+  - fulfill
+  gn:
+  - 填充完整
+  lx:
+  - loziz
+  ph:
+  - loziz
+  ps:
+  - p'
+- Ftnk:
   - lz
-  Hnv1: &id1160
+  Hnv1: &id1168
   - 完
-  Hnv3: *id1160
+  Hnv3: *id1168
   dt:
   - 26/5月/2023
   et:
@@ -27577,9 +27750,9 @@
   - fp'
 - Ftnk:
   - lov
-  Hnv1: &id1161
+  Hnv1: &id1169
   - 絝
-  Hnv3: *id1161
+  Hnv3: *id1169
   dt:
   - 10/7月/2019
   et:
@@ -27596,15 +27769,15 @@
   - p'
 - Ftnk:
   - l'ng
-  Hnv1: &id1162
-  - 基
-  Hnv3: *id1162
+  Hnv1: &id1170
+  - 本
+  Hnv3: *id1170
   cf:
   - loNga
   cn:
   - 材料
   dt:
-  - 28/11月/2021
+  - 10/5月/2024
   et:
   - Niv elonne("根本，基本")
   ge:
@@ -27625,15 +27798,15 @@
   - rese loNge
 - Ftnk:
   - l'nga
-  Hnv1: &id1163
-  - 基a
-  Hnv3: *id1163
+  Hnv1: &id1171
+  - 本a
+  Hnv3: *id1171
   cf:
   - loNge
   cn:
   - 根，基
   dt:
-  - 28/11月/2021
+  - 10/5月/2024
   et:
   - longa
   ge:
@@ -27650,9 +27823,9 @@
   - kora（停用）
 - Ftnk:
   - lbi_|kj
-  Hnv1: &id1164
+  Hnv1: &id1172
   - 室i所開
-  Hnv3: *id1164
+  Hnv3: *id1172
   cf:
   - lubo
   - keje
@@ -27675,9 +27848,9 @@
   - p'
 - Ftnk:
   - lb`c
-  Hnv1: &id1165
+  Hnv1: &id1173
   - 室子
-  Hnv3: *id1165
+  Hnv3: *id1173
   cf:
   - lubo
   - -ic-
@@ -27699,9 +27872,9 @@
   - p'
 - Ftnk:
   - lb
-  Hnv1: &id1166
+  Hnv1: &id1174
   - 室
-  Hnv3: *id1166
+  Hnv3: *id1174
   dt:
   - 10/7月/2019
   et:
@@ -27718,9 +27891,9 @@
   - p'
 - Ftnk:
   - lb`v`c
-  Hnv1: &id1167
+  Hnv1: &id1175
   - 室衆子
-  Hnv3: *id1167
+  Hnv3: *id1175
   cf:
   - lubove
   - -ic-
@@ -27740,9 +27913,9 @@
   - p'
 - Ftnk:
   - lb`v
-  Hnv1: &id1168
+  Hnv1: &id1176
   - 室衆
-  Hnv3: *id1168
+  Hnv3: *id1176
   cf:
   - lubo
   cn:
@@ -27763,9 +27936,9 @@
   - p'
 - Ftnk:
   - lb`v`m
-  Hnv1: &id1169
+  Hnv1: &id1177
   - 室族太
-  Hnv3: *id1169
+  Hnv3: *id1177
   cf:
   - lubove
   - -um-
@@ -27787,9 +27960,9 @@
   - p'
 - Ftnk:
   - lti_tf`j
-  Hnv1: &id1170
+  Hnv1: &id1178
   - 毛i擊欸
-  Hnv3: *id1170
+  Hnv3: *id1178
   cf:
   - lute
   - tifaje
@@ -27812,9 +27985,9 @@
   - p'
 - Ftnk:
   - lt
-  Hnv1: &id1171
+  Hnv1: &id1179
   - 毛
-  Hnv3: *id1171
+  Hnv3: *id1179
   dt:
   - 12/3月/2021
   et:
@@ -27831,9 +28004,9 @@
   - p'
 - Ftnk:
   - lc
-  Hnv1: &id1172
+  Hnv1: &id1180
   - 勝
-  Hnv3: *id1172
+  Hnv3: *id1180
   dt:
   - 27/6月/2019
   et:
@@ -27850,9 +28023,9 @@
   - v'
 - Ftnk:
   - lce
-  Hnv1: &id1173
+  Hnv1: &id1181
   - 勝e
-  Hnv3: *id1173
+  Hnv3: *id1181
   cf:
   - luc
   dt:
@@ -27871,9 +28044,9 @@
   - fp'
 - Ftnk:
   - lc`d
-  Hnv1: &id1174
+  Hnv1: &id1182
   - 勝事
-  Hnv3: *id1174
+  Hnv3: *id1182
   cf:
   - luc
   - -od-
@@ -27899,9 +28072,9 @@
   - 停用
 - Ftnk:
   - ls.
-  Hnv1: &id1175
+  Hnv1: &id1183
   - 淨.
-  Hnv3: *id1175
+  Hnv3: *id1183
   dt:
   - 10/7月/2019
   et:
@@ -27921,9 +28094,9 @@
   - lse
   - lus
   - luse
-  Hnv1: &id1176
+  Hnv1: &id1184
   - 淨
-  Hnv3: *id1176
+  Hnv3: *id1184
   an:
   - naluse
   cf:
@@ -27960,9 +28133,9 @@
   - ljame
   ps:
   - cp'
-- Hnv1: &id1177
+- Hnv1: &id1185
   - 由
-  Hnv3: *id1177
+  Hnv3: *id1185
   dt:
   - 10/7月/2019
   ge:
@@ -27977,9 +28150,9 @@
   - k'
 - Ftnk:
   - rb
-  Hnv1: &id1178
+  Hnv1: &id1186
   - 魚
-  Hnv3: *id1178
+  Hnv3: *id1186
   dt:
   - 10/7月/2019
   et:
@@ -27996,9 +28169,9 @@
   - p'
 - Ftnk:
   - riz
-  Hnv1: &id1179
+  Hnv1: &id1187
   - 米
-  Hnv3: *id1179
+  Hnv3: *id1187
   dt:
   - 09/7月/2019
   et:
@@ -28015,9 +28188,9 @@
   - p'
 - Ftnk:
   - rm
-  Hnv1: &id1180
+  Hnv1: &id1188
   - 柔
-  Hnv3: *id1180
+  Hnv3: *id1188
   dt:
   - 22/8月/2019
   et:
@@ -28032,9 +28205,9 @@
   - rime
   ps:
   - fp'
-- Hnv1: &id1181
+- Hnv1: &id1189
   - 六
-  Hnv3: *id1181
+  Hnv3: *id1189
   dt:
   - 09/7月/2019
   et:
@@ -28051,9 +28224,9 @@
   - t'
 - Ftnk:
   - r'pl
-  Hnv1: &id1182
+  Hnv1: &id1190
   - 班
-  Hnv3: *id1182
+  Hnv3: *id1190
   dt:
   - 19/1月/2020
   et:
@@ -28070,9 +28243,9 @@
   - p'
 - Ftnk:
   - '|rd'
-  Hnv1: &id1183
+  Hnv1: &id1191
   - 所工
-  Hnv3: *id1183
+  Hnv3: *id1191
   cf:
   - rad
   cn:
@@ -28097,9 +28270,9 @@
   - erede moge mi mip .
 - Ftnk:
   - rs
-  Hnv1: &id1184
+  Hnv1: &id1192
   - 務
-  Hnv3: *id1184
+  Hnv3: *id1192
   cf:
   - hafirese
   - ranirese
@@ -28122,9 +28295,9 @@
   - p'
 - Ftnk:
   - rz`c
-  Hnv1: &id1185
+  Hnv1: &id1193
   - 草子
-  Hnv3: *id1185
+  Hnv3: *id1193
   cf:
   - reza
   - -ic-
@@ -28144,9 +28317,9 @@
   - p'
 - Ftnk:
   - rez
-  Hnv1: &id1186
+  Hnv1: &id1194
   - 草
-  Hnv3: *id1186
+  Hnv3: *id1194
   dt:
   - 09/7月/2019
   et:
@@ -28163,9 +28336,9 @@
   - p'
 - Ftnk:
   - '|rvi_fsa'
-  Hnv1: &id1187
+  Hnv1: &id1195
   - 所圓i水a
-  Hnv3: *id1187
+  Hnv3: *id1195
   cf:
   - rav
   - fosa
@@ -28186,10 +28359,10 @@
 - Ftnk:
   - RE_VO_LUC
   - '|rvo_lc'
-  Hnv1: &id1188
+  Hnv1: &id1196
   - 革
   - 所圓o勝
-  Hnv3: *id1188
+  Hnv3: *id1196
   cf:
   - revoluce
   - revolucoda
@@ -28211,10 +28384,10 @@
 - Ftnk:
   - RE_VO_LU_CE
   - '|rvo_lce'
-  Hnv1: &id1189
+  Hnv1: &id1197
   - 革
   - 所圓o勝e
-  Hnv3: *id1189
+  Hnv3: *id1197
   cf:
   - revolucoda
   - revoluc
@@ -28236,10 +28409,10 @@
 - Ftnk:
   - RE_VO_LU_CO_DA
   - '|rvo_lc`d'
-  Hnv1: &id1190
+  Hnv1: &id1198
   - 革事
   - 所圓o勝事
-  Hnv3: *id1190
+  Hnv3: *id1198
   cf:
   - revoluc
   - -od-
@@ -28259,9 +28432,9 @@
 - Ftnk:
   - ra`
   - r`
-  Hnv1: &id1191
+  Hnv1: &id1199
   - 反
-  Hnv3: *id1191
+  Hnv3: *id1199
   dt:
   - 10/7月/2019
   ge:
@@ -28276,9 +28449,9 @@
   - s'
 - Ftnk:
   - ra`pt
-  Hnv1: &id1192
+  Hnv1: &id1200
   - 反行
-  Hnv3: *id1192
+  Hnv3: *id1200
   cf:
   - pit
   cn:
@@ -28299,9 +28472,9 @@
   - v'
 - Ftnk:
   - ra`ps`r
-  Hnv1: &id1193
+  Hnv1: &id1201
   - 反光具
-  Hnv3: *id1193
+  Hnv3: *id1201
   cf:
   - poso
   - pos
@@ -28324,9 +28497,9 @@
   - p'
 - Ftnk:
   - rd
-  Hnv1: &id1194
+  Hnv1: &id1202
   - 工
-  Hnv3: *id1194
+  Hnv3: *id1202
   cf:
   - narad
   cn:
@@ -28347,9 +28520,9 @@
   - v'
 - Ftnk:
   - ra`dj
-  Hnv1: &id1195
+  Hnv1: &id1203
   - 反予
-  Hnv3: *id1195
+  Hnv3: *id1203
   cf:
   - ra-
   - daj
@@ -28369,9 +28542,9 @@
   - v'
 - Ftnk:
   - rd`p
-  Hnv1: &id1196
+  Hnv1: &id1204
   - 工可
-  Hnv3: *id1196
+  Hnv3: *id1204
   cf:
   - rad
   cn:
@@ -28392,9 +28565,9 @@
   - fp'
 - Ftnk:
   - rd`n
-  Hnv1: &id1197
+  Hnv1: &id1205
   - 工處
-  Hnv3: *id1197
+  Hnv3: *id1205
   cf:
   - rad
   - -on-
@@ -28416,9 +28589,9 @@
   - p'
 - Ftnk:
   - r'gl
-  Hnv1: &id1198
+  Hnv1: &id1206
   - 葦
-  Hnv3: *id1198
+  Hnv3: *id1206
   dt:
   - 10/6月/2022
   et:
@@ -28435,9 +28608,9 @@
   - p'
 - Ftnk:
   - '|rj'
-  Hnv1: &id1199
+  Hnv1: &id1207
   - 所敬
-  Hnv3: *id1199
+  Hnv3: *id1207
   cf:
   - roj
   cn:
@@ -28458,9 +28631,9 @@
   - fp'
 - Ftnk:
   - r'jm
-  Hnv1: &id1200
+  Hnv1: &id1208
   - 砼
-  Hnv3: *id1200
+  Hnv3: *id1208
   dt:
   - 03/11月/2022
   et:
@@ -28478,10 +28651,10 @@
 - Ftnk:
   - rv
   - rv.
-  Hnv1: &id1201
+  Hnv1: &id1209
   - 圓
   - 圓.
-  Hnv3: *id1201
+  Hnv3: *id1209
   cf:
   - rave
   cn:
@@ -28503,10 +28676,10 @@
 - Ftnk:
   - rv
   - rve
-  Hnv1: &id1202
+  Hnv1: &id1210
   - 圓
   - 圓e
-  Hnv3: *id1202
+  Hnv3: *id1210
   cf:
   - rav
   cn:
@@ -28527,9 +28700,9 @@
   - p'
 - Ftnk:
   - rva
-  Hnv1: &id1203
+  Hnv1: &id1211
   - 圓a
-  Hnv3: *id1203
+  Hnv3: *id1211
   cf:
   - rave
   cn:
@@ -28550,9 +28723,9 @@
   - p'
 - Ftnk:
   - rv`j
-  Hnv1: &id1204
+  Hnv1: &id1212
   - 圓欸
-  Hnv3: *id1204
+  Hnv3: *id1212
   cf:
   - rave
   cn:
@@ -28573,9 +28746,9 @@
   - p'
 - Ftnk:
   - ra`vg
-  Hnv1: &id1205
+  Hnv1: &id1213
   - 反動
-  Hnv3: *id1205
+  Hnv3: *id1213
   cf:
   - ra-
   - voge
@@ -28593,9 +28766,9 @@
   - ravoge
   ps:
   - p'
-- Hnv1: &id1206
+- Hnv1: &id1214
   - 先.
-  Hnv3: *id1206
+  Hnv3: *id1214
   dt:
   - 10/7月/2019
   ge:
@@ -28610,9 +28783,9 @@
   - vn'
 - Ftnk:
   - rn`c
-  Hnv1: &id1207
+  Hnv1: &id1215
   - 先子
-  Hnv3: *id1207
+  Hnv3: *id1215
   cf:
   - rano
   cn:
@@ -28633,9 +28806,9 @@
   - p'
 - Ftnk:
   - rni_fso
-  Hnv1: &id1208
+  Hnv1: &id1216
   - 先i水o
-  Hnv3: *id1208
+  Hnv3: *id1216
   cf:
   - rano
   - foso
@@ -28655,9 +28828,9 @@
   - p'
 - Ftnk:
   - rni_ld
-  Hnv1: &id1209
+  Hnv1: &id1217
   - 先i日
-  Hnv3: *id1209
+  Hnv3: *id1217
   cf:
   - ran
   - lado
@@ -28694,9 +28867,9 @@
   - (SH)
 - Ftnk:
   - rni_rs
-  Hnv1: &id1210
+  Hnv1: &id1218
   - 先i務
-  Hnv3: *id1210
+  Hnv3: *id1218
   cf:
   - rane
   - rese
@@ -28719,9 +28892,9 @@
   - p'
 - Ftnk:
   - rn
-  Hnv1: &id1211
+  Hnv1: &id1219
   - 先
-  Hnv3: *id1211
+  Hnv3: *id1219
   cf:
   - rano
   cn:
@@ -28742,9 +28915,9 @@
   - fp'
 - Ftnk:
   - rno
-  Hnv1: &id1212
+  Hnv1: &id1220
   - 先o
-  Hnv3: *id1212
+  Hnv3: *id1220
   cf:
   - rane
   cn:
@@ -28787,9 +28960,9 @@
   - p'
 - Ftnk:
   - r'nt
-  Hnv1: &id1213
+  Hnv1: &id1221
   - 詞
-  Hnv3: *id1213
+  Hnv3: *id1221
   cf:
   - rantigora
   cn:
@@ -28810,9 +28983,9 @@
   - p'
 - Ftnk:
   - ra`lf
-  Hnv1: &id1214
+  Hnv1: &id1222
   - 反鬥
-  Hnv3: *id1214
+  Hnv3: *id1222
   cf:
   - ra-
   - laf
@@ -28832,9 +29005,9 @@
   - v'
 - Ftnk:
   - RO
-  Hnv1: &id1215
+  Hnv1: &id1223
   - 由o
-  Hnv3: *id1215
+  Hnv3: *id1223
   cf:
   - r
   dt:
@@ -28853,9 +29026,9 @@
   - h'
 - Ftnk:
   - '|rt'
-  Hnv1: &id1216
+  Hnv1: &id1224
   - 所用
-  Hnv3: *id1216
+  Hnv3: *id1224
   cf:
   - rut
   cn:
@@ -28876,9 +29049,9 @@
   - p'
 - Ftnk:
   - rj
-  Hnv1: &id1217
+  Hnv1: &id1225
   - 敬
-  Hnv3: *id1217
+  Hnv3: *id1225
   cf:
   - junake
   cn:
@@ -28899,9 +29072,9 @@
   - v'
 - Ftnk:
   - rja
-  Hnv1: &id1218
+  Hnv1: &id1226
   - 敬a
-  Hnv3: *id1218
+  Hnv3: *id1226
   cf:
   - roj
   cn:
@@ -28922,9 +29095,9 @@
   - p'
 - Ftnk:
   - rr.
-  Hnv1: &id1219
+  Hnv1: &id1227
   - 東
-  Hnv3: *id1219
+  Hnv3: *id1227
   dt:
   - 27/6月/2019
   et:
@@ -28941,9 +29114,9 @@
   - v'
 - Ftnk:
   - rri_pp
-  Hnv1: &id1220
+  Hnv1: &id1228
   - 東i南
-  Hnv3: *id1220
+  Hnv3: *id1228
   cf:
   - rore
   - pope
@@ -28968,9 +29141,9 @@
   - popirore
 - Ftnk:
   - rri_bur
-  Hnv1: &id1221
+  Hnv1: &id1229
   - 東i風
-  Hnv3: *id1221
+  Hnv3: *id1229
   cf:
   - rore
   - bura
@@ -28993,9 +29166,9 @@
   - p'
 - Ftnk:
   - rri_ff
-  Hnv1: &id1222
+  Hnv1: &id1230
   - 東i北
-  Hnv3: *id1222
+  Hnv3: *id1230
   cf:
   - rore
   - fofe
@@ -29020,9 +29193,9 @@
   - fofirore
 - Ftnk:
   - rr
-  Hnv1: &id1223
+  Hnv1: &id1231
   - 東
-  Hnv3: *id1223
+  Hnv3: *id1231
   cf:
   - ror
   cn:
@@ -29061,9 +29234,9 @@
   - '2'
 - Ftnk:
   - ru`pt
-  Hnv1: &id1224
+  Hnv1: &id1232
   - 由行
-  Hnv3: *id1224
+  Hnv3: *id1232
   cf:
   - pit
   cn:
@@ -29084,9 +29257,9 @@
   - v'
 - Ftnk:
   - rpi_cp
-  Hnv1: &id1225
+  Hnv1: &id1233
   - 熱i度
-  Hnv3: *id1225
+  Hnv3: *id1233
   cf:
   - rupe
   - cape
@@ -29111,9 +29284,9 @@
   - dulode（停用）
 - Ftnk:
   - 'rpi_fs '
-  Hnv1: &id1226
+  Hnv1: &id1234
   - 熱i水
-  Hnv3: *id1226
+  Hnv3: *id1234
   cf:
   - rupe
   - foso
@@ -29136,9 +29309,9 @@
   - p'
 - Ftnk:
   - rp
-  Hnv1: &id1227
+  Hnv1: &id1235
   - 熱
-  Hnv3: *id1227
+  Hnv3: *id1235
   an:
   - kule
   cf:
@@ -29165,9 +29338,9 @@
   - dule（停用）
 - Ftnk:
   - rp`d
-  Hnv1: &id1228
+  Hnv1: &id1236
   - 熱事
-  Hnv3: *id1228
+  Hnv3: *id1236
   cf:
   - rupe
   cn:
@@ -29188,9 +29361,9 @@
   - p'
 - Ftnk:
   - ru`ps`r
-  Hnv1: &id1229
+  Hnv1: &id1237
   - 由光具
-  Hnv3: *id1229
+  Hnv3: *id1237
   cf:
   - poso
   - pos
@@ -29213,9 +29386,9 @@
   - p'
 - Ftnk:
   - rt
-  Hnv1: &id1230
+  Hnv1: &id1238
   - 用
-  Hnv3: *id1230
+  Hnv3: *id1238
   cf:
   - r
   - rote
@@ -29239,9 +29412,9 @@
   - v'
 - Ftnk:
   - rki_flo
-  Hnv1: &id1231
+  Hnv1: &id1239
   - 手i通o
-  Hnv3: *id1231
+  Hnv3: *id1239
   cf:
   - ruke
   - filo
@@ -29264,9 +29437,9 @@
   - p'
 - Ftnk:
   - rk
-  Hnv1: &id1232
+  Hnv1: &id1240
   - 手
-  Hnv3: *id1232
+  Hnv3: *id1240
   dt:
   - 27/6月/2019
   et:
@@ -29283,9 +29456,9 @@
   - p'
 - Ftnk:
   - rus
-  Hnv1: &id1233
+  Hnv1: &id1241
   - 熊
-  Hnv3: *id1233
+  Hnv3: *id1241
   dt:
   - 10/7月/2019
   et:
@@ -29302,9 +29475,9 @@
   - cp'
 - Ftnk:
   - r`vg
-  Hnv1: &id1234
+  Hnv1: &id1242
   - 由動
-  Hnv3: *id1234
+  Hnv3: *id1242
   cf:
   - vog
   dt:
@@ -33158,9 +33331,9 @@
   - p'
 - Ftnk:
   - ˙JINq_GVANq
-  Hnv1: &id1235
+  Hnv1: &id1243
   - ''
-  Hnv3: *id1235
+  Hnv3: *id1243
   dt:
   - 13/4月/2024
   et:

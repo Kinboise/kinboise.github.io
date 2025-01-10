@@ -2,15 +2,41 @@
 sr:
   voices:
   - TokenEnums\RHVoice\Dragana
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sr-RS-NicholasNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sr-RS-SophieNeural
   rates:
   - 120
+  - 150
+  - 150
   rules:
     q: ''
-    dc: dž
-    xz: ž
-    x: š
-    w: u
-    c: č
+    dc: џ
+    xz: ж
+    x: ш
+    y: и
+    w: у
+    h: х
+    p: п
+    b: б
+    t: т
+    d: д
+    k: к
+    g: г
+    c: ч
+    j: ј
+    s: с
+    z: з
+    f: ф
+    v: в
+    m: м
+    n: н
+    l: л
+    r: р
+    i: и
+    u: у
+    e: е
+    o: о
+    a: а
 # 马其顿语
 mk:
   voices:
@@ -201,22 +227,39 @@ tt:
 ka:
   voices:
   - TokenEnums\RHVoice\Natia
+  - TokenEnums\NaturalVoiceEnumerator\Edge-ka-GE-EkaNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-ka-GE-GiorgiNeural
   rates:
   - 150
+  - 175
+  - 175
   rules:
     nq: ng
-    q: ''
-    j: y
-    dc: j
+    dc: ჯ
     xz: ჟ
-    x: შ
-    c: ჩ
-    y: i
-    w: u
-    v: v
+    q: ''
+    h: ხ
     p: ფ
+    b: ბ
     t: თ
+    d: დ
     k: ქ
-    f: hv
-    a: ა
+    g: გ
+    c: ჩ
+    j: ი
+    s: ს
+    z: ზ
+    f: ჰვ
+    v: ვ
+    m: მ
+    n: ნ
+    l: ლ
+    r: რ
+    x: შ
+    y: ი
+    w: უ
     i: ი
+    e: ე
+    a: ა
+    o: ო
+    u: უ
