@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <title>主辅棋</title>
+    <style>
+        textarea {
+            height: 500px;
+            font-family: unifik, sans-serif;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+    </style>
+    <script>
+        function genUrl() {
+            var url = "https://teg.guc1010.top/" + Math.random().toString(36).substr(2, 8);
+            document.getElementById("blackUrl").innerHTML = url + "/0";
+            document.getElementById("blackUrl").href = url + "/0";
+            document.getElementById("whiteUrl").innerHTML = url + "/1";
+            document.getElementById("whiteUrl").href = url + "/1";
+            document.getElementById("urlBox").hidden = false;
+        }
+    </script>
+    <link rel="stylesheet" href="../css/pajne.css">
+    <link rel="stylesheet" href="../Seniva/stylesheet.css">
+</head>
+
+<body>
+    <h1>主辅棋 | Tegojafo</h1>
+    <a href="..">◀ 返回上层 (Back)</a>
+    <p>
+        臤徘斯发明的新棋 (A Board Game by Kinboise)
+    </p>
+    <p>
+        <div class="label">规则 (Rules)</div>
+        <div class="card lab"> <em>*Chinese only</em>
+            <ul>
+                <li>
+                    <a href="https://newchessbar.fandom.com/zh/wiki/%E4%B8%BB%E8%BE%85%E6%A3%8B">新棋吧 Wiki</a>
+                </li>
+            </ul>
+        </div>
+        </p>
+    <p>
+    <div class="label">对局 (Play)</div>
+    <div class="card lab"> <em>*Chinese only</em>
+        <ul>
+            <li>
+                <a href="https://teg.guc1010.top/">单人或本地对局 (Singleplayer or Local Multiplayer)</a>
+            </li><br>
+            <li>
+                <a onclick="genUrl()" href="#urlBox">远程联机对局 (Remote Multiplayer)</a>
+            </li>
+        </ul>
+    </div>
+    </p>
+    <p>
+    <div class="card" id="urlBox" hidden>
+        <strong>已生成链接，请选择黑白，并将另一链接发送给对手。</strong>
+        <ul>
+            <li>打开此链接控制黑棋：<a href="" id="blackUrl"></a></li><br>
+            <li>打开此链接控制白棋：<a href="" id="whiteUrl"></a></li>
+        </ul>
+    </div>
+    </p>
+</body>
+
+</html>
