@@ -55,12 +55,17 @@
     <p>
     <div class="label">对局 (Play)</div>
     <div class="card lab">
+        <p>
+            人人对局：若两人使用同一设备，则进入「本地对局」，轮流操作；若使用不同设备，点击「联机对局」生成链接。
+        </p><p>
+            人机对局：前往「本地对局」，打开右侧边栏的「AI」选项卡，点击「play」（或按 2 键）可让机器人走一步；下方可调节「iterations」和「playoutDepth」，值越大则棋力越强、计算越慢。人机对战建议调小，否则运算耗时太长。
+        </p>
         <ul>
             <li>
-                <a href="http://teg.guc1010.top/">单人或本地对局 (Singleplayer or Local Multiplayer)</a>
+                <a href="http://teg.guc1010.top/">本地对局 (Local Game)</a>
             </li><br>
             <li>
-                <a onclick="genUrl()" href="#urlBox">远程联机对局 (Remote Multiplayer)</a>
+                <a onclick="genUrl()" href="#urlBox">联机对局 (Remote Multiplayer)</a>
             </li>
         </ul>
     </div>
@@ -69,9 +74,9 @@
     <div class="card" id="urlBox" hidden>
         <strong>已生成链接，请选择黑白，并将另一链接发送给对手。</strong>
         <ul>
-            <li>打开此链接控制黑棋：<a href="" id="blackUrl"></a></li><br>
-            <li>打开此链接控制白棋：<a href="" id="whiteUrl"></a></li><br>
-            <li>打开此链接可以观战：<a href="" id="watchUrl"></a></li>
+            <li>打开此链接控制黑棋：<a href="" id="blackUrl" target="_blank"></a></li><br>
+            <li>打开此链接控制白棋：<a href="" id="whiteUrl" target="_blank"></a></li><br>
+            <li>打开此链接可以观战：<a href="" id="watchUrl" target="_blank"></a></li>
         </ul>
     </div>
     </p>
