@@ -14,15 +14,21 @@
             margin: 0 auto;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
     <script>
         function genUrl() {
-            var url = "http://teg.guc1010.top/" + Math.random().toString(36).substr(2, 8);
-            document.getElementById("blackUrl").innerHTML = url + "/0";
-            document.getElementById("blackUrl").href = url + "/0";
-            document.getElementById("whiteUrl").innerHTML = url + "/1";
-            document.getElementById("whiteUrl").href = url + "/1";
-            document.getElementById("watchUrl").innerHTML = url + "/2";
-            document.getElementById("watchUrl").href = url + "/2";
+            const id = Math.random().toString(36).substr(2, 6);
+            const url = "http://teg.guc1010.top/" + id + "/";
+            const blackSalt = '2057101615';
+            const blackHash = md5(id + blackSalt).substr(0, 6);
+            const whiteSalt = '2025011516';
+            const whiteHash = md5(id + whiteSalt).substr(0, 6);
+            document.getElementById("blackUrl").innerHTML = url + blackHash;
+            document.getElementById("blackUrl").href = url + blackHash;
+            document.getElementById("whiteUrl").innerHTML = url + whiteHash;
+            document.getElementById("whiteUrl").href = url + whiteHash;
+            document.getElementById("watchUrl").innerHTML = url;
+            document.getElementById("watchUrl").href = url;
             document.getElementById("urlBox").hidden = false;
         }
     </script>
