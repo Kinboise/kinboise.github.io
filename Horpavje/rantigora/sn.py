@@ -1,6 +1,6 @@
 import simplenote
 import pandas as pd
-from 转换 import *
+from 转换 import sep, conv
 
 path = 'Horpavje/rantigora/'
 
