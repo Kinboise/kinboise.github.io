@@ -11,8 +11,12 @@
             src: local('QIJIC'), url('../../pajne/qijic.woff2');
         }
         @font-face {
-            font-family: '润植家康熙字典美化体';
+            font-family: 'nzgrKangxi';
             src: local('润植家康熙字典美化体'), url('../../nzgrKangxi.woff2');
+        }
+        @font-face {
+            font-family: 'DINish';
+            src: local('DINish'), url('../../DINish.woff2');
         }
         html,
         body {
@@ -47,18 +51,18 @@
                 }
 
                 #标题 {
-                    font-family: 'Noto Serif', 润植家康熙字典美化体;
+                    font-family: 'Noto Serif', nzgrKangxi, serif;
                     font-size: 88px;
                     writing-mode: vertical-rl;
                 }
 
                 .指北 {
-                    font-family: 'Noto Sans Symbols 2', 润植家康熙字典美化体;
+                    font-family: 'Noto Sans Symbols 2', nzgrKangxi, serif;
                     font-size: 88px;
                 }
 
                 .联系方式 {
-                    font-family: 寒蝉活楷体;
+                    font-family: 寒蝉活楷体, serif;
                     font-size: 48px;
                 }
 
@@ -69,7 +73,7 @@
                 }
 
                 .站名 {
-                    font-family: QIJIC;
+                    font-family: QIJIC, serif;
                     font-size: 42px;
                     writing-mode: vertical-rl;
                     text-anchor: end;
@@ -113,7 +117,7 @@
                 .站号4 text,
                 .站号7 text,
                 .站号8 text {
-                    font-family: DINish;
+                    font-family: DINish, sans-serif;
                     font-size: 0px;
                     /* 24px */
                     fill: #fff;
