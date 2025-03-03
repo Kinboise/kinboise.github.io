@@ -17,9 +17,12 @@
 抠;挠,dagannguwa,gannguwaja
 不要,dagisi,gisija
 匹敌;劲敌,dajisira,jisiraja
+角色,dakose,koseja
+不值得,dacipi,cipija
 室,dakonoko,konokoja
 卧室,dawomakonoko,womakonokoja
 追,daribana,sibanaja
+争抢;[古]追,dakarata,karataja
 [方]太阳,daberu,peruja
 底部;[方]下,dagannra,gannraja
 新鲜事;趣闻;[古]新,dadebu,tebuja
