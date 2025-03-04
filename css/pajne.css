@@ -59,3 +59,9 @@
 	font-family: 'IpaP';
 	src: local('IpaP'), url('../pajne/IpaP.ttf');
 }
+
+/* DINish（非自制） */
+@font-face {
+	font-family: 'DINish';
+	src: local('DINish'), url('../pajne/DINish.woff2');
+}
