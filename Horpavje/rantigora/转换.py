@@ -1,5 +1,6 @@
 # import pandas as pd
-import yaml, re
+import yaml
+import re
 
 path = 'Horpavje/rantigora/aurime.yml'
 with open(path, 'r', -1, 'utf-8') as au:
