@@ -514,7 +514,7 @@ header .greetings h1 {
 }
 
 .ipa {
-    font-family: 'Segoe UI', Roboto, Arial, sans-serif
+    font-family: Roboto, Inter, 'Segoe UI', Arial, sans-serif
 }
 
 .ipa::before {
@@ -858,6 +858,15 @@ section.featured-projects .card.card-horpavje {
 
 section.featured-projects .card.card-horpavje .action-btn {
     color: #5c882a
+}
+
+section.featured-projects .card.card-cambi {
+    color: #fff;
+    background: linear-gradient(30deg,#ff9900 0%,#ff6600 100%)
+}
+
+section.featured-projects .card.card-cambi .action-btn {
+    color: #ff9900
 }
 
 section.featured-projects .card.card-tegojafo {
