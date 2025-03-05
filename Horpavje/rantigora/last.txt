@@ -362,3 +362,6 @@
 锤子,darungukann,dungukannja
 项链,dabacuseke,pacusekeja
 手,datiki,tikija
+虚词,dadilogo,tilogoja
+干扰,dacuri,curija
+烦人,dacurijuri,curijurija
