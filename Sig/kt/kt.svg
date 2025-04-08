@@ -224,7 +224,7 @@
                 gu noviz
             </text>
             <text class="日期 右" y="980" x="880">
-                    2025.1.7
+                    2025.3.30
             </text>
         </g>
         <g id="图">
@@ -232,8 +232,8 @@
             M 512,88
             L 512,840" />
             <path class="线2 线" d="
-            M 658,476
-            l -132,0
+            M 800,476
+            l -276,0
             a 8,8 0,0,1 -8,-8
             l 0,-82
             L 506,386
@@ -438,6 +438,26 @@
                     <tspan class="拉" x="0" dy="12">Dajlasiploda</tspan>
                 </text>
             </g>
+            <g class="线2" id="站2+03" transform="translate(728,476)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    2+03
+                </text>
+                <text class="站名 中" transform="translate(0,-25)">
+                    <tspan>曈登榭</tspan>
+                    <tspan class="拉" x="0" dy="12">hililubo Nitibibe</tspan>
+                </text>
+            </g>
+            <g class="线2" id="站2+04" transform="translate(800,476)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    2+04
+                </text>
+                <text class="站名 中" transform="translate(0,28)">
+                    <tspan>成惠门</tspan>
+                    <tspan class="拉" x="0" dy="12">Pojijehidaje:cine</tspan>
+                </text>
+            </g>
             <g class="线3" id="站3-01" transform="translate(440,476)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
@@ -476,6 +496,16 @@
                 <text class="站名 右" transform="translate(-20,-2)">
                     <tspan>崔仙馆</tspan>
                     <tspan class="拉" x="0" dy="12">Tsvejdeviperone</tspan>
+                </text>
+            </g>
+            <g class="线4" id="站4+02" transform="translate(368,548)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    4+02
+                </text>
+                <text class="站名" transform="translate(20,2)">
+                    <tspan>㭜林坊</tspan>
+                    <tspan class="拉" x="0" dy="12">Akakijovizugilubo</tspan>
                 </text>
             </g>
             <g class="线4" id="站4+03" transform="translate(368,611)">

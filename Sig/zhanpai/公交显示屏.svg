@@ -30,11 +30,11 @@
     </style>
     <g transform="scale(0.25)">
     <rect width="560" height="200" />
-    <text x="0" y="70" class="qd d1">航天城北门</text>
-    <text x="280" y="80" class="lh">1-</text>
-    <text x="560" y="70" class="zd">老金坪</text>
-    <text x="0" y="170" class="qd">老金坪</text>
-    <text x="280" y="180" class="lh">1+</text>
-    <text x="660" y="170" class="zd d1">航天城北门</text>
+    <text x="0" y="70" class="qd d1">彤县站西门</text>
+    <text x="280" y="80" class="lh">8-</text>
+    <text x="660" y="70" class="zd d1">彤县站西门</text>
+    <text x="0" y="170" class="qd d1">彤县站西门</text>
+    <text x="280" y="180" class="lh">8+</text>
+    <text x="660" y="170" class="zd d1">彤县站西门</text>
     </g>
 </svg>
