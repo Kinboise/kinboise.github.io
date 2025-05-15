@@ -1,6 +1,7 @@
 from senivatts import senivatts
 import os
 import yaml
+import asyncio
 # import subprocess as sp
 
 path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/') + '/' # 'Seniva/rantigora/'
@@ -13,7 +14,6 @@ size = len(dic)
 prog = []
 for j in range(1, 11):
     prog.append(int(size * (0.1 * j)))
-
 
 for i in range(len(dic)):
     lat = dic[i]

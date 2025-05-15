@@ -42,21 +42,57 @@ mk:
   voices:
   - TokenEnums\RHVoice\Kiko
   - TokenEnums\RHVoice\Suze
+  - TokenEnums\NaturalVoiceEnumerator\Edge-mk-MK-AleksandarNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-mk-MK-MarijaNeural
   rates:
   - 140
   - 140
+  - 120
+  - 120
   rules:
     q: ''
-    dc: dž
-    xz: ž
-    x: š
-    w: u
-    c: č
-# 斯洛伐克语
-sl:
+    dc: џ
+    xz: ж
+    x: ш
+    y: и
+    w: у
+    h: х
+    p: п
+    b: б
+    t: т
+    d: д
+    k: к
+    g: г
+    c: ч
+    j: ј
+    s: с
+    z: з
+    f: ф
+    v: в
+    m: м
+    n: н
+    l: л
+    r: р
+    i: и
+    u: у
+    e: е
+    o: о
+    a: а
+# 克罗地亚语、波斯尼亚语、斯洛文尼亚语
+yu:
   voices:
-  - TokenEnums\RHVoice\Ondro
+  - TokenEnums\NaturalVoiceEnumerator\Edge-hr-HR-GabrijelaNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-hr-HR-SreckoNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-bs-BA-GoranNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-bs-BA-VesnaNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sl-SI-PetraNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sl-SI-RokNeural
   rates:
+  - 150
+  - 150
+  - 150
+  - 150
+  - 150
   - 150
   rules:
     q: ''
@@ -65,14 +101,35 @@ sl:
     x: š
     w: u
     c: č
-    i: y
+    y: i
+# 斯洛伐克语
+sk:
+  voices:
+  - TokenEnums\RHVoice\Ondro
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sk-SK-LukasNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sk-SK-ViktoriaNeural
+  rates:
+  - 150
+  - 150
+  - 150
+  rules:
+    q: ''
+    dc: dž
+    xz: ž
+    x: š
+    w: u
+    c: č
+    i: i
     e: é
 # 捷克语
 cs:
   voices:
   - TokenEnums\RHVoice\Zdenek
+  - TokenEnums\NaturalVoiceEnumerator\Edge-cs-CZ-AntoninNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-cs-CZ-VlastaNeural
   rates:
   - 150
+  - 140
   rules:
     q: ''
     dc: dž
@@ -82,16 +139,52 @@ cs:
     c: č
     i: y
     e: é
+# 拉脱维亚语
+lv:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-lv-LV-EveritaNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-lv-LV-NilsNeural
+  rates:
+  - 150
+  - 150
+  rules:
+    q: ''
+    dc: dž
+    xz: ž
+    x: š
+    w: u
+    c: č
+    i: y
+    e: e
+# 立陶宛语
+lt:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-lt-LT-LeonasNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-lt-LT-OnaNeural
+  rates:
+  - 180
+  - 180
+  rules:
+    q: ''
+    dc: dž
+    xz: ž
+    x: š
+    w: u
+    c: č
+    i: y
 # 波兰语
 pl:
   voices:
   - TokenEnums\RHVoice\Alicja
   - TokenEnums\RHVoice\Cezary
   - TokenEnums\RHVoice\Natan
+  - TokenEnums\NaturalVoiceEnumerator\Edge-pl-PL-MarekNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-pl-PL-ZofiaNeural
   rates:
   - 150
   - 150
   - 150
+  - 140
   rules:
     q: ''
     dc: dż
@@ -104,22 +197,101 @@ pl:
     vi: wi
     ve: we
     v: ł
-# 乌克兰语
-uk:
+# 匈牙利语
+hu:
   voices:
-  - TokenEnums\RHVoice\Anatol
-  - TokenEnums\RHVoice\Natalia
+  - TokenEnums\NaturalVoiceEnumerator\Edge-hu-HU-NoemiNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-hu-HU-TamasNeural
   rates:
   - 150
   - 150
   rules:
     q: ''
-    j: y
-    dc: dj
-    xz: j
-    x: sh
-    c: ch
-    w: y
+    s: sz
+    dc: dzs
+    xz: zs
+    x: s
+    y: ű
+    w: u
+    c: cs
+    a: á
+# 乌克兰语
+uk:
+  voices:
+  - TokenEnums\RHVoice\Anatol
+  - TokenEnums\RHVoice\Natalia
+  - TokenEnums\NaturalVoiceEnumerator\Edge-uk-UA-OstapNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-uk-UA-PolinaNeural
+  rates:
+  - 150
+  - 150
+  - 120
+  - 120
+  rules:
+    q: ''
+    dc: дж
+    xz: ж
+    x: ш
+    y: и
+    w: у
+    h: х
+    p: п
+    b: б
+    t: т
+    d: д
+    k: к
+    g: г
+    c: ч
+    j: й
+    s: с
+    z: з
+    f: ф
+    v: в
+    m: м
+    n: н
+    l: л
+    r: р
+    i: і
+    u: у
+    e: е
+    o: о
+    a: а
+# 保加利亚语
+bg:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-bg-BG-BorislavNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-bg-BG-KalinaNeural
+  rates:
+  - 150
+  rules:
+    q: ''
+    dc: дж
+    xz: ж
+    x: ш
+    y: и
+    w: ъ
+    h: х
+    p: п
+    b: б
+    t: т
+    d: д
+    k: к
+    g: г
+    c: ч
+    j: й
+    s: с
+    z: з
+    f: ф
+    v: в
+    m: м
+    n: н
+    l: л
+    r: р
+    i: и
+    u: у
+    e: е
+    o: о
+    a: а
 # 世界语
 eo:
   voices:
@@ -137,7 +309,11 @@ eo:
 sq:
   voices:
   - TokenEnums\RHVoice\Hana
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sq-AL-AnilaNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sq-AL-IlirNeural
   rates:
+  - 150
+  - 150
   - 150
   rules:
     nq: ng
@@ -165,13 +341,53 @@ tk:
     y: ü
     w: y
     v: w
+# 土耳其语
+tr:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-tr-TR-AhmetNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-tr-TR-EmelNeural
+  rates:
+  - 140
+  rules:
+    nq: n
+    q: ''
+    j: y
+    dc: c
+    xz: j
+    x: ş
+    c: ç
+    y: ü
+    w: ı
+# 阿塞拜疆语
+az:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-az-AZ-BabekNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-az-AZ-BanuNeural
+  rates:
+  - 150
+  - 150
+  rules:
+    nq: nğ
+    q: ''
+    j: i
+    dc: c
+    xz: j
+    x: ş
+    c: ç
+    y: ü
+    w: ı
+    g: q
 # 乌兹别克语
 uz:
   voices:
   - TokenEnums\RHVoice\Sevinch
   - TokenEnums\RHVoice\Islom
   - TokenEnums\RHVoice\Dilnavoz
+  - TokenEnums\NaturalVoiceEnumerator\Edge-uz-UZ-MadinaNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-uz-UZ-SardorNeural
   rates:
+  - 150
+  - 150
   - 150
   - 150
   - 150
@@ -199,14 +415,33 @@ ky:
   rules:
     nq: ң
     q: ''
-    j: y
-    dc: j
-    xz: j
-    x: sh
-    c: ch
+    dc: дж
+    xz: ж
+    x: ш
     y: ү
     w: ы
-    v: w
+    h: х
+    p: п
+    b: б
+    t: т
+    d: д
+    k: к
+    g: г
+    c: ч
+    j: й
+    s: с
+    z: з
+    f: ф
+    v: в
+    m: м
+    n: н
+    l: л
+    r: р
+    i: и
+    u: у
+    e: э
+    o: о
+    a: а
 # 鞑靼语
 tt:
   voices:
@@ -216,13 +451,120 @@ tt:
   rules:
     nq: ң
     q: ''
-    j: y
     dc: җ
     xz: ж
     x: ш
-    c: ч
     y: ү
     w: ы
+    h: х
+    p: п
+    b: б
+    t: т
+    d: д
+    k: к
+    g: г
+    c: ч
+    j: й
+    s: с
+    z: з
+    f: ф
+    v: в
+    m: м
+    n: н
+    l: л
+    r: р
+    i: и
+    u: у
+    e: э
+    o: о
+    a: а
+# 哈萨克语
+kk:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-kk-KZ-AigulNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-kk-KZ-DauletNeural
+  rates:
+  - 160
+  - 160
+  rules:
+    nq: ң
+    q: ''
+    dc: дж
+    xz: ж
+    x: ш
+    y: ү
+    w: ы
+    h: х
+    p: п
+    b: б
+    t: т
+    d: д
+    k: к
+    g: г
+    c: ч
+    j: й
+    s: с
+    z: з
+    f: ф
+    v: в
+    m: м
+    n: н
+    l: л
+    r: р
+    i: и
+    u: у
+    e: э
+    o: о
+    a: а
+# 祖鲁语
+zu:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-zu-ZA-ThandoNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-zu-ZA-ThembaNeural
+  rates:
+  - 150
+  - 150
+  rules:
+    nq: ng
+    q: ''
+    y: i
+    w: u
+    j: y
+    dc: j
+    c: tsh
+    xz: dl
+    x: sh
+    p: ph
+    t: th
+    k: kh
+    va: wa
+    vo: wo
+    vu: wu
+# 斯瓦希里语
+sw:
+  voices:
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-TZ-DaudiNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-TZ-RehemaNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-KE-RafikiNeural
+  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-KE-ZuriNeural
+  rates:
+  - 180
+  - 180
+  - 160
+  - 160
+  rules:
+    nq: ng'
+    q: ''
+    y: i
+    w: u
+    j: y
+    dc: j
+    c: ch
+    xz: zh
+    x: sh
+    va: wa
+    vo: wo
+    vu: wu
 # 格鲁吉亚语
 ka:
   voices:
@@ -234,7 +576,7 @@ ka:
   - 175
   - 175
   rules:
-    nq: ng
+    nq: ნღ
     dc: ჯ
     xz: ჟ
     q: ''
