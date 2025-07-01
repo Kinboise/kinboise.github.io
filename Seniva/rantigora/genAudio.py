@@ -1,10 +1,9 @@
 from senivatts import senivatts
 import os
 import yaml
-import asyncio
 # import subprocess as sp
 
-path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/') + '/' # 'Seniva/rantigora/'
+path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/') + '/' # 'Seniva/rantigora/' 
 
 with open(path + 'dic.yaml', 'r', encoding='utf-8') as g:
     dic = yaml.safe_load(g)

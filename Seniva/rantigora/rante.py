@@ -30,7 +30,7 @@ for line in db:
             else:
                 dic[i]['nt'] = match.group(2)
         elif note.group(1) == 'Ftnk':
-            ftnk = note.group(2)
+            ftnk = note.group(2).replace('.', '_.')
             fitenka = []
             ftnkn = ftnk.split('/')
             for ftnkj in ftnkn:
