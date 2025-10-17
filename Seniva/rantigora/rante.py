@@ -57,7 +57,7 @@ for line in db:
             dic[i]['Hnv1'] = hans
             dic[i]['Hnv3'] = hans
         elif note.group(1) == 'Hnv3':
-            dic[i]['Hnv3'] = note.group(2)
+            dic[i]['Hnv3'] = [note.group(2)]
     elif match.group(1) in dic[i]:
         dic[i][match.group(1)].append(match.group(2))
     else:

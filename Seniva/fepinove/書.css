@@ -1,0 +1,210 @@
+body {
+    font-family: Spectral, 'I.Ming', 'Noto Serif';;
+}
+
+@page {
+    /* size: B5; */
+    size: 182mm 257mm; /* JIS B5 */
+    margin: 2cm;
+    /* border: #00f 1px solid; */
+}
+
+main {
+    break-before: page;
+    page: content;
+    counter-reset: page 1;
+}
+
+/* .pagereset {
+    counter-set: page -12;
+} */
+
+/* @page content {
+    counter-increment: jepa;
+} */
+
+/* 奇数页页码右对齐 */
+@page content:right {
+    @bottom-right {
+        content: counter(page);
+        font-family: Spectral, 'I.Ming';
+        font-size: 12pt;
+    }
+}
+
+/* 偶数页页码左对齐 */
+@page content:left {
+    @bottom-left {
+        content: counter(page);
+        font-family: Spectral, 'I.Ming';
+        font-size: 12pt;
+    }
+}
+
+article {
+    break-before: page;
+}
+
+tr {
+    break-inside: avoid-page;
+}
+
+u {
+    text-decoration: none;
+    border: 0;
+    border-bottom: 0.5px solid;
+    border-image: linear-gradient(currentcolor, currentcolor) 1 0 / 1 0.1em;
+}
+
+h1 {
+    padding-left: 0.2em;
+    border-bottom: 2px solid;
+}
+
+h2 {
+    text-align: center;
+    line-height: 120%;
+    font-size: 16pt;
+    margin-top: 0.2em;
+}
+
+h2 .lat {
+    font-family: Inter;
+    word-spacing: 2pt;
+    font-weight: 600;
+    font-size: 14pt;
+    letter-spacing: 0.5pt;
+    font-feature-settings: 'tnum', 'cv05', 'cv08';
+}
+
+h2 .hnv, h1 .han {
+    font-family: Inter, Sarasa Gothic CL;
+}
+
+div.author {
+    text-align: center;
+    font-size: 12pt;
+    line-height: 1.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    break-before: avoid-page;
+    break-after: avoid-page;
+}
+
+section {
+    font-size: 12pt;
+}
+
+section .cell {
+    display: inline-table;
+    padding-right: 0.5em;
+    line-height: 1.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* .lat { */
+    /* font-family: Spectral, 'I.Ming'; */
+    /* margin-left: 0.1em; */
+/* } */
+
+.lat.els {
+    font-family: Elstob;
+    font-style: italic;
+}
+
+.ftnk {
+    font-family: Fitenkasunti, Spectral, 'I.Ming';
+}
+
+.hnv {
+    /* font-family: 'I.Ming'; */
+    font-family: Spectral, '寒蝉正楷体';
+    font-size: smaller;
+}
+
+div.han {
+    /* font-family: Spectral, 'I.Ming'; */
+    /* font-family: '寒蝉正楷体'; */
+    font-size: 10.5pt;
+    margin-bottom: 0.2em;
+}
+
+section {
+    widows: 2;
+    orphans: 2;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+h3.han {
+    text-align: center;
+    /* font-family: '寒蝉正楷体'; */
+    font-family: Spectral, '思源宋体 传统';
+    font-size: 12pt;
+    /* line-height: 0%; */
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.toc {
+    margin: 0 auto;
+    width: 100%;
+    /* border-bottom: 2px solid; */
+}
+
+.toc tr td {
+    padding: 0.5em;
+    vertical-align: top;
+}
+
+.tocb {
+    font-weight: bold;
+    font-size: larger;
+    line-height: 180%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.right {
+    text-align: right;
+}
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
+@media screen {
+    body {
+        color: #333f50;
+        background-color: #bfd3ca;
+    }
+    article {
+        padding: 2% 6%;
+        margin: 2%;
+        background-color: #dff3ea;
+        border-radius: 1em;
+        box-shadow: 0 2px 4px 1px #00000026;
+    }
+    .hidden {
+        display: none;
+    }
+    #首 {
+        background-color: #6f837a;
+        color: #ffffff;
+    }
+    #首 h1 span {
+        display: inline-block;
+    }
+}
