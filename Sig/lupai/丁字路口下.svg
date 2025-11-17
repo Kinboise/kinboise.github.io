@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        letter-spacing: .02em;
+      }
+
+      .cls-4 {
+        letter-spacing: .02em;
+      }
+
+      .cls-5 {
+        letter-spacing: .03em;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #2e3192;
+      }
+
+      .cls-11 {
+        font-size: 38px;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14 {
+        fill: #fff;
+      }
+
+      .cls-11, .cls-13, .cls-7, .cls-8 {
+        font-family: MiSans-Semibold, MiSans;
+        font-weight: 600;
+      }
+
+      .cls-15 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-16 {
+        letter-spacing: .02em;
+      }
+
+      .cls-17 {
+        letter-spacing: .03em;
+      }
+
+      .cls-18 {
+        letter-spacing: .01em;
+      }
+
+      .cls-13, .cls-8 {
+        font-size: 48px;
+      }
+
+      .cls-7, .cls-9 {
+        font-size: 30px;
+      }
+
+      .cls-19 {
+        letter-spacing: .02em;
+      }
+
+      .cls-20 {
+        letter-spacing: .02em;
+      }
+
+      .cls-21 {
+        letter-spacing: .02em;
+      }
+
+      .cls-14 {
+        font-size: 22px;
+      }
+
+      .cls-14, .cls-10 {
+        font-family: IBMPlexSansCond-SmBld, 'IBM Plex Sans Condensed';
+      }
+
+      .cls-22 {
+        letter-spacing: .03em;
+      }
+
+      .cls-23 {
+        letter-spacing: .02em;
+      }
+
+      .cls-24 {
+        letter-spacing: .02em;
+      }
+
+      .cls-25 {
+        letter-spacing: .03em;
+      }
+
+      .cls-26 {
+        letter-spacing: .01em;
+      }
+
+      .cls-27 {
+        letter-spacing: .01em;
+      }
+
+      .cls-28 {
+        letter-spacing: .02em;
+      }
+
+      .cls-29 {
+        letter-spacing: .01em;
+      }
+
+      .cls-30 {
+        letter-spacing: .01em;
+      }
+
+      .cls-9 {
+        font-family: IBMPlexSans-Bold, 'IBM Plex Sans';
+        font-weight: 700;
+        letter-spacing: .02em;
+      }
+
+      .cls-31 {
+        letter-spacing: .02em;
+      }
+
+      .cls-32 {
+        letter-spacing: .01em;
+      }
+
+      .cls-33 {
+        letter-spacing: 0em;
+      }
+
+      .cls-34 {
+        letter-spacing: .01em;
+      }
+
+      .cls-10 {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <g id="_底板" data-name="底板">
+    <rect class="cls-6" width="512" height="256"/>
+    <path class="cls-12" d="M502.55,7c1.35,0,2.45,1.1,2.45,2.45v237.11c0,1.35-1.1,2.45-2.45,2.45H9.45c-1.35,0-2.45-1.1-2.45-2.45V9.45c0-1.35,1.1-2.45,2.45-2.45h493.11M502.55,3H9.45c-3.56,0-6.45,2.89-6.45,6.45v237.11c0,3.56,2.89,6.45,6.45,6.45h493.11c3.56,0,6.45-2.89,6.45-6.45V9.45c0-3.56-2.89-6.45-6.45-6.45h0Z"/>
+    <rect class="cls-12" x="10" y="186" width="84" height="60"/>
+    <polyline class="cls-6" points="86 212 80.4 202 86 192 64 202"/>
+  </g>
+  <g id="_形状" data-name="形状">
+    <rect class="cls-12" x="250" y="146" width="12" height="40"/>
+    <rect class="cls-12" x="250" y="73" width="12" height="150" transform="translate(404 -108) rotate(90)"/>
+    <polyline class="cls-12" points="181 154 181 142 175 148"/>
+    <polyline class="cls-12" points="331 142 331 154 337 148"/>
+    <rect class="cls-12" x="302" y="85" width="200" height="50"/>
+    <rect class="cls-12" x="10" y="85" width="200" height="50"/>
+  </g>
+  <g id="_汉字" data-name="汉字">
+    <g id="_路口" data-name="路口">
+      <text class="cls-11" transform="translate(164.8 220.93) scale(.96 1)"><tspan x="0" y="0">泰来路西口</tspan></text>
+    </g>
+    <g id="_路名" data-name="路名">
+      <text class="cls-13" transform="translate(8 54.45)"><tspan x="0" y="0">菲珞寺东街</tspan></text>
+      <text class="cls-13" transform="translate(264 54.78)"><tspan x="0" y="0">北神树四条</tspan></text>
+    </g>
+    <g id="_白底" data-name="白底">
+      <text class="cls-7" transform="translate(10 112.56)"><tspan x="0" y="0">杉公庙</tspan></text>
+      <text class="cls-7" transform="translate(382 112.56)"><tspan x="0" y="0">商弦南站</tspan></text>
+    </g>
+    <g id="_方向" data-name="方向">
+      <text class="cls-8" transform="translate(13.27 232.89)"><tspan x="0" y="0">南</tspan></text>
+    </g>
+  </g>
+  <g id="_拉丁" data-name="拉丁">
+    <g id="_路名-2" data-name="路名">
+      <text class="cls-14" transform="translate(10 78.15)"><tspan class="cls-19" x="0" y="0">Filo</tspan><tspan class="cls-33" x="35.49" y="0">r</tspan><tspan class="cls-19" x="43.49" y="0">a:</tspan><tspan class="cls-1" x="61.56" y="0">k</tspan><tspan class="cls-28" x="72.97" y="0">e</tspan><tspan class="cls-27" x="84.44" y="0">f</tspan><tspan class="cls-28" x="91.91" y="0">omon</tspan><tspan class="cls-26" x="144.93" y="0">a</tspan><tspan class="cls-3" x="156.33" y="0">-</tspan><tspan class="cls-18" x="164.65" y="0">r</tspan><tspan class="cls-3" x="172.76" y="0">o</tspan><tspan class="cls-18" x="184.25" y="0">r</tspan><tspan class="cls-3" x="192.37" y="0">e:pu</tspan><tspan class="cls-34" x="234.78" y="0">t</tspan><tspan class="cls-3" x="242.41" y="0">o</tspan></text>
+      <text class="cls-14" transform="translate(271.71 78.15)"><tspan class="cls-15" x="0" y="0">F</tspan><tspan class="cls-30" x="11.2" y="0">o</tspan><tspan class="cls-19" x="22.57" y="0">fidevide</tspan><tspan class="cls-29" x="99.75" y="0">r</tspan><tspan class="cls-5" x="107.87" y="0">e</tspan><tspan class="cls-31" x="119.55" y="0">-</tspan><tspan class="cls-28" x="127.84" y="0">fana:balon</tspan></text>
+      <text class="cls-14" transform="translate(101.44 243.19)"><tspan class="cls-22" x="0" y="0">pojone </tspan><tspan class="cls-20" x="72.25" y="0">k</tspan><tspan class="cls-22" x="84.02" y="0">o</tspan><tspan class="cls-16" x="95.85" y="0">k</tspan><tspan class="cls-25" x="107.62" y="0">e a Dicijehisipe:pu</tspan><tspan class="cls-17" x="290" y="0">t</tspan><tspan class="cls-22" x="297.98" y="0">o</tspan></text>
+    </g>
+    <g id="_白底-2" data-name="白底">
+      <text class="cls-10" transform="translate(372.64 129.76)"><tspan class="cls-21" x="0" y="0">f</tspan><tspan class="cls-23" x="6.26" y="0">o</tspan><tspan class="cls-21" x="15.8" y="0">c</tspan><tspan class="cls-23" x="24.52" y="0">one Si</tspan><tspan class="cls-2" x="73.06" y="0">g</tspan><tspan class="cls-23" x="82.33" y="0">-pope</tspan></text>
+      <text class="cls-10" transform="translate(12 129.76)"><tspan class="cls-32" x="0" y="0">X</tspan><tspan class="cls-23" x="10.91" y="0">emiduxi</tspan><tspan class="cls-4" x="74.7" y="0">r</tspan><tspan class="cls-24" x="81.49" y="0">ojone</tspan></text>
+    </g>
+    <g id="_方向-2" data-name="方向">
+      <text class="cls-9" transform="translate(64.75 236.19)"><tspan x="0" y="0">P</tspan></text>
+      <rect class="cls-12" x="418" y="186" width="84" height="60" transform="translate(920 432) rotate(180)"/>
+      <polyline class="cls-6" points="426 212 431.6 202 426 192 448 202"/>
+      <text class="cls-8" transform="translate(450.73 232.89)"><tspan x="0" y="0">北</tspan></text>
+      <text class="cls-9" transform="translate(428.63 236.19)"><tspan x="0" y="0">F</tspan></text>
+    </g>
+  </g>
+</svg>

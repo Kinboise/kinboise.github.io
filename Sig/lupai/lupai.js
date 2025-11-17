@@ -200,6 +200,14 @@ const 形状 = {
     <path class="白" d="M146.66,185.75l-7.32-9.51c2.03-1.56,50.16-38.25,89.66-38.25v12c-35.46,0-81.88,35.4-82.34,35.75Z"/>
 </g>`,
 
+'丁字路口前':
+`<g id="形状">
+    <rect class="白" x="250" y="146" width="12" height="40"/>
+    <rect class="白" x="181" y="142" width="150" height="12"/>
+    <polyline class="白" points="181 154 181 142 175 148"/>
+    <polyline class="白" points="331 142 331 154 337 148"/>
+</g>`,
+
 '左长右短':
 `<g id="形状">
     <rect class="白" x="365" y="96" width="12" height="90"/>
@@ -216,6 +224,15 @@ const 形状 = {
     <polyline class="白" points="135 96 147 96 141 90"/>
     <polyline class="白" points="229 138 229 150 235 144"/>
     <polyline class="白" points="91 138 91 150 86 144"/>
+</g>`,
+
+'前短':
+`<g id="形状">
+    <rect class="白" x="250" y="126" width="12" height="60"/>
+    <rect class="白" x="181" y="142" width="150" height="12"/>
+    <polyline class="白" points="181 154 181 142 175 148"/>
+    <polyline class="白" points="331 142 331 154 337 148"/>
+    <polyline class="白" points="250 126 262 126 256 120" />
 </g>`,
 }
 const 隐藏 = '$1 style="display:none"'
@@ -320,7 +337,7 @@ const 填字区 = {
     <g class="路">
         <text class="前" transform="translate(330 80.15)">前路拉</text>
         <text class="左" transform="translate(10 165.15)">左路拉</text>
-        <text class="右" transform="translate(500 165.15)">右路拉</text>
+        <text class="右" transform="translate(502 165.15)">右路拉</text>
     </g>
     <g class="点TAMO">
         <text class="前" id="点前" transform="translate(342 66)">前点拉</text>
@@ -393,7 +410,7 @@ const 填字区 = {
     </g>
     <g class="路">
         <text class="前 居左" transform="translate(102 80.15)">前路拉</text>
-        <text class="右" transform="translate(500 165.15)">右路拉</text>
+        <text class="右" transform="translate(502 165.15)">右路拉</text>
     </g>
     <g class="点TAMO">
         <text class="前" id="点前" transform="translate(342 66)">前点拉</text>
@@ -403,7 +420,46 @@ const 填字区 = {
         <text transform="translate(74.5 60.19)">方向拉</text>
     </g>
 </g>`,
-            //@
+    '左右': `<rect class="白" x="10" y="186" width="84" height="60" />
+    <rect class="白" x="418" y="186" width="84" height="60" />
+    <polyline class="底TAMO" points="86 212 80.4 202 86 192 64 202"/>
+    <polyline class="底TAMO" points="426 212 431.6 202 426 192 448 202"/>
+    <rect class="白 点底左" x="10" y="85" width="200" height="51" />
+    <rect class="白 点底右" x="302" y="85" width="200" height="51" />
+<g class="汉">
+    <g class="口">
+        <text transform="translate(256 221)">本路口</text>
+    </g>
+    <g class="路">
+        <text class="左" transform="translate(8 54.5)">左路</text>
+        <text class="右" transform="translate(502 54.5)">右路</text>
+    </g>
+    <g class="点TAMO">
+        <text class="左" id="点左" transform="translate(10 112.5)">左点</text>
+        <text class="右" id="点右" transform="translate(502 112.5)">右点</text>
+    </g>
+    <g class="向TAMO">
+        <text transform="translate(37.27 232.89)">左方向</text>
+        <text transform="translate(474.73 232.89)">右方向</text>
+    </g>
+</g>
+<g class="拉">
+    <g class="口">
+        <text transform="translate(256 243.19)">本路口拉</text>
+    </g>
+    <g class="路">
+        <text class="左" transform="translate(10 78.15)">左路拉</text>
+        <text class="右" transform="translate(502 78.15)">右路拉</text>
+    </g>
+    <g class="点TAMO">
+        <text class="左" id="点左" transform="translate(12 130)">左点拉</text>
+        <text class="右" id="点右" transform="translate(500 130)">右点拉</text>
+    </g>
+    <g class="向TAMO">
+        <text transform="translate(74.59 236.19)">左方向拉</text>
+        <text transform="translate(437.41 236.19)">右方向拉</text>
+    </g>
+</g>`,
 }
 
 const 名牌模板 =
@@ -489,7 +545,16 @@ function 全修(单张, 排布) {
             单修('.汉 .点TAMO .右', 215)
             单修('.拉 .点TAMO .右', 213)
         case '左右':
-            //@
+            单修('.汉 .口 text', 316)
+            单修('.拉 .口 text', 314)
+            单修('.汉 .路 .左', 244)
+            单修('.拉 .路 .左', 242)
+            单修('.汉 .路 .右', 244)
+            单修('.拉 .路 .右', 242)
+            单修('.汉 .点TAMO .左', 198)
+            单修('.拉 .点TAMO .左', 196)
+            单修('.汉 .点TAMO .右', 198)
+            单修('.拉 .点TAMO .右', 196)
     }
     单张 = $('#预览').html()
     return 单张
@@ -581,12 +646,12 @@ function 生成() {
             var 排布 = '四向'
         }
         单张 = 单张.replace('<!--填字区-->', 填字区[排布])
-        单张 = 单张.replace('右方向',信息.方向词[(i+1)%4])
-        单张 = 单张.replace('左方向',信息.方向词[(i+3)%4])
-        单张 = 单张.replace('方向',信息.方向词[i])
-        单张 = 单张.replace('方向拉',信息.拉方向词[i])
         单张 = 单张.replace('右方向拉',信息.拉方向词[(i+1)%4])
         单张 = 单张.replace('左方向拉',信息.拉方向词[(i+3)%4])
+        单张 = 单张.replace('右方向',信息.方向词[(i+1)%4])
+        单张 = 单张.replace('左方向',信息.方向词[(i+3)%4])
+        单张 = 单张.replace('方向拉',信息.拉方向词[i])
+        单张 = 单张.replace('方向',信息.方向词[i])
 
         单张 = 单张.replace('<g id="形状"></g>',形状[信息.形[i]])
 
