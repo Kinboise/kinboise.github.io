@@ -30,11 +30,11 @@
     </style>
     <g transform="scale(0.25)">
     <rect width="560" height="200" />
-    <text x="0" y="70" class="qd">水滴公园</text>
-    <text x="280" y="80" class="lh">2-</text>
-    <text x="560" y="70" class="zd">㭜林坊西</text>
-    <text x="0" y="170" class="qd">㭜林坊西</text>
+    <text x="0" y="70" class="qd">莲寿河桥西</text>
+    <text x="280" y="80" class="lh">3-</text>
+    <text x="560" y="70" class="zd">张家井西</text>
+    <text x="0" y="170" class="qd">张家井西</text>
     <text x="280" y="180" class="lh">2+</text>
-    <text x="560" y="170" class="zd">水滴公园</text>
+    <text x="560" y="170" class="zd">莲寿河桥西</text>
     </g>
 </svg>

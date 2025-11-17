@@ -8,6 +8,26 @@ const 形状 = {
     <polyline class="白" points="301 138 301 150 307 144" />
 </g>`,
 
+'左高右低':
+`<g id="形状">
+    <rect class="白" x="250" y="96" width="12" height="90" />
+    <polyline class="白" points="250 96 262 96 256 90" />
+    <rect class="白" x="211" y="120" width="39" height="12" />
+    <rect class="白" x="262" y="138" width="39" height="12" />
+    <polyline class="白" points="211 132 211 120 205 126" />
+    <polyline class="白" points="301 138 301 150 307 144" />
+</g>`,
+
+'左低右高':
+`<g id="形状">
+    <rect class="白" x="250" y="96" width="12" height="90" />
+    <polyline class="白" points="250 96 262 96 256 90" />
+    <rect class="白" x="211" y="138" width="39" height="12" />
+    <rect class="白" x="262" y="120" width="39" height="12" />
+    <polyline class="白" points="211 150 211 138 205 144" />
+    <polyline class="白" points="301 120 301 132 307 126" />
+</g>`,
+
 '环岛':
 `<g id="形状">
 <rect class="白" x="250" y="96" width="12" height="90" />
