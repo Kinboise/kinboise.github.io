@@ -28,6 +28,26 @@ const 形状 = {
     <polyline class="白" points="301 120 301 132 307 126" />
 </g>`,
 
+'前路偏左':
+`<g id="形状">
+    <rect class="白" x="238" y="96" width="12" height="42" />
+    <rect class="白" x="250" y="150" width="12" height="36" />
+    <polyline class="白" points="238 96 250 96 244 90" />
+    <rect class="白" x="211" y="138" width="90" height="12" />
+    <polyline class="白" points="211 150 211 138 205 144" />
+    <polyline class="白" points="301 138 301 150 307 144" />
+</g>`,
+
+'前路偏右':
+`<g id="形状">
+    <rect class="白" x="262" y="96" width="12" height="42" />
+    <rect class="白" x="250" y="150" width="12" height="36" />
+    <polyline class="白" points="262 96 274 96 268 90" />
+    <rect class="白" x="211" y="138" width="90" height="12" />
+    <polyline class="白" points="211 150 211 138 205 144" />
+    <polyline class="白" points="301 138 301 150 307 144" />
+</g>`,
+
 '环岛':
 `<g id="形状">
 <rect class="白" x="250" y="96" width="12" height="90" />
@@ -135,6 +155,7 @@ const 形状 = {
     <path class="白" d="M278.9,157h-12v-18c0-1.6,0-5-9.9-5h-46v-12h46c19.8,0,21.9,11.9,21.9,17V157z"/>
     <rect x="240" y="96" class="白" width="12" height="24"/>
 </g>`,
+
 '菱形桥低上':
 `<g id="形状">
 <rect x="250" y="96" class="白" width="12" height="90"/>
@@ -148,6 +169,7 @@ const 形状 = {
 	c-4.8,3.3-18.1,12.7-22.4,16.7C273.3,169.7,264,181.4,260.8,185.6z"/>
 <rect x="264" y="138" class="白" width="37" height="12"/>
 </g>`,
+
 '菱形桥低下':
 `<g id="形状">
     <rect x="250" y="96" class="白" width="12" height="40"/>
@@ -160,6 +182,40 @@ const 形状 = {
     <path class="白" d="M260.8,185.6l-9.5-7.3c0.5-0.7,12.3-16,18.2-21.5c5.9-5.4,23-17.3,23.7-17.8l6.8,9.9
         c-4.8,3.3-18.1,12.7-22.4,16.7C273.3,169.7,264,181.4,260.8,185.6z"/>
     <rect x="250" y="152" class="白" width="12" height="34"/>
+</g>`,
+
+'丁字路口左':
+`<g id="形状">
+    <rect class="白" x="365" y="96" width="12" height="90"/>
+    <polyline class="白" points="377 96 365 96 371 90"/>
+    <polyline class="白" points="283 138 283 150 277 144"/>
+    <path class="白" d="M365.34,185.76c-.47-.36-46.94-35.76-82.34-35.76v-12c39.5,0,87.63,36.68,89.66,38.25l-7.32,9.51Z"/>
+</g>`,
+
+'丁字路口右':
+`<g id="形状">
+    <rect class="白" x="135" y="96" width="12" height="90"/>
+    <polyline class="白" points="135 96 147 96 141 90"/>
+    <polyline class="白" points="229 138 229 150 235 144"/>
+    <path class="白" d="M146.66,185.75l-7.32-9.51c2.03-1.56,50.16-38.25,89.66-38.25v12c-35.46,0-81.88,35.4-82.34,35.75Z"/>
+</g>`,
+
+'左长右短':
+`<g id="形状">
+    <rect class="白" x="365" y="96" width="12" height="90"/>
+    <rect class="白" x="283" y="138" width="138" height="12"/>
+    <polyline class="白" points="377 96 365 96 371 90"/>
+    <polyline class="白" points="283 138 283 150 277 144"/>
+    <polyline class="白" points="421 138 421 150 427 144"/>
+</g>`,
+
+'右长左短':
+`<g id="形状">
+    <rect class="白" x="135" y="96" width="12" height="90"/>
+    <rect class="白" x="91" y="138" width="138" height="12"/>
+    <polyline class="白" points="135 96 147 96 141 90"/>
+    <polyline class="白" points="229 138 229 150 235 144"/>
+    <polyline class="白" points="91 138 91 150 86 144"/>
 </g>`,
 }
 const 隐藏 = '$1 style="display:none"'
@@ -213,28 +269,40 @@ const svg模板 =
         .拉 .点TAMO {
             font-size: 18px;
         }
+        .居左 {
+            text-anchor: start !important;
+        }
+        .居中 {
+            text-anchor: middle !important;
+        }
+        .居右 {
+            text-anchor: end !important;
+        }
     </style>
 </defs>
 <g id="底板">
     <rect class="底TAMO" width="512" height="256" />
     <path class="白"
         d="M502.55,7A2.45,2.45,0,0,1,505,9.45v237.1a2.45,2.45,0,0,1-2.45,2.45H9.45A2.45,2.45,0,0,1,7,246.55V9.45A2.45,2.45,0,0,1,9.45,7h493.1m0-4H9.45A6.45,6.45,0,0,0,3,9.45v237.1A6.45,6.45,0,0,0,9.45,253h493.1a6.45,6.45,0,0,0,6.45-6.45V9.45A6.45,6.45,0,0,0,502.55,3Z" />
-    <rect class="白" x="10" y="10" width="84" height="60" />
+</g>
+<g id="形状"></g>
+<!--填字区-->
+</svg>`
+
+const 填字区 = {
+    '四向': `<rect class="白" x="10" y="10" width="84" height="60" />
     <polyline class="底TAMO" points="65 37 75 31.4 85 37 75 15" />
     <rect class="白 点底右" x="339" y="172" width="163" height="51" />
     <rect class="白 点底左" x="10" y="172" width="163" height="51" />
     <rect class="白 点底前" x="339" y="20" width="163" height="51" />
-</g>
-<g id="形状"></g>
-<!--填字区-->
 <g class="汉">
     <g class="口">
         <text transform="translate(256 221)">本路口</text>
     </g>
     <g class="路">
-        <text class="前" transform="translate(332 56.89)">前路</text>
-        <text class="左" transform="translate(8 141.45)">左路</text>
-        <text class="右" transform="translate(502 141.78)">右路</text>
+        <text class="前" transform="translate(332 57)">前路</text>
+        <text class="左" transform="translate(8 141.5)">左路</text>
+        <text class="右" transform="translate(502 141.5)">右路</text>
     </g>
     <g class="点TAMO">
         <text class="前" id="点前" transform="translate(340 47)">前点</text>
@@ -262,8 +330,81 @@ const svg模板 =
     <g class="向TAMO">
         <text transform="translate(74.5 60.19)">方向拉</text>
     </g>
+</g>`,
+    '前左': `<rect class="白" x="10" y="10" width="84" height="60" />
+    <polyline class="底TAMO" points="65 37 75 31.4 85 37 75 15" />
+    <rect class="白 点底左" x="10" y="172" width="216" height="51" />
+    <rect class="白 点底前" x="102" y="20" width="148" height="51" />
+<g class="汉">
+    <g class="口">
+        <text transform="translate(360 221)">本路口</text>
+    </g>
+    <g class="路">
+        <text class="前 居中" transform="translate(376 57)">前路</text>
+        <text class="左" transform="translate(10 141.5)">左路</text>
+    </g>
+    <g class="点TAMO">
+        <text class="前 居右" id="点前" transform="translate(248 47)">前点</text>
+        <text class="左" id="点左" transform="translate(12 199)">左点</text>
+    </g>
+    <g class="向TAMO">
+        <text transform="translate(37 56.89)">方向</text>
+    </g>
 </g>
-</svg>`
+<g class="拉">
+    <g class="口">
+        <text transform="translate(360 243.19)">本路口拉</text>
+    </g>
+    <g class="路">
+        <text class="前 居中" transform="translate(376 80.15)">前路拉</text>
+        <text class="左" transform="translate(10 165.15)">左路拉</text>
+    </g>
+    <g class="点TAMO">
+        <text class="前 居右" id="点前" transform="translate(248 66)">前点拉</text>
+        <text class="左" id="点左" transform="translate(12 218)">左点拉</text>
+    </g>
+    <g class="向TAMO">
+        <text transform="translate(74.5 60.19)">方向拉</text>
+    </g>
+</g>`,
+    '前右': `<rect class="白" x="10" y="10" width="84" height="60" />
+    <polyline class="底TAMO" points="65 37 75 31.4 85 37 75 15" />
+    <rect class="白 点底右" x="286" y="172" width="216" height="51" />
+    <rect class="白 点底前" x="339" y="20" width="163" height="51" />
+<g class="汉">
+    <g class="口">
+        <text transform="translate(142 221)">本路口</text>
+    </g>
+    <g class="路">
+        <text class="前 居左" transform="translate(98 57)">前路</text>
+        <text class="右" transform="translate(502 141.5)">右路</text>
+    </g>
+    <g class="点TAMO">
+        <text class="前" id="点前" transform="translate(340 47)">前点</text>
+        <text class="右" id="点右" transform="translate(502 199)">右点</text>
+    </g>
+    <g class="向TAMO">
+        <text transform="translate(37 56.89)">方向</text>
+    </g>
+</g>
+<g class="拉">
+    <g class="口">
+        <text transform="translate(142 243.19)">本路口拉</text>
+    </g>
+    <g class="路">
+        <text class="前 居左" transform="translate(102 80.15)">前路拉</text>
+        <text class="右" transform="translate(500 165.15)">右路拉</text>
+    </g>
+    <g class="点TAMO">
+        <text class="前" id="点前" transform="translate(342 66)">前点拉</text>
+        <text class="右" id="点右" transform="translate(500 218)">右点拉</text>
+    </g>
+    <g class="向TAMO">
+        <text transform="translate(74.5 60.19)">方向拉</text>
+    </g>
+</g>`,
+            //@
+}
 
 const 名牌模板 =
 `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128">
@@ -310,21 +451,46 @@ function 单修(选择器, 最长) {
         $(选择器).attr('transform', $(选择器).attr('transform')+ 'scale(' + 倍数 + ' 1)')
     }
 }
-function 全修(单张) {
+function 全修(单张, 排布) {
     $('#预览').html(单张)
-    单修('.汉 .口 text', 156)
-    单修('.汉 .路 .前 ', 232)
-    单修('.汉 .路 .左', 192)
-    单修('.汉 .路 .右', 192)
-    单修('.拉 .路 .前 ', 230)
-    单修('.拉 .路 .左', 205)
-    单修('.拉 .路 .右', 200)
-    单修('.汉 .点TAMO .前 ', 162)
-    单修('.汉 .点TAMO .左', 162)
-    单修('.汉 .点TAMO .右', 162)
-    单修('.拉 .点TAMO .前 ', 160)
-    单修('.拉 .点TAMO .左', 160)
-    单修('.拉 .点TAMO .右', 160)
+    switch (排布) {
+        case '四向':
+            单修('.汉 .口 text', 156)
+            单修('.汉 .路 .前 ', 232)
+            单修('.汉 .路 .左', 192)
+            单修('.汉 .路 .右', 192)
+            单修('.拉 .路 .前 ', 230)
+            单修('.拉 .路 .左', 205)
+            单修('.拉 .路 .右', 200)
+            单修('.汉 .点TAMO .前 ', 162)
+            单修('.汉 .点TAMO .左', 162)
+            单修('.汉 .点TAMO .右', 162)
+            单修('.拉 .点TAMO .前 ', 160)
+            单修('.拉 .点TAMO .左', 160)
+            单修('.拉 .点TAMO .右', 160)
+        case '前左':
+            单修('.汉 .口 text', 270)
+            单修('.汉 .路 .前 ', 240)
+            单修('.拉 .路 .前 ', 238)
+            单修('.汉 .路 .左', 260)
+            单修('.拉 .路 .左', 258)
+            单修('.汉 .点TAMO .前 ', 144)
+            单修('.拉 .点TAMO .前 ', 142)
+            单修('.汉 .点TAMO .左', 215)
+            单修('.拉 .点TAMO .左', 213)
+        case '前右':
+            单修('.汉 .口 text', 270)
+            单修('.汉 .路 .前 ', 240)
+            单修('.拉 .路 .前 ', 238)
+            单修('.汉 .路 .右', 260)
+            单修('.拉 .路 .右', 258)
+            单修('.汉 .点TAMO .前 ', 162)
+            单修('.拉 .点TAMO .前 ', 160)
+            单修('.汉 .点TAMO .右', 215)
+            单修('.拉 .点TAMO .右', 213)
+        case '左右':
+            //@
+    }
     单张 = $('#预览').html()
     return 单张
 }
@@ -405,8 +571,22 @@ function 生成() {
         var 单张 = svg模板
         单张 = 单张.replace('#ffffff', 信息.前景)
         单张 = 单张.replace('#2e3192',信息.背景)
+        if (信息.形[i] == '丁字路口左' || 信息.形[i] == '左长右短') {
+            var 排布 = '前左'
+        } else if (信息.形[i] == '丁字路口右' || 信息.形[i] == '右长左短') {
+            var 排布 = '前右'
+        } else if (信息.形[i] == '丁字路口前' || 信息.形[i] == '前短' || 信息.形[i] == '三岔路口') {
+            var 排布 = '左右'
+        } else {
+            var 排布 = '四向'
+        }
+        单张 = 单张.replace('<!--填字区-->', 填字区[排布])
+        单张 = 单张.replace('右方向',信息.方向词[(i+1)%4])
+        单张 = 单张.replace('左方向',信息.方向词[(i+3)%4])
         单张 = 单张.replace('方向',信息.方向词[i])
         单张 = 单张.replace('方向拉',信息.拉方向词[i])
+        单张 = 单张.replace('右方向拉',信息.拉方向词[(i+1)%4])
+        单张 = 单张.replace('左方向拉',信息.拉方向词[(i+3)%4])
 
         单张 = 单张.replace('<g id="形状"></g>',形状[信息.形[i]])
 
@@ -456,7 +636,7 @@ function 生成() {
         单张 = 单张.replace('左点拉',信息.拉点[(i+3)%4])
         单张 = 单张.replace('右点拉',信息.拉点[(i+1)%4])
 
-        单张 = 全修(单张)
+        单张 = 全修(单张, 排布)
         单张 = 单张.replace(/TAMO/g,i)
         结果.push(单张)
 
