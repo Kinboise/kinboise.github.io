@@ -322,15 +322,6 @@ const svg模板 =
             font-weight: 700;
         }
         /*不变区*/
-        .口, .向TAMO {
-            text-anchor: middle;
-        }
-        .路 .前, .右 {
-            text-anchor: end;
-        }
-        .点TAMO .前, .左 {
-            text-anchor: start;
-        }
         .汉 .路, .汉 .向TAMO {
             font-size: 48px;
         }
@@ -347,13 +338,13 @@ const svg模板 =
             font-size: 18px;
         }
         .居左 {
-            text-anchor: start !important;
+            text-anchor: start;
         }
         .居中 {
-            text-anchor: middle !important;
+            text-anchor: middle;
         }
         .居右 {
-            text-anchor: end !important;
+            text-anchor: end;
         }
     </style>
 </defs>
@@ -373,38 +364,38 @@ const 填字区 = {
     <rect class="白 点底左" x="10" y="172" width="163" height="51" />
     <rect class="白 点底前" x="339" y="20" width="163" height="51" />
 <g class="汉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(256 221)">本路口</text>
     </g>
     <g class="路">
-        <text class="前" transform="translate(332 57)">前路</text>
-        <text class="左" transform="translate(8 141.5)">左路</text>
-        <text class="右" transform="translate(502 141.5)">右路</text>
+        <text class="前 居右" transform="translate(332 57)">前路</text>
+        <text class="左 居左" transform="translate(8 141.5)">左路</text>
+        <text class="右 居右" transform="translate(502 141.5)">右路</text>
     </g>
     <g class="点TAMO">
-        <text class="前" id="点前" transform="translate(340 47)">前点</text>
-        <text class="左" id="点左" transform="translate(10 199)">左点</text>
-        <text class="右" id="点右" transform="translate(502 199)">右点</text>
+        <text class="前 居左" id="点前" transform="translate(340 47)">前点</text>
+        <text class="左 居左" id="点左" transform="translate(10 199)">左点</text>
+        <text class="右 居右" id="点右" transform="translate(502 199)">右点</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(37 56.89)">方向</text>
     </g>
 </g>
 <g class="拉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(256 243.19)">本路口拉</text>
     </g>
     <g class="路">
-        <text class="前" transform="translate(330 80.15)">前路拉</text>
-        <text class="左" transform="translate(10 165.15)">左路拉</text>
-        <text class="右" transform="translate(502 165.15)">右路拉</text>
+        <text class="前 居右" transform="translate(330 80.15)">前路拉</text>
+        <text class="左 居左" transform="translate(10 165.15)">左路拉</text>
+        <text class="右 居右" transform="translate(502 165.15)">右路拉</text>
     </g>
     <g class="点TAMO">
-        <text class="前" id="点前" transform="translate(342 66)">前点拉</text>
-        <text class="左" id="点左" transform="translate(12 218)">左点拉</text>
-        <text class="右" id="点右" transform="translate(500 218)">右点拉</text>
+        <text class="前 居左" id="点前" transform="translate(342 66)">前点拉</text>
+        <text class="左 居左" id="点左" transform="translate(12 218)">左点拉</text>
+        <text class="右 居右" id="点右" transform="translate(500 218)">右点拉</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(74.5 60.19)">方向拉</text>
     </g>
 </g>`,
@@ -413,34 +404,34 @@ const 填字区 = {
     <rect class="白 点底左" x="10" y="172" width="216" height="51" />
     <rect class="白 点底前" x="102" y="20" width="148" height="51" />
 <g class="汉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(360 221)">本路口</text>
     </g>
     <g class="路">
         <text class="前 居中" transform="translate(376 57)">前路</text>
-        <text class="左" transform="translate(10 141.5)">左路</text>
+        <text class="左 居左" transform="translate(10 141.5)">左路</text>
     </g>
     <g class="点TAMO">
         <text class="前 居右" id="点前" transform="translate(248 47)">前点</text>
-        <text class="左" id="点左" transform="translate(12 199)">左点</text>
+        <text class="左 居左" id="点左" transform="translate(12 199)">左点</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(37 56.89)">方向</text>
     </g>
 </g>
 <g class="拉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(360 243.19)">本路口拉</text>
     </g>
     <g class="路">
         <text class="前 居中" transform="translate(376 80.15)">前路拉</text>
-        <text class="左" transform="translate(10 165.15)">左路拉</text>
+        <text class="左 居左" transform="translate(10 165.15)">左路拉</text>
     </g>
     <g class="点TAMO">
         <text class="前 居右" id="点前" transform="translate(248 66)">前点拉</text>
-        <text class="左" id="点左" transform="translate(12 218)">左点拉</text>
+        <text class="左 居左" id="点左" transform="translate(12 218)">左点拉</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(74.5 60.19)">方向拉</text>
     </g>
 </g>`,
@@ -449,34 +440,34 @@ const 填字区 = {
     <rect class="白 点底右" x="286" y="172" width="216" height="51" />
     <rect class="白 点底前" x="339" y="20" width="163" height="51" />
 <g class="汉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(142 221)">本路口</text>
     </g>
     <g class="路">
         <text class="前 居左" transform="translate(98 57)">前路</text>
-        <text class="右" transform="translate(502 141.5)">右路</text>
+        <text class="右 居右" transform="translate(502 141.5)">右路</text>
     </g>
     <g class="点TAMO">
-        <text class="前" id="点前" transform="translate(340 47)">前点</text>
-        <text class="右" id="点右" transform="translate(502 199)">右点</text>
+        <text class="前 居左" id="点前" transform="translate(340 47)">前点</text>
+        <text class="右 居右" id="点右" transform="translate(502 199)">右点</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(37 56.89)">方向</text>
     </g>
 </g>
 <g class="拉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(142 243.19)">本路口拉</text>
     </g>
     <g class="路">
         <text class="前 居左" transform="translate(102 80.15)">前路拉</text>
-        <text class="右" transform="translate(502 165.15)">右路拉</text>
+        <text class="右 居右" transform="translate(502 165.15)">右路拉</text>
     </g>
     <g class="点TAMO">
-        <text class="前" id="点前" transform="translate(342 66)">前点拉</text>
-        <text class="右" id="点右" transform="translate(500 218)">右点拉</text>
+        <text class="前 居左" id="点前" transform="translate(342 66)">前点拉</text>
+        <text class="右 居右" id="点右" transform="translate(500 218)">右点拉</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(74.5 60.19)">方向拉</text>
     </g>
 </g>`,
@@ -487,35 +478,35 @@ const 填字区 = {
     <rect class="白 点底左" x="10" y="85" width="200" height="51" />
     <rect class="白 点底右" x="302" y="85" width="200" height="51" />
 <g class="汉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(256 221)">本路口</text>
     </g>
     <g class="路">
-        <text class="左" transform="translate(8 54.5)">左路</text>
-        <text class="右" transform="translate(502 54.5)">右路</text>
+        <text class="左 居左" transform="translate(8 54.5)">左路</text>
+        <text class="右 居右" transform="translate(502 54.5)">右路</text>
     </g>
     <g class="点TAMO">
-        <text class="左" id="点左" transform="translate(10 112.5)">左点</text>
-        <text class="右" id="点右" transform="translate(502 112.5)">右点</text>
+        <text class="左 居左" id="点左" transform="translate(10 112.5)">左点</text>
+        <text class="右 居右" id="点右" transform="translate(502 112.5)">右点</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(37.27 232.89)">左方向</text>
         <text transform="translate(474.73 232.89)">右方向</text>
     </g>
 </g>
 <g class="拉">
-    <g class="口">
+    <g class="口 居中">
         <text transform="translate(256 243.19)">本路口拉</text>
     </g>
     <g class="路">
-        <text class="左" transform="translate(10 78.15)">左路拉</text>
-        <text class="右" transform="translate(502 78.15)">右路拉</text>
+        <text class="左 居左" transform="translate(10 78.15)">左路拉</text>
+        <text class="右 居右" transform="translate(502 78.15)">右路拉</text>
     </g>
     <g class="点TAMO">
-        <text class="左" id="点左" transform="translate(12 130)">左点拉</text>
-        <text class="右" id="点右" transform="translate(500 130)">右点拉</text>
+        <text class="左 居左" id="点左" transform="translate(12 130)">左点拉</text>
+        <text class="右 居右" id="点右" transform="translate(500 130)">右点拉</text>
     </g>
-    <g class="向TAMO">
+    <g class="向TAMO 居中">
         <text transform="translate(74.59 236.19)">左方向拉</text>
         <text transform="translate(437.41 236.19)">右方向拉</text>
     </g>
@@ -572,6 +563,7 @@ function 全修(单张, 排布) {
     switch (排布) {
         case '四向':
             单修('.汉 .口 text', 156)
+            单修('.拉 .口 text', 496)
             单修('.汉 .路 .前 ', 232)
             单修('.汉 .路 .左', 192)
             单修('.汉 .路 .右', 192)
@@ -587,6 +579,7 @@ function 全修(单张, 排布) {
             break
         case '前左':
             单修('.汉 .口 text', 270)
+            单修('.拉 .口 text', 288)
             单修('.汉 .路 .前 ', 240)
             单修('.拉 .路 .前 ', 238)
             单修('.汉 .路 .左', 260)
@@ -598,6 +591,7 @@ function 全修(单张, 排布) {
             break
         case '前右':
             单修('.汉 .口 text', 270)
+            单修('.拉 .口 text', 270)
             单修('.汉 .路 .前 ', 240)
             单修('.拉 .路 .前 ', 238)
             单修('.汉 .路 .右', 260)
