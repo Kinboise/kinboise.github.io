@@ -1,0 +1,195 @@
+之,os,bu,异
+其,is,gi,异
+成立,tonxe,tynce,北
+工作,pente,pendat,北
+我,lo,doc
+你,xen,jed,北异
+他,in,gi,异
+我（尊称）,laxin,doc lido>dolid,异
+您,xenli,jed lido > jenlid,北
+他,taxi,?
+她,imli,?
+时间,toe,tobe
+地点,kinte,kindak,北
+原因,ken,ken
+大,xati,cati
+小,hinpo,sinpu
+美味,lotali'e
+我们,la'e
+你们,xen'e
+他们,in'e
+等,os'e
+甚么,an
+纸,kanla,kandol
+东西，事情,cihonci
+书,lonkoni
+眼,kexe
+耳,koho
+鼻,xiinki
+吃,hanxo
+手,paaste
+全,isxon,gidung
+红,poa
+绿,pinhi
+蓝,panta
+黄,xana
+紫,piki
+橙,poke
+白,xaho
+黑,haho
+灰,hean
+悄悄话,hapa
+桌,henpe
+椅,xanxon
+胜利,lanxo
+语言,osxan
+你好,ene
+谢谢,lin'am
+对不起,helen'an
+再见,hian
+淡水,panxo
+猫,xintei
+狗,honta
+长官,hake
+部门,xahonke
+人,penho
+人类，人民,konpon
+鸟,poxa
+鱼,ponam
+这,xonin
+那,lenin
+不，否,omos
+洗,lieki
+知道,tahi
+孩子,kota
+敢,lonxi
+年,ia
+月,tini
+旬,pihe
+日，天,panhe
+牌,loton
+时,ashanen
+分,panle
+秒,ikan
+会议,lixa
+论坛，贴吧,popon
+伟大,tonxin
+重要,xinton
+气,panon
+笔,loxan
+盒子,kanhan
+袋,ante
+土地，陆地,lonli
+棋,xelenam
+天,honton
+星球,inkenpon
+丢失的,toha
+火,xanko
+记忆,kinla
+喜欢,ike,bisel,异
+店,xilelan
+代表,henpi
+上,poxo
+下,kohan
+左,pexo
+右,tano
+前,kipe
+后,loto
+早,xeli
+晚,konxi
+北,kanta
+南,wapa
+西,koki
+东,konte
+歌,kete
+深,haxe
+浅,tinen
+等级,ponka
+外,paxo
+色,epin
+音节,itipo
+声音,petehen
+学习,kanko
+追逐,pinto
+联合国,astinkanlin
+太阳，日,xeim,calik,异
+回响,penpe
+岛,poniten
+立准,paete
+中华,tonhepa
+老,hinko
+代，辈,onini
+年轻,xewate
+海水,oxen,bulenp
+美丽,lita,lital
+咀嚼,cixe,cibak
+墙,hinlalan,sindos lang
+酒,onxanpon,qonbynd pu
+香,xona,conqal
+指小后缀,po,pu
+指大后缀,lan,lang
+村,hinhipo,synsid pu
+花,li'pen,lipenc
+形容词后缀，时,tan,tanb
+短,lanhi,langib
+形容词后缀，样,ko,kul
+开,honki,gynki,北
+动物,paxan,padang
+数数,kanenci,ka-bendic
+手指,potenpo,puten pu
+动词后缀,tin,tin
+家,kotin,ku tin
+眼珠,ontanpo,quntan
+泪,enki,benkic
+脸,lanpo,lanpa pu
+部落,hiton,gidung,北
+杀,li'citin,dip dip tin
+复杂,o'xoko,gop gop kul
+后背,xaxalan,saso lang
+搅,kae,kabe
+湿,li'hon,lisunt
+美,hinhi'ti,singil tet
+坏,exa,beco
+风,ka'toxi,katus bu big
+黑暗,ho'kitan,sukys tanb
+湿,hoxantan,sudang
+旅,imlo,jinlub
+永远,potatan,putaj
+里边,loka,luj kogas
+地名后缀,ka,kogas
+枯,lan'om,dynsunt
+木,loki,dukeb
+徘徊,honkohonko,sunku sunku
+找,ian,bygang
+处,kili,kili
+温,tiko,tikus
+哭,ciki,cikic
+心,kois,kojit
+陷,oxon,gudung
+爱,kinha,kinsas
+真,hanxon,syncunk
+适,ohi,gosy
+前,xixin,cedind
+决定,kaxo,kacul
+悲,lanhan,dansynb
+可爱,linpokoan
+活泼,anompa
+系,xo,cul
+仍,kanli,kandy
+快乐,hixa,sibaj
+藏品，仓库,lanka,dynkyt
+秘密,lanka'e,dynkyt
+房子,tanka,tankaj,异
+强壮,okan,bukanp
+健康,xokan,bukanp,北
+可触及的，能力,tan'e,tynp
+自己,lenta,dental
+远,ponsun
+再见,ponsun cyl
+思绪,likan,lekanb
+冰,anlan,ganlons
+新的,hinwa,sinbal
+云,anpan,ganpang
+嫩的，新鲜的,honi,sunji
+富有,lanxi,danci
+首领,hinlia,syndonb ligo
