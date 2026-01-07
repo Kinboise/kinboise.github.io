@@ -184,8 +184,6 @@
 健康,xokan,bukanp,北
 可触及的，能力,tan'e,tynp
 自己,lenta,dental
-远,ponsun
-再见,ponsun cyl
 思绪,likan,lekanb
 冰,anlan,ganlons
 新的,hinwa,sinbal
