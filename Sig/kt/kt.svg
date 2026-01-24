@@ -224,7 +224,7 @@
                 gu noviz
             </text>
             <text class="日期 右" y="980" x="880">
-                    2025.8.31
+                    2026.1.24
             </text>
         </g>
         <g id="图">
@@ -277,9 +277,19 @@
                 <text class="站号" transform="translate(0,5.4)">
                     1-06
                 </text>
-                <text class="站名 中" transform="translate(2.5,-25)">
+                <text class="站名 中" transform="translate(2.5,28)">
                     <tspan>北苔庄</tspan>
                     <tspan class="拉" x="0" dy="12">Fofirezicigusta</tspan>
+                </text>
+            </g>
+            <g class="线1" id="站1-05" transform="translate(584,28)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    1-05
+                </text>
+                <text class="站名 中" transform="translate(2.5,-25)">
+                    <tspan>静阳台</tspan>
+                    <tspan class="拉" x="0" dy="12">Naglasinitihila</tspan>
                 </text>
             </g>
             <g class="线1" id="站1-03" transform="translate(512,160)">
