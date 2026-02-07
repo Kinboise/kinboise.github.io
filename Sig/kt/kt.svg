@@ -224,7 +224,7 @@
                 gu noviz
             </text>
             <text class="日期 右" y="980" x="880">
-                    2026.2.1
+                    2026.2.7
             </text>
         </g>
         <g id="图">
@@ -742,12 +742,22 @@
                     <tspan class="拉" x="0" dy="12">Akakijovizugilubo</tspan>
                 </text>
             </g>
+            <g class="线7" id="站7+04" transform="translate(764,720)">
+                <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
+                <text class="站号" transform="translate(0,5.4)">
+                    7+04
+                </text>
+                <text class="站名 中" transform="translate(2.5,28)">
+                    <tspan>旧直川</tspan>
+                    <tspan class="拉" x="0" dy="12">Padilamifosa</tspan>
+                </text>
+            </g>
             <g class="线7" id="站7+05" transform="translate(830,750)">
                 <rect class="站" transform="translate(-18,-9)" width="36" height="18" rx="6" />
                 <text class="站号" transform="translate(0,5.4)">
                     7+05
                 </text>
-                <text class="站名 右" transform="translate(-20,2)">
+                <text class="站名" transform="translate(20,2)">
                     <tspan>荧烽桩</tspan>
                     <tspan class="拉" x="0" dy="12">ganda Posicifilihora</tspan>
                 </text>
