@@ -9,9 +9,19 @@ h1 {
     font-size: xx-large;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 section {
     font-family: var(--fserif);
     margin-bottom: 1em;
+    order: 2;
+}
+
+section.exact {
+    order: 1;
 }
 
 .label {

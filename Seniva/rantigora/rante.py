@@ -72,9 +72,7 @@ with open(path + 'dic.yaml', 'w', encoding='utf-8') as g:
 
 section = '''    <section id="{lat}">
         <div class="label">{lat}</div>
-        <span class="search">
-            {search}
-        </span>
+        <span class="search">{search}</span>
         <div class="card lab">
             <div class="ort">
                 <span class="pnst">{pnst}</span> /

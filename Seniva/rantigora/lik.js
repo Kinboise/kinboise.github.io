@@ -2,12 +2,17 @@ function lik() {
     var kw = document.getElementById('keyword').value
     var list = document.getElementsByTagName('section')
     for (var i in list) {
+        list[i].removeAttribute('class')
         var word = list[i].getElementsByClassName('search')[0].innerHTML
-        var hidden = (list[i].classList.length == 1)
-        if (word.includes(kw) && hidden) {
-            list[i].removeAttribute('class')
-        }
-        if (!word.includes(kw) && !hidden) {
+        var words = word.split(';')
+        if (word.includes(kw)) {
+            for (var j in words) {
+                if (words[j] == kw) {
+                    list[i].setAttribute('class', 'exact')
+                    break
+                }
+            }
+        } else {
             list[i].setAttribute('class', 'hidden')
         }
     }
