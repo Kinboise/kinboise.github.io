@@ -1,5 +1,7 @@
+@import url('../../css/pajne.css');
+
 body {
-    font-family: Spectral, 'I.Ming', 'Noto Serif';;
+    font-family: Spectral, 'I.Ming', 'Noto Serif';
 }
 
 @page {
