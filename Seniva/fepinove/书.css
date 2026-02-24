@@ -37,9 +37,9 @@ h2 .hnv, h1 .han {
 }
 
 .hnv {
-    font-family: Spectral, '文鼎ＰＬ简中楷', '方正楷体_GBK';
+    font-family: Spectral, '文鼎ＰＬ简中楷', '方正楷体_GBK', '寒蝉正楷体';
     font-size: smaller;
-    letter-spacing: -0.1pt;
+    letter-spacing: -0.12pt;
 }
 
 div.han {
