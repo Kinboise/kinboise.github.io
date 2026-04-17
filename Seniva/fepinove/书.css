@@ -27,6 +27,10 @@ h2 .hnv, h1 .han {
     letter-spacing: 0;
 }
 
+h2 .ftnk, h1 .ftnk {
+    font-family: Fitenkahejti, Inter, 思源黑体;
+}
+
 /* .lat { */
     /* font-family: Spectral, '方正书宋_GBK', '思源宋体'; */
     /* margin-left: 0.1em; */

@@ -42,6 +42,12 @@
 	src: local('Fitenkasunti'), url('../pajne/Fitenkasunti.woff2');
 }
 
+/* 特正文黑体 SPUA-A */
+@font-face {
+	font-family: 'Fitenhejti';
+	src: local('Fitenhejti'), url('../pajne/Fitenhejti.woff2')
+}
+
 /* 特正文手写 SPUA-A */
 @font-face {
 	font-family: 'Fitenkajti';

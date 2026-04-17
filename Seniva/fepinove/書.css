@@ -83,6 +83,10 @@ h2 .hnv, h1 .han {
     font-family: Inter, Sarasa Gothic CL;
 }
 
+h2 .ftnk, h1 .ftnk {
+    font-family: Fitenkahejti, Inter, Sarasa Gothic CL;
+}
+
 div.author {
     text-align: center;
     font-size: 12pt;
