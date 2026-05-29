@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>溪那陀语词典</title>
+    <link rel="stylesheet" href="../../css/pajne.css">
+    <link rel="stylesheet" href="../../Seniva/stylesheet.css">
+    <style>
+        .box {
+            margin-top: 8px;
+        }
+        .flexcard {
+            margin: auto;
+            width: fit-content;
+            margin-left: 4px;
+            margin-right: 4px;
+            margin-bottom: 8px;
+            box-sizing: border-box;
+            text-align: left;
+        }
+        .cin {
+            padding: 6px;
+            writing-mode: vertical-lr;
+            text-orientation: sideways;
+            -webkit-border-top-right-radius: 0px;
+            -moz-border-top-right-radius: 0px;
+            border-top-right-radius: 0px;
+            -webkit-border-bottom-left-radius: 4px;
+            -moz-border-bottom-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+        .half {
+            -webkit-border-top-left-radius: 0px;
+            -moz-border-top-left-radius: 0px;
+            border-top-left-radius: 0px;
+            -webkit-border-bottom-left-radius: 0px;
+            -moz-border-bottom-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+        .kld {
+            font-size: larger;
+        }
+        .lat {
+            font-family: var(--fsans);
+        }
+        strong {
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1>溪那陀语词典</h1>
+    <a href="..">◀ 返回上层</a>
+    <table class="box">
+        {}
+    </table>
+</body>
+</html>
