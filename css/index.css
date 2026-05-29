@@ -851,6 +851,15 @@ section.featured-projects .card.card-makevis .action-btn {
     color: #f7103a
 }
 
+section.featured-projects .card.card-cinatro {
+    color: #fff;
+    background: linear-gradient(30deg,#f1dd38 0%,#ddaf27 100%)
+}
+
+section.featured-projects .card.card-cinatro .action-btn {
+    color: #f1dd38
+}
+
 section.featured-projects .card.card-horpavje {
     color: #fff;
     background: linear-gradient(30deg,#5c882a 0%,#256312 100%)

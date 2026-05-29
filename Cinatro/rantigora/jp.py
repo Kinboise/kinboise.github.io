@@ -19,11 +19,11 @@ if content is None:
 content = content.split('---\n')[1]
 
 # 检查有无改变
-with open(path + 'last.txt', 'r', -1, 'utf-8') as f:
-    last = f.read()
+f = open(path + 'last.txt', 'r', -1, 'utf-8')
+last = f.read()
 
 if last != content:
-
+    f.write(content)
     # 生成html
     card = '''
             <tr class="flexcard">
@@ -61,3 +61,4 @@ if last != content:
     sp.run('git add Cinatro/rantigora')
     sp.run(['git', 'commit', '-m', 'novizi rantigora a Cinatro'])
     sp.run('git push origin main')
+f.close()
