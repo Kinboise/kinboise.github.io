@@ -1,7 +1,8 @@
 个,ja,jax,ʈʂʰə̀
-我,doc,dojk
+我,doc,doyk
 我们,ko,kox
 你,jed,jed
+你们,tek,tek
 他,gi,vyix
 他们,bans,banh
 着,gugas,vuah
@@ -21,6 +22,9 @@
 中华,dang,daw
 吃,kabak,qbak
 吃没吃,kabak subak,qbak sbak
+喜欢,katit,qtit
+猫,songol,swod
+鱼,tulip,qluip
 墙,sindos,snyoh
 瓶,qonbynd,qmin
 香,conqal,qwad
@@ -37,7 +41,7 @@
 手指,puten,qtuex
 行,katin,qtyix
 回,sunku,wkux
-也,ka,ka
+也,ka,kax
 眼,quntan,qnduax
 泪,benkic,wgyik
 脸,lanpa,mbax
@@ -50,7 +54,7 @@
 开,bopen,vpex
 光,kintand,qndyan
 日,calik,qlyik
-日,lunjib,vnyuiu
+日,lunjib,nyuiu
 暗,suntand,ntuan
 月,basenj,vzeyw
 月,tansunt,qnzunx
@@ -81,7 +85,7 @@
 心,kojit,qjyit
 陷,gudung,vduuw
 爱,kinsas,qnzah
-真,syncunk,nzuwx
+真,syncunk,ncuwx
 适,gosy,vzix
 前,cedind,qdyin
 决定,kacul,qcud
@@ -136,3 +140,6 @@
 热情,sob,sou
 伟,danci,nji
 皇帝,syndonb,snom
+亲热，狎昵,junled,nued
+气味,gosak,vzak
+小径,lunjid,nyuid
