@@ -1,5 +1,5 @@
 from joppy.client_api import ClientApi
-import pandas as pd
+# import pandas as pd
 from 转换 import convKld
 
 path = 'Cinatro/rantigora/'
@@ -19,11 +19,12 @@ if content is None:
 content = content.split('---\n')[1]
 
 # 检查有无改变
-f = open(path + 'last.txt', 'r', -1, 'utf-8')
-last = f.read()
+with open(path + 'last.txt', 'r', -1, 'utf-8') as f:
+    last = f.read()
 
 if last != content:
-    f.write(content)
+    with open(path + 'last.txt', 'w', -1, 'utf-8') as f:
+        f.write(content)
     # 生成html
     card = '''
             <tr class="flexcard">
@@ -54,11 +55,10 @@ if last != content:
         html = tpl.read()
         html = html.replace('{}', cards)
 
-    with open(path + 'index.html', 'w', -1, 'utf-8') as f:
-        f.write(html)
+    with open(path + 'index.html', 'w', -1, 'utf-8') as g:
+        g.write(html)
 
     import subprocess as sp
     sp.run('git add Cinatro/rantigora')
     sp.run(['git', 'commit', '-m', 'novizi rantigora a Cinatro'])
     sp.run('git push origin main')
-f.close()
