@@ -34,6 +34,10 @@ if last != content:
                     </span>
                 </td>
                 <td class="card half">
+                    <span class="ipa">
+                        {ipa}
+                    </span>
+                    <br>
                     <span class="lat">
                         <strong>{lat}</strong>{lat2}
                     </span>
@@ -46,10 +50,22 @@ if last != content:
     cards = ''
     for line in content.split('\n'):
         word = line.split(',')
-        if len(word) < 3:
-            cards += card.format(kld = convKld(word[1]), kld2 = '', lat = word[1], lat2 = '', han = word[0])
+        lat = word[1].split('[')
+        if len(lat) > 1:
+            ipa = f'[{lat[1][:-1]}]'
         else:
-            cards += card.format(kld = convKld(word[1]), kld2 = convKld(word[2]), lat = word[1], lat2 = ', ' + word[2], han = word[0])
+            ipa = ''
+        lat = lat[0]
+        if len(word) < 3:
+            cards += card.format(kld = convKld(lat), kld2 = '', lat = lat, lat2 = '', han = word[0], ipa = ipa)
+        else:
+            lat2 = word[2].split('[')
+            if len(lat2) > 1:
+                ipa2 = f'[{lat2[1][:-1]}]'
+            else:
+                ipa2 = '['
+            lat2 = lat2[0]
+            cards += card.format(kld = convKld(lat), kld2 = convKld(lat2), lat = lat, lat2 = ', ' + lat2, han = word[0], ipa = f'{ipa[:-1]}, {ipa2[1:]}')
 
     with open(path + 'template.txt', 'r', -1, 'utf-8') as tpl:
         html = tpl.read()

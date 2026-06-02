@@ -42,7 +42,11 @@
             font-size: larger;
         }
         .lat {
+            font-style: italic;
             font-family: var(--fsans);
+        }
+        .ipa {
+            font-family: Roboto, Noto Sans, Segoe UI, serif;
         }
         strong {
             color: inherit;
