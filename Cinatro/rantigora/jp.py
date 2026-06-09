@@ -65,7 +65,9 @@ if last != content:
             else:
                 ipa2 = '['
             lat2 = lat2[0]
-            cards += card.format(kld = convKld(lat), kld2 = convKld(lat2), lat = lat, lat2 = ', ' + lat2, han = word[0], ipa = f'{ipa[:-1]}, {ipa2[1:]}')
+            if ipa2 != '[':
+                ipa = f'{ipa[:-1]}, {ipa2[1:]}'
+            cards += card.format(kld = convKld(lat), kld2 = convKld(lat2), lat = lat, lat2 = ', ' + lat2, han = word[0], ipa = ipa)
 
     with open(path + 'template.txt', 'r', -1, 'utf-8') as tpl:
         html = tpl.read()
