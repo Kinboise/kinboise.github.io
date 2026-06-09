@@ -14,7 +14,6 @@ html {
 table {
     margin: 0 auto;
     border-collapse: collapse;
-    border: 2px #6f837a solid;
 }
 
 thead {
@@ -24,6 +23,5 @@ thead {
 
 th,td {
     text-align: center;
-    border: 1px #6f837a solid;
     padding: 0.5em;
 }

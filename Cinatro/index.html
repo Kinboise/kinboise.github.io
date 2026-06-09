@@ -6,17 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>溪那陀语</title>
     <link rel="stylesheet" href="cinatro.css">
+    <script src="lat_kld.js"></script>
 </head>
 <body>
     <h1>溪那陀语</h1>
     <a href="..">◀ 返回上层</a>
-    <p>
-        <div class="ci">
-            <br>
-            <br>
-            <br>
-        </div>
-    </p>
     <p>
         <div class="card">
             <ul>
@@ -24,6 +18,27 @@
                 <li><a href="rantigora">溪那陀语词典</a></li>
             </ul>
         </div>
+    </p>
+    <h2>拉丁-措丁互转工具</h2>
+    <p>
+    <div class="card">
+        <figure>
+            <table>
+                <tr>
+                    <th>Latin:</th>
+                    <th>Klodi:</th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea placeholder="ata cinatrao dai" id="lat" oninput="auto_lat_kld()" rows="12" cols="24"></textarea>
+                    </td>
+                    <td>
+                        <textarea placeholder="  " id="kld" oninput="auto_kld_lat()" class="ci" rows="12" cols="24"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </figure>
+    </div>
     </p>
 </body>
 </html>
