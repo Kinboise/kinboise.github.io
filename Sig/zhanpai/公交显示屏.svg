@@ -33,11 +33,11 @@
     </style>
     <g transform="scale(0.25)">
     <rect width="560" height="200" />
-    <text x="0" y="70" class="qd d1">莲寿河桥西</text>
-    <text x="280" y="80" class="lh">3-</text>
-    <text x="560" y="70" class="zd">南龟神沟</text>
-    <text x="0" y="170" class="qd">南龟神沟</text>
-    <text x="280" y="180" class="lh">3+</text>
-    <text x="560" y="170" class="zd d1">莲寿河桥西</text>
+    <text x="0" y="70" class="qd">㭜林坊西</text>
+    <text x="280" y="80" class="lh">7-</text>
+    <text x="560" y="70" class="zd d1">赤鸢巢北门</text>
+    <text x="0" y="170" class="qd d1">赤鸢巢北门</text>
+    <text x="280" y="180" class="lh">7+</text>
+    <text x="560" y="170" class="zd">㭜林坊西</text>
     </g>
 </svg>
