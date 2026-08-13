@@ -23,12 +23,3 @@ def conv(w):
     for i in w:
         n += aur[i]
     return n
-
-# dat = pd.read_excel('Rantrugork i\'Holrpavieh.xlsx')
-# dat["Hor"]= dat["Hor"].map(lambda x: sep(x), na_action='ignore')
-# dat["Aur"]= dat["Hor"].map(lambda x: conv(x), na_action='ignore')
-
-# dat.to_csv('n.csv')
-
-# a = input('输入拉丁：')
-# print(conv(sep(a)))
