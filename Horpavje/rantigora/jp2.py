@@ -95,6 +95,7 @@ def generate_html(entries):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>霍洛巴语词典</title>
+    <link rel="stylesheet" href="../../css/pajne.css">
     <style>
         * {{
             box-sizing: border-box;
@@ -231,7 +232,7 @@ def generate_html(entries):
 </head>
 <body>
     <div class="container">
-        <h1>📖 Horpavje 词典</h1>
+        <h1>霍洛巴语词典</h1>
         <a href=".." class="back-link">◀ 返回上层</a>
         <div class="search-box">
             <input type="text" id="searchInput" placeholder="搜索中文、拉丁转写或人造文字…" autofocus>
