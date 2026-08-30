@@ -444,7 +444,7 @@
           if (BASES.includes(i)) { cell.classList.add("is-base"); parts.push("基地"); }
           if (state.aux.has(i)) { const a = document.createElement("span"); a.className = "aux"; cell.appendChild(a); parts.push("辅子"); }
           for (let p=0; p<2; p++) if (state.main[p] === i) {
-            const m = document.createElement("span"); m.className = `main-piece ${p===0?"black":"white"}`; m.innerHTML = '<span class="piece-glyph">主</span>'; cell.appendChild(m); parts.push(p===0 ? "黑方主子" : "白方主子");
+            const m = document.createElement("span"); m.className = `main-piece ${p===0?"black":"white"}`; m.innerHTML = '<span class="piece-glyph"></span>'; cell.appendChild(m); parts.push(p===0 ? "黑方主子" : "白方主子");
           }
           if (selected && state.main[human] === i) cell.classList.add("selected");
           const legal = legalMap.get(i);
