@@ -70,7 +70,7 @@
     .turn-dot.white { background: var(--white-piece); box-shadow: 0 0 0 1px #a7a092, 0 0 0 3px #fff; }
 
     .board-wrap { width: min(100%, 680px); margin: 0 auto; position: relative; padding: 0 0 25px 25px; }
-    .file-labels { display: grid; grid-template-columns: repeat(6, 1fr); position: absolute; left: 25px; right: 0; bottom: 0; height: 21px; color: var(--muted); font-size: 11px; font-weight: 800; text-align: center; text-transform: uppercase; }
+    .file-labels { display: grid; grid-template-columns: repeat(6, 1fr); position: absolute; left: 25px; right: 0; bottom: 0; height: 21px; color: var(--muted); font-size: 11px; font-weight: 800; text-align: center; }
     .rank-labels { display: grid; grid-template-rows: repeat(6, 1fr); position: absolute; left: 0; top: 0; bottom: 25px; width: 21px; color: var(--muted); font-size: 11px; font-weight: 800; align-items: center; text-align: center; }
     .board {
       aspect-ratio: 1; display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(6, 1fr);
@@ -241,12 +241,12 @@
           <div class="panel-title"><h2>对局</h2><span id="moveCount">第 1 手</span></div>
           <div class="players">
             <div class="player active" id="playerBlack">
-              <div class="avatar black">主</div>
+              <div class="avatar black"></div>
               <div><div class="player-name" id="blackName">你</div><div class="player-sub">黑方 · 先手</div></div>
               <div class="reserve" id="blackReserve">11</div>
             </div>
             <div class="player" id="playerWhite">
-              <div class="avatar white">主</div>
+              <div class="avatar white"></div>
               <div><div class="player-name" id="whiteName">电脑</div><div class="player-sub">白方 · 后手</div></div>
               <div class="reserve" id="whiteReserve">11</div>
             </div>
