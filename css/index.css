@@ -878,6 +878,15 @@ section.featured-projects .card.card-cambi .action-btn {
     color: #ff9900
 }
 
+section.featured-projects .card.card-kucitatoro {
+    color: #fff;
+    background: linear-gradient(30deg,#0e6f50 0%,#215e9e 100%)
+}
+
+section.featured-projects .card.card-kucitatoro .action-btn {
+    color: #0e6f50
+}
+
 section.featured-projects .card.card-tegojafo {
     color: #000;
     background: linear-gradient(30deg,#d0d8df 0%,#f0f8ff 100%)

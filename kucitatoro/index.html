@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="斜行棋第二版——九金终乌豪设计的双人策略棋网页实现。"
+    />
+    <title>斜行棋 · 第二版</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Cpath d='M15 49 49 15M27 53 53 27' stroke='%235de0ad' stroke-width='8' stroke-linecap='round'/%3E%3Cpath d='M11 37 37 11' stroke='%235da9ff' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <div>
+            <h1>斜行棋</h1>
+            <p id="brandSubtitle">第二版 · 人机对战</p>
+            <p class="creator-credit">臤徘斯设计的新棋</p>
+          </div>
+        </div>
+        <nav class="top-actions" aria-label="棋局操作">
+          <div class="mode-switch" role="group" aria-label="对战模式">
+            <button class="mode-button active" id="aiModeButton" type="button" aria-pressed="true">人机</button>
+            <button class="mode-button" id="humanModeButton" type="button" aria-pressed="false">双人</button>
+          </div>
+          <button class="ghost-button" id="undoButton" type="button">悔棋</button>
+          <button class="ghost-button" id="restartButton" type="button">重新开局</button>
+          <button class="solid-button" id="rulesButton" type="button">规则</button>
+        </nav>
+      </header>
+
+      <main class="game-layout">
+        <section class="board-section" aria-label="斜行棋棋盘">
+          <div class="turn-banner" id="turnBanner">
+            <span class="turn-token green" id="turnToken" aria-hidden="true">绿</span>
+            <div>
+              <p class="eyebrow" id="turnEyebrow">第 1 回合</p>
+              <p class="turn-copy" id="turnCopy">绿方先行 · 请选择棋子</p>
+            </div>
+          </div>
+
+          <div class="board-wrap">
+            <div class="rank-labels" aria-hidden="true">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span>
+              <span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
+            <div>
+              <div class="file-labels" aria-hidden="true">
+                <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span>
+                <span>5</span><span>6</span><span>7</span><span>8</span>
+              </div>
+              <div class="board" id="board" role="grid" aria-label="9列10行棋盘"></div>
+            </div>
+          </div>
+
+          <div class="phase-actions" id="phaseActions" aria-live="polite">
+            <p id="phaseHint">点击一枚绿方棋子，棋盘会标出可行位置。</p>
+            <div class="phase-buttons">
+              <button class="burn-button" id="burnButton" type="button" hidden>燃烧</button>
+              <button class="end-button" id="endTurnButton" type="button" hidden>结束回合</button>
+            </div>
+          </div>
+        </section>
+
+        <aside class="side-panel">
+          <section class="panel-card compact-card">
+            <div class="side-choice" id="sideChoice" role="group" aria-label="选择玩家先后手">
+              <span>玩家执子</span>
+              <div>
+                <button class="side-button active" id="playGreenButton" type="button" aria-pressed="true">绿 · 先手</button>
+                <button class="side-button" id="playBlueButton" type="button" aria-pressed="false">蓝 · 后手</button>
+              </div>
+            </div>
+            <div class="score-row">
+              <div class="player-block active" id="greenPlayer">
+                <span class="player-swatch green"></span>
+                <div><small id="greenRole">玩家 · 先手</small><strong>绿方</strong></div>
+                <span class="piece-count" id="greenCount">18</span>
+              </div>
+              <span class="versus">对</span>
+              <div class="player-block" id="bluePlayer">
+                <span class="player-swatch blue"></span>
+                <div><small id="blueRole">电脑 · 后手</small><strong id="blueName">蓝方</strong></div>
+                <span class="piece-count" id="blueCount">18</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel-card selected-card">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">当前棋子</p>
+                <h2 id="selectedName">尚未选择</h2>
+              </div>
+              <span class="piece-preview" id="piecePreview" aria-hidden="true">斜</span>
+            </div>
+            <p class="piece-summary" id="pieceSummary">选择棋子后，这里会显示它的走法和攻击方式。</p>
+            <div class="stat-pills" id="pieceStats" hidden>
+              <span id="moveStat"></span>
+              <span id="attackStat"></span>
+            </div>
+          </section>
+
+          <section class="panel-card history-card">
+            <div class="section-heading slim">
+              <div>
+                <p class="eyebrow">对局记录</p>
+                <h2>行棋谱</h2>
+              </div>
+              <span class="coordinate-note">先列后行</span>
+            </div>
+            <ol class="history-list" id="historyList">
+              <li class="empty-history">棋局开始，绿方先行。</li>
+            </ol>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <div class="winner-overlay" id="winnerOverlay" hidden>
+      <div class="winner-card">
+        <span class="winner-kicker">将王击落</span>
+        <h2 id="winnerTitle">绿方获胜</h2>
+        <p id="winnerCopy">王已阵亡，本局结束。</p>
+        <button class="solid-button large" id="playAgainButton" type="button">再来一局</button>
+      </div>
+    </div>
+
+    <dialog class="rules-dialog" id="rulesDialog">
+      <div class="dialog-head">
+        <div>
+          <p class="eyebrow">九金终乌豪 · 第二版</p>
+          <h2>斜行棋规则</h2>
+        </div>
+        <button class="icon-button" id="closeRulesButton" type="button" aria-label="关闭规则">×</button>
+      </div>
+      <div class="rules-content">
+        <section class="rule-lead">
+          <strong>目标很直接：击杀敌方的王。</strong>
+          <p>棋盘为 9×10，每方 18 枚棋子。绿方先行；双方棋子始终只能落在自己的颜色格上。人机模式中，玩家可选择执绿先手或执蓝后手。</p>
+        </section>
+        <section>
+          <h3>一个回合怎样走</h3>
+          <p>兵、弓、弩、车、炮、火、王先斜行，再从新位置射击；盾只移动；石和炸用跳跃方式吃子。射击并非强制。</p>
+        </section>
+        <section>
+          <h3>棋子速查</h3>
+          <div class="rule-grid" id="ruleGrid"></div>
+        </section>
+        <section>
+          <h3>攻击限制</h3>
+          <ul>
+            <li>兵不能击杀火、石、炮、车。</li>
+            <li>弓不能击杀盾、火、石；弩与火不能击杀盾。</li>
+            <li>炮可越过任意己方棋子及非盾敌子；敌方盾会挡住后方目标。</li>
+            <li>石可连续跳吃；炸不可连跳。角落里的棋子无法被石或炸跳吃。</li>
+          </ul>
+        </section>
+        <section class="notation-box">
+          <h3>坐标</h3>
+          <p>先读上方的列，再读左侧的行。例如左上角是 <b>00</b>，中央附近是 <b>44</b>。</p>
+        </section>
+      </div>
+    </dialog>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
