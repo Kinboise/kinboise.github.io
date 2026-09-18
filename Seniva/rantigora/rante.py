@@ -1,6 +1,10 @@
 import re
-import yaml
 import os
+
+try:
+    import yaml
+except ModuleNotFoundError:
+    yaml = None
 
 # 将 Seniva.db 转换为列表
 path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/') + '/' # 'Seniva/rantigora/'
@@ -23,7 +27,9 @@ for line in db:
         i += 1
         dic.append({'lx': [match.group(2)]})
     elif match.group(1) == 'nt':
-        note = re.search(r'^\\nt\s(.*?):\s(.*?)$', line)
+        # Some old entries omit the space after the note label (for example
+        # ``\\nt Ftnk:`s``).  Treat both spellings as structured notes.
+        note = re.search(r'^\\nt\s(.*?):\s*(.*?)$', line)
         if note is None:
             if 'nt' in dic[i]:
                 dic[i]['nt'].append(match.group(2))
@@ -64,15 +70,15 @@ for line in db:
         dic[i][match.group(1)] = [match.group(2)]
 
 #print(dic)
-with open(path + 'dic.yaml', 'w', encoding='utf-8') as g:
-#g.write(dic)
-    g.write(yaml.dump(dic,allow_unicode=True))
+if yaml is not None:
+    with open(path + 'dic.yaml', 'w', encoding='utf-8') as g:
+        g.write(yaml.dump(dic, allow_unicode=True))
 
 # 生成 html
 
 section = '''    <section id="{lat}">
         <div class="label">{lat}</div>
-        <span class="search">{search}</span>
+        <span class="search" data-fitenka="{fitenka_search}">{search}</span>
         <div class="card lab">
             <div class="ort">
                 <span class="pnst">{pnst}</span> /
@@ -129,9 +135,11 @@ for name in names:
     ftnkmap[tmp[1].strip('\n')] = (r'\U000' + tmp[0][2:]).encode('utf-8').decode('unicode_escape')
 
 def genFtnk(lat):
-    lat = lat.split('_')
+    lat = re.split(r'(_|-)', lat)
     res = ''
     for word in lat:
+        if word == '_':
+            continue
         if word in ftnkmap:
             res += ftnkmap[word]
     return res
@@ -177,6 +185,7 @@ sections = ''
 for word in dic:
     form = {
         'search': '',
+        'fitenka_search': '',
         'ftnk': '',
         'hnv1': '',
         'hnv3': '',
@@ -193,7 +202,8 @@ for word in dic:
     form['pnst'] = word['lx'][0]
     # 解析特正
     if 'Ftnk' in word:
-        form['search'] += (word['Ftnk'][0] + ';')
+        form['search'] += ''.join(ftnk + ';' for ftnk in word['Ftnk'])
+        form['fitenka_search'] = ';'.join(word['Ftnk'])
         form['ftnk'] = genFtnk(word['Ftnk'][0])
     # 解析汉帜
     if 'Hnv1' in word:

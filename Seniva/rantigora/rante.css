@@ -86,3 +86,164 @@ td>div {
     margin-bottom: 4pt;
     margin-left: 4pt;
 }
+
+.morphology-analysis {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-left: 4pt solid var(--clabel);
+}
+
+.morph-title {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.morph-status,
+.morph-transliteration,
+.morph-note,
+.morph-summary,
+.morph-disclaimer,
+.morph-empty {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.morph-candidate + .morph-candidate {
+    margin-top: 0.9em;
+    padding-top: 0.9em;
+    border-top: 1px solid var(--clabel);
+}
+
+.morph-candidate-label {
+    font-weight: bold;
+    margin-bottom: 0.35em;
+}
+
+.morph-expression {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35em;
+}
+
+.morph-component {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.morph-token {
+    font-weight: bold;
+    color: inherit;
+    background: var(--ccard);
+    border: 1px solid var(--clabel);
+    border-radius: 4pt;
+    padding: 2pt 5pt;
+}
+
+button.morph-token {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.morph-glosses {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 0.15em;
+    line-height: 1.25;
+}
+
+.morph-gloss {
+    display: block;
+}
+
+.morph-gloss-en,
+.morph-summary-en {
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+
+.morph-plus {
+    color: var(--clabel);
+    font-weight: bold;
+}
+
+.morph-hanivako,
+.morph-fitenka-line {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    margin-top: 0.45em;
+}
+
+.morph-script-label {
+    font-family: var(--fsans);
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.morph-hanivako-text {
+    font-size: 1.35em;
+    letter-spacing: 0.08em;
+}
+
+.morph-fitenka-line {
+    min-height: 2em;
+}
+
+.morph-fitenka-notation {
+    font-family: var(--monospace);
+    font-size: 0.8em;
+    color: gray;
+}
+
+.morph-fitenka-line .morph-fitenka {
+    display: inline-block;
+    writing-mode: horizontal-tb;
+    width: auto;
+    font-size: 1.7em;
+    line-height: 1;
+}
+
+.morph-fitenka-missing {
+    display: inline-flex;
+    align-items: center;
+    height: 1.7em;
+    color: #c62828;
+}
+
+.morph-fitenka-missing svg {
+    display: block;
+    width: auto;
+    height: 1.7em;
+    overflow: visible;
+}
+
+.morph-fitenka-missing svg * {
+    fill: currentColor !important;
+    stroke: currentColor !important;
+}
+
+.morph-fitenka-missing-text,
+.morph-fitenka-warning {
+    color: #c62828;
+    font-family: var(--monospace);
+}
+
+.morph-fitenka-warning {
+    font-size: 0.75em;
+}
+
+.morph-summary {
+    font-weight: bold;
+}
+
+.morph-disclaimer {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+#keyword {
+    font-family: Fitenkasunti, Fitenkahejti, var(--fsans);
+}
