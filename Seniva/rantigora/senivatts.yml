@@ -2,8 +2,8 @@
 sr:
   voices:
   - TokenEnums\RHVoice\Dragana
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sr-RS-NicholasNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sr-RS-SophieNeural
+  - sr-RS-NicholasNeural
+  - sr-RS-SophieNeural
   rates:
   - 120
   - 150
@@ -42,8 +42,8 @@ mk:
   voices:
   - TokenEnums\RHVoice\Kiko
   - TokenEnums\RHVoice\Suze
-  - TokenEnums\NaturalVoiceEnumerator\Edge-mk-MK-AleksandarNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-mk-MK-MarijaNeural
+  - mk-MK-AleksandarNeural
+  - mk-MK-MarijaNeural
   rates:
   - 140
   - 140
@@ -81,12 +81,12 @@ mk:
 # 克罗地亚语、波斯尼亚语、斯洛文尼亚语
 yu:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-hr-HR-GabrijelaNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-hr-HR-SreckoNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-bs-BA-GoranNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-bs-BA-VesnaNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sl-SI-PetraNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sl-SI-RokNeural
+  - hr-HR-GabrijelaNeural
+  - hr-HR-SreckoNeural
+  - bs-BA-GoranNeural
+  - bs-BA-VesnaNeural
+  - sl-SI-PetraNeural
+  - sl-SI-RokNeural
   rates:
   - 150
   - 150
@@ -106,8 +106,8 @@ yu:
 sk:
   voices:
   - TokenEnums\RHVoice\Ondro
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sk-SK-LukasNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sk-SK-ViktoriaNeural
+  - sk-SK-LukasNeural
+  - sk-SK-ViktoriaNeural
   rates:
   - 150
   - 150
@@ -125,8 +125,8 @@ sk:
 cs:
   voices:
   - TokenEnums\RHVoice\Zdenek
-  - TokenEnums\NaturalVoiceEnumerator\Edge-cs-CZ-AntoninNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-cs-CZ-VlastaNeural
+  - cs-CZ-AntoninNeural
+  - cs-CZ-VlastaNeural
   rates:
   - 150
   - 140
@@ -142,8 +142,8 @@ cs:
 # 拉脱维亚语
 lv:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-lv-LV-EveritaNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-lv-LV-NilsNeural
+  - lv-LV-EveritaNeural
+  - lv-LV-NilsNeural
   rates:
   - 150
   - 150
@@ -159,8 +159,8 @@ lv:
 # 立陶宛语
 lt:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-lt-LT-LeonasNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-lt-LT-OnaNeural
+  - lt-LT-LeonasNeural
+  - lt-LT-OnaNeural
   rates:
   - 180
   - 180
@@ -178,8 +178,8 @@ pl:
   - TokenEnums\RHVoice\Alicja
   - TokenEnums\RHVoice\Cezary
   - TokenEnums\RHVoice\Natan
-  - TokenEnums\NaturalVoiceEnumerator\Edge-pl-PL-MarekNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-pl-PL-ZofiaNeural
+  - pl-PL-MarekNeural
+  - pl-PL-ZofiaNeural
   rates:
   - 150
   - 150
@@ -200,8 +200,8 @@ pl:
 # 匈牙利语
 hu:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-hu-HU-NoemiNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-hu-HU-TamasNeural
+  - hu-HU-NoemiNeural
+  - hu-HU-TamasNeural
   rates:
   - 150
   - 150
@@ -220,8 +220,8 @@ uk:
   voices:
   - TokenEnums\RHVoice\Anatol
   - TokenEnums\RHVoice\Natalia
-  - TokenEnums\NaturalVoiceEnumerator\Edge-uk-UA-OstapNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-uk-UA-PolinaNeural
+  - uk-UA-OstapNeural
+  - uk-UA-PolinaNeural
   rates:
   - 150
   - 150
@@ -259,8 +259,8 @@ uk:
 # 保加利亚语
 bg:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-bg-BG-BorislavNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-bg-BG-KalinaNeural
+  - bg-BG-BorislavNeural
+  - bg-BG-KalinaNeural
   rates:
   - 150
   rules:
@@ -309,8 +309,8 @@ eo:
 sq:
   voices:
   - TokenEnums\RHVoice\Hana
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sq-AL-AnilaNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sq-AL-IlirNeural
+  - sq-AL-AnilaNeural
+  - sq-AL-IlirNeural
   rates:
   - 150
   - 150
@@ -344,8 +344,8 @@ tk:
 # 土耳其语
 tr:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-tr-TR-AhmetNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-tr-TR-EmelNeural
+  - tr-TR-AhmetNeural
+  - tr-TR-EmelNeural
   rates:
   - 140
   rules:
@@ -361,8 +361,8 @@ tr:
 # 阿塞拜疆语
 az:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-az-AZ-BabekNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-az-AZ-BanuNeural
+  - az-AZ-BabekNeural
+  - az-AZ-BanuNeural
   rates:
   - 150
   - 150
@@ -383,8 +383,8 @@ uz:
   - TokenEnums\RHVoice\Sevinch
   - TokenEnums\RHVoice\Islom
   - TokenEnums\RHVoice\Dilnavoz
-  - TokenEnums\NaturalVoiceEnumerator\Edge-uz-UZ-MadinaNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-uz-UZ-SardorNeural
+  - uz-UZ-MadinaNeural
+  - uz-UZ-SardorNeural
   rates:
   - 150
   - 150
@@ -437,7 +437,7 @@ ky:
     n: н
     l: л
     r: р
-    i: и
+    i: і
     u: у
     e: э
     o: о
@@ -473,7 +473,7 @@ tt:
     n: н
     l: л
     r: р
-    i: и
+    i: і
     u: у
     e: э
     o: о
@@ -481,8 +481,8 @@ tt:
 # 哈萨克语
 kk:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-kk-KZ-AigulNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-kk-KZ-DauletNeural
+  - kk-KZ-AigulNeural
+  - kk-KZ-DauletNeural
   rates:
   - 160
   - 160
@@ -519,8 +519,8 @@ kk:
 # 祖鲁语
 zu:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-zu-ZA-ThandoNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-zu-ZA-ThembaNeural
+  - zu-ZA-ThandoNeural
+  - zu-ZA-ThembaNeural
   rates:
   - 150
   - 150
@@ -543,10 +543,10 @@ zu:
 # 斯瓦希里语
 sw:
   voices:
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-TZ-DaudiNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-TZ-RehemaNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-KE-RafikiNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-sw-KE-ZuriNeural
+  - sw-TZ-DaudiNeural
+  - sw-TZ-RehemaNeural
+  - sw-KE-RafikiNeural
+  - sw-KE-ZuriNeural
   rates:
   - 180
   - 180
@@ -569,8 +569,8 @@ sw:
 ka:
   voices:
   - TokenEnums\RHVoice\Natia
-  - TokenEnums\NaturalVoiceEnumerator\Edge-ka-GE-EkaNeural
-  - TokenEnums\NaturalVoiceEnumerator\Edge-ka-GE-GiorgiNeural
+  - ka-GE-EkaNeural
+  - ka-GE-GiorgiNeural
   rates:
   - 150
   - 175
